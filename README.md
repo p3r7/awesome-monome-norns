@@ -46,7 +46,8 @@ For discussing those options, see [https://llllllll.co/t/friends-of-norns](https
 
 When wanting to contribute or seeking help, use one of those threads:
 
- - [llllllll.co/t/norns-supercollider](https://llllllll.co/t/norns-supercollider/22822): getting help with SuperCollider
+ - [llllllll.co/t/norns-scripting](https://llllllll.co/t/norns-scripting/14120): getting help with app development (lua)
+ - [llllllll.co/t/norns-supercollider](https://llllllll.co/t/norns-supercollider/22822): getting help with app development (SuperCollider side)
  - [llllllll.co/t/norns-development](https://llllllll.co/t/norns-development/14073): core contributions
 
 
