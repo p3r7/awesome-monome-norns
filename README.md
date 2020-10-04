@@ -1,5 +1,8 @@
 # awesome-monome-norns
 
+
+![norns](https://monome.org/images/norns-front-small.jpg)
+
 A list of links and resources for the [norns](https://monome.org/docs/norns/) hardware music platform by [monome](https://monome.org/).
 
 The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced _lines_).
