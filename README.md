@@ -87,7 +87,7 @@ This section is aimed at being more complete and providing more meta-data to sel
 
 
 | app                                                    | audio in | midi in                    | keyboard | grid                   | arc                    | TouchOSC               | audio out | midi out       | crow         |
-| ---                                                    | ---      | ---                        |          | ---                    | ---                    | ---                    | ---       | ---            | ---          |
+| ---                                                    | ---      | ---                        | ---      | ---                    | ---                    | ---                    | ---       | ---            | ---          |
 | [arcologies](https://llllllll.co/t/arcologies)         |          |                            |          | :red_circle:           |                        |                        |           |                |              |
 | [arp_index](https://llllllll.co/t/the-arp-index)       |          | :white_circle:             |          |                        |                        |                        | X         | :white_circle: |              |
 | [awake](https://llllllll.co/t/awake)                   |          | :white_circle: (only sync) |          | :white_circle:         |                        |                        | X         |                |              |
