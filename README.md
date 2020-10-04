@@ -1,14 +1,14 @@
 # awesome-monome-norns
 
 
-** Example codes
+## Example codes
 
 | program                                                                                | scope        |
 | ---                                                                                    | ---          |
 | [foundry](https://llllllll.co/t/foundry) ([code](https://github.com/csboling/foundry)) | text & fonts |
 
 
-** Programs
+## Programs
 
 | program                                                                                        | grid         | arc | crow         | synth | sample playback | effect | demo                                                               | doc                                                  |
 | ---                                                                                            | ---          | --- | ---          | ---   | ---             | ---    |                                                                    |                                                      |
@@ -25,7 +25,7 @@
 | :white_circle: | optional  |
 
 
-** Threads
+## Threads
 
 https://llllllll.co/t/friends-of-norns-gear-accessories-etc/17150
 
