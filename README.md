@@ -22,8 +22,8 @@ The **norns shield** option is DIY and more economic but lacks a battery, has no
 
 For more information about building your own norns using the **norns shield**:
 
- - [llllllll.co/t/diy-norns-shield](https://llllllll.co/t/diy-norns-shield/27638) for general build help
- - [llllllll.co/t/norns-shield-case-designs](https://llllllll.co/t/norns-shield-case-designs/30347) for building a case
+ - [t/diy-norns-shield](https://llllllll.co/t/diy-norns-shield/27638) for general build help
+ - [t/norns-shield-case-designs](https://llllllll.co/t/norns-shield-case-designs/30347) for building a case
 
 [u/JHC](https://llllllll.co/u/JHC) provided a [nice 3D printing STL design](https://llllllll.co/t/norns-shield-case-designs/30347/224).
 
@@ -43,7 +43,7 @@ Some apps are made to work only with some of other **monome** hardware (such as 
 
 Others rely on other input devices such as MIDI controllers (pad, keyboards...) or a computer keyboard.
 
-For discussing those options, see [llllllll.co/t/friends-of-norns](https://llllllll.co/t/friends-of-norns-gear-accessories-etc/17150).
+For discussing those options, see [t/friends-of-norns](https://llllllll.co/t/friends-of-norns-gear-accessories-etc/17150).
 
 
 
@@ -67,10 +67,10 @@ For discussing those options, see [llllllll.co/t/friends-of-norns](https://lllll
 
 When wanting to contribute or seeking help, use one of those threads:
 
- - [llllllll.co/t/norns-scripting](https://llllllll.co/t/norns-scripting/14120): getting help with app development (lua)
- - [llllllll.co/t/norns-supercollider](https://llllllll.co/t/norns-supercollider/22822): getting help with app development (SuperCollider side)
- - [llllllll.co/t/norns-development](https://llllllll.co/t/norns-development/14073): proposing evloutions to core norns code
- - [llllllll.co/t/exquisite-script-a-collective-scripting-game-for-norns](https://llllllll.co/t/exquisite-script-a-collective-scripting-game-for-norns/34989): a cadavre exquis, collective development of an app
+ - [t/norns-scripting](https://llllllll.co/t/norns-scripting/14120): getting help with app development (lua)
+ - [t/norns-supercollider](https://llllllll.co/t/norns-supercollider/22822): getting help with app development (SuperCollider side)
+ - [t/norns-development](https://llllllll.co/t/norns-development/14073): proposing evloutions to core norns code
+ - [t/exquisite-script-a-collective-scripting-game-for-norns](https://llllllll.co/t/exquisite-script-a-collective-scripting-game-for-norns/34989): a cadavre exquis, collective development of an app
 
 
 ## Libraries & Engines
