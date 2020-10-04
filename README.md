@@ -2,6 +2,8 @@
 
 A list of links and resources for the [norns](https://monome.org/docs/norns/) hardware music platform by [monome](https://monome.org/).
 
+The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced _lines_).
+
 
 ## Hardware
 
@@ -24,7 +26,7 @@ Some apps are made to work only with some of other **monome** hardware (such as 
 
 Others rely on other input devices such as MIDI controllers (pad, keyboards...) or a computer keyboard.
 
-For discussing those options, see [https://llllllll.co/t/friends-of-norns](https://llllllll.co/t/friends-of-norns-gear-accessories-etc/17150).
+For discussing those options, see [llllllll.co/t/friends-of-norns](https://llllllll.co/t/friends-of-norns-gear-accessories-etc/17150).
 
 
 ## Development
