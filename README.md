@@ -39,7 +39,8 @@ For discussing those options, see [https://llllllll.co/t/friends-of-norns](https
 
  - [norns studies](https://monome.org/docs/norns/studies-landing/)
  - [norns: tutorial](https://llllllll.co/t/norns-tutorial/23241) by [Devine Lu Linvega](https://xxiivv.com/)
- - [foundry](https://llllllll.co/t/foundry) ([code](https://github.com/csboling/foundry)) for text & fonts
+ - [foundry](https://llllllll.co/t/foundry) app ([code](https://github.com/csboling/foundry)) for text & fonts
+ - [video tutorial on adding midi out to an existing app](https://llllllll.co/t/norns-walkthrough-hacking-a-script-to-add-midi-output/34969)
 
 
 #### Community
@@ -48,7 +49,8 @@ When wanting to contribute or seeking help, use one of those threads:
 
  - [llllllll.co/t/norns-scripting](https://llllllll.co/t/norns-scripting/14120): getting help with app development (lua)
  - [llllllll.co/t/norns-supercollider](https://llllllll.co/t/norns-supercollider/22822): getting help with app development (SuperCollider side)
- - [llllllll.co/t/norns-development](https://llllllll.co/t/norns-development/14073): core contributions
+ - [llllllll.co/t/norns-development](https://llllllll.co/t/norns-development/14073): proposing evloutions to core norns code
+ - [llllllll.co/t/exquisite-script-a-collective-scripting-game-for-norns](https://llllllll.co/t/exquisite-script-a-collective-scripting-game-for-norns/34989): a cadavre exquis, collective development of an app
 
 
 ## Apps
