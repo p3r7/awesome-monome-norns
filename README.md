@@ -1,7 +1,7 @@
 # awesome-monome-norns
 
 
-![norns](https://monome.org/images/norns-front-small.jpg)
+<img src="https://monome.org/images/norns-front-small.jpg" width="150">
 
 A list of links and resources for the [norns](https://monome.org/docs/norns/) hardware music platform by [monome](https://monome.org/).
 
