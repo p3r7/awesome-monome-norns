@@ -8,7 +8,7 @@
 | [foundry](https://llllllll.co/t/foundry) ([code](https://github.com/csboling/foundry)) | text & fonts |
 
 
-## apps
+## Apps
 
 | app                                                                                        | midi in | grid                   | arc                    | TouchOSC               | crow         | synth | sample playback | effect | demo                                                             | doc                                                                          |
 | ---                                                                                            | ---     | ---                    | ---                    | ---                    | ---          | ---   | ---             | ---    | ---                                                              | ---                                                                          |
