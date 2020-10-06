@@ -5,9 +5,9 @@
 
 A list of links and resources for the [norns](https://monome.org/docs/norns/) hardware music platform by [monome](https://monome.org/).
 
-**norns** is in essence a glorified [SuperCollider](https://supercollider.github.io/) frontend taking the shape of portable device.
+It allows running apps built with [SuperCollider](https://supercollider.github.io/) and/or **softcut**, a powerfull live sampler / player.
 
-[Pure Data](https://puredata.info/) patches are also supported (see Mother).
+In addition, [Pure Data](https://puredata.info/) patches can also be run (see Mother).
 
 The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced _lines_).
 
@@ -54,7 +54,21 @@ For discussing those options, see [t/friends-of-norns](https://llllllll.co/t/fri
 
 ## Development: General
 
-The **norns** platform abstracts [SuperCollider](https://supercollider.github.io/) through the use
+The **norns** platform allows developping small programs using the [lua](https://www.lua.org/) programming language.
+
+They are generally refered to as _scripts_, and _apps_ once packaged and distributed.
+
+2 internal sound processing units are at our disposal:
+
+ - `engine`: an instance of [SuperCollider](https://supercollider.github.io/) (sometimes also refered to as `external`)
+ - `softcut`: a live multi-channel sampler / player that can be used to build crazy loopers and delays
+
+<div align=center><img src="https://monome.org/docs/norns/image/norns-audio-route.png" width="500"></div>
+
+Even though _SuperCollider_ is generally used to define a virtual synthesizer, it can also take audio from the inputs (missing on the above diagram).
+
+Most scripts you'll find in the wild use either _softcut_ or _engine_, but some might use the 2 of them.
+
 
 #### Documentation
 
@@ -110,11 +124,7 @@ Here are listed the most reccuring ones.
 | PrimitiveString | [sclang][lib PrimitiveString gh sc]                                         |                                                 | [euclidigons][app euclidigons lines]       | euclidigons                      |
 
 
-## Scripts & Apps
-
-New behaviours for the **norns** are created by writting lua _scripts_.
-
-Once packaged and distributed, _scripts_ are generally called _apps_.
+## Apps
 
 #### List
 
