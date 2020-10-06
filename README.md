@@ -241,6 +241,7 @@ Loopers, live samplers & crazy delays:
 | fretwork                                           |          |                |          |       |       |          | ✔️         | ✔️        | ✔     |
 | [fm7][app fm7 lines]                               |          | 🔶             |          | 🔶    |       |          | ✔️         |          |       |
 | [glut][app glut lines]                             | ️         |                |          | 🔶    |       |          | ✔️         |          |       |
+| [grd][app grd lines]                               | ️         |                |          |       |       |          | ✔️         |          |       |
 | [greyhole][app greyhole lines]                     | ✔️        |                |          |       |       |          | ✔️         |          |       |
 | [lissadron][app lissadron lines]                   |          | 🔶             |          |       |       |          | ✔️         |          |       |
 | [meadowphysics][app meadowphysics lines]           |          |                |          | 🔴    |       |          | ✔️         | ✔️        |       |
