@@ -127,7 +127,7 @@ This section is aimed at being more complete and providing more meta-data to sel
 Synths & drones:
 
 | app                                        | on maiden | code                         | description                                                                                                 | demo                                         | doc                   |
-| ---                                        | ---       | ---                          | ---                                                                                                         | ---                                          | ---                   |
+| ---                                        | :---:     | ---                          | ---                                                                                                         | ---                                          | ---                   |
 | [dronecaster][app dronecaster lines]       | X         | [gh][app dronecaster src]    | Various drones                                                                                              | [1][app dronecaster demo 1]                  |                       |
 | [fm7][app fm7 lines]                       | X         | [gh][app fm7 src]            | DX7-inspired polyphonic FM synth                                                                            | [1][app fm7 demo 1]                          | [online][app fm7 doc] |
 | [lissadron][app lissadron lines]           | X         | [gh][app lissadron src]      | A software synth making extensive use of seeded randomness.                                                 | [internal sequencer][app lissadron demo seq] |                       |
@@ -137,44 +137,44 @@ Synths & drones:
 
 Sequencers, trackers & sample manglers:
 
-| app                                                | on maiden | code                        | demo                                                       | doc                             |
-| ---                                                | ---       | ---                         | ---                                                        | ---                             |
-| [arcologies][app arcologies lines]                 | X         | [gh][app arcologies src]    | [gallery][app arcologies demos]                            | [online][app arcologies doc]    |
-| [arp_index][app arp_index lines]                   | X         | [gh][app arp_index src]     | [1][app arp_index demo 1]                                  |                                 |
-| [ash/playfair][app ash lines]                      | X         | [gh][app ash/playfair src]  | [1][app ash/playfair demo 1]                               |                                 |
-| [awake][app awake lines]                           | default   | [gh][app awake src]         |                                                            |                                 |
-| [cheat_codes][app cheat_codes lines]               | X         | [gh][app cheat_codes src]   | [1][app cheat_codes demo 1]                                | [pdf][app cheat_codes doc]      |
-| [dunes][app dunes lines]                           |           | [gh][app dunes src]         | [audio][app dunes demo audio], [midi][app dunes demo midi] |                                 |
-| [euclidigons][app euclidigons lines]               | X         | [gh][app euclidigons src]   | [1][app euclidigons demo 1], [2][app euclidigons demo 2]   |                                 |
-| [foulplay][app foulplay lines]                     | X         | [gh][app foulplay src]      | [1][app foulplay demo 1]                                   | [online][app foulplay doc]      |
-| [meadowphysics][app meadowphysics lines]           | X         | [gh][app meadowphysics src] | [1][app meadowphysics demo 1]                              | [online][app meadowphysics doc] |
-| [mlr][app mlr lines]                               | X         | [gh][app mlr src]           | [1][app mlr demo 1]                                        |                                 |
-| [nisp][app nisp lines]                             | X         | [gh][app nisp src]          | [1][app nisp demo 1], [2][app nisp demo 2]                 |                                 |
-| [punchcard][app punchcard lines]                   | X         | [gh][app punchcard src]     | [1][app punchcard demo 1]                                  |                                 |
-| [spacetime][app spacetime study] `we/study/study3` | X         |                             |                                                            |                                 |
-| [step][app step lines]                             | X         | [gh][app step src]          |                                                            |                                 |
-| [takt][app takt lines]                             | X         | [gh][app takt src]          |                                                            | [online][app takt doc]          |
+| app                                                | on maiden | code                        | description | demo                                                       | doc                             |
+| ---                                                | :---:     | ---                         | ---         | ---                                                        | ---                             |
+| [arcologies][app arcologies lines]                 | X         | [gh][app arcologies src]    |             | [gallery][app arcologies demos]                            | [online][app arcologies doc]    |
+| [arp_index][app arp_index lines]                   | X         | [gh][app arp_index src]     |             | [1][app arp_index demo 1]                                  |                                 |
+| [ash/playfair][app ash lines]                      | X         | [gh][app ash/playfair src]  |             | [1][app ash/playfair demo 1]                               |                                 |
+| [awake][app awake lines]                           | default   | [gh][app awake src]         |             |                                                            |                                 |
+| [cheat_codes][app cheat_codes lines]               | X         | [gh][app cheat_codes src]   |             | [1][app cheat_codes demo 1]                                | [pdf][app cheat_codes doc]      |
+| [dunes][app dunes lines]                           |           | [gh][app dunes src]         |             | [audio][app dunes demo audio], [midi][app dunes demo midi] |                                 |
+| [euclidigons][app euclidigons lines]               | X         | [gh][app euclidigons src]   |             | [1][app euclidigons demo 1], [2][app euclidigons demo 2]   |                                 |
+| [foulplay][app foulplay lines]                     | X         | [gh][app foulplay src]      |             | [1][app foulplay demo 1]                                   | [online][app foulplay doc]      |
+| [meadowphysics][app meadowphysics lines]           | X         | [gh][app meadowphysics src] |             | [1][app meadowphysics demo 1]                              | [online][app meadowphysics doc] |
+| [mlr][app mlr lines]                               | X         | [gh][app mlr src]           |             | [1][app mlr demo 1]                                        |                                 |
+| [nisp][app nisp lines]                             | X         | [gh][app nisp src]          |             | [1][app nisp demo 1], [2][app nisp demo 2]                 |                                 |
+| [punchcard][app punchcard lines]                   | X         | [gh][app punchcard src]     |             | [1][app punchcard demo 1]                                  |                                 |
+| [spacetime][app spacetime study] `we/study/study3` | X         |                             |             |                                                            |                                 |
+| [step][app step lines]                             | X         | [gh][app step src]          |             |                                                            |                                 |
+| [takt][app takt lines]                             | X         | [gh][app takt src]          |             |                                                            | [online][app takt doc]          |
 
 
 Control Modulation sources:
 
-| app                                | on maiden | code                     | demo | doc |
-| ---                                | ---       | ---                      | ---  | --- |
-| [barycenter][app barycenter lines] |           | [gh][app barycenter src] |      |     |
-| [shapes][app shapes lines]         |           | [gh][app shapes src]     |      |     |
+| app                                | on maiden | code                     | description | demo | doc |
+| ---                                | :---:     | ---                      | ---         | ---  | --- |
+| [barycenter][app barycenter lines] |           | [gh][app barycenter src] |             |      |     |
+| [shapes][app shapes lines]         |           | [gh][app shapes src]     |             |      |     |
 
 
 Basic samplers:
 
-| app                  | on maiden | code              | description                                     |
-| ---                  | ---       | ---               | ---                                             |
-| [sam][app sam lines] |           | [gh][app sam src] | record, adjust start & end points, save to tape |
+| app                  | on maiden | code              | description                                     | demo | doc |
+| ---                  | :---:     | ---               | ---                                             | ---  | --- |
+| [sam][app sam lines] |           | [gh][app sam src] | record, adjust start & end points, save to tape |      |     |
 
 
 Audio effects:
 
 | app                                | on maiden | code                     | description                            | demo                     | doc |
-| ---                                | ---       | ---                      | ---                                    | ---                      | --- |
+| ---                                | :---:     | ---                      | ---                                    | ---                      | --- |
 | [greyhole][app greyhole lines]     | X         | [gh][app greyhole src]   | echo / delay                           | [1][app greyhole demo 1] |     |
 | [pedalboard][app pedalboard lines] | X         | [gh][app pedalboard src] | chainable effects for live performance |                          |     |
 | [pools][app pools lines]           | X         | [gh][app pools src]      | a shimmery reverb                      | [1][app pools demo 1]    |     |
@@ -183,7 +183,7 @@ Audio effects:
 Loopers, live samplers & crazy delays:
 
 | app                        | on maiden | code                 | description                                         | demo                                           | doc |
-| ---                        | ---       | ---                  | ---                                                 | ---                                            | --- |
+| ---                        | :---:     | ---                  | ---                                                 | ---                                            | --- |
 | [blndr][app blndr lines]   | X         | [gh][app blndr src]  | a quantized delay with time bending effects         | [1][app blndr demo 1]                          |     |
 | [cranes][app cranes lines] | X         | [gh][app cranes src] | stereo varispeed looper / delay / timeline-smoosher | [1][app cranes demo 1]                         |     |
 | [oooooo][app oooooo lines] | X         | [gh][app oooooo src] | digital tape loops x 6                              | [1][app oooooo demo 1], [2][app oooooo demo 2] |     |
@@ -195,41 +195,42 @@ Loopers, live samplers & crazy delays:
 
 | symbol                 | meaning              |
 | ---                    | ---                  |
+| ✔️                      | yes                  |
 | :red_circle:           | mandatory            |
 | :large_orange_diamond: | strongly encouraged, |
 | :white_circle:         | optional             |
 
 
-| app                                                | audio in | midi in                    | keyboard     | grid                   | arc                    | TouchOSC               | audio out | midi out | crow |
-| ---                                                | ---      | ---                        | ---          | ---                    | ---                    | ---                    | ---       | ---      | ---  |
-| [arcologies][app arcologies lines]                 |          |                            |              | :red_circle:           |                        |                        |           |          |      |
-| [arp_index][app arp_index lines]                   |          | :white_circle:             |              |                        |                        |                        | X         | X        |      |
-| [awake][app awake lines]                           |          | :white_circle: (only sync) |              | :white_circle:         |                        |                        | X         |          |      |
-| [barycenter][app barycenter lines]                 |          |                            |              |                        |                        |                        | X         | X        |      |
-| [cheat codes][app cheat codes lines]               |          |                            |              | :large_orange_diamond: | :large_orange_diamond: | :large_orange_diamond: |           |          |      |
-| [cranes][app cranes lines]                         | X        |                            |              | :white_circle:         |                        |                        | X         |          |      |
-| [dunes][app dunes lines]                           |          |                            |              |                        |                        |                        | X         |          |      |
-| [dronecaster][app dronecaster lines]               |          |                            |              |                        |                        |                        | X         |          |      |
-| [euclidigons][app euclidigons lines]               |          |                            |              |                        |                        |                        | X         | X        |      |
-| [foulplay][app foulplay lines]                     |          |                            |              | :large_orange_diamond: |                        |                        | X         | X        |      |
-| [fm7][app fm7 lines]                               |          | :large_orange_diamond:     |              | :large_orange_diamond: |                        |                        | X         |          |      |
-| [greyhole][app greyhole lines]                     | X        |                            |              |                        |                        |                        | X         |          |      |
-| [lissadron][app lissadron lines]                   |          | :large_orange_diamond:     |              |                        |                        |                        | X         |          |      |
-| [meadowphysics][app meadowphysics lines]           |          |                            |              | :red_circle:           |                        |                        | X         | X        |      |
-| [mlr][app mlr lines]                               | X        |                            |              | :red_circle:           |                        |                        | X         |          |      |
-| [molly_the_poly][app molly_the_poly lines]         |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X         |          |      |
-| [nisp][app nisp lines]                             |          |                            | :red_circle: |                        |                        |                        | X         |          |      |
-| [oooooo][app oooooo lines]                         | X        |                            |              |                        |                        |                        | X         |          |      |
-| [passersby][app passersby lines]                   |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X         |          |      |
-| [pedalboard][app pedalboard lines]                 | X        |                            |              |                        |                        |                        | X         |          |      |
-| [piwip][app piwip lines]                           |          |                            |              |                        |                        |                        |           |          |      |
-| [pools][app pools lines]                           | X        |                            |              |                        |                        |                        | X         |          |      |
-| [punchcard][app punchcard lines]                   |          |                            |              | :red_circle:           |                        |                        |           | X        |      |
-| [reels][app reels lines]                           | X        |                            |              |                        |                        |                        | X         |          |      |
-| [shapes][app shapes lines]                         |          |                            |              |                        |                        |                        |           |          |      |
-| [spacetime][app spacetime study] `we/study/study3` |          |                            |              |                        |                        |                        | X         |          |      |
-| [step][app step lines]                             |          |                            |              | :red_circle:           | :large_orange_diamond: |                        | X         |          |      |
-| [takt][app takt lines]                             |          |                            |              | :red_circle:           |                        |                        | X         |          |      |
+| app                                                | audio in | midi in                    | keyboard     | grid                   | arc                    | TouchOSC               | audio out          | midi out | crow  |
+| ---                                                | :---:    | :---:                      | :---:        | :---:                  | :---:                  | :---:                  | :---:              | :---:    | :---: |
+| [arcologies][app arcologies lines]                 |          |                            |              | :red_circle:           |                        |                        |                    |          |       |
+| [arp_index][app arp_index lines]                   |          | :white_circle:             |              |                        |                        |                        | :heavy_check_mark: |          |       |
+| [awake][app awake lines]                           |          | :white_circle: (only sync) |              | :white_circle:         |                        |                        | X                  |          |       |
+| [barycenter][app barycenter lines]                 |          |                            |              |                        |                        |                        | X                  | X        |       |
+| [cheat codes][app cheat codes lines]               |          |                            |              | :large_orange_diamond: | :large_orange_diamond: | :large_orange_diamond: |                    |          |       |
+| [cranes][app cranes lines]                         | X        |                            |              | :white_circle:         |                        |                        | X                  |          |       |
+| [dunes][app dunes lines]                           |          |                            |              |                        |                        |                        | X                  |          |       |
+| [dronecaster][app dronecaster lines]               |          |                            |              |                        |                        |                        | X                  |          |       |
+| [euclidigons][app euclidigons lines]               |          |                            |              |                        |                        |                        | X                  | X        |       |
+| [foulplay][app foulplay lines]                     |          |                            |              | :large_orange_diamond: |                        |                        | X                  | X        |       |
+| [fm7][app fm7 lines]                               |          | :large_orange_diamond:     |              | :large_orange_diamond: |                        |                        | X                  |          |       |
+| [greyhole][app greyhole lines]                     | X        |                            |              |                        |                        |                        | X                  |          |       |
+| [lissadron][app lissadron lines]                   |          | :large_orange_diamond:     |              |                        |                        |                        | X                  |          |       |
+| [meadowphysics][app meadowphysics lines]           |          |                            |              | :red_circle:           |                        |                        | X                  | X        |       |
+| [mlr][app mlr lines]                               | X        |                            |              | :red_circle:           |                        |                        | X                  |          |       |
+| [molly_the_poly][app molly_the_poly lines]         |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X                  |          |       |
+| [nisp][app nisp lines]                             |          |                            | :red_circle: |                        |                        |                        | X                  |          |       |
+| [oooooo][app oooooo lines]                         | X        |                            |              |                        |                        |                        | X                  |          |       |
+| [passersby][app passersby lines]                   |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X                  |          |       |
+| [pedalboard][app pedalboard lines]                 | X        |                            |              |                        |                        |                        | X                  |          |       |
+| [piwip][app piwip lines]                           |          |                            |              |                        |                        |                        |                    |          |       |
+| [pools][app pools lines]                           | X        |                            |              |                        |                        |                        | X                  |          |       |
+| [punchcard][app punchcard lines]                   |          |                            |              | :red_circle:           |                        |                        |                    | X        |       |
+| [reels][app reels lines]                           | X        |                            |              |                        |                        |                        | X                  |          |       |
+| [shapes][app shapes lines]                         |          |                            |              |                        |                        |                        |                    |          |       |
+| [spacetime][app spacetime study] `we/study/study3` |          |                            |              |                        |                        |                        | X                  |          |       |
+| [step][app step lines]                             |          |                            |              | :red_circle:           | :large_orange_diamond: |                        | X                  |          |       |
+| [takt][app takt lines]                             |          |                            |              | :red_circle:           |                        |                        | X                  |          |       |
 
 
 Special cases:
