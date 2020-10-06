@@ -63,7 +63,7 @@ They are generally refered to as _scripts_, and _apps_ once packaged and distrib
  - `engine`: an instance of [SuperCollider](https://supercollider.github.io/) (sometimes also refered to as `external`)
  - `softcut`: a live multi-channel sampler / player that can be used to build crazy loopers and delays
 
-<div align=center><img src="https://monome.org/docs/norns/image/norns-audio-route.png" width="500"></div>
+<div align=center><img src="https://monome.org/docs/norns/image/norns-audio-route.png" width="750"></div>
 
 Even though _SuperCollider_ is generally used to define a virtual synthesizer, it can also take audio from the inputs (missing on the above diagram).
 
