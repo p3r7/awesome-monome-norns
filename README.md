@@ -242,11 +242,30 @@ Loopers, live samplers & crazy delays:
 | [step][app step lines]                             |          |                |          | 🔴    | 🔶    |          | ✔️         |          |       |
 | [takt][app takt lines]                             |          |                |          | 🔴    |       |          | ✔️         |          |       |
 
-
 Special cases:
 
  - \*: grid acts as a midi keyboard and can replace it
 
+
+## Mother, Pure Data & Orac
+
+[Pure Data](https://puredata.info/) patches originally built for the [Organelle](https://www.critterandguitari.com/organelle) can run on any _norns_ device.
+
+This is easilly done thanks to the combination of 2 projects:
+
+ - _Sidekick_ by [u/thetechnobear](https://llllllll.co/u/thetechnobear/summary) that allows booting out of the _norns_ software and into other ones ([lines thread](https://llllllll.co/t/orac-sidekick-pure-data-and-sc-for-norns/26198))
+ - _Mother_ by [u/oxbown](https://llllllll.co/u/oxbown/summary) that provides a compatibility layer for running Organelle patches ([lines thread](https://llllllll.co/t/norns-mother-organelle-patches-on-norns/30237))
+
+In addition, installing _Sideckick_ also provides:
+
+ - _Orac_: a patch chaining software for _Pure Data_
+ - _NuiLite_: a lightweight _Pure Data_ _external_ (i.e. extension) for making and running patches without depending on the _Organelle/Mother_ or _Orac_ layer.
+
+For more details, see also the [the _Sidekick_ project wiki](https://github.com/TheTechnobear/NuiLite/wiki).
+
+
+
+<!-- ====================================================================== -->
 
 <!-- softcut libs -->
 [lib softcut lines]: https://llllllll.co/t/norns-2-0-softcut/20550
