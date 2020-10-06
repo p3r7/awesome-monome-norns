@@ -194,43 +194,43 @@ Loopers, live samplers & crazy delays:
 #### By I/O
 
 | symbol                 | meaning              |
-| ---                    | ---                  |
+| :---:                  | ---                  |
 | ✔️                      | yes                  |
-| :red_circle:           | mandatory            |
-| :large_orange_diamond: | strongly encouraged, |
-| :white_circle:         | optional             |
+| 🔴                     | mandatory            |
+| 🔶 | strongly encouraged, |
+| ⚪                     | optional             |
 
 
-| app                                                | audio in | midi in                    | keyboard     | grid                   | arc                    | TouchOSC               | audio out          | midi out | crow  |
-| ---                                                | :---:    | :---:                      | :---:        | :---:                  | :---:                  | :---:                  | :---:              | :---:    | :---: |
-| [arcologies][app arcologies lines]                 |          |                            |              | :red_circle:           |                        |                        |                    |          |       |
-| [arp_index][app arp_index lines]                   |          | :white_circle:             |              |                        |                        |                        | :heavy_check_mark: |          |       |
-| [awake][app awake lines]                           |          | :white_circle: (only sync) |              | :white_circle:         |                        |                        | X                  |          |       |
-| [barycenter][app barycenter lines]                 |          |                            |              |                        |                        |                        | X                  | X        |       |
-| [cheat codes][app cheat codes lines]               |          |                            |              | :large_orange_diamond: | :large_orange_diamond: | :large_orange_diamond: |                    |          |       |
-| [cranes][app cranes lines]                         | X        |                            |              | :white_circle:         |                        |                        | X                  |          |       |
-| [dunes][app dunes lines]                           |          |                            |              |                        |                        |                        | X                  |          |       |
-| [dronecaster][app dronecaster lines]               |          |                            |              |                        |                        |                        | X                  |          |       |
-| [euclidigons][app euclidigons lines]               |          |                            |              |                        |                        |                        | X                  | X        |       |
-| [foulplay][app foulplay lines]                     |          |                            |              | :large_orange_diamond: |                        |                        | X                  | X        |       |
-| [fm7][app fm7 lines]                               |          | :large_orange_diamond:     |              | :large_orange_diamond: |                        |                        | X                  |          |       |
-| [greyhole][app greyhole lines]                     | X        |                            |              |                        |                        |                        | X                  |          |       |
-| [lissadron][app lissadron lines]                   |          | :large_orange_diamond:     |              |                        |                        |                        | X                  |          |       |
-| [meadowphysics][app meadowphysics lines]           |          |                            |              | :red_circle:           |                        |                        | X                  | X        |       |
-| [mlr][app mlr lines]                               | X        |                            |              | :red_circle:           |                        |                        | X                  |          |       |
-| [molly_the_poly][app molly_the_poly lines]         |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X                  |          |       |
-| [nisp][app nisp lines]                             |          |                            | :red_circle: |                        |                        |                        | X                  |          |       |
-| [oooooo][app oooooo lines]                         | X        |                            |              |                        |                        |                        | X                  |          |       |
-| [passersby][app passersby lines]                   |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X                  |          |       |
-| [pedalboard][app pedalboard lines]                 | X        |                            |              |                        |                        |                        | X                  |          |       |
-| [piwip][app piwip lines]                           |          |                            |              |                        |                        |                        |                    |          |       |
-| [pools][app pools lines]                           | X        |                            |              |                        |                        |                        | X                  |          |       |
-| [punchcard][app punchcard lines]                   |          |                            |              | :red_circle:           |                        |                        |                    | X        |       |
-| [reels][app reels lines]                           | X        |                            |              |                        |                        |                        | X                  |          |       |
-| [shapes][app shapes lines]                         |          |                            |              |                        |                        |                        |                    |          |       |
-| [spacetime][app spacetime study] `we/study/study3` |          |                            |              |                        |                        |                        | X                  |          |       |
-| [step][app step lines]                             |          |                            |              | :red_circle:           | :large_orange_diamond: |                        | X                  |          |       |
-| [takt][app takt lines]                             |          |                            |              | :red_circle:           |                        |                        | X                  |          |       |
+| app                                                | audio in | midi in        | keyboard | grid  | arc   | TouchOSC | audio out          | midi out | crow  |
+| ---                                                | :---:    | :---:          | :---:    | :---: | :---: | :---:    | :---:              | :---:    | :---: |
+| [arcologies][app arcologies lines]                 |          |                |          | 🔴    |       |          |                    |          |       |
+| [arp_index][app arp_index lines]                   |          | ⚪             |          |       |       |          | :heavy_check_mark: |          |       |
+| [awake][app awake lines]                           |          | ⚪ (only sync) |          | ⚪    |       |          | X                  |          |       |
+| [barycenter][app barycenter lines]                 |          |                |          |       |       |          | X                  | X        |       |
+| [cheat codes][app cheat codes lines]               |          |                |          | 🔶    | 🔶    | 🔶       |                    |          |       |
+| [cranes][app cranes lines]                         | X        |                |          | ⚪    |       |          | X                  |          |       |
+| [dunes][app dunes lines]                           |          |                |          |       |       |          | X                  |          |       |
+| [dronecaster][app dronecaster lines]               |          |                |          |       |       |          | X                  |          |       |
+| [euclidigons][app euclidigons lines]               |          |                |          |       |       |          | X                  | X        |       |
+| [foulplay][app foulplay lines]                     |          |                |          | 🔶    |       |          | X                  | X        |       |
+| [fm7][app fm7 lines]                               |          | 🔶             |          | 🔶    |       |          | X                  |          |       |
+| [greyhole][app greyhole lines]                     | X        |                |          |       |       |          | X                  |          |       |
+| [lissadron][app lissadron lines]                   |          | 🔶             |          |       |       |          | X                  |          |       |
+| [meadowphysics][app meadowphysics lines]           |          |                |          | 🔴    |       |          | X                  | X        |       |
+| [mlr][app mlr lines]                               | X        |                |          | 🔴    |       |          | X                  |          |       |
+| [molly_the_poly][app molly_the_poly lines]         |          | 🔴             |          | ⚪ \* |       |          | X                  |          |       |
+| [nisp][app nisp lines]                             |          |                | 🔴       |       |       |          | X                  |          |       |
+| [oooooo][app oooooo lines]                         | X        |                |          |       |       |          | X                  |          |       |
+| [passersby][app passersby lines]                   |          | 🔴             |          | ⚪ \* |       |          | X                  |          |       |
+| [pedalboard][app pedalboard lines]                 | X        |                |          |       |       |          | X                  |          |       |
+| [piwip][app piwip lines]                           |          |                |          |       |       |          |                    |          |       |
+| [pools][app pools lines]                           | X        |                |          |       |       |          | X                  |          |       |
+| [punchcard][app punchcard lines]                   |          |                |          | 🔴    |       |          |                    | X        |       |
+| [reels][app reels lines]                           | X        |                |          |       |       |          | X                  |          |       |
+| [shapes][app shapes lines]                         |          |                |          |       |       |          |                    |          |       |
+| [spacetime][app spacetime study] `we/study/study3` |          |                |          |       |       |          | X                  |          |       |
+| [step][app step lines]                             |          |                |          | 🔴    | 🔶    |          | X                  |          |       |
+| [takt][app takt lines]                             |          |                |          | 🔴    |       |          | X                  |          |       |
 
 
 Special cases:
