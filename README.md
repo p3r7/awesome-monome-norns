@@ -150,7 +150,7 @@ Sequencers, trackers & sample manglers:
 | [meadowphysics][app meadowphysics lines]           | ✔️         | [gh][app meadowphysics src] |             | [1][app meadowphysics demo 1]                              | [online][app meadowphysics doc] |
 | [mlr][app mlr lines]                               | ✔️         | [gh][app mlr src]           |             | [1][app mlr demo 1]                                        |                                 |
 | [nisp][app nisp lines]                             | ✔️         | [gh][app nisp src]          |             | [1][app nisp demo 1], [2][app nisp demo 2]                 |                                 |
-| [punchcard][app punchcard lines]                   | ✔️         | [gh][app punchcard src]     |             | [1][app punchcard demo 1]                                  |                                 |
+| [punchcard][app punchcard lines]                   | ✔️         | [gh][app punchcard src]     |             | [1][app punchcard demo 1], [2][app punchcard demo 2]       |                                 |
 | [spacetime][app spacetime study] `we/study/study3` | ✔️         |                             |             |                                                            |                                 |
 | [step][app step lines]                             | ✔️         | [gh][app step src]          |             |                                                            |                                 |
 | [takt][app takt lines]                             | ✔️         | [gh][app takt src]          |             |                                                            | [online][app takt doc]          |
@@ -338,7 +338,8 @@ Special cases:
 [app pools demo 1]: https://vimeo.com/383786715
 [app punchcard lines]: https://llllllll.co/t/punchcard
 [app punchcard src]: https://github.com/neauoire/punchcard
-[app punchcard demo 1]: https://www.youtube.com/watch?v=QO7T6MYkqZo
+[app punchcard demo 1]: https://www.youtube.com/watch?v=jZUtkNuEDqY
+[app punchcard demo 2]: https://www.youtube.com/watch?v=QO7T6MYkqZo
 [app reels lines]: https://llllllll.co/t/reels
 [app reels src]: https://github.com/itsyourbedtime/reels
 [app reels demo 1]: https://www.youtube.com/watch?v=SuF1uTTlyn4
