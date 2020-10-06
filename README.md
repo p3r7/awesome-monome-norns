@@ -175,11 +175,13 @@ Audio effects:
 
 Loopers, live samplers & crazy delays:
 
-| app                                        | on maiden | code                                          | description                                 | demo                                             | doc |
-| ---                                        | ---       | ---                                           | ---                                         | ---                                              | --- |
-| [blndr](https://llllllll.co/t/blndr/35106) | X         | [gh](https://github.com/schollz/blndr)        | a quantized delay with time bending effects | [1](https://llllllll.co/t/blndr/35106)           |     |
-| [piwip](https://llllllll.co/t/piwip)       | X         | [gh](https://github.com/schollz/piwip)        | a sampler that works in realtime            | [1](https://www.instagram.com/p/CFla2iJh9zC/)    |     |
-| [reels](https://llllllll.co/t/reels)       | X         | [gh](https://github.com/itsyourbedtime/reels) | a 4-track asynchronous looper               | [1](https://www.youtube.com/watch?v=SuF1uTTlyn4) |     |
+| app                                          | on maiden | code                                          | description                                         | demo                                                                                         | doc |
+| ---                                          | ---       | ---                                           | ---                                                 | ---                                                                                          | --- |
+| [blndr](https://llllllll.co/t/blndr/35106)   | X         | [gh](https://github.com/schollz/blndr)        | a quantized delay with time bending effects         | [1](https://llllllll.co/t/blndr/35106)                                                       |     |
+| [cranes](https://llllllll.co/t/cranes/21207) | X         | [gh](https://github.com/dndrks/cranes)        | stereo varispeed looper / delay / timeline-smoosher | [1](https://www.instagram.com/p/Bv5klu_l9mp/)                                                |     |
+| [oooooo](https://llllllll.co/t/oooooo/35828) | X         | [gh](https://github.com/schollz/oooooo)       | digital tape loops x 6                              | [1](https://www.instagram.com/p/CEeMRPDhCt_/), [2](https://www.instagram.com/p/CEb2CDQBXaz/) |     |
+| [piwip](https://llllllll.co/t/piwip)         | X         | [gh](https://github.com/schollz/piwip)        | a sampler that works in realtime                    | [1](https://www.instagram.com/p/CFla2iJh9zC/)                                                |     |
+| [reels](https://llllllll.co/t/reels)         | X         | [gh](https://github.com/itsyourbedtime/reels) | a 4-track asynchronous looper                       | [1](https://www.youtube.com/watch?v=SuF1uTTlyn4)                                             |     |
 
 
 #### By I/O
@@ -198,6 +200,7 @@ Loopers, live samplers & crazy delays:
 | [awake](https://llllllll.co/t/awake)                                  |          | :white_circle: (only sync) |              | :white_circle:         |                        |                        | X         |          |      |
 | [barycenter](https://llllllll.co/t/barycenter)                        |          |                            |              |                        |                        |                        | X         | X        |      |
 | [cheat codes](https://llllllll.co/t/cheat-codes)                      |          |                            |              | :large_orange_diamond: | :large_orange_diamond: | :large_orange_diamond: |           |          |      |
+| [cranes](https://llllllll.co/t/cranes/21207)                          | X        |                            |              | :white_circle:         |                        |                        | X         |          |      |
 | [dunes](https://llllllll.co/t/dunes)                                  |          |                            |              |                        |                        |                        | X         |          |      |
 | [dronecaster](https://l.llllllll.co/dronecaster)                      |          |                            |              |                        |                        |                        | X         |          |      |
 | [euclidigons](https://llllllll.co/t/euclidigons/36666)                |          |                            |              |                        |                        |                        | X         | X        |      |
@@ -208,6 +211,7 @@ Loopers, live samplers & crazy delays:
 | [mlr](https://llllllll.co/t/mlr-norns)                                | X        |                            |              | :red_circle:           |                        |                        | X         |          |      |
 | [molly_the_poly](https://llllllll.co/t/molly-the-poly)                |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X         |          |      |
 | [nisp](https://llllllll.co/t/nisp)                                    |          |                            | :red_circle: |                        |                        |                        | X         |          |      |
+| [oooooo](https://llllllll.co/t/oooooo/35828)                          | X        |                            |              |                        |                        |                        | X         |          |      |
 | [passersby](https://llllllll.co/t/passersby/21089)                    |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X         |          |      |
 | [pedalboard](https://llllllll.co/t/31119)                             | X        |                            |              |                        |                        |                        | X         |          |      |
 | [piwip](https://llllllll.co/t/piwip)                                  |          |                            |              |                        |                        |                        |           |          |      |
