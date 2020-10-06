@@ -90,16 +90,16 @@ Most advanced apps come with their own custom libraries / engine.
 Here are listed the most reccuring ones.
 
 
-#### Softcut & Softcut-based
+#### Softcut & Softcut-based libs
 
 | library                        | code                                                       | description                         | based upon | provided by          | used by                            |
 | --                             | ---                                                        | ---                                 | ---        | ---                  | ---                                |
 | [softcut][lib softcut lines]   | [lua][lib softcut gh lua], [undelying C][lib softcut gh C] | sample record & playback            |            | installed by default | sam, reels, piwip                  |
 | ack                            | [lua][lib ack gh lua]                                      | advanced sample playback            | softcut    | installed by default | step, ash/playfair, foulplay, takt |
-| [supercut][lib supercut lines] | [lua][lib supercut gh lua]                                 | higher-level wrapper around softcut |            |                      | wrms                               |
+| [supercut][lib supercut lines] | [lua][lib supercut gh lua]                                 | higher-level wrapper around softcut | softcut    |                      | wrms                               |
 
 
-#### SuperColider-based
+#### SuperColider engines
 
 | library         | code                                                                        | description                                     | provided by                                | used by                          |
 | --              | ---                                                                         | ---                                             | ---                                        | ---                              |
@@ -107,7 +107,7 @@ Here are listed the most reccuring ones.
 | polyperc        | [sclang][lib polyperc gh sc]                                                | simple polyphonic filtered decaying square wave | [awake][app awake lines]                   | awake, meadowphysics, barycenter |
 | molly_the_poly  | [lua wrapper][lib molly_the_poly gh lua] [sclang][lib molly_the_poly gh sc] |                                                 | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index        |
 | passersby       | [lua wrapper][lib passersby gh lua] [sclang][lib passersby gh sc]           |                                                 | [passersby][app passersby lines]           | passersby, dunes                 |
-| PrimitiveString | [sclang][lib PrimitiveString gh sc]                                         |                                                 | [euclidigons][app euclidigons lines]       |                                  |
+| PrimitiveString | [sclang][lib PrimitiveString gh sc]                                         |                                                 | [euclidigons][app euclidigons lines]       | euclidigons                      |
 
 
 ## Scripts & Apps
@@ -134,55 +134,61 @@ Synths & drones:
 | [molly_the_poly][app molly_the_poly lines] | X         | [gh][app molly_the_poly src] | Juno-6 voice structure with chorus, the extra modulation of a Jupiter-8, and CS-80 inspired ring modulation | [1][app molly_the_poly demo 1]               |                       |
 | [passersby][app passersby lines]           | X         | [gh][app passersby src]      | Wave folding, FM, LPG, spring-ish reverb, LFO and two dice to roll                                          | [1][app passersby demo 1]                    |                       |
 
+
 Sequencers, trackers & sample manglers:
 
-| app                                                                   | on maiden | code                                                       | demo                                                                                            | doc                                                                          |
-| ---                                                                   | ---       | ---                                                        | ---                                                                                             | ---                                                                          |
-| [arcologies][app arcologies lines]                                    | X         | [gh][app arcologies src]                                   | [gallery](https://tyleretters.github.io/arcologies-docs/gallery)                                | [online][app arcologies doc]                                                 |
-| [arp_index][app arp_index lines]                                      | X         | [gh][app arp_index src]                                    |                                                                                                 |                                                                              |
-| [ash/playfair](https://llllllll.co/t/ash-a-small-collection/21349)    | X         | [gh](https://github.com/tehn/ash/blob/master/playfair.lua) | [1](https://vimeo.com/270668759)                                                                |                                                                              |
-| [awake][app awake lines]                                              | default   | [gh][app awake src]                                        |                                                                                                 |                                                                              |
-| [cheat codes](https://llllllll.co/t/31655)                            | X         |                                                            | [1](https://www.youtube.com/watch?v=gfM5MiYKvxc&t=132s)                                         | [pdf](https://llllllll.co/uploads/short-url/mkkpeOUJCreIwVIP0Jdf8rpfYDJ.pdf) |
-| [dunes](https://llllllll.co/t/dunes)                                  |           | [gh](https://github.com/oliviercreurer/dunes)              | [audio](https://llllllll.co/t/dunes/24790), [midi](https://llllllll.co/t/dunes/24790/18)        |                                                                              |
-| [euclidigons](https://llllllll.co/t/euclidigons/36666)                | X         | [gh](https://github.com/synthetiv/euclidigons/)            | [1](https://www.youtube.com/watch?v=o9bUmd2UaYc), [2](https://www.instagram.com/p/CFkNeIID3e7/) |                                                                              |
-| [foulplay](https://llllllll.co/t/foulplay/21081)                      | X         | [gh](https://github.com/justmat/foulplay)                  | [1](https://vimeo.com/328283781)                                                                | [online](https://github.com/justmat/foulplay/blob/master/readme.md)          |
-| [meadowphysics](https://llllllll.co/t/meadowphysics-norns/21185)      | X         | [gh](https://github.com/alpha-cactus/meadowphysics)        | [1](https://vimeo.com/146731772)                                                                | [online](https://monome.org/docs/meadowphysics/)                             |
-| [mlr](https://llllllll.co/t/mlr-norns)                                | X         | [gh](https://github.com/tehn/mlr)                          | [1](https://vimeo.com/266741634)                                                                |                                                                              |
-| [nisp](https://llllllll.co/t/nisp)                                    | X         | [gh](https://github.com/itsyourbedtime/NISP)               | [1](https://www.instagram.com/p/B54rUM6hnWJ/), [2](https://www.instagram.com/p/B545yPRh5QA/)    |                                                                              |
-| [punchcard](https://llllllll.co/t/punchcard)                          | X         | [gh](https://github.com/neauoire/punchcard)                | [1](https://www.youtube.com/watch?v=QO7T6MYkqZo)                                                |                                                                              |
-| [spacetime](https://monome.org/docs/norns/study-3/) `we/study/study3` | X         |                                                            |                                                                                                 |                                                                              |
-| [step](https://llllllll.co/t/step/21093)                              | X         | [gh](https://github.com/antonhornquist/step)               |                                                                                                 |                                                                              |
-| [takt](https://llllllll.co/t/takt/21032)                              | X         | [gh](https://github.com/itsyourbedtime/takt)               |                                                                                                 | [online](https://github.com/monome/dust/blob/master/docs/bedtime/index.md)   |
+| app                                                | on maiden | code                        | demo                                                       | doc                             |
+| ---                                                | ---       | ---                         | ---                                                        | ---                             |
+| [arcologies][app arcologies lines]                 | X         | [gh][app arcologies src]    | [gallery][app arcologies demos]                            | [online][app arcologies doc]    |
+| [arp_index][app arp_index lines]                   | X         | [gh][app arp_index src]     | [1][app arp_index demo 1]                                  |                                 |
+| [ash/playfair][app ash lines]                      | X         | [gh][app ash/playfair src]  | [1][app ash/playfair demo 1]                               |                                 |
+| [awake][app awake lines]                           | default   | [gh][app awake src]         |                                                            |                                 |
+| [cheat_codes][app cheat_codes lines]               | X         | [gh][app cheat_codes src]   | [1][app cheat_codes demo 1]                                | [pdf][app cheat_codes doc]      |
+| [dunes][app dunes lines]                           |           | [gh][app dunes src]         | [audio][app dunes demo audio], [midi][app dunes demo midi] |                                 |
+| [euclidigons][app euclidigons lines]               | X         | [gh][app euclidigons src]   | [1][app euclidigons demo 1], [2][app euclidigons demo 2]   |                                 |
+| [foulplay][app foulplay lines]                     | X         | [gh][app foulplay src]      | [1][app foulplay demo 1]                                   | [online][app foulplay doc]      |
+| [meadowphysics][app meadowphysics lines]           | X         | [gh][app meadowphysics src] | [1][app meadowphysics demo 1]                              | [online][app meadowphysics doc] |
+| [mlr][app mlr lines]                               | X         | [gh][app mlr src]           | [1][app mlr demo 1]                                        |                                 |
+| [nisp][app nisp lines]                             | X         | [gh][app nisp src]          | [1][app nisp demo 1], [2][app nisp demo 2]                 |                                 |
+| [punchcard][app punchcard lines]                   | X         | [gh][app punchcard src]     | [1][app punchcard demo 1]                                  |                                 |
+| [spacetime][app spacetime study] `we/study/study3` | X         |                             |                                                            |                                 |
+| [step][app step lines]                             | X         | [gh][app step src]          |                                                            |                                 |
+| [takt][app takt lines]                             | X         | [gh][app takt src]          |                                                            | [online][app takt doc]          |
+
 
 Control Modulation sources:
-| app                                            | on maiden | code                                         | demo | doc |
-| ---                                            | ---       | ---                                          | ---  | --- |
-| [barycenter](https://llllllll.co/t/barycenter) |           | [gh](https://github.com/echophon/barycenter) |      |     |
-| [shapes](https://llllllll.co/t/shapes/36759)   |           | [gh](https://github.com/tlubke/shapes)       |      |     |
+
+| app                                | on maiden | code                     | demo | doc |
+| ---                                | ---       | ---                      | ---  | --- |
+| [barycenter][app barycenter lines] |           | [gh][app barycenter src] |      |     |
+| [shapes][app shapes lines]         |           | [gh][app shapes src]     |      |     |
 
 
 Basic samplers:
-| app                                    | on maiden | code                                 | description                                     |
-| ---                                    | ---       | ---                                  | ---                                             |
-| [sam](https://llllllll.co/t/sam/23943) |           | [gh](https://github.com/justmat/sam) | record, adjust start & end points, save to tape |
+
+| app                  | on maiden | code              | description                                     |
+| ---                  | ---       | ---               | ---                                             |
+| [sam][app sam lines] |           | [gh][app sam src] | record, adjust start & end points, save to tape |
+
 
 Audio effects:
 
-| app                                        | on maiden | code                                          | description                                 | demo                                             | doc |
-| ---                                        | ---       | ---                                           | ---                                         | ---                                              | --- |
-| [greyhole](https://llllllll.co/t/greyhole) | X         | [gh](https://github.com/justmat/greyhole)     | echo / delay                                | [1](https://vimeo.com/379334153)                 |     |
-| [pedalboard](https://llllllll.co/t/31119)  | X         | [gh](https://github.com/21echoes/pedalboard)  | chainable effects for live performance      |                                                  |     |
-| [pools](https://llllllll.co/t/pools)       | X         | [gh](https://github.com/justmat/pools)        | a shimmery reverb                           | [1](https://vimeo.com/383786715)                 |     |
+| app                                | on maiden | code                     | description                            | demo                     | doc |
+| ---                                | ---       | ---                      | ---                                    | ---                      | --- |
+| [greyhole][app greyhole lines]     | X         | [gh][app greyhole src]   | echo / delay                           | [1][app greyhole demo 1] |     |
+| [pedalboard][app pedalboard lines] | X         | [gh][app pedalboard src] | chainable effects for live performance |                          |     |
+| [pools][app pools lines]           | X         | [gh][app pools src]      | a shimmery reverb                      | [1][app pools demo 1]    |     |
+
 
 Loopers, live samplers & crazy delays:
 
-| app                                          | on maiden | code                                          | description                                         | demo                                                                                         | doc |
-| ---                                          | ---       | ---                                           | ---                                                 | ---                                                                                          | --- |
-| [blndr](https://llllllll.co/t/blndr/35106)   | X         | [gh](https://github.com/schollz/blndr)        | a quantized delay with time bending effects         | [1](https://llllllll.co/t/blndr/35106)                                                       |     |
-| [cranes](https://llllllll.co/t/cranes/21207) | X         | [gh](https://github.com/dndrks/cranes)        | stereo varispeed looper / delay / timeline-smoosher | [1](https://www.instagram.com/p/Bv5klu_l9mp/)                                                |     |
-| [oooooo](https://llllllll.co/t/oooooo/35828) | X         | [gh](https://github.com/schollz/oooooo)       | digital tape loops x 6                              | [1](https://www.instagram.com/p/CEeMRPDhCt_/), [2](https://www.instagram.com/p/CEb2CDQBXaz/) |     |
-| [piwip](https://llllllll.co/t/piwip)         | X         | [gh](https://github.com/schollz/piwip)        | a sampler that works in realtime                    | [1](https://www.instagram.com/p/CFla2iJh9zC/)                                                |     |
-| [reels](https://llllllll.co/t/reels)         | X         | [gh](https://github.com/itsyourbedtime/reels) | a 4-track asynchronous looper                       | [1](https://www.youtube.com/watch?v=SuF1uTTlyn4)                                             |     |
+| app                        | on maiden | code                 | description                                         | demo                                           | doc |
+| ---                        | ---       | ---                  | ---                                                 | ---                                            | --- |
+| [blndr][app blndr lines]   | X         | [gh][app blndr src]  | a quantized delay with time bending effects         | [1][app blndr demo 1]                          |     |
+| [cranes][app cranes lines] | X         | [gh][app cranes src] | stereo varispeed looper / delay / timeline-smoosher | [1][app cranes demo 1]                         |     |
+| [oooooo][app oooooo lines] | X         | [gh][app oooooo src] | digital tape loops x 6                              | [1][app oooooo demo 1], [2][app oooooo demo 2] |     |
+| [piwip][app piwip lines]   | X         | [gh][app piwip src]  | a sampler that works in realtime                    | [1][app piwip demo 1]                          |     |
+| [reels][app reels lines]   | X         | [gh][app reels src]  | a 4-track asynchronous looper                       | [1][app reels demo 1]                          |     |
 
 
 #### By I/O
@@ -194,36 +200,36 @@ Loopers, live samplers & crazy delays:
 | :white_circle:         | optional             |
 
 
-| app                                                                   | audio in | midi in                    | keyboard     | grid                   | arc                    | TouchOSC               | audio out | midi out | crow |
-| ---                                                                   | ---      | ---                        | ---          | ---                    | ---                    | ---                    | ---       | ---      | ---  |
-| [arcologies][app arcologies lines]                                    |          |                            |              | :red_circle:           |                        |                        |           |          |      |
-| [arp_index](https://llllllll.co/t/the-arp-index)                      |          | :white_circle:             |              |                        |                        |                        | X         | X        |      |
-| [awake](https://llllllll.co/t/awake)                                  |          | :white_circle: (only sync) |              | :white_circle:         |                        |                        | X         |          |      |
-| [barycenter](https://llllllll.co/t/barycenter)                        |          |                            |              |                        |                        |                        | X         | X        |      |
-| [cheat codes](https://llllllll.co/t/cheat-codes)                      |          |                            |              | :large_orange_diamond: | :large_orange_diamond: | :large_orange_diamond: |           |          |      |
-| [cranes](https://llllllll.co/t/cranes/21207)                          | X        |                            |              | :white_circle:         |                        |                        | X         |          |      |
-| [dunes](https://llllllll.co/t/dunes)                                  |          |                            |              |                        |                        |                        | X         |          |      |
-| [dronecaster][app dronecaster lines]                                  |          |                            |              |                        |                        |                        | X         |          |      |
-| [euclidigons](https://llllllll.co/t/euclidigons/36666)                |          |                            |              |                        |                        |                        | X         | X        |      |
-| [foulplay](https://llllllll.co/t/foulplay/21081)                      |          |                            |              | :large_orange_diamond: |                        |                        | X         | X        |      |
-| [fm7][app fm7 lines]                                                  |          | :large_orange_diamond:     |              | :large_orange_diamond: |                        |                        | X         |          |      |
-| [greyhole](https://llllllll.co/t/greyhole)                            | X        |                            |              |                        |                        |                        | X         |          |      |
-| [lissadron][app lissadron lines]                                      |          | :large_orange_diamond:     |              |                        |                        |                        | X         |          |      |
-| [meadowphysics](https://llllllll.co/t/meadowphysics-norns/21185)      |          |                            |              | :red_circle:           |                        |                        | X         | X        |      |
-| [mlr](https://llllllll.co/t/mlr-norns)                                | X        |                            |              | :red_circle:           |                        |                        | X         |          |      |
-| [molly_the_poly][app molly_the_poly lines]                            |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X         |          |      |
-| [nisp](https://llllllll.co/t/nisp)                                    |          |                            | :red_circle: |                        |                        |                        | X         |          |      |
-| [oooooo](https://llllllll.co/t/oooooo/35828)                          | X        |                            |              |                        |                        |                        | X         |          |      |
-| [passersby][app passersby lines]                                      |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X         |          |      |
-| [pedalboard](https://llllllll.co/t/31119)                             | X        |                            |              |                        |                        |                        | X         |          |      |
-| [piwip](https://llllllll.co/t/piwip)                                  |          |                            |              |                        |                        |                        |           |          |      |
-| [pools](https://llllllll.co/t/pools)                                  | X        |                            |              |                        |                        |                        | X         |          |      |
-| [punchcard](https://llllllll.co/t/punchcard)                          |          |                            |              | :red_circle:           |                        |                        |           | X        |      |
-| [reels](https://llllllll.co/t/reels)                                  | X        |                            |              |                        |                        |                        | X         |          |      |
-| [shapes](https://llllllll.co/t/shapes/36759)                          |          |                            |              |                        |                        |                        |           |          |      |
-| [spacetime](https://monome.org/docs/norns/study-3/) `we/study/study3` |          |                            |              |                        |                        |                        | X         |          |      |
-| [step](https://llllllll.co/t/step/21093)                              |          |                            |              | :red_circle:           | :large_orange_diamond: |                        | X         |          |      |
-| [takt](https://llllllll.co/t/takt/21032)                              |          |                            |              | :red_circle:           |                        |                        | X         |          |      |
+| app                                                | audio in | midi in                    | keyboard     | grid                   | arc                    | TouchOSC               | audio out | midi out | crow |
+| ---                                                | ---      | ---                        | ---          | ---                    | ---                    | ---                    | ---       | ---      | ---  |
+| [arcologies][app arcologies lines]                 |          |                            |              | :red_circle:           |                        |                        |           |          |      |
+| [arp_index][app arp_index lines]                   |          | :white_circle:             |              |                        |                        |                        | X         | X        |      |
+| [awake][app awake lines]                           |          | :white_circle: (only sync) |              | :white_circle:         |                        |                        | X         |          |      |
+| [barycenter][app barycenter lines]                 |          |                            |              |                        |                        |                        | X         | X        |      |
+| [cheat codes][app cheat codes lines]               |          |                            |              | :large_orange_diamond: | :large_orange_diamond: | :large_orange_diamond: |           |          |      |
+| [cranes][app cranes lines]                         | X        |                            |              | :white_circle:         |                        |                        | X         |          |      |
+| [dunes][app dunes lines]                           |          |                            |              |                        |                        |                        | X         |          |      |
+| [dronecaster][app dronecaster lines]               |          |                            |              |                        |                        |                        | X         |          |      |
+| [euclidigons][app euclidigons lines]               |          |                            |              |                        |                        |                        | X         | X        |      |
+| [foulplay][app foulplay lines]                     |          |                            |              | :large_orange_diamond: |                        |                        | X         | X        |      |
+| [fm7][app fm7 lines]                               |          | :large_orange_diamond:     |              | :large_orange_diamond: |                        |                        | X         |          |      |
+| [greyhole][app greyhole lines]                     | X        |                            |              |                        |                        |                        | X         |          |      |
+| [lissadron][app lissadron lines]                   |          | :large_orange_diamond:     |              |                        |                        |                        | X         |          |      |
+| [meadowphysics][app meadowphysics lines]           |          |                            |              | :red_circle:           |                        |                        | X         | X        |      |
+| [mlr][app mlr lines]                               | X        |                            |              | :red_circle:           |                        |                        | X         |          |      |
+| [molly_the_poly][app molly_the_poly lines]         |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X         |          |      |
+| [nisp][app nisp lines]                             |          |                            | :red_circle: |                        |                        |                        | X         |          |      |
+| [oooooo][app oooooo lines]                         | X        |                            |              |                        |                        |                        | X         |          |      |
+| [passersby][app passersby lines]                   |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X         |          |      |
+| [pedalboard][app pedalboard lines]                 | X        |                            |              |                        |                        |                        | X         |          |      |
+| [piwip][app piwip lines]                           |          |                            |              |                        |                        |                        |           |          |      |
+| [pools][app pools lines]                           | X        |                            |              |                        |                        |                        | X         |          |      |
+| [punchcard][app punchcard lines]                   |          |                            |              | :red_circle:           |                        |                        |           | X        |      |
+| [reels][app reels lines]                           | X        |                            |              |                        |                        |                        | X         |          |      |
+| [shapes][app shapes lines]                         |          |                            |              |                        |                        |                        |           |          |      |
+| [spacetime][app spacetime study] `we/study/study3` |          |                            |              |                        |                        |                        | X         |          |      |
+| [step][app step lines]                             |          |                            |              | :red_circle:           | :large_orange_diamond: |                        | X         |          |      |
+| [takt][app takt lines]                             |          |                            |              | :red_circle:           |                        |                        | X         |          |      |
 
 
 Special cases:
@@ -238,6 +244,7 @@ Special cases:
 [lib ack gh lua]: https://github.com/antonhornquist/ack
 [lib supercut lines]: https://llllllll.co/t/supercut-lib/29526
 [lib supercut gh lua]: https://github.com/andr-ew/supercut
+
 <!-- supercolier libs -->
 [lib timber gh lua]: https://github.com/markwheeler/timber/blob/master/lib/timber_engine.lua
 [lib timber gh sc]: https://github.com/markwheeler/timber/blob/master/lib/Engine_Timber.sc
@@ -253,26 +260,95 @@ Special cases:
 [app arcologies lines]: https://llllllll.co/t/arcologies
 [app arcologies src]: https://github.com/tyleretters/arcologies
 [app arcologies doc]: https://tyleretters.github.io/arcologies-docs
-[app arcologies demo 1]: https://www.instagram.com/p/B140GeKB3ga/
+[app arcologies demos]: https://tyleretters.github.io/arcologies-docs/gallery
 [app arp_index lines]: https://llllllll.co/t/the-arp-index
 [app arp_index src]: https://github.com/markwheeler/arp_index
+[app arp_index demo 1]: https://www.instagram.com/p/B140GeKB3ga/
+[app ash lines]: https://llllllll.co/t/ash-a-small-collection/21349
+[app ash/playfair src]: https://github.com/tehn/ash/blob/master/playfair.lua
+[app ash/playfair demo 1]: https://vimeo.com/270668759
 [app awake lines]: https://llllllll.co/t/awake
 [app awake src]: https://github.com/tehn/awake
+[app blndr lines]: https://llllllll.co/t/blndr/35106
+[app blndr src]: https://github.com/schollz/blndr
+[app blndr demo 1]: https://llllllll.co/t/blndr/35106
+[app barycenter lines]: https://llllllll.co/t/barycenter
+[app barycenter src]: https://github.com/echophon/barycenter
+[app cheat_codes lines]: https://llllllll.co/t/31655
+[app cheat_codes src]: https://github.com/dndrks/cheat_codes
+[app cheat_codes doc]: https://llllllll.co/uploads/short-url/mkkpeOUJCreIwVIP0Jdf8rpfYDJ.pdf
+[app cheat_codes demo 1]: https://www.youtube.com/watch?v=gfM5MiYKvxc&t=132s
+[app cranes lines]: https://llllllll.co/t/cranes/21207
+[app cranes src]: https://github.com/dndrks/cranes
+[app cranes demo 1]: https://www.instagram.com/p/Bv5klu_l9mp/
 [app dronecaster lines]: https://l.llllllll.co/dronecaster
 [app dronecaster src]: https://github.com/tyleretters/dronecaster
 [app dronecaster demo 1]: https://www.youtube.com/watch?v=sYnHYDg3rhg
+[app dunes lines]: https://llllllll.co/t/dunes
+[app dunes src]: https://github.com/oliviercreurer/dunes
+[app dunes demo audio]: https://llllllll.co/t/dunes/24790
+[app dunes demo midi]: https://llllllll.co/t/dunes/24790/18
+[app euclidigons lines]: https://llllllll.co/t/euclidigons/36666
+[app euclidigons src]: https://github.com/synthetiv/euclidigons/
+[app euclidigons demo 1]: https://www.youtube.com/watch?v=o9bUmd2UaYc
+[app euclidigons demo 2]: https://www.instagram.com/p/CFkNeIID3e7/
 [app fm7 lines]: https://llllllll.co/t/fm7-norns/21395
 [app fm7 src]: https://github.com/lazzarello/fm7
 [app fm7 doc]: https://github.com/lazzarello/fm7/blob/master/README.md
 [app fm7 demo 1]: https://www.youtube.com/watch?v=HI9B-vuWF4A
-[app euclidigons lines]: https://llllllll.co/t/euclidigons/36666
+[app foulplay lines]: https://llllllll.co/t/foulplay/21081
+[app foulplay src]: https://github.com/justmat/foulplay
+[app foulplay doc]: https://github.com/justmat/foulplay/blob/master/readme.md
+[app foulplay demo 1]: https://vimeo.com/328283781
+[app greyhole lines]: https://llllllll.co/t/greyhole
+[app greyhole src]: https://github.com/justmat/greyhole
+[app greyhole demo 1]: https://vimeo.com/379334153
 [app lissadron lines]: https://llllllll.co/t/lissadron/32509
 [app lissadron src]: https://github.com/tai-studio/lissadron
 [app lissadron demo seq]: https://www.instagram.com/p/CCphM5eB5Ue/
+[app meadowphysics lines]: https://llllllll.co/t/meadowphysics-norns/21185
+[app meadowphysics src]: https://github.com/alpha-cactus/meadowphysics
+[app meadowphysics doc]: https://monome.org/docs/meadowphysics/
+[app meadowphysics demo 1]: https://vimeo.com/146731772
+[app mlr lines]: https://llllllll.co/t/mlr-norns
+[app mlr src]: https://github.com/tehn/mlr
+[app mlr demo 1]: https://vimeo.com/266741634
 [app molly_the_poly lines]: https://llllllll.co/t/molly-the-poly
 [app molly_the_poly src]: https://github.com/markwheeler/molly_the_poly
 [app molly_the_poly demo 1]: https://www.instagram.com/p/BoXJavpAE3R/
+[app nisp lines]: https://llllllll.co/t/nisp
+[app nisp src]: https://github.com/itsyourbedtime/NISP
+[app nisp demo 1]: https://www.instagram.com/p/B54rUM6hnWJ/
+[app nisp demo 2]: https://www.instagram.com/p/B545yPRh5QA/
+[app oooooo lines]: https://llllllll.co/t/oooooo/35828
+[app oooooo src]: https://github.com/schollz/oooooo
+[app oooooo demo 1]: https://www.instagram.com/p/CEeMRPDhCt_/
+[app oooooo demo 2]: https://www.instagram.com/p/CEb2CDQBXaz/
 [app passersby lines]: https://llllllll.co/t/passersby/21089
 [app passersby src]: https://github.com/markwheeler/passersby
 [app passersby demo 1]: https://www.instagram.com/p/Bl1VFffnz7w/
+[app pedalboard lines]: https://llllllll.co/t/31119
+[app pedalboard src]: https://github.com/21echoes/pedalboard
+[app piwip lines]: https://llllllll.co/t/piwip
+[app piwip src]: https://github.com/schollz/piwip
+[app piwip demo 1]: https://www.instagram.com/p/CFla2iJh9zC/
+[app pools lines]: https://llllllll.co/t/pools
+[app pools src]: https://github.com/justmat/pools
+[app pools demo 1]: https://vimeo.com/383786715
+[app punchcard lines]: https://llllllll.co/t/punchcard
+[app punchcard src]: https://github.com/neauoire/punchcard
+[app punchcard demo 1]: https://www.youtube.com/watch?v=QO7T6MYkqZo
+[app reels lines]: https://llllllll.co/t/reels
+[app reels src]: https://github.com/itsyourbedtime/reels
+[app reels demo 1]: https://www.youtube.com/watch?v=SuF1uTTlyn4
+[app sam lines]: https://llllllll.co/t/sam/23943
+[app sam src]: https://github.com/justmat/sam
+[app shapes lines]: https://llllllll.co/t/shapes/36759
+[app shapes src]: https://github.com/tlubke/shapes
+[app spacetime study]: https://monome.org/docs/norns/study-3/
+[app step lines]: https://llllllll.co/t/step/21093
+[app step src]: https://github.com/antonhornquist/step
+[app takt lines]: https://llllllll.co/t/takt/21032
+[app takt src]: https://github.com/itsyourbedtime/takt
+[app takt doc]: https://github.com/monome/dust/blob/master/docs/bedtime/index.md
 [app timber lines]: https://llllllll.co/t/21407
