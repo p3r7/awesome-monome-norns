@@ -193,12 +193,12 @@ Loopers, live samplers & crazy delays:
 
 #### By I/O
 
-| symbol                 | meaning              |
-| :---:                  | ---                  |
-| ✔️                      | yes                  |
-| 🔴                     | mandatory            |
-| 🔶 | strongly encouraged, |
-| ⚪                     | optional             |
+| symbol | meaning              |
+| :---:  | ---                  |
+| ✔️      | yes                  |
+| 🔴     | mandatory            |
+| 🔶     | strongly encouraged, |
+| ⚪     | optional             |
 
 
 | app                                                | audio in | midi in        | keyboard | grid  | arc   | TouchOSC | audio out | midi out | crow  |
@@ -227,7 +227,7 @@ Loopers, live samplers & crazy delays:
 | [pools][app pools lines]                           | ✔️        |                |          |       |       |          | ✔️         |          |       |
 | [punchcard][app punchcard lines]                   |          |                |          | 🔴    |       |          |           | ✔️        |       |
 | [reels][app reels lines]                           | ✔️        |                |          |       |       |          | ✔️         |          |       |
-| [shapes][app shapes lines]                         |          |                |          |       |       |          |           |          |       |
+| [shapes][app shapes lines]                         |          |                |          |       |       |          |           |          | 🔴    |
 | [spacetime][app spacetime study] `we/study/study3` |          |                |          |       |       |          | ✔️         |          |       |
 | [step][app step lines]                             |          |                |          | 🔴    | 🔶    |          | ✔️         |          |       |
 | [takt][app takt lines]                             |          |                |          | 🔴    |       |          | ✔️         |          |       |
