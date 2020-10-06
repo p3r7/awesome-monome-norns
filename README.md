@@ -92,22 +92,22 @@ Here are listed the most reccuring ones.
 
 #### Softcut & Softcut-based
 
-| library                                              | code                                                               | description                         | based upon | provided by          | used by                            |
-| --                                                   | ---                                                                | ---                                 | ---        | ---                  | ---                                |
-| [softcut][lib softcut lines]                         | [lua lib][lib softcut gh lua], [undelying C lib][lib softcut gh C] | sample record & playback            |            | installed by default | sam, reels, piwip                  |
-| ack                                                  | [gh](https://github.com/antonhornquist/ack)                        | advanced sample playback            | softcut    | installed by default | step, ash/playfair, foulplay, takt |
-| [supercut](https://llllllll.co/t/supercut-lib/29526) | [gh](https://github.com/andr-ew/supercut)                          | higher-level wrapper around softcut |            |                      | wrms                               |
+| library                        | code                                                       | description                         | based upon | provided by          | used by                            |
+| --                             | ---                                                        | ---                                 | ---        | ---                  | ---                                |
+| [softcut][lib softcut lines]   | [lua][lib softcut gh lua], [undelying C][lib softcut gh C] | sample record & playback            |            | installed by default | sam, reels, piwip                  |
+| ack                            | [lua][lib ack gh lua]                                      | advanced sample playback            | softcut    | installed by default | step, ash/playfair, foulplay, takt |
+| [supercut][lib supercut lines] | [lua][lib supercut gh lua]                                 | higher-level wrapper around softcut |            |                      | wrms                               |
 
 
 #### SuperColider-based
 
-| library         | code                                                                                                                                                                                                  | description                                     | provided by                                            | used by                          |
-| --              | ---                                                                                                                                                                                                   | ---                                             | ---                                                    | ---                              |
-| timber          | [lua wrapper](https://github.com/markwheeler/timber/blob/master/lib/timber_engine.lua), [sclang](https://github.com/markwheeler/timber/blob/master/lib/Engine_Timber.sc)                              | advanced sample playback                        | [timber](https://llllllll.co/t/21407)                  | timber                           |
-| polyperc        | [sclang](https://github.com/tehn/awake/blob/master/lib/Engine_PolyPerc.sc)                                                                                                                            | simple polyphonic filtered decaying square wave | [awake](https://llllllll.co/t/awake)                   | awake, meadowphysics, barycenter |
-| molly_the_poly  | [lua wrapper](https://github.com/markwheeler/molly_the_poly/blob/master/lib/molly_the_poly_engine.lua) [sclang](https://github.com/markwheeler/molly_the_poly/blob/master/lib/Engine_MollyThePoly.sc) |                                                 | [molly_the_poly](https://llllllll.co/t/molly-the-poly) | molly_the_poly, arp_index        |
-| passersby       | [lua wrapper](https://github.com/markwheeler/passersby/blob/master/lib/passersby_engine.lua) [sclang](https://github.com/markwheeler/passersby/blob/master/lib/Engine_Passersby.sc)                   |                                                 | [passersby](https://llllllll.co/t/passersby/21089)     | passersby, dunes                 |
-| PrimitiveString | [sclang](https://github.com/synthetiv/euclidigons/blob/main/lib/Engine_PrimitiveString.sc)                                                                                                            |                                                 | [euclidigons](https://llllllll.co/t/euclidigons/36666) |                                  |
+| library         | code                                                                        | description                                     | provided by                                | used by                          |
+| --              | ---                                                                         | ---                                             | ---                                        | ---                              |
+| timber          | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                | advanced sample playback                        | [timber][app timber lines]                 | timber                           |
+| polyperc        | [sclang][lib polyperc gh sc]                                                | simple polyphonic filtered decaying square wave | [awake][app awake lines]                   | awake, meadowphysics, barycenter |
+| molly_the_poly  | [lua wrapper][lib molly_the_poly gh lua] [sclang][lib molly_the_poly gh sc] |                                                 | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index        |
+| passersby       | [lua wrapper][lib passersby gh lua] [sclang][lib passersby gh sc]           |                                                 | [passersby][app passersby lines]           | passersby, dunes                 |
+| PrimitiveString | [sclang][lib PrimitiveString gh sc]                                         |                                                 | [euclidigons][app euclidigons lines]       |                                  |
 
 
 ## Scripts & Apps
@@ -124,23 +124,24 @@ The [documentation](https://monome.org/docs/norns/app/) has a section regarding 
 
 This section is aimed at being more complete and providing more meta-data to select which app corresponds to your needs.
 
-Synths:
+Synths & drones:
 
-| app                                                    | on maiden | code                                                | description                                                                                                 | demo                                             | doc                                                               |
-| ---                                                    | ---       | ---                                                 | ---                                                                                                         | ---                                              | ---                                                               |
-| [dronecaster](https://l.llllllll.co/dronecaster)       | X         | [gh](https://github.com/tyleretters/dronecaster)    | Various drones                                                                                              | [1](https://www.youtube.com/watch?v=sYnHYDg3rhg) |                                                                   |
-| [fm7](https://llllllll.co/t/fm7-norns/21395)           | X         | [gh](https://github.com/lazzarello/fm7)             | DX7-inspired polyphonic FM synth                                                                            | [1](https://www.youtube.com/watch?v=HI9B-vuWF4A) | [online](https://github.com/lazzarello/fm7/blob/master/README.md) |
-| [molly_the_poly](https://llllllll.co/t/molly-the-poly) | X         | [gh](https://github.com/markwheeler/molly_the_poly) | Juno-6 voice structure with chorus, the extra modulation of a Jupiter-8, and CS-80 inspired ring modulation | [1](https://www.instagram.com/p/BoXJavpAE3R/)    |                                                                   |
-| [passersby](https://llllllll.co/t/passersby/21089)     | X         | [gh](https://github.com/markwheeler/passersby)      | Wave folding, FM, LPG, spring-ish reverb, LFO and two dice to roll                                          | [1](https://www.instagram.com/p/Bl1VFffnz7w/)    |                                                                   |
+| app                                        | on maiden | code                         | description                                                                                                 | demo                                         | doc                   |
+| ---                                        | ---       | ---                          | ---                                                                                                         | ---                                          | ---                   |
+| [dronecaster][app dronecaster lines]       | X         | [gh][app dronecaster src]    | Various drones                                                                                              | [1][app dronecaster demo 1]                  |                       |
+| [fm7][app fm7 lines]                       | X         | [gh][app fm7 src]            | DX7-inspired polyphonic FM synth                                                                            | [1][app fm7 demo 1]                          | [online][app fm7 doc] |
+| [lissadron][app lissadron lines]           | X         | [gh][app lissadron src]      | A software synth making extensive use of seeded randomness.                                                 | [internal sequencer][app lissadron demo seq] |                       |
+| [molly_the_poly][app molly_the_poly lines] | X         | [gh][app molly_the_poly src] | Juno-6 voice structure with chorus, the extra modulation of a Jupiter-8, and CS-80 inspired ring modulation | [1][app molly_the_poly demo 1]               |                       |
+| [passersby][app passersby lines]           | X         | [gh][app passersby src]      | Wave folding, FM, LPG, spring-ish reverb, LFO and two dice to roll                                          | [1][app passersby demo 1]                    |                       |
 
 Sequencers, trackers & sample manglers:
 
 | app                                                                   | on maiden | code                                                       | demo                                                                                            | doc                                                                          |
 | ---                                                                   | ---       | ---                                                        | ---                                                                                             | ---                                                                          |
-| [arcologies](https://llllllll.co/t/arcologies)                        | X         | [gh](https://github.com/tyleretters/arcologies)            | [1](https://www.instagram.com/p/B140GeKB3ga/)                                                   | [online](https://tyleretters.github.io/arcologies-docs)                      |
-| [arp_index](https://llllllll.co/t/the-arp-index)                      | X         | [gh](https://github.com/markwheeler/arp_index)             | [gallery](https://tyleretters.github.io/arcologies-docs/gallery)                                |                                                                              |
+| [arcologies][app arcologies lines]                                    | X         | [gh][app arcologies src]                                   | [gallery](https://tyleretters.github.io/arcologies-docs/gallery)                                | [online][app arcologies doc]                                                 |
+| [arp_index][app arp_index lines]                                      | X         | [gh][app arp_index src]                                    |                                                                                                 |                                                                              |
 | [ash/playfair](https://llllllll.co/t/ash-a-small-collection/21349)    | X         | [gh](https://github.com/tehn/ash/blob/master/playfair.lua) | [1](https://vimeo.com/270668759)                                                                |                                                                              |
-| [awake](https://llllllll.co/t/awake)                                  | default   | [gh](https://github.com/tehn/awake)                        |                                                                                                 |                                                                              |
+| [awake][app awake lines]                                              | default   | [gh][app awake src]                                        |                                                                                                 |                                                                              |
 | [cheat codes](https://llllllll.co/t/31655)                            | X         |                                                            | [1](https://www.youtube.com/watch?v=gfM5MiYKvxc&t=132s)                                         | [pdf](https://llllllll.co/uploads/short-url/mkkpeOUJCreIwVIP0Jdf8rpfYDJ.pdf) |
 | [dunes](https://llllllll.co/t/dunes)                                  |           | [gh](https://github.com/oliviercreurer/dunes)              | [audio](https://llllllll.co/t/dunes/24790), [midi](https://llllllll.co/t/dunes/24790/18)        |                                                                              |
 | [euclidigons](https://llllllll.co/t/euclidigons/36666)                | X         | [gh](https://github.com/synthetiv/euclidigons/)            | [1](https://www.youtube.com/watch?v=o9bUmd2UaYc), [2](https://www.instagram.com/p/CFkNeIID3e7/) |                                                                              |
@@ -195,24 +196,25 @@ Loopers, live samplers & crazy delays:
 
 | app                                                                   | audio in | midi in                    | keyboard     | grid                   | arc                    | TouchOSC               | audio out | midi out | crow |
 | ---                                                                   | ---      | ---                        | ---          | ---                    | ---                    | ---                    | ---       | ---      | ---  |
-| [arcologies](https://llllllll.co/t/arcologies)                        |          |                            |              | :red_circle:           |                        |                        |           |          |      |
+| [arcologies][app arcologies lines]                                    |          |                            |              | :red_circle:           |                        |                        |           |          |      |
 | [arp_index](https://llllllll.co/t/the-arp-index)                      |          | :white_circle:             |              |                        |                        |                        | X         | X        |      |
 | [awake](https://llllllll.co/t/awake)                                  |          | :white_circle: (only sync) |              | :white_circle:         |                        |                        | X         |          |      |
 | [barycenter](https://llllllll.co/t/barycenter)                        |          |                            |              |                        |                        |                        | X         | X        |      |
 | [cheat codes](https://llllllll.co/t/cheat-codes)                      |          |                            |              | :large_orange_diamond: | :large_orange_diamond: | :large_orange_diamond: |           |          |      |
 | [cranes](https://llllllll.co/t/cranes/21207)                          | X        |                            |              | :white_circle:         |                        |                        | X         |          |      |
 | [dunes](https://llllllll.co/t/dunes)                                  |          |                            |              |                        |                        |                        | X         |          |      |
-| [dronecaster](https://l.llllllll.co/dronecaster)                      |          |                            |              |                        |                        |                        | X         |          |      |
+| [dronecaster][app dronecaster lines]                                  |          |                            |              |                        |                        |                        | X         |          |      |
 | [euclidigons](https://llllllll.co/t/euclidigons/36666)                |          |                            |              |                        |                        |                        | X         | X        |      |
 | [foulplay](https://llllllll.co/t/foulplay/21081)                      |          |                            |              | :large_orange_diamond: |                        |                        | X         | X        |      |
-| [fm7](https://llllllll.co/t/fm7-norns/21395)                          |          | :large_orange_diamond:     |              | :large_orange_diamond: |                        |                        | X         |          |      |
+| [fm7][app fm7 lines]                                                  |          | :large_orange_diamond:     |              | :large_orange_diamond: |                        |                        | X         |          |      |
 | [greyhole](https://llllllll.co/t/greyhole)                            | X        |                            |              |                        |                        |                        | X         |          |      |
+| [lissadron][app lissadron lines]                                      |          | :large_orange_diamond:     |              |                        |                        |                        | X         |          |      |
 | [meadowphysics](https://llllllll.co/t/meadowphysics-norns/21185)      |          |                            |              | :red_circle:           |                        |                        | X         | X        |      |
 | [mlr](https://llllllll.co/t/mlr-norns)                                | X        |                            |              | :red_circle:           |                        |                        | X         |          |      |
-| [molly_the_poly](https://llllllll.co/t/molly-the-poly)                |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X         |          |      |
+| [molly_the_poly][app molly_the_poly lines]                            |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X         |          |      |
 | [nisp](https://llllllll.co/t/nisp)                                    |          |                            | :red_circle: |                        |                        |                        | X         |          |      |
 | [oooooo](https://llllllll.co/t/oooooo/35828)                          | X        |                            |              |                        |                        |                        | X         |          |      |
-| [passersby](https://llllllll.co/t/passersby/21089)                    |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X         |          |      |
+| [passersby][app passersby lines]                                      |          | :red_circle:               |              | :white_circle: \*      |                        |                        | X         |          |      |
 | [pedalboard](https://llllllll.co/t/31119)                             | X        |                            |              |                        |                        |                        | X         |          |      |
 | [piwip](https://llllllll.co/t/piwip)                                  |          |                            |              |                        |                        |                        |           |          |      |
 | [pools](https://llllllll.co/t/pools)                                  | X        |                            |              |                        |                        |                        | X         |          |      |
@@ -229,6 +231,48 @@ Special cases:
  - \*: grid acts as a midi keyboard and can replace it
 
 
+<!-- softcut libs -->
 [lib softcut lines]: https://llllllll.co/t/norns-2-0-softcut/20550
 [lib softcut gh lua]: https://github.com/monome/norns/blob/main/lua/core/softcut.lua
 [lib softcut gh C]: https://github.com/monome/softcut-lib
+[lib ack gh lua]: https://github.com/antonhornquist/ack
+[lib supercut lines]: https://llllllll.co/t/supercut-lib/29526
+[lib supercut gh lua]: https://github.com/andr-ew/supercut
+<!-- supercolier libs -->
+[lib timber gh lua]: https://github.com/markwheeler/timber/blob/master/lib/timber_engine.lua
+[lib timber gh sc]: https://github.com/markwheeler/timber/blob/master/lib/Engine_Timber.sc
+[lib polyperc gh sc]: https://github.com/tehn/awake/blob/master/lib/Engine_PolyPerc.sc
+[lib molly_the_poly gh lua]: https://github.com/markwheeler/molly_the_poly/blob/master/lib/molly_the_poly_engine.lua
+[lib molly_the_poly gh sc]: https://github.com/markwheeler/molly_the_poly/blob/master/lib/Engine_MollyThePoly.sc
+[lib passersby gh lua]: https://github.com/markwheeler/passersby/blob/master/lib/passersby_engine.lua
+[lib passersby gh sc]: https://github.com/markwheeler/passersby/blob/master/lib/Engine_Passersby.sc
+[lib PrimitiveString gh sc]: https://github.com/synthetiv/euclidigons/blob/main/lib/Engine_PrimitiveString.sc
+
+
+<!-- apps -->
+[app arcologies lines]: https://llllllll.co/t/arcologies
+[app arcologies src]: https://github.com/tyleretters/arcologies
+[app arcologies doc]: https://tyleretters.github.io/arcologies-docs
+[app arcologies demo 1]: https://www.instagram.com/p/B140GeKB3ga/
+[app arp_index lines]: https://llllllll.co/t/the-arp-index
+[app arp_index src]: https://github.com/markwheeler/arp_index
+[app awake lines]: https://llllllll.co/t/awake
+[app awake src]: https://github.com/tehn/awake
+[app dronecaster lines]: https://l.llllllll.co/dronecaster
+[app dronecaster src]: https://github.com/tyleretters/dronecaster
+[app dronecaster demo 1]: https://www.youtube.com/watch?v=sYnHYDg3rhg
+[app fm7 lines]: https://llllllll.co/t/fm7-norns/21395
+[app fm7 src]: https://github.com/lazzarello/fm7
+[app fm7 doc]: https://github.com/lazzarello/fm7/blob/master/README.md
+[app fm7 demo 1]: https://www.youtube.com/watch?v=HI9B-vuWF4A
+[app euclidigons lines]: https://llllllll.co/t/euclidigons/36666
+[app lissadron lines]: https://llllllll.co/t/lissadron/32509
+[app lissadron src]: https://github.com/tai-studio/lissadron
+[app lissadron demo seq]: https://www.instagram.com/p/CCphM5eB5Ue/
+[app molly_the_poly lines]: https://llllllll.co/t/molly-the-poly
+[app molly_the_poly src]: https://github.com/markwheeler/molly_the_poly
+[app molly_the_poly demo 1]: https://www.instagram.com/p/BoXJavpAE3R/
+[app passersby lines]: https://llllllll.co/t/passersby/21089
+[app passersby src]: https://github.com/markwheeler/passersby
+[app passersby demo 1]: https://www.instagram.com/p/Bl1VFffnz7w/
+[app timber lines]: https://llllllll.co/t/21407
