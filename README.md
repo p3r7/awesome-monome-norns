@@ -7,7 +7,7 @@ A list of links and resources for the [norns](https://monome.org/docs/norns/) ha
 
 It allows running apps built with [SuperCollider](https://supercollider.github.io/) and/or **softcut**, a powerfull live sampler / player.
 
-In addition, [Pure Data](https://puredata.info/) patches can also be run (see Mother).
+In addition, [Pure Data](https://puredata.info/) patches can also be run (see [Mother, Pure Data & Orac](#mother-pure-data--orac)).
 
 The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced _lines_).
 
