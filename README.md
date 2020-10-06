@@ -5,6 +5,10 @@
 
 A list of links and resources for the [norns](https://monome.org/docs/norns/) hardware music platform by [monome](https://monome.org/).
 
+**norns** is in essence a glorified [SuperCollider](https://supercollider.github.io/) frontend taking the shape of portable device.
+
+[Pure Data](https://puredata.info/) patches are also supported (see Mother).
+
 The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced _lines_).
 
 
@@ -46,8 +50,9 @@ Others rely on other input devices such as MIDI controllers (pad, keyboards...) 
 For discussing those options, see [t/friends-of-norns](https://llllllll.co/t/friends-of-norns-gear-accessories-etc/17150).
 
 
+## Development: General
 
-## Development
+The **norns** platform abstracts [SuperCollider](https://supercollider.github.io/) through the use
 
 #### Documentation
 
@@ -73,16 +78,37 @@ When wanting to contribute or seeking help, use one of those threads:
  - [t/exquisite-script-a-collective-scripting-game-for-norns](https://llllllll.co/t/exquisite-script-a-collective-scripting-game-for-norns/34989): a cadavre exquis, collective development of an app
 
 
-## Libraries & Engines
+## Development: Libraries & Engines
 
-| engine                                                   | code                                        | description              | provided by                           |
-| --                                                       | ---                                         | ---                      | ---                                   |
-| [softcut](https://llllllll.co/t/norns-2-0-softcut/20550) |                                             | sample record & playback | installed by default                  |
-| ack                                                      | [gh](https://github.com/antonhornquist/ack) | advanced sample playback   | installed by default                  |
-| timber                                                   | [gh](https://github.com/markwheeler/timber) | advanced sample playback | [timber](https://llllllll.co/t/21407) |
+When developping apps/scripts, you rely on lua libraries (classes & modules) and / or SuperCollider libraries (called _engines_ in the context of **norns** development).
+
+Most advanced apps come with their own custom libraries / engine.
+
+Here are listed the most reccuring ones.
 
 
-## Apps
+#### Softcut-based
+
+| library                                                  | code                                                                                                                                | description                         | based upon | provided by          | example apps |
+| --                                                       | ---                                                                                                                                 | ---                                 | ---        | ---                  | ---          |
+| [softcut](https://llllllll.co/t/norns-2-0-softcut/20550) | [lua lib](https://github.com/monome/norns/blob/main/lua/core/softcut.lua), [undelying C lib](https://github.com/monome/softcut-lib) | sample record & playback            |            | installed by default | reels        |
+| ack                                                      | [gh](https://github.com/antonhornquist/ack)                                                                                         | advanced sample playback            | softcut    | installed by default |              |
+| [supercut](https://llllllll.co/t/supercut-lib/29526)     | [gh](https://github.com/andr-ew/supercut)                                                                                           | higher-level wrapper around softcut |            |                      | wrms         |
+
+
+#### SuperColider-based
+
+| library                                                  | code                                                                   | description                                     | provided by                           |
+| --                                                       | ---                                                                    | ---                                             | ---                                   |
+| timber                                                   | [gh](https://github.com/markwheeler/timber)                            | advanced sample playback                        | [timber](https://llllllll.co/t/21407) |
+| polyperc                                                 | [gh](https://github.com/tehn/awake/blob/master/lib/Engine_PolyPerc.sc) | simple polyphonic filtered decaying square wave | [awake](https://llllllll.co/t/awake)  |
+
+
+## Scripts & Apps
+
+New behaviours for the **norns** are created by writting lua _scripts_.
+
+Once packaged and distributed, _scripts_ are generally called _apps_.
 
 #### List
 
@@ -90,26 +116,45 @@ A list of apps available through [maiden](https://monome.org/docs/norns/maiden/)
 
 This section is aimed at being more complete and providing more meta-data to select which app corresponds to your needs.
 
-
 | app                                                                   | on maiden | code                                                | sequencer | synth | sampler           | audio effect | demo                                                                                         | doc                                                                          |
 | ---                                                                   | ---       | ---                                                 | ---       | ---   | ---               | ---          | ---                                                                                          | ---                                                                          |
-| [arcologies](https://llllllll.co/t/arcologies)                        | X         | [gh](https://github.com/tyleretters/arcologies)     | X         | X     | X                 |              | [gallery](https://tyleretters.github.io/arcologies-docs/gallery)                             | [online](https://tyleretters.github.io/arcologies-docs)                      |
-| [arp_index](https://llllllll.co/t/the-arp-index)                      | X         | [gh](https://github.com/markwheeler/arp_index)      |           | X     |                   |              | [1](https://www.instagram.com/p/B140GeKB3ga/)                                                |                                                                              |
-| [awake](https://llllllll.co/t/awake)                                  |           | [gh](https://github.com/tehn/awake)                 | X         | X     |                   |              |                                                                                              |                                                                              |
+
+
 | [barycenter](https://llllllll.co/t/barycenter)                        |           | [gh](https://github.com/echophon/barycenter)        |           | X     |                   |              |                                                                                              |                                                                              |
-| [cheat codes](https://llllllll.co/t/cheat-codes)                      |           |                                                     |           |       | X                 |              | [1](https://www.youtube.com/watch?v=gfM5MiYKvxc&t=132s)                                      | [pdf](https://llllllll.co/uploads/short-url/mkkpeOUJCreIwVIP0Jdf8rpfYDJ.pdf) |
+
 | [dunes](https://llllllll.co/t/dunes)                                  |           | [gh](https://github.com/oliviercreurer/dunes)       | X         |       |                   |              | [1](https://llllllll.co/t/dunes/24790)                                                       |                                                                              |
-| [greyhole](https://llllllll.co/t/greyhole)                            |           | [gh](https://github.com/justmat/greyhole)           |           |       |                   | X            | [1](https://vimeo.com/379334153)                                                             |                                                                              |
-| [mlr](https://llllllll.co/t/mlr-norns)                                |           | [gh](https://github.com/tehn/mlr)                   |           |       | X                 |              | [1](https://vimeo.com/266741634)                                                             |                                                                              |
 | [molly_the_poly](https://llllllll.co/t/molly-the-poly)                | X         | [gh](https://github.com/markwheeler/molly_the_poly) |           | X     |                   |              | [1](https://www.instagram.com/p/BoXJavpAE3R/)                                                |                                                                              |
 | [nisp](https://llllllll.co/t/nisp)                                    | X         | [gh](https://github.com/itsyourbedtime/NISP)        | X         |       | X (only playback) |              | [1](https://www.instagram.com/p/B54rUM6hnWJ/), [2](https://www.instagram.com/p/B545yPRh5QA/) |                                                                              |
-| [pedalboard](https://llllllll.co/t/31119)                             | X         | [gh](https://github.com/21echoes/pedalboard)        |           |       |                   | X            |                                                                                              |                                                                              |
-| [piwip](https://llllllll.co/t/piwip)                                  |           |                                                     |           |       |                   | X            | [1](https://www.instagram.com/p/CFla2iJh9zC/)                                                |                                                                              |
-| [pools](https://llllllll.co/t/pools)                                  | X         | [gh](https://github.com/justmat/pools)              |           |       |                   | X            | [1](https://vimeo.com/383786715)                                                             |                                                                              |
 | [punchcard](https://llllllll.co/t/punchcard)                          | X         | [gh](https://github.com/neauoire/punchcard)         | X         |       |                   |              | [1](https://www.youtube.com/watch?v=QO7T6MYkqZo)                                             |                                                                              |
-| [reels](https://llllllll.co/t/reels)                                  | X         | [gh](https://github.com/itsyourbedtime/reels)       |           |       | X                 | X            | [1](https://www.youtube.com/watch?v=SuF1uTTlyn4)                                             |                                                                              |
 | [shapes](https://llllllll.co/t/shapes/36759)                          |           |                                                     |           |       |                   |              |                                                                                              |                                                                              |
-| [spacetime](https://monome.org/docs/norns/study-3/) `we/study/study3` |           |                                                     |           |       |                   |              |                                                                                              |                                                                              |
+| [spacetime](https://monome.org/docs/norns/study-3/) `we/study/study3` |           |                                                     | X         |       |                   |              |                                                                                              |                                                                              |
+
+Synth:
+| app                                              | on maiden | code                                           | sequencer | synth | sampler | audio effect | demo                                          | doc |
+| ---                                              | ---       | ---                                            | ---       | ---   | ---     | ---          | ---                                           | --- |
+| [arp_index](https://llllllll.co/t/the-arp-index) | X         | [gh](https://github.com/markwheeler/arp_index) |           | X     |         |              | [1](https://www.instagram.com/p/B140GeKB3ga/) |     |
+|                                                  |           |                                                |           |       |         |              |                                               |     |
+
+Sequencers, trackers & sample manglers:
+
+| app                                            | on maiden | code                                            | demo                                                             | doc                                                                          |
+| ---                                            | ---       | ---                                             | ---                                                              | ---                                                                          |
+| [arcologies](https://llllllll.co/t/arcologies) | X         | [gh](https://github.com/tyleretters/arcologies) | [gallery](https://tyleretters.github.io/arcologies-docs/gallery) | [online](https://tyleretters.github.io/arcologies-docs)                      |
+| [awake](https://llllllll.co/t/awake)           | default   | [gh](https://github.com/tehn/awake)             |                                                                  |                                                                              |
+| [cheat codes](https://llllllll.co/t/31655)     | X         |                                                 | [1](https://www.youtube.com/watch?v=gfM5MiYKvxc&t=132s)          | [pdf](https://llllllll.co/uploads/short-url/mkkpeOUJCreIwVIP0Jdf8rpfYDJ.pdf) |
+| [mlr](https://llllllll.co/t/mlr-norns)         | X         | [gh](https://github.com/tehn/mlr)               | [1](https://vimeo.com/266741634)                                 |                                                                              |
+
+
+Audio effects:
+
+| app                                        | on maiden | code                                          | description                                 | demo                                             | doc |
+| ---                                        | ---       | ---                                           | ---                                         | ---                                              | --- |
+| [blndr](https://llllllll.co/t/blndr/35106) | X         | [gh](https://github.com/schollz/blndr)        | a quantized delay with time bending effects | [1](https://llllllll.co/t/blndr/35106)           |     |
+| [greyhole](https://llllllll.co/t/greyhole) | X         | [gh](https://github.com/justmat/greyhole)     | echo / delay                                | [1](https://vimeo.com/379334153)                 |     |
+| [pedalboard](https://llllllll.co/t/31119)  | X         | [gh](https://github.com/21echoes/pedalboard)  | chainable effects for live performance      |                                                  |     |
+| [piwip](https://llllllll.co/t/piwip)       | X         | [gh](https://github.com/schollz/piwip)        | a sampler that works in realtime            | [1](https://www.instagram.com/p/CFla2iJh9zC/)    |     |
+| [pools](https://llllllll.co/t/pools)       | X         | [gh](https://github.com/justmat/pools)        | a shimmery reverb                           | [1](https://vimeo.com/383786715)                 |     |
+| [reels](https://llllllll.co/t/reels)       | X         | [gh](https://github.com/itsyourbedtime/reels) | a 4-track asynchronous looper               | [1](https://www.youtube.com/watch?v=SuF1uTTlyn4) |     |
 
 
 #### By I/O
@@ -131,7 +176,7 @@ This section is aimed at being more complete and providing more meta-data to sel
 | [dunes](https://llllllll.co/t/dunes)                                  |          |                            |              |                        |                        |                        | X         |                |      |
 | [greyhole](https://llllllll.co/t/greyhole)                            | X        |                            |              |                        |                        |                        | X         |                |      |
 | [mlr](https://llllllll.co/t/mlr-norns)                                | X        |                            |              | :red_circle:           |                        |                        | X         |                |      |
-| [molly_the_poly](https://llllllll.co/t/molly-the-poly)                |          | X                          |              | :white_circle:         |                        |                        | X         |                |      |
+| [molly_the_poly](https://llllllll.co/t/molly-the-poly) \*             |          | :red_circle:               |              | :white_circle:         |                        |                        | X         |                |      |
 | [nisp](https://llllllll.co/t/nisp)                                    |          |                            | :red_circle: |                        |                        |                        | X         |                |      |
 | [pedalboard](https://llllllll.co/t/31119)                             | X        |                            |              |                        |                        |                        | X         |                |      |
 | [piwip](https://llllllll.co/t/piwip)                                  |          |                            |              |                        |                        |                        |           |                |      |
@@ -140,3 +185,8 @@ This section is aimed at being more complete and providing more meta-data to sel
 | [reels](https://llllllll.co/t/reels)                                  | X        |                            |              |                        |                        |                        | X         |                |      |
 | [shapes](https://llllllll.co/t/shapes/36759)                          |          |                            |              |                        |                        |                        |           |                |      |
 | [spacetime](https://monome.org/docs/norns/study-3/) `we/study/study3` |          |                            |              |                        |                        |                        | X         |                |      |
+
+
+Special cases:
+
+ - \*: grid acts as a midi keyboard and can replace it
