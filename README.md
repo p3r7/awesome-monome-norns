@@ -92,11 +92,11 @@ Here are listed the most reccuring ones.
 
 #### Softcut & Softcut-based
 
-| library                                                  | code                                                                                                                                | description                         | based upon | provided by          | used by                            |
-| --                                                       | ---                                                                                                                                 | ---                                 | ---        | ---                  | ---                                |
-| [softcut](https://llllllll.co/t/norns-2-0-softcut/20550) | [lua lib](https://github.com/monome/norns/blob/main/lua/core/softcut.lua), [undelying C lib](https://github.com/monome/softcut-lib) | sample record & playback            |            | installed by default | sam, reels, piwip                         |
-| ack                                                      | [gh](https://github.com/antonhornquist/ack)                                                                                         | advanced sample playback            | softcut    | installed by default | step, ash/playfair, foulplay, takt |
-| [supercut](https://llllllll.co/t/supercut-lib/29526)     | [gh](https://github.com/andr-ew/supercut)                                                                                           | higher-level wrapper around softcut |            |                      | wrms                               |
+| library                                              | code                                                               | description                         | based upon | provided by          | used by                            |
+| --                                                   | ---                                                                | ---                                 | ---        | ---                  | ---                                |
+| [softcut][lib softcut lines]                         | [lua lib][lib softcut gh lua], [undelying C lib][lib softcut gh C] | sample record & playback            |            | installed by default | sam, reels, piwip                  |
+| ack                                                  | [gh](https://github.com/antonhornquist/ack)                        | advanced sample playback            | softcut    | installed by default | step, ash/playfair, foulplay, takt |
+| [supercut](https://llllllll.co/t/supercut-lib/29526) | [gh](https://github.com/andr-ew/supercut)                          | higher-level wrapper around softcut |            |                      | wrms                               |
 
 
 #### SuperColider-based
@@ -227,3 +227,8 @@ Loopers, live samplers & crazy delays:
 Special cases:
 
  - \*: grid acts as a midi keyboard and can replace it
+
+
+[lib softcut lines]: https://llllllll.co/t/norns-2-0-softcut/20550
+[lib softcut gh lua]: https://github.com/monome/norns/blob/main/lua/core/softcut.lua
+[lib softcut gh C]: https://github.com/monome/softcut-lib
