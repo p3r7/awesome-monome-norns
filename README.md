@@ -309,7 +309,7 @@ Loopers, live samplers & crazy delays:
 | [shapes][app shapes lines]                         |          |           |         |          |        |       |           |          | ✔     |
 | [spacetime][app spacetime study] `we/study/study3` |          |           |         |          |        |       | ✔️         |          |       |
 | [step][app step lines]                             |          |           |         |          | 🔴     | 🔶    | ✔️         |          |       |
-| [stjoernuithrott][app stjoernuithrott lines]       |          | ⚪        |         |          |        |       | ✔️         |          |       |
+| [stjoernuithrott][app stjoernuithrott lines]       |          |           | ⚪      |          |        |       | ✔️         |          |       |
 | [takt][app takt lines]                             |          |           |         |          | 🔴     |       | ✔️         |          |       |
 | [timber/keys][app timber lines]                    |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
 | [timber/player][app timber lines]                  |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
