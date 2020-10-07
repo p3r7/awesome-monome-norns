@@ -5,7 +5,7 @@
 
 A list of links and resources for the [norns](https://monome.org/docs/norns/) hardware music platform by [monome](https://monome.org/).
 
-It allows running apps built with [SuperCollider](https://supercollider.github.io/) and/or **softcut**, a powerfull live sampler / player.
+It allows running apps built with [SuperCollider](https://supercollider.github.io/) and/or **softcut**, a powerful live sampler / player.
 
 In addition, [Pure Data](https://puredata.info/) patches can also be run (see [Mother, Pure Data & Orac](#mother-pure-data--orac)).
 
@@ -51,13 +51,13 @@ For discussing those options, see [t/friends-of-norns](https://llllllll.co/t/fri
 
 ## Development: General
 
-The **norns** platform allows developping small programs using the [lua](https://www.lua.org/) programming language.
+The **norns** platform allows developing small programs using the [lua](https://www.lua.org/) programming language.
 
-They are generally refered to as _scripts_, and _apps_ once packaged and distributed.
+They are generally referred to as _scripts_, and _apps_ once packaged and distributed.
 
 2 internal sound processing units are at our disposal:
 
- - `engine`: an instance of [SuperCollider](https://supercollider.github.io/) (sometimes also refered to as `external`)
+ - `engine`: an instance of [SuperCollider](https://supercollider.github.io/) (sometimes also referred to as `external`)
  - `softcut`: a live multi-channel sampler / player that can be used to build crazy loopers and delays
 
 <div align=center><img src="https://monome.org/docs/norns/image/norns-audio-route.png" width="750"></div>
@@ -95,7 +95,7 @@ When wanting to contribute or seeking help, use one of those threads:
 
 ## Development: Libraries & Engines
 
-When developping apps/scripts, you rely on lua libraries (classes & modules). One of them, _engine_, allows interracting with a running SuperCollider instance.
+When developing apps/scripts, you rely on lua libraries (classes & modules). One of them, _engine_, allows interacting with a running SuperCollider instance.
 
 When using SuperCollider, one can rely on an already installed SuperCollider library on spin their own. Those SuperCollider libraries (in essence a _SynthDef_) are called _engines_ in the context of **norns** development.
 
@@ -147,11 +147,11 @@ Synths & drones:
 | [grendy][app grendy lines]                   | ✔️         | [gh][app grendy src]          | a simple drone synth, grendel drone commander inspired                                                      |                                                    |                       |
 | [lissadron][app lissadron lines]             | ✔️         | [gh][app lissadron src]       | A software synth making extensive use of seeded randomness, internal sequencer for voice change             | [internal sequencer][app lissadron demo seq]       |                       |
 | [molly_the_poly][app molly_the_poly lines]   | default️   | [gh][app molly_the_poly src]  | Juno-6 voice structure with chorus, the extra modulation of a Jupiter-8, and CS-80 inspired ring modulation | [1][app molly_the_poly demo 1]                     |                       |
-| [moln][app moln lines]                       | ✔️         | [gh][app moln src]            | Polyphonic subtractive synthesizer                                                                          | [1][app moln demo 1]                               |                       |
+| [moln][app moln lines]                       | ✔️         | [gh][app moln src]            | Polyphonic substractive synthesizer                                                                         | [1][app moln demo 1]                               |                       |
 | [passersby][app passersby lines]             | ✔️         | [gh][app passersby src]       | Wave folding, FM, LPG, spring-ish reverb, LFO and two dice to roll                                          | [1][app passersby demo 1]                          |                       |
 | [rudiments][app rudiments lines]             | ✔️         | [gh][app rudiments src]       | 8 voice lofi percussion synthesizer and sequencer (playfair-style)                                          |                                                    |                       |
 | [showers][app showers lines]                 | ✔️         | [gh][app showers src]         | a thunderstorm (rain & thunder)                                                                             |                                                    |                       |
-| [stjoernuithrott][app stjoernuithrott lines] | ✔️         | [gh][app stjoernuithrott src] | dron synth inspired by the Moffeenzeef Stargazer                                                            |                                                    |                       |
+| [stjoernuithrott][app stjoernuithrott lines] | ✔️         | [gh][app stjoernuithrott src] | drone synth inspired by the Moffeenzeef Stargazer                                                           |                                                    |                       |
 
 Granular (sample-based) synths:
 
@@ -168,7 +168,7 @@ Sample players:
 | app                               | on maiden | code                    | description                                                  | demo                          | doc |
 | ---                               | :---:     | ---                     | ---                                                          | ---                           | --- |
 | [drum_room][app drum_room lines]  | ✔         | [gh][app drum_room src] | MIDI-controlled drum kits                                    | [1][app drum_room demo 1]     |     |
-| [timber/keys][app timber lines]   | ✔         | [gh][app timber src]    | split & map a sample accross midi keys / grid                | [1][app timber/keys demo 1]   |     |
+| [timber/keys][app timber lines]   | ✔         | [gh][app timber src]    | split & map a sample across midi keys / grid                 | [1][app timber/keys demo 1]   |     |
 | [timber/player][app timber lines] | ✔         | [gh][app timber src]    | load whole directory of samples mapped onto midi keys / grid | [1][app timber/player demo 1] |     |
 
 
@@ -201,7 +201,7 @@ Sequencers & trackers:
 | [loom][app loom lines]                                 | ✔️         | [gh][app loom src]          | pattern weaving sequencer for grids                                 | [1][app loom demo 1], [2][app loom demo 2]                 |                                 |
 | [meadowphysics][app meadowphysics lines]               | ✔️         | [gh][app meadowphysics src] | grid-enabled rhizomatic cascading counter                           | [1][app meadowphysics demo 1]                              | [online][app meadowphysics doc] |
 | [nisp][app nisp lines]                                 | ✔️         | [gh][app nisp src]          | LISP (Scheme dialect) livecoding tracker                            | [1][app nisp demo 1], [2][app nisp demo 2]                 |                                 |
-| [orca][app orca lines]                                 | ✔️         | [gh][app orca src]          | esotheric programming language                                      | [1][app orca demo 1], [2][app orca demo 2]                 |                                 |
+| [orca][app orca lines]                                 | ✔️         | [gh][app orca src]          | esoteric programming language                                       | [1][app orca demo 1], [2][app orca demo 2]                 |                                 |
 | [punchcard][app punchcard lines]                       | ✔️         | [gh][app punchcard src]     | experimental sequencer that works like a classic punchcard computer | [1][app punchcard demo 1], [2][app punchcard demo 2]       |                                 |
 | [quence][app quence lines]                             | ✔️         | [gh][app quence src]        | a probabilistic 4-track sequencer                                   | [1][app quence demo 1], [2][app quence demo 2]             |                                 |
 | [rebound][app rebound lines]                           | ✔️         | [gh][app rebound src]       | a kinetic sequencer                                                 | [1][app rebound demo 1]                                    |                                 |
@@ -230,7 +230,7 @@ Audio effects:
 | [pedalboard][app pedalboard lines] | ✔️         | [gh][app pedalboard src] | chainable effects for live performance        |                          |     |
 | [phyllis][app phyllis lines]       | ✔️         | [gh][app phyllis src]    | digitally modeled analog                      | [1][app phyllis demo 1]  |     |
 | [pools][app pools lines]           | ✔️         | [gh][app pools src]      | a shimmery reverb                             | [1][app pools demo 1]    |     |
-| [stack][app stack lines]           | ✔️         | [gh][app stack src]      | stack of bandpass filter, sequencable         |                          |     |
+| [stack][app stack lines]           | ✔️         | [gh][app stack src]      | stack of bandpass filter, sequenceable        |                          |     |
 | [sway][app sway lines]             | ✔️         | [gh][app sway src]       | analysis-driven live audio processing         | [1][app sway demo 1]     |     |
 
 
