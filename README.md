@@ -261,7 +261,7 @@ Loopers, live samplers & crazy delays:
 | ---                                                | :---:    | :---:     | :---:   | :---:    | :---:  | :---: | :---:     | :---:    | :---: |
 | [arcologies][app arcologies lines]                 |          |           |         |          | 🔴     |       | ✔         | ✔        | ✔     |
 | [arp_index][app arp_index lines]                   |          |           | ⚪      |          |        |       | ✔         |          |       |
-| [awake][app awake lines]                           |          | ⚪        |         |          | ⚪     |       | ✔️         |          |       |
+| [awake][app awake lines]                           |          | ⚪        |         |          | ⚪     |       | ✔️         |          | ✔️     |
 | [barcode][app barcode lines]                       | ✔        |           |         |          |        |       | ✔️         | ️         |       |
 | [barycenter][app barycenter lines]                 |          |           |         |          |        |       | ✔️         | ✔️        |       |
 | [benjolis][app benjolis lines]                     |          |           |         |          |        |       | ✔️         | ️         |       |
