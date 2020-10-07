@@ -159,7 +159,8 @@ Granular (sample-based) synths:
 | ---                        | :---:     | ---                  | ---                                                                                      | ---                    | --- |
 | [glut][app glut lines]     | ✔️         | [gh][app glut src]   | granular synth inspired by mlr/rove, [grainfield][app grainfield lines] & loomer cumulus | [1][app glut demo 1]   |     |
 | [gemini][app gemini lines] | ✔️         | [gh][app gemini src] | one file, two granulators                                                                | [1][app gemini demo 1] |     |
-| [mangl][app mangl lines]   | ✔️         | [gh][app mangl src]  | a 7 track granular sample player.                                                        | [1][app mangl demo 1]  |     |
+| [mangl][app mangl lines]   | ✔️         | [gh][app mangl src]  | a 7 track granular sample player                                                         | [1][app mangl demo 1]  |     |
+| [uhf][app uhf lines]       | ✔️         | [gh][app uhf src]    | your tapes transmitted thru late-night static and broken antenna frequencies             |                        |     |
 
 
 Sample players:
@@ -312,6 +313,7 @@ Loopers, live samplers & crazy delays:
 | [takt][app takt lines]                             |          |           |         |          | 🔴     |       | ✔️         |          |       |
 | [timber/keys][app timber lines]                    |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
 | [timber/player][app timber lines]                  |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
+| [uhf][app uhf lines]                               |          |           |         |          |        |       | ✔️         |          |       |
 | [zeelen][app zeelen lines]                         |          |           |         |          | 🔴     |       | ✔️         | ✔        | ✔     |
 
 Special cases:
@@ -565,6 +567,8 @@ For more details, see also the [the _Sidekick_ project wiki](https://github.com/
 [app tunnels src]: https://github.com/speakerdamage/tunnels
 [app tunnels demo 1]: https://www.instagram.com/p/BwwdlZcls4V/
 [app timber lines]: https://llllllll.co/t/21407
+[app uhf lines]: https://llllllll.co/t/uhf-norns/21154
+[app uhf src]: https://github.com/speakerdamage/uhf
 [app zeelen lines]: https://llllllll.co/t/zellen/21107
 [app zeelen src]: https://github.com/sarweiler/zellen
 [app zeelen demo 1]: https://www.youtube.com/watch?v=BawpNsvTHe8
