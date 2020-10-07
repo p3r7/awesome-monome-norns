@@ -256,63 +256,64 @@ Loopers, live samplers & crazy delays:
 | ⚪     | optional            |
 
 
-| app                                                | audio in | midi sync | midi in | keyboard | grid  | arc   | TouchOSC | audio out | midi out | crow  |
-| ---                                                | :---:    | :---:     | :---:   | :---:    | :---: | :---: | :---:    | :---:     | :---:    | :---: |
-| [arcologies][app arcologies lines]                 |          |           |         |          | 🔴    |       |          |           |          |       |
-| [arp_index][app arp_index lines]                   |          |           | ⚪      |          |       |       |          | ✔         |          |       |
-| [awake][app awake lines]                           |          | ⚪        |         |          | ⚪    |       |          | ✔️         |          |       |
-| [barcode][app barcode lines]                       | ✔        |           |         |          |       |       |          | ✔️         | ️         |       |
-| [barycenter][app barycenter lines]                 |          |           |         |          |       |       |          | ✔️         | ✔️        |       |
-| [benjolis][app benjolis lines]                     |          |           |         |          |       |       |          | ✔️         | ️         |       |
-| [boing][app boingg lines]                          |          |           |         |          | ⚪    |       |          | ✔️         | ✔️        | ✔     |
-| [changes][app changes lines]                       |          |           |         |          |       |       |          |           | ✔        |       |
-| [cheat_codes][app cheat_codes lines]               |          |           |         |          | 🔶    | 🔶    | 🔶       |           |          |       |
-| [circles][app circles lines]                       |          |           |         |          |       |       |          | ✔         | ✔        |       |
-| [cranes][app cranes lines]                         | ✔️        |           |         |          | ⚪    |       |          | ✔️         |          |       |
-| [drift][app drift lines]                           |          |           |         |          |       |       |          | ✔️         | ✔        |       |
-| [dronecaster][app dronecaster lines]               |          |           |         |          |       |       |          | ✔️         |          |       |
-| [drum_room][app drum_room lines]                   |          |           | 🔴      |          |       |       |          | ✔️         |          |       |
-| [dunes][app dunes lines]                           |          |           |         |          |       |       |          | ✔️         |          |       |
-| [euclidigons][app euclidigons lines]               |          |           |         |          |       |       |          | ✔️         | ✔️        |       |
-| [foulplay][app foulplay lines]                     |          |           |         |          | 🔶    |       |          | ✔️         | ✔️        |       |
-| fretwork                                           |          |           |         |          |       |       |          | ✔️         | ✔️        | ✔     |
-| [fm7][app fm7 lines]                               |          |           | 🔶      |          | 🔶    |       |          | ✔️         |          |       |
-| [gemini][app gemini lines]                         | ️         |           |         |          |       | ⚪    |          | ✔️         |          |       |
-| [glut][app glut lines]                             | ️         |           |         |          | 🔶    |       |          | ✔️         |          |       |
-| [grd][app grd lines]                               | ️         |           |         |          |       |       |          | ✔️         |          |       |
-| [greyhole][app greyhole lines]                     | ✔️        |           |         |          |       |       |          | ✔️         |          |       |
-| [less_concepts][app less_concepts lines]           |          |           |         |          | 🔶    |       |          | ✔️         | ✔        | ✔     |
-| [lissadron][app lissadron lines]                   |          |           | 🔶      |          |       |       |          | ✔️         |          |       |
-| [loom][app loom lines]                             |          | ⚪        |         |          | 🔴    |       |          | ✔️         | ✔        |       |
-| [mangl][app mangl lines]                           |          |           |         |          | 🔶    | 🔶    |          | ✔️         | ️         |       |
-| [manifold][app manifold lines]                     | ✔        |           | 🔶      |          |       |       |          | ✔️         | ️         |       |
-| [meadowphysics][app meadowphysics lines]           |          |           |         |          | 🔴    |       |          | ✔️         | ✔️        |       |
-| [mlr][app mlr lines]                               | ✔️        |           |         |          | 🔴    |       |          | ✔️         |          |       |
-| [molly_the_poly][app molly_the_poly lines]         |          |           | 🔴      |          | ⚪ \* |       |          | ✔️         |          |       |
-| [moln][app moln lines]                             |          |           | 🔴      |          | ⚪ \* | ⚪    |          | ✔️         |          |       |
-| [nisp][app nisp lines]                             |          |           |         | 🔴       |       |       |          | ✔️         |          |       |
-| [oooooo][app oooooo lines]                         | ✔️        |           |         |          |       |       |          | ✔️         |          |       |
-| [orca][app orca lines]                             | ✔️        |           | ✔       | 🔴       | ⚪    |       |          | ✔️         | ✔        |       |
-| [otis][app otis lines]                             | ✔️        |           |         |          |       |       |          | ✔️         |          |       |
-| [passersby][app passersby lines]                   |          |           | 🔴      |          | ⚪ \* |       |          | ✔️         |          |       |
-| [pedalboard][app pedalboard lines]                 | ✔️        |           |         |          |       |       |          | ✔️         |          |       |
-| [piwip][app piwip lines]                           |          |           |         |          |       |       |          |           |          |       |
-| [pools][app pools lines]                           | ✔️        |           |         |          |       |       |          | ✔️         |          |       |
-| [punchcard][app punchcard lines]                   |          |           |         |          | 🔴    |       |          |           | ✔️        |       |
-| [quence][app quence lines]                         |          |           |         |          | 🔴    |       |          | ✔         | ✔️        | ✔     |
-| [rebound][app rebound lines]                       | ️         | ⚪        |         |          |       |       |          | ️          | ✔        |       |
-| [reels][app reels lines]                           | ✔️        |           |         |          |       |       |          | ✔️         |          |       |
-| [shapes][app shapes lines]                         |          |           |         |          |       |       |          |           |          | ✔     |
-| [spacetime][app spacetime study] `we/study/study3` |          |           |         |          |       |       |          | ✔️         |          |       |
-| [step][app step lines]                             |          |           |         |          | 🔴    | 🔶    |          | ✔️         |          |       |
-| [takt][app takt lines]                             |          |           |         |          | 🔴    |       |          | ✔️         |          |       |
-| [timber/keys][app timber lines]                    |          | ⚪        | 🔴      |          | ⚪ \* |       |          | ✔️         |          |       |
-| [timber/player][app timber lines]                  |          | ⚪        | 🔴      |          | ⚪ \* |       |          | ✔️         |          |       |
-| [zeelen][app zeelen lines]                         |          |           |         |          | 🔴    |       |          | ✔️         | ✔        | ✔     |
+| app                                                | audio in | midi sync | midi in | keyboard | grid   | arc   | audio out | midi out | crow  |
+| ---                                                | :---:    | :---:     | :---:   | :---:    | :---:  | :---: | :---:     | :---:    | :---: |
+| [arcologies][app arcologies lines]                 |          |           |         |          | 🔴     |       |           |          |       |
+| [arp_index][app arp_index lines]                   |          |           | ⚪      |          |        |       | ✔         |          |       |
+| [awake][app awake lines]                           |          | ⚪        |         |          | ⚪     |       | ✔️         |          |       |
+| [barcode][app barcode lines]                       | ✔        |           |         |          |        |       | ✔️         | ️         |       |
+| [barycenter][app barycenter lines]                 |          |           |         |          |        |       | ✔️         | ✔️        |       |
+| [benjolis][app benjolis lines]                     |          |           |         |          |        |       | ✔️         | ️         |       |
+| [boing][app boingg lines]                          |          |           |         |          | ⚪     |       | ✔️         | ✔️        | ✔     |
+| [changes][app changes lines]                       |          |           |         |          |        |       |           | ✔        |       |
+| [cheat_codes][app cheat_codes lines]               |          |           |         |          | 🔶 \** | 🔶    |           |          |       |
+| [circles][app circles lines]                       |          |           |         |          |        |       | ✔         | ✔        |       |
+| [cranes][app cranes lines]                         | ✔️        |           |         |          | ⚪     |       | ✔️         |          |       |
+| [drift][app drift lines]                           |          |           |         |          |        |       | ✔️         | ✔        |       |
+| [dronecaster][app dronecaster lines]               |          |           |         |          |        |       | ✔️         |          |       |
+| [drum_room][app drum_room lines]                   |          |           | 🔴      |          |        |       | ✔️         |          |       |
+| [dunes][app dunes lines]                           |          |           |         |          |        |       | ✔️         |          |       |
+| [euclidigons][app euclidigons lines]               |          |           |         |          |        |       | ✔️         | ✔️        |       |
+| [foulplay][app foulplay lines]                     |          |           |         |          | 🔶     |       | ✔️         | ✔️        |       |
+| fretwork                                           |          |           |         |          |        |       | ✔️         | ✔️        | ✔     |
+| [fm7][app fm7 lines]                               |          |           | 🔶      |          | 🔶     |       | ✔️         |          |       |
+| [gemini][app gemini lines]                         | ️         |           |         |          |        | ⚪    | ✔️         |          |       |
+| [glut][app glut lines]                             | ️         |           |         |          | 🔶     |       | ✔️         |          |       |
+| [grd][app grd lines]                               | ️         |           |         |          |        |       | ✔️         |          |       |
+| [greyhole][app greyhole lines]                     | ✔️        |           |         |          |        |       | ✔️         |          |       |
+| [less_concepts][app less_concepts lines]           |          |           |         |          | 🔶     |       | ✔️         | ✔        | ✔     |
+| [lissadron][app lissadron lines]                   |          |           | 🔶      |          |        |       | ✔️         |          |       |
+| [loom][app loom lines]                             |          | ⚪        |         |          | 🔴     |       | ✔️         | ✔        |       |
+| [mangl][app mangl lines]                           |          |           |         |          | 🔶     | 🔶    | ✔️         | ️         |       |
+| [manifold][app manifold lines]                     | ✔        |           | 🔶      |          |        |       | ✔️         | ️         |       |
+| [meadowphysics][app meadowphysics lines]           |          |           |         |          | 🔴     |       | ✔️         | ✔️        |       |
+| [mlr][app mlr lines]                               | ✔️        |           |         |          | 🔴     |       | ✔️         |          |       |
+| [molly_the_poly][app molly_the_poly lines]         |          |           | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
+| [moln][app moln lines]                             |          |           | 🔴 \*   |          | ⚪ \*  | ⚪    | ✔️         |          |       |
+| [nisp][app nisp lines]                             |          |           |         | 🔴       |        |       | ✔️         |          |       |
+| [oooooo][app oooooo lines]                         | ✔️        |           |         |          |        |       | ✔️         |          |       |
+| [orca][app orca lines]                             | ✔️        |           | ✔       | 🔴       | ⚪     |       | ✔️         | ✔        |       |
+| [otis][app otis lines]                             | ✔️        |           |         |          |        |       | ✔️         |          |       |
+| [passersby][app passersby lines]                   |          |           | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
+| [pedalboard][app pedalboard lines]                 | ✔️        |           |         |          |        |       | ✔️         |          |       |
+| [piwip][app piwip lines]                           |          |           |         |          |        |       |           |          |       |
+| [pools][app pools lines]                           | ✔️        |           |         |          |        |       | ✔️         |          |       |
+| [punchcard][app punchcard lines]                   |          |           |         |          | 🔴     |       |           | ✔️        |       |
+| [quence][app quence lines]                         |          |           |         |          | 🔴     |       | ✔         | ✔️        | ✔     |
+| [rebound][app rebound lines]                       | ️         | ⚪        |         |          |        |       | ️          | ✔        |       |
+| [reels][app reels lines]                           | ✔️        |           |         |          |        |       | ✔️         |          |       |
+| [shapes][app shapes lines]                         |          |           |         |          |        |       |           |          | ✔     |
+| [spacetime][app spacetime study] `we/study/study3` |          |           |         |          |        |       | ✔️         |          |       |
+| [step][app step lines]                             |          |           |         |          | 🔴     | 🔶    | ✔️         |          |       |
+| [takt][app takt lines]                             |          |           |         |          | 🔴     |       | ✔️         |          |       |
+| [timber/keys][app timber lines]                    |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
+| [timber/player][app timber lines]                  |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
+| [zeelen][app zeelen lines]                         |          |           |         |          | 🔴     |       | ✔️         | ✔        | ✔     |
 
 Special cases:
 
  - \*: grid acts as a midi keyboard and can replace it
+ - \**: grid can be replaced by TouchOSC
 
 
 ## Mother, Pure Data & Orac
