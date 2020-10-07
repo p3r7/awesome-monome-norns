@@ -339,6 +339,13 @@ In addition, installing _Sideckick_ also provides:
 For more details, see also the [the _Sidekick_ project wiki](https://github.com/TheTechnobear/NuiLite/wiki).
 
 
+## Development: C
+
+A niche use-case is to disable the _norns_ software services and interact with the internal sound routing and hardware peripherals using pure C.
+
+This effort is discussed in [t/low-level-norns](https://llllllll.co/t/low-level-norns/22921).
+
+For a working example with grid and arc support see project [norns-lowlevel](https://github.com/paulbatchelor/norns-lowlevel) ([explanation & demo](https://llllllll.co/t/low-level-norns/22921/37)).
 
 
 <!-- ====================================================================== -->
