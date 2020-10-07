@@ -258,7 +258,7 @@ Loopers, live samplers & crazy delays:
 
 | app                                                | audio in | midi sync | midi in | keyboard | grid   | arc   | audio out | midi out | crow  |
 | ---                                                | :---:    | :---:     | :---:   | :---:    | :---:  | :---: | :---:     | :---:    | :---: |
-| [arcologies][app arcologies lines]                 |          |           |         |          | 🔴     |       |           |          |       |
+| [arcologies][app arcologies lines]                 |          |           |         |          | 🔴     |       | ✔         | ✔        | ✔     |
 | [arp_index][app arp_index lines]                   |          |           | ⚪      |          |        |       | ✔         |          |       |
 | [awake][app awake lines]                           |          | ⚪        |         |          | ⚪     |       | ✔️         |          |       |
 | [barcode][app barcode lines]                       | ✔        |           |         |          |        |       | ✔️         | ️         |       |
