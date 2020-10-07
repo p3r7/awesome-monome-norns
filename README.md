@@ -118,12 +118,12 @@ Here are listed the ones most often spotted in the wild.
 | library         | code                                                                         | description                                                                        | provided by                                | used by                                  |
 | --              | ---                                                                          | ---                                                                                | ---                                        | ---                                      |
 | timber          | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                             |
-| PolyPerc        | [sclang][lib polyperc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | [awake][app awake lines]                   | awake, meadowphysics, barycenter, zeelen |
-| PolySub         |                                                                              | multi-type oscillator with polyphonic modulation busses for polytimbral expression |                                            |                                          |
+| PolyPerc        | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen |
+| PolySub         | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       |                                          |
+| R               | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                     |
 | molly_the_poly  | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] |                                                                                    | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence  |
 | passersby       | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           |                                                                                    | [passersby][app passersby lines]           | passersby, less_concepts, dunes          |
 | PrimitiveString | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                              |
-| R               | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         |                                            | moln                                     |
 
 
 ## Apps
@@ -348,7 +348,9 @@ For more details, see also the [the _Sidekick_ project wiki](https://github.com/
 <!-- supercolier libs -->
 [lib timber gh lua]: https://github.com/markwheeler/timber/blob/master/lib/timber_engine.lua
 [lib timber gh sc]: https://github.com/markwheeler/timber/blob/master/lib/Engine_Timber.sc
-[lib polyperc gh sc]: https://github.com/tehn/awake/blob/master/lib/Engine_PolyPerc.sc
+<!-- [lib PolyPerc gh sc]: https://github.com/tehn/awake/blob/master/lib/Engine_PolyPerc.sc -->
+[lib PolyPerc gh sc]: https://github.com/monome/dust/blob/master/lib/sc/Engine_PolyPerc.sc
+[lib PolySub gh sc]: https://github.com/monome/dust/blob/master/lib/sc/Engine_PolySub.sc
 [lib molly_the_poly gh lua]: https://github.com/markwheeler/molly_the_poly/blob/master/lib/molly_the_poly_engine.lua
 [lib molly_the_poly gh sc]: https://github.com/markwheeler/molly_the_poly/blob/master/lib/Engine_MollyThePoly.sc
 [lib passersby gh lua]: https://github.com/markwheeler/passersby/blob/master/lib/passersby_engine.lua
