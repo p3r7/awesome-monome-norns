@@ -139,18 +139,19 @@ This section is aimed at being more complete and providing more meta-data to sel
 
 Synths & drones:
 
-| app                                        | on maiden | code                         | description                                                                                                 | demo                                               | doc                   |
-| ---                                        | :---:     | ---                          | ---                                                                                                         | ---                                                | ---                   |
-| [benjolis][app benjolis lines]             | ✔️         | [gh][app benjolis src]       | port of Alejandro Olarte’s Benjolis SuperCollider patch, inspired from Rob Hordijk’s Benjolin               | [1][app benjolis demo 1], [2][app benjolis demo 2] |                       |
-| [dronecaster][app dronecaster lines]       | ✔️         | [gh][app dronecaster src]    | Various drones                                                                                              | [1][app dronecaster demo 1]                        |                       |
-| [fm7][app fm7 lines]                       | ✔️         | [gh][app fm7 src]            | DX7-inspired polyphonic FM synth                                                                            | [1][app fm7 demo 1]                                | [online][app fm7 doc] |
-| [grendy][app grendy lines]                 | ✔️         | [gh][app grendy src]         | a simple drone synth, grendel drone commander inspired                                                      |                                                    |                       |
-| [lissadron][app lissadron lines]           | ✔️         | [gh][app lissadron src]      | A software synth making extensive use of seeded randomness, internal sequencer for voice change             | [internal sequencer][app lissadron demo seq]       |                       |
-| [molly_the_poly][app molly_the_poly lines] | default️   | [gh][app molly_the_poly src] | Juno-6 voice structure with chorus, the extra modulation of a Jupiter-8, and CS-80 inspired ring modulation | [1][app molly_the_poly demo 1]                     |                       |
-| [moln][app moln lines]                     | ✔️         | [gh][app moln src]           | Polyphonic subtractive synthesizer                                                                          | [1][app moln demo 1]                               |                       |
-| [passersby][app passersby lines]           | ✔️         | [gh][app passersby src]      | Wave folding, FM, LPG, spring-ish reverb, LFO and two dice to roll                                          | [1][app passersby demo 1]                          |                       |
-| [rudiments][app rudiments lines]           | ✔️         | [gh][app rudiments src]      | 8 voice lofi percussion synthesizer and sequencer (playfair-style)                                          |                                                    |                       |
-| [showers][app showers lines]               | ✔️         | [gh][app showers src]        | a thunderstorm (rain & thunder)                                                                             |                                                    |                       |
+| app                                          | on maiden | code                          | description                                                                                                 | demo                                               | doc                   |
+| ---                                          | :---:     | ---                           | ---                                                                                                         | ---                                                | ---                   |
+| [benjolis][app benjolis lines]               | ✔️         | [gh][app benjolis src]        | port of Alejandro Olarte’s Benjolis SuperCollider patch, inspired from Rob Hordijk’s Benjolin               | [1][app benjolis demo 1], [2][app benjolis demo 2] |                       |
+| [dronecaster][app dronecaster lines]         | ✔️         | [gh][app dronecaster src]     | Various drones                                                                                              | [1][app dronecaster demo 1]                        |                       |
+| [fm7][app fm7 lines]                         | ✔️         | [gh][app fm7 src]             | DX7-inspired polyphonic FM synth                                                                            | [1][app fm7 demo 1]                                | [online][app fm7 doc] |
+| [grendy][app grendy lines]                   | ✔️         | [gh][app grendy src]          | a simple drone synth, grendel drone commander inspired                                                      |                                                    |                       |
+| [lissadron][app lissadron lines]             | ✔️         | [gh][app lissadron src]       | A software synth making extensive use of seeded randomness, internal sequencer for voice change             | [internal sequencer][app lissadron demo seq]       |                       |
+| [molly_the_poly][app molly_the_poly lines]   | default️   | [gh][app molly_the_poly src]  | Juno-6 voice structure with chorus, the extra modulation of a Jupiter-8, and CS-80 inspired ring modulation | [1][app molly_the_poly demo 1]                     |                       |
+| [moln][app moln lines]                       | ✔️         | [gh][app moln src]            | Polyphonic subtractive synthesizer                                                                          | [1][app moln demo 1]                               |                       |
+| [passersby][app passersby lines]             | ✔️         | [gh][app passersby src]       | Wave folding, FM, LPG, spring-ish reverb, LFO and two dice to roll                                          | [1][app passersby demo 1]                          |                       |
+| [rudiments][app rudiments lines]             | ✔️         | [gh][app rudiments src]       | 8 voice lofi percussion synthesizer and sequencer (playfair-style)                                          |                                                    |                       |
+| [showers][app showers lines]                 | ✔️         | [gh][app showers src]         | a thunderstorm (rain & thunder)                                                                             |                                                    |                       |
+| [stjoernuithrott][app stjoernuithrott lines] | ✔️         | [gh][app stjoernuithrott src] | dron synth inspired by the Moffeenzeef Stargazer                                                            |                                                    |                       |
 
 Granular (sample-based) synths:
 
@@ -307,6 +308,7 @@ Loopers, live samplers & crazy delays:
 | [shapes][app shapes lines]                         |          |           |         |          |        |       |           |          | ✔     |
 | [spacetime][app spacetime study] `we/study/study3` |          |           |         |          |        |       | ✔️         |          |       |
 | [step][app step lines]                             |          |           |         |          | 🔴     | 🔶    | ✔️         |          |       |
+| [stjoernuithrott][app stjoernuithrott lines]       |          | ⚪        |         |          |        |       | ✔️         |          |       |
 | [takt][app takt lines]                             |          |           |         |          | 🔴     |       | ✔️         |          |       |
 | [timber/keys][app timber lines]                    |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
 | [timber/player][app timber lines]                  |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
@@ -333,6 +335,7 @@ In addition, installing _Sideckick_ also provides:
  - _NuiLite_: a lightweight _Pure Data_ _external_ (i.e. extension) for making and running patches without depending on the _Organelle/Mother_ or _Orac_ layer.
 
 For more details, see also the [the _Sidekick_ project wiki](https://github.com/TheTechnobear/NuiLite/wiki).
+
 
 
 
@@ -545,6 +548,8 @@ For more details, see also the [the _Sidekick_ project wiki](https://github.com/
 [app stack src]: https://github.com/cfdrake/stack
 [app step lines]: https://llllllll.co/t/step/21093
 [app step src]: https://github.com/antonhornquist/step
+[app stjoernuithrott lines]: https://llllllll.co/t/stjornuithrott-stargazer-inspired-drone/33889
+[app stjoernuithrott src]: https://github.com/frederickk/stjoernuithrott
 [app sway lines]: https://llllllll.co/t/sway/21117
 [app sway src]: https://github.com/antonhornquist/step
 [app sway demo 1]: https://www.youtube.com/watch?v=w9RZHmo4JAs
