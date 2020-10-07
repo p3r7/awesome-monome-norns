@@ -106,17 +106,18 @@ Here are listed the ones most often spotted in the wild.
 
 #### Softcut & Softcut-based libs
 
-| library                        | code                                                       | description                         | based upon | provided by          | used by                            |
-| --                             | ---                                                        | ---                                 | ---        | ---                  | ---                                |
-| [softcut][lib softcut lines]   | [lua][lib softcut gh lua], [undelying C][lib softcut gh C] | sample record & playback            |            | installed by default | sam, reels, piwip                  |
-| ack                            | [lua][lib ack gh lua]                                      | advanced sample playback            | softcut    | installed by default | step, ash/playfair, foulplay, takt |
-| [supercut][lib supercut lines] | [lua][lib supercut gh lua]                                 | higher-level wrapper around softcut | softcut    |                      | wrms                               |
+| library                        | code                                                       | description                         | provided by          | used by           |
+| --                             | ---                                                        | ---                                 | ---                  | ---               |
+| [softcut][lib softcut lines]   | [lua][lib softcut gh lua], [undelying C][lib softcut gh C] | sample record & playback            | installed by default | sam, reels, piwip |
+| [supercut][lib supercut lines] | [lua][lib supercut gh lua]                                 | higher-level wrapper around softcut |                      | wrms              |
 
 
 #### SuperColider engines
 
+
 | library         | code                                                                         | description                                                                        | provided by                                | used by                                  |
 | --              | ---                                                                          | ---                                                                                | ---                                        | ---                                      |
+| ack             | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt                             |
 | timber          | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                             |
 | PolyPerc        | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen |
 | PolySub         | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       |                                          |
@@ -341,11 +342,12 @@ For more details, see also the [the _Sidekick_ project wiki](https://github.com/
 [lib softcut lines]: https://llllllll.co/t/norns-2-0-softcut/20550
 [lib softcut gh lua]: https://github.com/monome/norns/blob/main/lua/core/softcut.lua
 [lib softcut gh C]: https://github.com/monome/softcut-lib
-[lib ack gh lua]: https://github.com/antonhornquist/ack
 [lib supercut lines]: https://llllllll.co/t/supercut-lib/29526
 [lib supercut gh lua]: https://github.com/andr-ew/supercut
 
 <!-- supercolier libs -->
+[lib ack gh lua]: https://github.com/antonhornquist/ack/blob/master/lib/ack.lua
+[lib ack gh sc]: https://github.com/antonhornquist/ack/blob/master/lib/Engine_Ack.sc
 [lib timber gh lua]: https://github.com/markwheeler/timber/blob/master/lib/timber_engine.lua
 [lib timber gh sc]: https://github.com/markwheeler/timber/blob/master/lib/Engine_Timber.sc
 <!-- [lib PolyPerc gh sc]: https://github.com/tehn/awake/blob/master/lib/Engine_PolyPerc.sc -->
