@@ -115,17 +115,18 @@ Here are listed the ones most often spotted in the wild.
 #### SuperColider engines
 
 
-| library          | code                                                                         | description                                                                        | provided by                                | used by                                          |
-| --               | ---                                                                          | ---                                                                                | ---                                        | ---                                              |
-| ack              | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt, crash, vials |
-| timber           | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                                     |
-| glut             | [glut][lib glut gh sc]                                                       | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf                                 |
-| PolyPerc         | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen         |
-| PolySub          | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       |                                                  |
-| [R][lib R lines] | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                             |
-| molly_the_poly   | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] |                                                                                    | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence          |
-| passersby        | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           |                                                                                    | [passersby][app passersby lines]           | passersby, less_concepts, dunes                  |
-| PrimitiveString  | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                                      |
+| library                            | code                                                                         | description                                                                        | provided by                                | used by                                          |
+| --                                 | ---                                                                          | ---                                                                                | ---                                        | ---                                              |
+| ack                                | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt, crash, vials |
+| timber                             | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                                     |
+| glut                               | [glut][lib glut gh sc]                                                       | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf                                 |
+| PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen         |
+| PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       |                                                  |
+| [R][lib R lines]                   | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                             |
+| [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           |                                            |                                                  |
+| molly_the_poly                     | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] |                                                                                    | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence          |
+| passersby                          | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           |                                                                                    | [passersby][app passersby lines]           | passersby, less_concepts, dunes                  |
+| PrimitiveString                    | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                                      |
 
 
 ## Apps
@@ -396,6 +397,8 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 [lib PrimitiveString gh sc]: https://github.com/synthetiv/euclidigons/blob/main/lib/Engine_PrimitiveString.sc
 [lib R lines]: https://llllllll.co/t/norns-r-engine/21071
 [lib R gh sc]: https://github.com/antonhornquist/r
+[lib mi-engines lines]: https://llllllll.co/t/mi-engines/32338
+[lib mi-engines gh sc]: https://github.com/okyeron/mi-eng
 
 
 <!-- apps -->
