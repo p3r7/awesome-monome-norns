@@ -257,9 +257,11 @@ Loopers, live samplers & crazy delays:
 
 Utilities:
 
-| app                      | on maiden | code                | description | demo | doc |
-| ---                      | :---:     | ---                 | ---         | ---  | --- |
-| [tuner][app tuner lines] | ✔️         | [gh][app tuner src] | a tuner     |      |     |
+| app                                    | on maiden | code                       | description                                            | demo                                             | doc |
+| ---                                    | :---:     | ---                        | ---                                                    | ---                                              | --- |
+| [midi-monitor][app midi-monitor lines] | ✔️         | [gh][app midi-monitor src] | simple midi monitor with note feedback                 | [1][app midi-monitor demo 1]                     |     |
+| [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose | [1][app monitor demo 1], [2][app monitor demo 2] |     |
+| [tuner][app tuner lines]               | ✔️         | [gh][app tuner src]        | a tuner                                                |                                                  |     |
 
 
 #### By I/O
@@ -306,9 +308,11 @@ Utilities:
 | [mangl][app mangl lines]                           |          |           |         |          | 🔶     | 🔶    | ✔️         | ️         |       |
 | [manifold][app manifold lines]                     | ✔        |           | 🔶      |          |        |       | ✔️         | ️         |       |
 | [meadowphysics][app meadowphysics lines]           |          |           |         |          | 🔴     |       | ✔️         | ✔️        |       |
+| [midi-monitor][app midi-monitor lines]             |          | ✔         |         |          |        |       | ✔️         | ️         |       |
 | [mlr][app mlr lines]                               | ✔️        |           |         |          | 🔴     |       | ✔️         |          |       |
 | [molly_the_poly][app molly_the_poly lines]         |          |           | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
 | [moln][app moln lines]                             |          |           | 🔴 \*   |          | ⚪ \*  | ⚪    | ✔️         |          |       |
+| [monitor][app monitor lines]                       |          | ✔         |         |          |        |       | ️          | ✔️        |       |
 | [nisp][app nisp lines]                             |          |           |         | 🔴       |        |       | ✔️         |          |       |
 | [oooooo][app oooooo lines]                         | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [orca][app orca lines]                             | ✔️        |           | ✔       | 🔴       | ⚪     |       | ✔️         | ✔        |       |
@@ -514,6 +518,9 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 [app meadowphysics src]: https://github.com/alpha-cactus/meadowphysics
 [app meadowphysics doc]: https://monome.org/docs/meadowphysics/
 [app meadowphysics demo 1]: https://vimeo.com/146731772
+[app midi-monitor lines]: https://llllllll.co/t/midi-monitor/35036
+[app midi-monitor src]: https://github.com/okyeron/midi-monitor
+[app midi-monitor demo 1]: https://www.youtube.com/watch?v=-zXIbLDpzAo
 [app mlr lines]: https://llllllll.co/t/mlr-norns
 [app mlr src]: https://github.com/tehn/mlr
 [app mlr demo 1]: https://vimeo.com/266741634
@@ -524,6 +531,10 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 [app moln lines]: https://llllllll.co/t/moln/21111
 [app moln src]: https://github.com/antonhornquist/moln
 [app moln demo 1]: https://www.instagram.com/p/BoXJavpAE3R/
+[app monitor lines]: https://llllllll.co/t/monitor/23273
+[app monitor src]: https://github.com/neauoire/monitor
+[app monitor demo 1]: https://www.youtube.com/watch?v=g_joxEeB3ss
+[app monitor demo 2]: https://www.youtube.com/watch?v=L8jhEIHqPNU
 [app nisp lines]: https://llllllll.co/t/nisp
 [app nisp src]: https://github.com/itsyourbedtime/NISP
 [app nisp demo 1]: https://www.instagram.com/p/B54rUM6hnWJ/
