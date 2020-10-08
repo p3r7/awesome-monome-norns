@@ -211,7 +211,7 @@ Sequencers & trackers:
 | [spacetime][app spacetime study] `we/study/study3` | ✔️         |                             | a weird function sequencer                                          | [1][app spacetime demo 1]                                  |                                 |
 | [step][app step lines]                             | ✔️         | [gh][app step src]          | a simple step sequencer                                             |                                                            |                                 |
 | [takt][app takt lines]                             | ✔️         | [gh][app takt src]          | Digitakt-inspired parameter locking step sequencer                  | [1][app takt demo 1]                                       | [online][app takt doc]          |
-| [vials][app vials lines]                           | ✔️         | [gh][app vials src]         | 4 track performance-oriented sample sequencer                       |                                                            | [online][app vials doc]          |
+| [vials][app vials lines]                           | ✔️         | [gh][app vials src]         | 4 track performance-oriented sample sequencer                       |                                                            | [online][app vials doc]         |
 | [zeelen][app zeelen lines]                         | ✔️         | [gh][app zeelen src]        | game of Life based sequencer                                        | [1][app zeelen demo 1], [crow][app zeelen demo crow]       | [online][app takt doc]          |
 
 
@@ -219,9 +219,9 @@ Control Modulation sources:
 
 | app                                | on maiden | code                     | description                                   | demo                                             | doc |
 | ---                                | :---:     | ---                      | ---                                           | ---                                              | --- |
-| [barycenter][app barycenter lines] |           | [gh][app barycenter src] | Fluctuating relationships in orbit            |                                                  |     |
-| [changes][app changes lines]       |           | [gh][app changes src]    | eight connected sine wave LFOs as MIDI output | [1][app changes demo 1], [2][app changes demo 2] |     |
-| [shapes][app shapes lines]         |           | [gh][app shapes src]     | Visually based modulation source for crow     |                                                  |     |
+| [barycenter][app barycenter lines] | ❌        | [gh][app barycenter src] | Fluctuating relationships in orbit            |                                                  |     |
+| [changes][app changes lines]       | ❌        | [gh][app changes src]    | eight connected sine wave LFOs as MIDI output | [1][app changes demo 1], [2][app changes demo 2] |     |
+| [shapes][app shapes lines]         | ❌        | [gh][app shapes src]     | Visually based modulation source for crow     |                                                  |     |
 
 
 Audio effects:
