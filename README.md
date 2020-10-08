@@ -193,6 +193,7 @@ Sequencers & trackers:
 | [boing][app boingg lines]                          | ✔         | [gh][app boingg src]        | a bouncing ball sequencer                                           | [1][app boingg demo 1]                                     |                                 |
 | [cheat_codes][app cheat_codes lines]               | ✔️         | [gh][app cheat_codes src]   | sample playground                                                   | [1][app cheat_codes demo 1]                                | [pdf][app cheat_codes doc]      |
 | [circles][app circles lines]                       | ✔️         | [gh][app circles src]       | move cursor, place circles, make music                              | [1][app circles demo 1]                                    |                                 |
+| [cyrene][app cyrene lines]                         | ✔️         | [gh][app cyrene src]        | drum pattern generator                                              | [1][app cyrene demo 1], [grid][app cyrene demo grid]                                    |                                 |
 | [dunes][app dunes lines]                           | ✔         | [gh][app dunes src]         | function sequencer, inspired by [spacetime][app spacetime study]    | [audio][app dunes demo audio], [midi][app dunes demo midi] |                                 |
 | [drift][app drift lines]                           | ❌        | [gh][app drift src]         | sequencer based on particle systems                                 | [midi][app drift demo midi]                                |                                 |
 | [euclidigons][app euclidigons lines]               | ✔️         | [gh][app euclidigons src]   | plucky geometric rhythm generator                                   | [1][app euclidigons demo 1], [2][app euclidigons demo 2]   |                                 |
@@ -275,6 +276,7 @@ Loopers, live samplers & crazy delays:
 | [cheat_codes][app cheat_codes lines]               |          |           |         |          | 🔶 \** | 🔶    |           |          |       |
 | [circles][app circles lines]                       |          |           |         |          |        |       | ✔         | ✔        |       |
 | [cranes][app cranes lines]                         | ✔️        |           |         |          | ⚪     |       | ✔️         |          |       |
+| [cyrene][app cyrene lines]                         | ️         |           |         |          | ⚪     | ⚪    | ️          | ✔        | ✔     |
 | [drift][app drift lines]                           |          |           |         |          |        |       | ✔️         | ✔        |       |
 | [dronecaster][app dronecaster lines]               |          |           |         |          |        |       | ✔️         |          |       |
 | [drum_room][app drum_room lines]                   |          |           | 🔴      |          |        |       | ✔️         |          |       |
@@ -426,6 +428,10 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 [app cranes src]: https://github.com/dndrks/cranes
 [app cranes doc]: https://www.youtube.com/watch?v=pVVKC3KnRLg
 [app cranes demo 1]: https://www.instagram.com/p/Bv5klu_l9mp/
+[app cyrene lines]: https://llllllll.co/t/cyrene-a-drum-sequencer-based-on-mutable-instruments-grids-v1-4-0/31648
+[app cyrene src]: https://github.com/21echoes/cyrene
+[app cyrene demo 1]: https://www.instagram.com/p/CA7kP8ijizm/
+[app cyrene demo grid]: https://www.instagram.com/p/CA7nVs0DUQv/
 [app drift lines]: https://llllllll.co/t/drift/36138
 [app drift src]: https://github.com/echophon/drift
 [app drift demo midi]: https://www.instagram.com/p/CE9ramVKrLO/
