@@ -115,17 +115,17 @@ Here are listed the ones most often spotted in the wild.
 #### SuperColider engines
 
 
-| library         | code                                                                         | description                                                                        | provided by                                | used by                                   |
-| --              | ---                                                                          | ---                                                                                | ---                                        | ---                                       |
-| ack             | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt, vials |
-| timber          | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                              |
-| glut            | [glut][lib glut gh sc]                                                       | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf                          |
-| PolyPerc        | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen  |
-| PolySub         | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       |                                           |
-| R               | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                      |
-| molly_the_poly  | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] |                                                                                    | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence   |
-| passersby       | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           |                                                                                    | [passersby][app passersby lines]           | passersby, less_concepts, dunes           |
-| PrimitiveString | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                               |
+| library         | code                                                                         | description                                                                        | provided by                                | used by                                          |
+| --              | ---                                                                          | ---                                                                                | ---                                        | ---                                              |
+| ack             | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt, crash, vials |
+| timber          | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                                     |
+| glut            | [glut][lib glut gh sc]                                                       | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf                                 |
+| PolyPerc        | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen         |
+| PolySub         | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       |                                                  |
+| R               | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                             |
+| molly_the_poly  | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] |                                                                                    | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence          |
+| passersby       | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           |                                                                                    | [passersby][app passersby lines]           | passersby, less_concepts, dunes                  |
+| PrimitiveString | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                                      |
 
 
 ## Apps
@@ -169,6 +169,7 @@ Sample players:
 
 | app                               | on maiden | code                    | description                                                  | demo                          | doc |
 | ---                               | :---:     | ---                     | ---                                                          | ---                           | --- |
+| [crash][app crash lines]          | ✔         | [gh][app crash src]     | random drum kit player (606 samples)                         |                               |     |
 | [drum_room][app drum_room lines]  | ✔         | [gh][app drum_room src] | MIDI-controlled drum kits                                    | [1][app drum_room demo 1]     |     |
 | [timber/keys][app timber lines]   | ✔         | [gh][app timber src]    | split & map a sample across midi keys / grid                 | [1][app timber/keys demo 1]   |     |
 | [timber/player][app timber lines] | ✔         | [gh][app timber src]    | load whole directory of samples mapped onto midi keys / grid | [1][app timber/player demo 1] |     |
@@ -287,6 +288,7 @@ Utilities:
 | [cheat_codes][app cheat_codes lines]               |          |           |         |          | 🔶 \** | 🔶    |           |          |       |
 | [circles][app circles lines]                       |          |           |         |          |        |       | ✔         | ✔        |       |
 | [cranes][app cranes lines]                         | ✔️        |           |         |          | ⚪     |       | ✔️         |          |       |
+| [crash][app crash lines]                           | ️         | ?         |         |          |        |       | ✔️         |          |       |
 | [cyrene][app cyrene lines]                         | ️         |           |         |          | ⚪     | ⚪    | ️          | ✔        | ✔     |
 | [drift][app drift lines]                           |          |           |         |          |        |       | ✔️         | ✔        |       |
 | [dronecaster][app dronecaster lines]               |          |           |         |          |        |       | ✔️         |          |       |
@@ -444,6 +446,8 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 [app cranes src]: https://github.com/dndrks/cranes
 [app cranes doc]: https://www.youtube.com/watch?v=pVVKC3KnRLg
 [app cranes demo 1]: https://www.instagram.com/p/Bv5klu_l9mp/
+[app crash lines]: https://llllllll.co/t/crash/35697
+[app crash src]: https://github.com/tomwaters/Crash
 [app cyrene lines]: https://llllllll.co/t/cyrene-a-drum-sequencer-based-on-mutable-instruments-grids-v1-4-0/31648
 [app cyrene src]: https://github.com/21echoes/cyrene
 [app cyrene demo 1]: https://www.instagram.com/p/CA7kP8ijizm/
