@@ -255,6 +255,13 @@ Loopers, live samplers & crazy delays:
 | [tunnels][app tunnels lines]       | ✔️         | [gh][app tunnels src]    | a collection of uncertain delays                    | [1][app tunnels demo 1]                        |                         |
 
 
+Utilities:
+
+| app                      | on maiden | code                | description | demo | doc |
+| ---                      | :---:     | ---                 | ---         | ---  | --- |
+| [tuner][app tuner lines] | ✔️         | [gh][app tuner src] | a tuner     |      |     |
+
+
 #### By I/O
 
 | symbol | meaning             |
@@ -321,6 +328,7 @@ Loopers, live samplers & crazy delays:
 | [takt][app takt lines]                             |          |           |         |          | 🔴     |       | ✔️         |          |       |
 | [timber/keys][app timber lines]                    |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
 | [timber/player][app timber lines]                  |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
+| [tuner][app tuner lines]                           | ✔        |           |         |          |        |       | ️          |          |       |
 | [uhf][app uhf lines]                               |          |           |         |          |        |       | ✔️         |          |       |
 | [vials][app vials lines]                           |          |           |         |          | 🔶     |       | ✔️         |          |       |
 | [zeelen][app zeelen lines]                         |          |           |         |          | 🔴     |       | ✔️         | ✔        | ✔     |
@@ -591,6 +599,8 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 [app tunnels lines]: https://llllllll.co/t/tunnels/21973
 [app tunnels src]: https://github.com/speakerdamage/tunnels
 [app tunnels demo 1]: https://www.instagram.com/p/BwwdlZcls4V/
+[app tuner lines]: https://llllllll.co/t/tuner/21088
+[app tuner src]: https://github.com/markwheeler/tuner
 [app timber lines]: https://llllllll.co/t/21407
 [app vials lines]: https://llllllll.co/t/vials/23109
 [app vials src]: https://github.com/nattog/vials
