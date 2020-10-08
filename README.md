@@ -145,6 +145,7 @@ Synths & drones:
 | [dronecaster][app dronecaster lines]         | ✔️         | [gh][app dronecaster src]     | Various drones                                                                                              | [1][app dronecaster demo 1]                        |                       |
 | [fm7][app fm7 lines]                         | ✔️         | [gh][app fm7 src]             | DX7-inspired polyphonic FM synth                                                                            | [1][app fm7 demo 1]                                | [online][app fm7 doc] |
 | [grendy][app grendy lines]                   | ✔️         | [gh][app grendy src]          | a simple drone synth, grendel drone commander inspired                                                      |                                                    |                       |
+| [haven][app haven lines]                     | ✔️         | [gh][app haven src]           | two unique oscillators: one high, one low                                                                   | [1][app haven demo 1]                              |                       |
 | [lissadron][app lissadron lines]             | ✔️         | [gh][app lissadron src]       | A software synth making extensive use of seeded randomness, internal sequencer for voice change             | [internal sequencer][app lissadron demo seq]       |                       |
 | [molly_the_poly][app molly_the_poly lines]   | default️   | [gh][app molly_the_poly src]  | Juno-6 voice structure with chorus, the extra modulation of a Jupiter-8, and CS-80 inspired ring modulation | [1][app molly_the_poly demo 1]                     |                       |
 | [moln][app moln lines]                       | ✔️         | [gh][app moln src]            | Polyphonic substractive synthesizer                                                                         | [1][app moln demo 1]                               |                       |
@@ -285,6 +286,7 @@ Loopers, live samplers & crazy delays:
 | [glut][app glut lines]                             | ️         |           |         |          | 🔶     |       | ✔️         |          |       |
 | [grd][app grd lines]                               | ️         |           |         |          |        |       | ✔️         |          |       |
 | [greyhole][app greyhole lines]                     | ✔️        |           |         |          |        |       | ✔️         |          |       |
+| [haven][app haven lines]                           | ️         |           |         |          |        |       | ✔️         |          |       |
 | [less_concepts][app less_concepts lines]           |          |           |         |          | 🔶     |       | ✔️         | ✔        | ✔     |
 | [lissadron][app lissadron lines]                   |          |           | 🔶      |          |        |       | ✔️         |          |       |
 | [loom][app loom lines]                             |          | ⚪        |         |          | 🔴     |       | ✔️         | ✔        |       |
