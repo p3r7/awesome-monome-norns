@@ -223,7 +223,7 @@ Control Modulation sources:
 | app                                | on maiden | code                     | description                                   | demo                                             | doc |
 | ---                                | :---:     | ---                      | ---                                           | ---                                              | --- |
 | [barycenter][app barycenter lines] | ❌        | [gh][app barycenter src] | Fluctuating relationships in orbit            |                                                  |     |
-| [changes][app changes lines]       | ❌        | [gh][app changes src]    | eight connected sine wave LFOs as MIDI output | [1][app changes demo 1], [2][app changes demo 2] |     |
+| [changes][app changes lines]       | ✔️         | [gh][app changes src]    | eight connected sine wave LFOs as MIDI output | [1][app changes demo 1], [2][app changes demo 2] |     |
 | [shapes][app shapes lines]         | ❌        | [gh][app shapes src]     | Visually based modulation source for crow     |                                                  |     |
 
 
