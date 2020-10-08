@@ -264,6 +264,7 @@ Utilities:
 | ---                                    | :---:     | ---                        | ---                                                    | ---                                              | --- |
 | [midi-monitor][app midi-monitor lines] | ✔️         | [gh][app midi-monitor src] | simple midi monitor with note feedback                 | [1][app midi-monitor demo 1]                     |     |
 | [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose | [1][app monitor demo 1], [2][app monitor demo 2] |     |
+| [shell_runner][app shell_runner lines] | ❌  ️      | [gh][app shell_runner src] | menu to launch shell scripts                           |                                                  |     |
 | [tuner][app tuner lines]               | ✔️         | [gh][app tuner src]        | a tuner                                                |                                                  |     |
 
 
@@ -595,6 +596,8 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 [app samsara src]: https://github.com/21echoes/samsara
 [app shapes lines]: https://llllllll.co/t/shapes/36759
 [app shapes src]: https://github.com/tlubke/shapes
+[app shell_runner lines]: https://llllllll.co/t/shell-runner/30887
+[app shell_runner src]: https://github.com/scazan/shell_runner
 [app showers lines]: https://llllllll.co/t/showers/31622
 [app showers src]: https://github.com/justmat/showers
 [app spacetime study]: https://monome.org/docs/norns/study-3/
