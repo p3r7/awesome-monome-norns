@@ -239,18 +239,19 @@ Audio effects:
 
 Loopers, live samplers & crazy delays:
 
-| app                          | on maiden | code                  | description                                         | demo                                           | doc                     |
-| ---                          | :---:     | ---                   | ---                                                 | ---                                            | ---                     |
-| [barcode][app barcode lines] | ✔️         | [gh][app barcode src] | a randomized looper                                 | [1][app barcode demo 1]                        |                         |
-| [blndr][app blndr lines]     | ✔️         | [gh][app blndr src]   | a quantized delay with time bending effects         | [1][app blndr demo 1]                          |                         |
-| [cranes][app cranes lines]   | ✔️         | [gh][app cranes src]  | stereo varispeed looper / delay / timeline-smoosher | [1][app cranes demo 1]                         | [video][app cranes doc] |
-| [mlr][app mlr lines]         | ✔️         | [gh][app mlr src]     | live sample-cutting platform                        | [1][app mlr demo 1], [2][app mlr demo 2]       |                         |
-| [oooooo][app oooooo lines]   | ✔️         | [gh][app oooooo src]  | digital tape loops x6                               | [1][app oooooo demo 1], [2][app oooooo demo 2] |                         |
-| [otis][app otis lines]       | ✔️         | [gh][app otis src]    | dual tape delay/looper/sampler                      | [1][app otis demo 1]                           |                         |
-| [piwip][app piwip lines]     | ✔️         | [gh][app piwip src]   | a sampler that works in realtime                    | [1][app piwip demo 1]                          |                         |
-| [reels][app reels lines]     | ✔️         | [gh][app reels src]   | a 4-track asynchronous looper                       | [1][app reels demo 1]                          |                         |
-| [samsara][app samsara lines] | ✔️         | [gh][app samsara src] | minimalist looper that eventually reaches nirvana   |                                                |                         |
-| [tunnels][app tunnels lines] | ✔️         | [gh][app tunnels src] | a collection of uncertain delays                    | [1][app tunnels demo 1]                        |                         |
+| app                                | on maiden | code                     | description                                         | demo                                           | doc                     |
+| ---                                | :---:     | ---                      | ---                                                 | ---                                            | ---                     |
+| [barcode][app barcode lines]       | ✔️         | [gh][app barcode src]    | a randomized looper                                 | [1][app barcode demo 1]                        |                         |
+| [blndr][app blndr lines]           | ✔️         | [gh][app blndr src]      | a quantized delay with time bending effects         | [1][app blndr demo 1]                          |                         |
+| [cranes][app cranes lines]         | ✔️         | [gh][app cranes src]     | stereo varispeed looper / delay / timeline-smoosher | [1][app cranes demo 1]                         | [video][app cranes doc] |
+| [here-there][app here-there lines] | ✔️         | [gh][app here-there src] | feedback of granular replay and sines               |                                                | [video][app cranes doc] |
+| [mlr][app mlr lines]               | ✔️         | [gh][app mlr src]        | live sample-cutting platform                        | [1][app mlr demo 1], [2][app mlr demo 2]       |                         |
+| [oooooo][app oooooo lines]         | ✔️         | [gh][app oooooo src]     | digital tape loops x6                               | [1][app oooooo demo 1], [2][app oooooo demo 2] |                         |
+| [otis][app otis lines]             | ✔️         | [gh][app otis src]       | dual tape delay/looper/sampler                      | [1][app otis demo 1]                           |                         |
+| [piwip][app piwip lines]           | ✔️         | [gh][app piwip src]      | a sampler that works in realtime                    | [1][app piwip demo 1]                          |                         |
+| [reels][app reels lines]           | ✔️         | [gh][app reels src]      | a 4-track asynchronous looper                       | [1][app reels demo 1]                          |                         |
+| [samsara][app samsara lines]       | ✔️         | [gh][app samsara src]    | minimalist looper that eventually reaches nirvana   |                                                |                         |
+| [tunnels][app tunnels lines]       | ✔️         | [gh][app tunnels src]    | a collection of uncertain delays                    | [1][app tunnels demo 1]                        |                         |
 
 
 #### By I/O
@@ -290,6 +291,7 @@ Loopers, live samplers & crazy delays:
 | [grd][app grd lines]                               | ️         |           |         |          |        |       | ✔️         |          |       |
 | [greyhole][app greyhole lines]                     | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [haven][app haven lines]                           | ️         |           |         |          |        |       | ✔️         |          |       |
+| [here-there][app here-there lines]                 | ️✔        |           |         |          |        |       | ✔️         |          |       |
 | [less_concepts][app less_concepts lines]           |          |           |         |          | 🔶     |       | ✔️         | ✔        | ✔     |
 | [lissadron][app lissadron lines]                   |          |           | 🔶      |          |        |       | ✔️         |          |       |
 | [loom][app loom lines]                             |          | ⚪        |         |          | 🔴     |       | ✔️         | ✔        |       |
@@ -478,6 +480,8 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 [app haven lines]: https://llllllll.co/t/haven/21285
 [app haven src]: https://github.com/tai-studio/haven
 [app haven demo 1]: https://www.youtube.com/watch?v=1mEBZmao-uc
+[app here-there lines]: https://llllllll.co/t/here-there/36170
+[app here-there src]: https://github.com/speakerdamage/here-there
 [app less_concepts lines]: https://llllllll.co/t/less-concepts/21109
 [app less_concepts src]: https://github.com/dndrks/less_concepts
 [app less_concepts demo 1]: https://www.youtube.com/watch?v=AHuZm-aHN6k
