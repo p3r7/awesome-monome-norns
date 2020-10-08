@@ -117,8 +117,9 @@ Here are listed the ones most often spotted in the wild.
 
 | library         | code                                                                         | description                                                                        | provided by                                | used by                                  |
 | --              | ---                                                                          | ---                                                                                | ---                                        | ---                                      |
-| ack             | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt                             |
+| ack             | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt       |
 | timber          | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                             |
+| glut            | [glut][lib glut gh sc]                                                       | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf                         |
 | PolyPerc        | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen |
 | PolySub         | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       |                                          |
 | R               | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                     |
@@ -362,6 +363,7 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 <!-- supercolier libs -->
 [lib ack gh lua]: https://github.com/antonhornquist/ack/blob/master/lib/ack.lua
 [lib ack gh sc]: https://github.com/antonhornquist/ack/blob/master/lib/Engine_Ack.sc
+[lib glut gh sc]: https://github.com/artfwo/glut/blob/master/Engine_Glut.sc
 [lib timber gh lua]: https://github.com/markwheeler/timber/blob/master/lib/timber_engine.lua
 [lib timber gh sc]: https://github.com/markwheeler/timber/blob/master/lib/Engine_Timber.sc
 <!-- [lib PolyPerc gh sc]: https://github.com/tehn/awake/blob/master/lib/Engine_PolyPerc.sc -->
