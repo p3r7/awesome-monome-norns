@@ -77,6 +77,7 @@ Most scripts you'll find in the wild use either _softcut_ or _engine_, but some 
 
  - [norns studies](https://monome.org/docs/norns/studies-landing/)
  - [norns: tutorial](https://llllllll.co/t/norns-tutorial/23241) by [Devine Lu Linvega](https://xxiivv.com/)
+ - [softcut studies](https://github.com/monome/softcut-studies)
  - [foundry](https://llllllll.co/t/foundry) app ([code](https://github.com/csboling/foundry)) for text & fonts
  - [video tutorial on adding midi out to an existing app](https://llllllll.co/t/norns-walkthrough-hacking-a-script-to-add-midi-output/34969)
  - [tutorial on adding computer keyboard support to an existing app](https://llllllll.co/t/norns-without-a-grid/32996/28)
