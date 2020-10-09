@@ -113,7 +113,7 @@ Here are listed the ones most often spotted in the wild.
 | [supercut][lib supercut lines] | [lua][lib supercut gh lua]                                 | higher-level wrapper around softcut |                      | wrms              |
 
 
-#### SuperColider engines
+#### SuperCollider engines
 
 
 | library                            | code                                                                         | description                                                                        | provided by                                | used by                                          |
