@@ -306,7 +306,7 @@ Utilities:
 | fretwork                                           |          |           |         |          |        |       | ✔️         | ✔️        | ✔     |
 | [fm7][app fm7 lines]                               |          |           | 🔶      |          | 🔶     |       | ✔️         |          |       |
 | [gemini][app gemini lines]                         | ️         |           |         |          |        | ⚪    | ✔️         |          |       |
-| [glitchlets][app glitchlets lines]                 | ️✔        |           |         |          |        |       | ✔️         |          |       |
+| [glitchlets][app glitchlets lines]                 | ️✔        | ⚪        |         |          |        |       | ✔️         |          |       |
 | [glut][app glut lines]                             | ️         |           |         |          | 🔶     |       | ✔️         |          |       |
 | [grd][app grd lines]                               | ️         |           |         |          |        |       | ✔️         |          |       |
 | [greyhole][app greyhole lines]                     | ✔️        |           |         |          |        |       | ✔️         |          |       |
