@@ -152,7 +152,7 @@ Synths & drones:
 | [haven][app haven lines]                     | ✔️         | [gh][app haven src]           | two unique oscillators: one high, one low                                                                   | [1][app haven demo 1]                              |                       |
 | [lissadron][app lissadron lines]             | ✔️         | [gh][app lissadron src]       | A software synth making extensive use of seeded randomness, internal sequencer for voice change             | [internal sequencer][app lissadron demo seq]       |                       |
 | [molly_the_poly][app molly_the_poly lines]   | default️   | [gh][app molly_the_poly src]  | Juno-6 voice structure with chorus, the extra modulation of a Jupiter-8, and CS-80 inspired ring modulation | [1][app molly_the_poly demo 1]                     |                       |
-| [moln][app moln lines]                       | ✔️         | [gh][app moln src]            | Polyphonic substractive synthesizer                                                                         | [1][app moln demo 1]                               |                       |
+| [moln][app moln lines]                       | ✔️         | [gh][app moln src]            | Polyphonic substractive synthesizer                                                                         |                                                    |                       |
 | [passersby][app passersby lines]             | ✔️         | [gh][app passersby src]       | Wave folding, FM, LPG, spring-ish reverb, LFO and two dice to roll                                          | [1][app passersby demo 1]                          |                       |
 | [rudiments][app rudiments lines]             | ✔️         | [gh][app rudiments src]       | 8 voice lofi percussion synthesizer and sequencer (playfair-style)                                          |                                                    |                       |
 | [showers][app showers lines]                 | ✔️         | [gh][app showers src]         | a thunderstorm (rain & thunder)                                                                             |                                                    |                       |
@@ -243,22 +243,22 @@ Audio effects:
 
 Loopers, live samplers & crazy delays:
 
-| app                                | on maiden | code                     | description                                            | demo                                                                | doc                     |
-| ---                                | :---:     | ---                      | ---                                                    | ---                                                                 | ---                     |
-| [barcode][app barcode lines]       | ✔️         | [gh][app barcode src]    | a randomized looper                                    | [1][app barcode demo 1]                                             |                         |
-| [blndr][app blndr lines]           | ✔️         | [gh][app blndr src]      | a quantized delay with time bending effects            | [1][app blndr demo 1]                                               |                         |
-| [clcks][app clcks lines]           | ✔️         | [gh][app clcks src]      | a tempo-locked repeater                                | [1][app clcks demo 1]                                               |                         |
-| [cranes][app cranes lines]         | ✔️         | [gh][app cranes src]     | stereo varispeed looper / delay / timeline-smoosher    | [1][app cranes demo 1]                                              | [video][app cranes doc] |
-| [here-there][app here-there lines] | ✔️         | [gh][app here-there src] | feedback of granular replay and sines                  |                                                                     |                         |
-| [glitchlets][app glitchlets lines] | ❌️        | [gh][app glitchlets src] | glitches incoming audio, quantized to the global tempo | [1][app glitchlets demo 1]                                          |                         |
-| [jiffy][app jiffy lines]           | ✔️         | [gh][app jiffy src]      | 16 seconds looper                                      |                                                                     |                         |
-| [mlr][app mlr lines]               | ✔️         | [gh][app mlr src]        | live sample-cutting platform                           | [1][app mlr demo 1], [2][app mlr demo 2]                            |                         |
-| [oooooo][app oooooo lines]         | ✔️         | [gh][app oooooo src]     | digital tape loops x6                                  | [1][app oooooo demo 1], [2][app oooooo demo 2]                      |                         |
-| [otis][app otis lines]             | ✔️         | [gh][app otis src]       | dual tape delay/looper/sampler                         | [1][app otis demo 1]                                                |                         |
-| [piwip][app piwip lines]           | ✔️         | [gh][app piwip src]      | a sampler that works in realtime                       | [1][app piwip demo 1], [2][app piwip demo 2], [3][app piwip demo 3] |                         |
-| [reels][app reels lines]           | ✔️         | [gh][app reels src]      | a 4-track asynchronous looper                          | [1][app reels demo 1]                                               |                         |
-| [samsara][app samsara lines]       | ✔️         | [gh][app samsara src]    | minimalist looper that eventually reaches nirvana      |                                                                     |                         |
-| [tunnels][app tunnels lines]       | ✔️         | [gh][app tunnels src]    | a collection of uncertain delays                       | [1][app tunnels demo 1]                                             |                         |
+| app                                | on maiden | code                     | description                                            | demo                                                                                       | doc                     |
+| ---                                | :---:     | ---                      | ---                                                    | ---                                                                                        | ---                     |
+| [barcode][app barcode lines]       | ✔️         | [gh][app barcode src]    | a randomized looper                                    | [1][app barcode demo 1]                                                                    |                         |
+| [blndr][app blndr lines]           | ✔️         | [gh][app blndr src]      | a quantized delay with time bending effects            | [1][app blndr demo 1]                                                                      |                         |
+| [clcks][app clcks lines]           | ✔️         | [gh][app clcks src]      | a tempo-locked repeater                                | [1][app clcks demo 1]                                                                      |                         |
+| [cranes][app cranes lines]         | ✔️         | [gh][app cranes src]     | stereo varispeed looper / delay / timeline-smoosher    | [1][app cranes demo 1]                                                                     | [video][app cranes doc] |
+| [here-there][app here-there lines] | ✔️         | [gh][app here-there src] | feedback of granular replay and sines                  |                                                                                            |                         |
+| [glitchlets][app glitchlets lines] | ❌️        | [gh][app glitchlets src] | glitches incoming audio, quantized to the global tempo | [1][app glitchlets demo 1]                                                                 |                         |
+| [jiffy][app jiffy lines]           | ✔️         | [gh][app jiffy src]      | 16 seconds looper                                      |                                                                                            |                         |
+| [mlr][app mlr lines]               | ✔️         | [gh][app mlr src]        | live sample-cutting platform                           | [1][app mlr demo 1], [2][app mlr demo 2]                                                   |                         |
+| [oooooo][app oooooo lines]         | ✔️         | [gh][app oooooo src]     | digital tape loops x6                                  | [1][app oooooo demo 1], [2][app oooooo demo 2]                                             |                         |
+| [otis][app otis lines]             | ✔️         | [gh][app otis src]       | dual tape delay/looper/sampler                         | [1][app otis demo 1]                                                                       |                         |
+| [piwip][app piwip lines]           | ✔️         | [gh][app piwip src]      | a sampler that works in realtime                       | [1][app piwip demo 1], [2][app piwip demo 2], [3][app piwip demo 3], [4][app piwip demo 4] |                         |
+| [reels][app reels lines]           | ✔️         | [gh][app reels src]      | a 4-track asynchronous looper                          | [1][app reels demo 1]                                                                      |                         |
+| [samsara][app samsara lines]       | ✔️         | [gh][app samsara src]    | minimalist looper that eventually reaches nirvana      |                                                                                            |                         |
+| [tunnels][app tunnels lines]       | ✔️         | [gh][app tunnels src]    | a collection of uncertain delays                       | [1][app tunnels demo 1]                                                                    |                         |
 
 
 Utilities:
@@ -551,7 +551,6 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 [app molly_the_poly demo 1]: https://www.instagram.com/p/BoXJavpAE3R/
 [app moln lines]: https://llllllll.co/t/moln/21111
 [app moln src]: https://github.com/antonhornquist/moln
-[app moln demo 1]: https://www.instagram.com/p/BoXJavpAE3R/
 [app monitor lines]: https://llllllll.co/t/monitor/23273
 [app monitor src]: https://github.com/neauoire/monitor
 [app monitor demo 1]: https://www.youtube.com/watch?v=g_joxEeB3ss
@@ -584,6 +583,7 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 [app piwip demo 1]: https://www.instagram.com/p/CFmmnnyB1DV/
 [app piwip demo 2]: https://www.instagram.com/p/CFla2iJh9zC/
 [app piwip demo 3]: https://www.instagram.com/p/CFr8Yu1BCT0/
+[app piwip demo 4]: https://www.instagram.com/p/CGJtLCohHRU/
 [app pools lines]: https://llllllll.co/t/pools
 [app pools src]: https://github.com/justmat/pools
 [app pools demo 1]: https://vimeo.com/383786715
