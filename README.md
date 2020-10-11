@@ -78,7 +78,8 @@ Most scripts you'll find in the wild use either _softcut_ or _engine_, but some 
  - [norns studies](https://monome.org/docs/norns/studies-landing/)
  - [norns: tutorial](https://llllllll.co/t/norns-tutorial/23241) by [Devine Lu Linvega](https://xxiivv.com/)
  - [softcut studies](https://github.com/monome/softcut-studies)
- - [foundry](https://llllllll.co/t/foundry) app ([code](https://github.com/csboling/foundry)) for text & fonts
+ - [foundry][app foundry lines] app ([code][app foundry src]) for text & fonts (`screen.text` API)
+ - [athenaeum/arc][app athenaeum lines] app ([code][app athenaeum lines]) for arc interactions
  - [video tutorial on adding midi out to an existing app](https://llllllll.co/t/norns-walkthrough-hacking-a-script-to-add-midi-output/34969)
  - [tutorial on adding computer keyboard support to an existing app](https://llllllll.co/t/norns-without-a-grid/32996/28)
 
@@ -261,14 +262,23 @@ Loopers, live samplers & crazy delays:
 | [tunnels][app tunnels lines]       | ✔️         | [gh][app tunnels src]    | a collection of uncertain delays                       | [1][app tunnels demo 1]                                                                    |                         |
 
 
+Midi effects:
+
+| app                                    | on maiden | code                    | description  | demo                                                             | doc |
+| ---                                    | :---:     | ---                     | ---          | ---                                                              | --- |
+| [athenaeum/delay][app athenaeum lines] | ❌        | [gh][app athenaeum src] | echo / delay | [1][app athenaeum/delay demo 1], [2][app athenaeum/delay demo 2] |     |
+
+
 Utilities:
 
-| app                                    | on maiden | code                       | description                                            | demo                                             | doc |
-| ---                                    | :---:     | ---                        | ---                                                    | ---                                              | --- |
-| [midi-monitor][app midi-monitor lines] | ✔️         | [gh][app midi-monitor src] | simple midi monitor with note feedback                 | [1][app midi-monitor demo 1]                     |     |
-| [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose | [1][app monitor demo 1], [2][app monitor demo 2] |     |
-| [shell_runner][app shell_runner lines] | ❌  ️      | [gh][app shell_runner src] | menu to launch shell scripts                           |                                                  |     |
-| [tuner][app tuner lines]               | ✔️         | [gh][app tuner src]        | a tuner                                                |                                                  |     |
+| app                                    | on maiden | code                       | description                                                 | demo                                             | doc |
+| ---                                    | :---:     | ---                        | ---                                                         | ---                                              | --- |
+| [athenaeum/arc][app athenaeum lines]   | ❌        | [gh][app athenaeum src]    | interract with arc, read and write leds, no sound           | [1][app athenaeum/arc demo 1]                    |     |
+| [foundry][app foundry lines]           | ❌        | [gh][app foundry src]      | browse all glyphs of all installed fonts, play with options |                                                  |     |
+| [midi-monitor][app midi-monitor lines] | ✔️         | [gh][app midi-monitor src] | simple midi monitor with note feedback                      | [1][app midi-monitor demo 1]                     |     |
+| [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose      | [1][app monitor demo 1], [2][app monitor demo 2] |     |
+| [shell_runner][app shell_runner lines] | ❌  ️      | [gh][app shell_runner src] | menu to launch shell scripts                                |                                                  |     |
+| [tuner][app tuner lines]               | ✔️         | [gh][app tuner src]        | a tuner                                                     |                                                  |     |
 
 
 #### By I/O
@@ -283,6 +293,8 @@ Utilities:
 
 | app                                                | audio in | midi sync | midi in | keyboard | grid   | arc   | audio out | midi out | crow  |
 | ---                                                | :---:    | :---:     | :---:   | :---:    | :---:  | :---: | :---:     | :---:    | :---: |
+| [athenaeum/arc][app athenaeum lines]               |          |           |         |          |        | 🔴    |           |          |       |
+| [athenaeum/delay][app athenaeum lines]             | ✔        |           |         |          |        |       |           | ✔        |       |
 | [arcologies][app arcologies lines]                 |          |           |         |          | 🔴     |       | ✔         | ✔        | ✔     |
 | [arp_index][app arp_index lines]                   |          |           | ⚪      |          |        |       | ✔         |          |       |
 | [awake][app awake lines]                           |          | ⚪        |         |          | ⚪     |       | ✔️         |          | ✔️     |
@@ -409,6 +421,11 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 
 
 <!-- apps -->
+[app athenaeum lines]: https://llllllll.co/t/athenaeum/36660
+[app athenaeum src]: https://github.com/tyleretters/athenaeum
+[app athenaeum/arc demo 1]: https://www.youtube.com/watch?list=PLe1BFUbUceS0YCUHGYtbKZsl5_MmxlF5f
+[app athenaeum/delay demo 1]: https://www.youtube.com/watch?v=ETG9Ixzcp5c
+[app athenaeum/delay demo 2]: https://www.instagram.com/p/CF1faQIhlkh/
 [app animator lines]: https://llllllll.co/t/animator/28242
 [app animator src]: https://github.com/crimclark/animator
 [app animator doc]: https://github.com/crimclark/animator/blob/master/README.md
@@ -491,6 +508,8 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 [app foulplay src]: https://github.com/justmat/foulplay
 [app foulplay doc]: https://github.com/justmat/foulplay/blob/master/readme.md
 [app foulplay demo 1]: https://vimeo.com/328283781
+[app foundry lines]: https://llllllll.co/t/foundry/33933
+[app foundry src]: https://github.com/csboling/foundry
 [app fretwork src]: https://github.com/synthetiv/fretwork
 [app fretwork demo 1]: https://www.instagram.com/p/B8-JSEGF-7d/
 [app gemini lines]: https://llllllll.co/t/gemini/21086
