@@ -34,18 +34,18 @@ For more details, see [_the docs_][hw norns doc] and the [t/Approaching: norns][
 
 ## What can it do?
 
-A more correct question would be "What can it be?".
+A more correct question would be _"What can it **be**?"_.
 
 Switching apps allows going into totally different contexts.
 
 Some are inspired by existing hardware / software, others are totally new and sometimes produce very experimental (yet musical) results.
 
 To give you some concrete examples, _norns_ can be:
- - an analogue-sounding synth with _molly_the_poly_, a pimped up Juno-6 emulation
- - a 4 track tape recorder / looper with _reels_
- - chainable multieffects with _pedalboard_
- - an advanced sequencer with takt, inspired with the Electron Octatrack
- - a nasty sounding sample player with _timber/keys_ (MPC-like) _timber/player_ (varying pitch, rompler-like)
+ - an analogue-sounding synth with **_molly_the_poly_**, a pimped up Juno-6 emulation
+ - a 4 track tape recorder / looper with **_reels_**
+ - chainable multieffects with **_pedalboard_**
+ - an advanced sequencer with **_takt_**, inspired with the Electron Octatrack
+ - a nasty sounding sample player with **_timber/keys_** (MPC-like) **_timber/player_** (rompler-like)
 
 
 ## Hardware
