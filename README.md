@@ -200,7 +200,7 @@ Here are listed the ones most often spotted in the wild.
 
 #### List
 
-Many apps are available through [maiden](https://monome.org/docs/norns/maiden/) but many more are missing.
+Many apps are available through [maiden](https://monome.org/docs/norns/maiden/) ([real-time list](https://raw.githubusercontent.com/monome/norns-community/master/community.json)) but many more are missing.
 
 The [documentation has a list of popular apps](https://monome.org/docs/norns/app/).
 
