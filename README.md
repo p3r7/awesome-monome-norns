@@ -3,55 +3,119 @@
 
 <div align=center><img src="https://monome.org/images/norns-front-small.jpg" width="500"></div>
 
-A list of links and resources for the [norns](https://monome.org/docs/norns/) hardware music platform by [monome](https://monome.org/).
-
-It allows running apps built with [SuperCollider](https://supercollider.github.io/) and/or **softcut**, a powerful live sampler / player.
-
-In addition, [Pure Data](https://puredata.info/) patches can also be run (see [Mother, Pure Data & Orac](#mother-pure-data--orac)).
+A list of links and resources for the [_norns_][hw norns doc] hardware music platform by [_monome_](https://monome.org/).
 
 The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced _lines_).
 
 <!-- https://llllllll.co/t/norns-dust/14015 -->
 <!-- https://llllllll.co/t/ash-a-small-collection/21349 -->
 
+
+## What / why is _norns_?
+
+The _norns_ is a hardware music platform.
+
+It's built around the idea of community: creating and sharing ideas in the form of small _apps_.
+
+It allows running apps built with [_SuperCollider_](https://supercollider.github.io/) and/or **_softcut_**, a powerful live sampler / player.
+
+In addition, [_Pure Data_](https://puredata.info/) patches can also be run (see [_Pure Data_](#pure-data)).
+
+It runs Linux and is built around the Raspberry Pi (processing unit + USB ports) but uses a separate low-latency audio codec chip (ADC/DAC).
+
+For more details, see [_the docs_][hw norns doc] and the [t/Approaching: norns][hw norns lines] thread, specifically posts:
+ - [day 1: what](https://llllllll.co/t/approaching-norns/13236/126)
+ - [day 2: specifications](https://llllllll.co/t/approaching-norns/13236/213)
+ - [day 3: sound](https://llllllll.co/t/approaching-norns/13236/241)
+ - [day 4: design](https://llllllll.co/t/approaching-norns/13236/320)
+ - [day 5: code](https://llllllll.co/t/approaching-norns/13236/386)
+ - [day 6: many tomorrows](https://llllllll.co/t/approaching-norns/13236/516)
+
+
+## What can it do?
+
+A more correct question would be "What can it be?".
+
+Switching apps allows going into totally different contexts.
+
+Some are inspired by existing hardware / software, others are totally new and sometimes produce very experimental (yet musical) results.
+
+To give you some concrete examples, _norns_ can be:
+ - an analogue-sounding synth with _molly_the_poly_, a pimped up Juno-6 emulation
+ - a 4 track tape recorder / looper with _reels_
+ - chainable multieffects with _pedalboard_
+ - an advanced sequencer with takt, inspired with the Electron Octatrack
+ - a nasty sounding sample player with _timber/keys_ (MPC-like) _timber/player_ (varying pitch, rompler-like)
+
+
 ## Hardware
 
-There are 2 variations of the norns hardware:
+There are 3 variations of the norns hardware:
 
- - [norns](https://market.monome.org/collections/primary/products/norns), relying on a Raspbery Pi CM3 or CM3+
- - [norns shield](https://market.monome.org/collections/primary/products/norns-shield-kit), a HAT for Raspbery Pi 3B or 3B+.
+| name                                                                 | audio path | case                                                     | battery | audio monitor output | supported Raspberry Pi models | price point           |
+| ---                                                                  | ---        | ---                                                      | :---:   | :---:                | ---                           | ---                   |
+| [norns][hw norns lines] ([shop][hw norns shop])                      | cleanest   | 2x aluminum block (hard anodized), custom caps & buttons | ✔       | ✔                    | CM3, CM3+                     | $800 / $680 (b-stock) |
+| [norns shield][hw norns-shield lines] ([shop][hw norns-shield shop]) | clean      | basic acrylic face & back plates / DIY                   | ❌      | ❌                   | 3B, 3B+                       | $200 \*               |
+| [fates][hw fates lines]                                              | clean (?)  | no                                                       | ❌      | ✔                    | 3B, 3B+, 4                    | n/a                   |
+
+\*: to which must be added the price of the Raspberry Pi, micro SD card, power supply and eventually better case. So you're eventually looking more at $300.
+
+The _norns shield_ is currently the more economic version but is DIY and lacks some of the features of its big brother. It's design is [open source][hw norns-shield diy lines].
+
+The _fates_ is an unofficial open source project similar to the _norns shield_, predating it.
 
 
-#### norns shield
+#### _norns shield_
 
-The **norns shield** option is DIY and more economic but lacks a battery, has no monitor output, a less clean audio path and is more generally less rugged.
+For getting help regarding the assembly or even please use [t/DIY: norns shield][hw norns-shield diy lines].
 
-For more information about building your own norns using the **norns shield**:
+The case provided in kits is pretty minimal. People share their design of more rugged version in [t/norns shield case designs](https://llllllll.co/t/norns-shield-case-designs/30347).
 
- - [t/diy-norns-shield](https://llllllll.co/t/diy-norns-shield/27638) for general build help
- - [t/norns-shield-case-designs](https://llllllll.co/t/norns-shield-case-designs/30347) for building a case
-
-[u/JHC](https://llllllll.co/u/JHC) provided a [nice 3D printing STL design](https://llllllll.co/t/norns-shield-case-designs/30347/224).
-
-[u/okyeron](https://llllllll.co/u/okyeron) created some [nice laser-cut designs](https://llllllll.co/t/norns-shield-case-designs/30347/183) that he also sells for a very reasonable cost [on his online store](https://denki-oto.weebly.com/store/p39/norns-shield-case.html#/).
+A few highlights:
+ - [nice 3D printing STL design](https://llllllll.co/t/norns-shield-case-designs/30347/224) by [u/JHC](https://llllllll.co/u/JHC) that complements the stock faceplate ([shop](https://llllllll.co/t/fs-ww-norns-shield-cases-3d-printed/36711/1)).
+ - [nice laser-cut designs](https://llllllll.co/t/norns-shield-case-designs/30347/183) by [u/okyeron](https://llllllll.co/u/okyeron) that complements the stock faceplate ([shop](https://denki-oto.weebly.com/store/p39/norns-shield-case.html#/)).
 
 If you don't have access to a fablab, you can use a laser-cut service such as [ponoko](https://www.ponoko.com/) (US) or [razorlab](https://razorlab.online/) (UK).
 
-For encoder caps, you can look at makers such as Sifam / Selco, the various offerings at aliexpress ([example](https://www.aliexpress.com/item/32781327404.html?spm=2114.13010708.0.0.3a994c4dQ4Aov1)) or even go the [3D printing route](https://llllllll.co/t/diy-norns-shield/27638/876).
+For encoder caps, any D-shaft knob cap should fit.
+
+You can look at makers such as Sifam / Selco, the various offerings at aliexpress ([example](https://www.aliexpress.com/item/32781327404.html?spm=2114.13010708.0.0.3a994c4dQ4Aov1)) or even go the [3D printing route](https://llllllll.co/t/diy-norns-shield/27638/876).
+
+For screws/spacers, use M2 for the screen and M2.5 for everything else.
 
 
-#### Hardware companions
+#### _monome_ hardware companions
 
-Some apps are made to work only with some of other **monome** hardware (such as **grid**, **arc** and **crow**).
+Some apps are made to pair with some of other _monome_ hardware.
 
-Others rely on other input devices such as MIDI controllers (pad, keyboards...) or a computer keyboard.
+The most prominents are:
+ - [_grid_][hw grid doc], a keyboard mostly used for sequencer _apps_
+ - [_arc_][hw arc doc], an array of knobs with sequencing functionalities
+ - [_crow_][hw crow doc] for interracting with eurorack/modular modules
 
-For discussing those options, see [t/friends-of-norns](https://llllllll.co/t/friends-of-norns-gear-accessories-etc/17150).
+You don't have to own any of those "peripherals" to enjoy your _norns_. It depends of the _apps_ you plan to use.
+
+See [the list of _apps_ by I/O](https://github.com/p3r7/awesome-monome-norns#by-io) to see what you're missing.
+
+
+#### Other hardware companions
+
+Synth _apps_ generally rely on MIDI inputs. So a keyboards, pads or sequencer is a must have. A computer with midi output will do as well.
+
+Lots of parameters can also be controlled with midi CC by using anything with midi knobs / sliders.
+
+Some examples related to the _monome_ community:
+ - [16n faderbank][hw 16n site]
+ - [bleached][hw bleached lines]
+
+Some trackers _apps_ (_orca_ and _nisp_) rely on a USB computer keyboard.
+
+Those plus other hardware accessories & peripherals are discussed in [t/Friends of norns: gear, accessories, etc](https://llllllll.co/t/friends-of-norns-gear-accessories-etc/17150).
 
 
 ## Development: General
 
-The **norns** platform allows developing small programs using the [lua](https://www.lua.org/) programming language.
+The _norns_ platform allows developing small programs using the [lua](https://www.lua.org/) programming language.
 
 They are generally referred to as _scripts_, and _apps_ once packaged and distributed.
 
@@ -127,8 +191,8 @@ Here are listed the ones most often spotted in the wild.
 | PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       |                                                  |
 | [R][lib R lines]                   | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                             |
 | [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           |                                            |                                                  |
-| molly_the_poly                     | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] |                                                                                    | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence, fugu    |
-| passersby                          | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           |                                                                                    | [passersby][app passersby lines]           | passersby, less_concepts, dunes                  |
+| molly_the_poly                     | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] | analogue (substractive) synth                                                      | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence, fugu    |
+| passersby                          | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           | westcoast-style synth                                                              | [passersby][app passersby lines]           | passersby, less_concepts, dunes                  |
 | PrimitiveString                    | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                                      |
 
 
@@ -175,7 +239,7 @@ Sample players:
 | ---                               | :---:     | ---                     | ---                                                          | ---                           | --- |
 | [crash][app crash lines]          | ✔         | [gh][app crash src]     | random drum kit player (606 samples)                         |                               |     |
 | [drum_room][app drum_room lines]  | ✔         | [gh][app drum_room src] | MIDI-controlled drum kits                                    | [1][app drum_room demo 1]     |     |
-| [timber/keys][app timber lines]   | ✔         | [gh][app timber src]    | split & map a sample across midi keys / grid                 | [1][app timber/keys demo 1]   |     |
+| [timber/keys][app timber lines]   | ✔         | [gh][app timber src]    | map a sample at different pitches  across midi keys / grid   | [1][app timber/keys demo 1]   |     |
 | [timber/player][app timber lines] | ✔         | [gh][app timber src]    | load whole directory of samples mapped onto midi keys / grid | [1][app timber/player demo 1] |     |
 
 
@@ -369,7 +433,7 @@ Special cases:
  - \**: grid can be replaced by TouchOSC
 
 
-## Mother, Pure Data & Orac
+## Pure Data
 
 [Pure Data](https://puredata.info/) patches originally built for the [Organelle](https://www.critterandguitari.com/organelle) can run on any _norns_ device.
 
@@ -396,6 +460,24 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 
 
 <!-- ====================================================================== -->
+
+<!-- hw: norns -->
+[hw norns lines]: https://llllllll.co/t/approaching-norns/13236
+[hw norns doc]: https://monome.org/docs/norns/
+[hw norns shop]: https://market.monome.org/collections/primary/products/norns
+[hw norns-shield lines]: https://llllllll.co/t/approaching-diy-norns-shield/25554
+[hw norns-shield shop]: https://market.monome.org/collections/primary/products/norns-shield-kit
+[hw norns-shield diy lines]: https://llllllll.co/t/diy-norns-shield/27638
+[hw norns-shield case lines]: https://llllllll.co/t/norns-shield-case-designs/30347
+[hw fates lines]: https://llllllll.co/t/fates-a-diy-norns-dac-board-for-raspberry-pi/22999
+<!-- hw: other monome -->
+[hw grid doc]: https://monome.org/docs/grid/
+[hw arc doc]: https://monome.org/docs/arc/
+[hw crow doc]: https://monome.org/docs/crow/
+<!-- hw: monome-related -->
+[hw 16n site]: https://16n-faderbank.github.io/
+[hw bleached lines]: https://llllllll.co/t/bleached-diy-midi-controller/33786
+
 
 <!-- softcut libs -->
 [lib softcut lines]: https://llllllll.co/t/norns-2-0-softcut/20550
