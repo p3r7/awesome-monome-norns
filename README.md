@@ -47,7 +47,7 @@ To give you some concrete examples, _norns_ can be:
  - an advanced sequencer with **_takt_**, inspired with the Electron Octatrack
  - a nasty sounding sample player with **_timber/keys_** (MPC-like) **_timber/player_** (rompler-like)
 
-For a more complete list, see the [Apps][#apps] section.
+For a more complete list, see the [Apps](#apps) section.
 
 
 ## Hardware
