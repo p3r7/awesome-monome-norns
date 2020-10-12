@@ -73,7 +73,8 @@ The case provided in kits is pretty minimal. People share their design of more r
 
 A few highlights:
  - [nice 3D printing STL design](https://llllllll.co/t/norns-shield-case-designs/30347/224) by [u/JHC](https://llllllll.co/u/JHC) that complements the stock faceplate ([shop](https://llllllll.co/t/fs-ww-norns-shield-cases-3d-printed/36711/1)).
- - [nice laser-cut designs](https://llllllll.co/t/norns-shield-case-designs/30347/183) by [u/okyeron](https://llllllll.co/u/okyeron) that complements the stock faceplate ([shop](https://denki-oto.weebly.com/store/p39/norns-shield-case.html#/)).
+ - [nice laser-cut designs](https://llllllll.co/t/norns-shield-case-designs/30347/183) by [u/okyeron](https://llllllll.co/u/okyeron) ([shop](https://denki-oto.weebly.com/store/p39/norns-shield-case.html#/)).
+ - [aluminium case](https://llllllll.co/t/fates-ww-commerce-thread/27165/79) by [u/Gregory_Delabelle](https://llllllll.co/u/Gregory_Delabelle) ([shop](https://docs.google.com/forms/d/e/1FAIpQLScJTDVgXTqiN6HnZBpKS0v8VNfar2rGikTGkOw3MjDAJp-1GQ/viewform)).
 
 If you don't have access to a fablab, you can use a laser-cut service such as [ponoko](https://www.ponoko.com/) (US) or [razorlab](https://razorlab.online/) (UK).
 
@@ -88,10 +89,10 @@ For screws/spacers, use M2 for the screen and M2.5 for everything else.
 
 Some apps are made to pair with some of other _monome_ hardware.
 
-The most prominents are:
+The most prominent are:
  - [_grid_][hw grid doc], a keyboard mostly used for sequencer _apps_
  - [_arc_][hw arc doc], an array of knobs with sequencing functionalities
- - [_crow_][hw crow doc] for interracting with eurorack/modular modules
+ - [_crow_][hw crow doc] for interacting with eurorack/modular modules
 
 You don't have to own any of those "peripherals" to enjoy your _norns_. It depends of the _apps_ you plan to use.
 
