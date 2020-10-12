@@ -359,9 +359,13 @@ Special cases:
 
 ## Pure Data
 
-[Pure Data](https://puredata.info/) patches originally built for the [Organelle](https://www.critterandguitari.com/organelle) can run on any _norns_ device.
+[_Pure Data_](https://puredata.info/) patches originally built for the [_Organelle_](https://www.critterandguitari.com/organelle) can run on any _norns_ device.
 
-This is easilly done thanks to the combination of 2 projects:
+This is done by escaping the norns runtime environment and booting into a _Pure Data_-compatible one.
+
+Please note that [next release](https://llllllll.co/t/approaching-3-0-universal-engine-support/25255/1) of the _norns_ software will add native support of _Pure Data_, akin to what we currently have with _SuperCollider_.
+
+This is easily done thanks to the combination of 2 projects:
 
  - _Sidekick_ by [u/thetechnobear](https://llllllll.co/u/thetechnobear/summary) that allows booting out of the _norns_ software and into other ones ([lines thread](https://llllllll.co/t/orac-sidekick-pure-data-and-sc-for-norns/26198))
  - _Mother_ by [u/oxbown](https://llllllll.co/u/oxbown/summary) that provides a compatibility layer for running Organelle patches ([lines thread](https://llllllll.co/t/norns-mother-organelle-patches-on-norns/30237))
