@@ -413,12 +413,12 @@ Most scripts you'll find in the wild use either _softcut_ or _engine_, but some 
 
 When wanting to contribute or seeking help, use one of those threads:
 
- - [t/norns-scripting](https://llllllll.co/t/norns-scripting/14120): getting help with app development (lua)
- - [t/norns-softcut](https://llllllll.co/t/norns-2-0-softcut/20550): getting help with app development (softcut)
- - [t/norns-supercollider](https://llllllll.co/t/norns-supercollider/22822): getting help with app development (SuperCollider side)
- - [t/norns-development](https://llllllll.co/t/norns-development/14073): following and participating to evolutions to core norns code
- - [t/norns-crone-supercollider](https://llllllll.co/t/norns-crone-supercollider/14616): following and participating to evolutions to core norns code (SuperCollider / Crone)
- - [t/exquisite-script-a-collective-scripting-game-for-norns](https://llllllll.co/t/exquisite-script-a-collective-scripting-game-for-norns/34989): a cadavre exquis, collective development of an app
+ - [t/norns: scripting](https://llllllll.co/t/norns-scripting/14120): getting help with app development (lua)
+ - [t/norns 2.0: softcut](https://llllllll.co/t/norns-2-0-softcut/20550): getting help with app development (softcut)
+ - [t/norns: SuperCollider](https://llllllll.co/t/norns-supercollider/22822): getting help with app development (SuperCollider side)
+ - [t/norns: development](https://llllllll.co/t/norns-development/14073) and [t/Approaching 3.0: universal engine support](https://llllllll.co/t/approaching-3-0-universal-engine-support/25255/1): following and participating to evolutions to core norns code
+ - [t/norns: crone/supercollider](https://llllllll.co/t/norns-crone-supercollider/14616): following and participating to evolutions to core norns code (SuperCollider / Crone)
+ - [t/Exquisite Script: A collective scripting game for norns](https://llllllll.co/t/exquisite-script-a-collective-scripting-game-for-norns/34989): a cadavre exquis, collective development of an app
 
 
 ## Development: Libraries & Engines
