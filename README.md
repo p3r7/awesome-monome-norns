@@ -107,7 +107,7 @@ Lots of parameters can also be controlled with midi CC by using anything with mi
 
 Some examples related to the _monome_ community:
  - [16n faderbank][hw 16n site]
- - [bleached][hw bleached lines] and [17][hw 17 lines]
+ - [bleached][hw bleached lines], [Four-N][hw Four-N lines] and [17][hw 17 lines]
 
 Some trackers _apps_ (_orca_ and _nisp_) rely on a USB computer keyboard.
 
@@ -478,6 +478,7 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 <!-- hw: monome-related -->
 [hw 16n site]: https://16n-faderbank.github.io/
 [hw bleached lines]: https://llllllll.co/t/bleached-diy-midi-controller/33786
+[hw Four-N lines]: https://llllllll.co/t/four-n-128-sized-knob-controller/24
 [hw 17 lines]: https://llllllll.co/t/17-diy-teensy-midi-controller/28539
 
 
