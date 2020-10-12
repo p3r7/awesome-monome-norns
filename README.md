@@ -58,7 +58,7 @@ There are 3 variations of the norns hardware:
 | [norns shield][hw norns-shield lines] ([shop][hw norns-shield shop]) | clean      | basic acrylic face & back plates / DIY                   | ❌      | ❌                   | 3B, 3B+                       | $200 \*               |
 | [fates][hw fates lines]                                              | clean (?)  | no                                                       | ❌      | ✔                    | 3B, 3B+, 4                    | n/a                   |
 
-\*: to which must be added the price of the Raspberry Pi, micro SD card, power supply and eventually better case. So you're eventually looking more at $300.
+\*: to which must be added the price of the Raspberry Pi, micro SD card, power supply and eventually better case. So you're eventually looking more at ≃$300.
 
 The _norns shield_ is currently the more economic version but is DIY and lacks some of the features of its big brother. It's design is [open source][hw norns-shield diy lines].
 
@@ -92,11 +92,15 @@ Some apps are made to pair with some of other _monome_ hardware.
 The most prominent are:
  - [_grid_][hw grid doc], a keyboard mostly used for sequencer _apps_
  - [_arc_][hw arc doc], an array of knobs with sequencing functionalities
- - [_crow_][hw crow doc] for interacting with eurorack/modular modules
+ - [_crow_][hw crow doc] for interacting with eurorack / modular synth gear
 
-You don't have to own any of those "peripherals" to enjoy your _norns_. It depends of the _apps_ you plan to use.
+You don't necessarily have to own any of those "peripherals" to enjoy your _norns_. It depends of the _apps_ you plan to use.
 
 See [the list of _apps_ by I/O](https://github.com/p3r7/awesome-monome-norns#by-io) to see what you're missing.
+
+Please note that most _apps_ assume a 128 varybright grid. Older non-varybright models will work but you'll be missing some visual feedback.
+
+There is also a [DIY _grid_ project][hw grid-neotrellis lines] that allows making one for ≃$250. To use it with the _norns_, patching and recompiling is required to have it recognized. It will work right of the bat on a PC (with _Max_, _Pure Data_...). It doesn't (and will certainly never) work with eurorack _monome_ modules such as [_ansible_][hw ansible doc].
 
 
 #### Other hardware companions
@@ -473,8 +477,10 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 [hw fates lines]: https://llllllll.co/t/fates-a-diy-norns-dac-board-for-raspberry-pi/22999
 <!-- hw: other monome -->
 [hw grid doc]: https://monome.org/docs/grid/
+[hw grid-neotrellis lines]: https://llllllll.co/t/diy-monome-compatible-grid-w-adafruit-neotrellis/28106
 [hw arc doc]: https://monome.org/docs/arc/
 [hw crow doc]: https://monome.org/docs/crow/
+[hw ansible doc]: https://monome.org/docs/ansible/
 <!-- hw: monome-related -->
 [hw 16n site]: https://16n-faderbank.github.io/
 [hw bleached lines]: https://llllllll.co/t/bleached-diy-midi-controller/33786
