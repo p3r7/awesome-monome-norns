@@ -120,89 +120,6 @@ Some trackers _apps_ (_orca_ and _nisp_) rely on a USB computer keyboard.
 Those plus other hardware accessories & peripherals are discussed in [t/Friends of norns: gear, accessories, etc](https://llllllll.co/t/friends-of-norns-gear-accessories-etc/17150).
 
 
-## Development: General
-
-The _norns_ platform allows developing small programs using the [lua](https://www.lua.org/) programming language.
-
-They are generally referred to as _scripts_, and _apps_ once packaged and distributed.
-
-2 internal sound processing units are at our disposal:
-
- - `engine`: an instance of [SuperCollider](https://supercollider.github.io/) (sometimes also referred to as `external`)
- - `softcut`: a live multi-channel sampler / player that can be used to build crazy loopers and delays
-
-<div align=center><img src="https://monome.org/docs/norns/image/norns-audio-route.png" width="750"></div>
-
-Even though _SuperCollider_ is generally used to define a virtual synthesizer, it can also take audio from the inputs (missing on the above diagram).
-
-Most scripts you'll find in the wild use either _softcut_ or _engine_, but some might use the 2 of them.
-
-
-#### Documentation
-
- - [basic lua scripting reference](https://monome.org/docs/norns/script-reference/)
- - [complete lua APIs doc](https://monome.org/norns/)
-
-
-#### Tutorials & example apps
-
- - [norns studies](https://monome.org/docs/norns/studies-landing/)
- - [norns: tutorial](https://llllllll.co/t/norns-tutorial/23241) by [Devine Lu Linvega](https://xxiivv.com/)
- - [softcut studies](https://github.com/monome/softcut-studies)
- - [foundry][app foundry lines] app ([code][app foundry src]) for text & fonts (`screen.text` API)
- - [athenaeum/arc][app athenaeum lines] app ([code][app athenaeum lines]) for arc interactions
- - [video tutorial on adding midi out to an existing app](https://llllllll.co/t/norns-walkthrough-hacking-a-script-to-add-midi-output/34969)
- - [tutorial on adding computer keyboard support to an existing app](https://llllllll.co/t/norns-without-a-grid/32996/28)
-
-
-#### Community
-
-When wanting to contribute or seeking help, use one of those threads:
-
- - [t/norns-scripting](https://llllllll.co/t/norns-scripting/14120): getting help with app development (lua)
- - [t/norns-softcut](https://llllllll.co/t/norns-2-0-softcut/20550): getting help with app development (softcut)
- - [t/norns-supercollider](https://llllllll.co/t/norns-supercollider/22822): getting help with app development (SuperCollider side)
- - [t/norns-development](https://llllllll.co/t/norns-development/14073): following and participating to evolutions to core norns code
- - [t/norns-crone-supercollider](https://llllllll.co/t/norns-crone-supercollider/14616): following and participating to evolutions to core norns code (SuperCollider / Crone)
- - [t/exquisite-script-a-collective-scripting-game-for-norns](https://llllllll.co/t/exquisite-script-a-collective-scripting-game-for-norns/34989): a cadavre exquis, collective development of an app
-
-
-## Development: Libraries & Engines
-
-When developing apps/scripts, you rely on lua libraries (classes & modules). One of them, _engine_, allows interacting with a running SuperCollider instance.
-
-When using SuperCollider, one can rely on an already installed SuperCollider library on spin their own. Those SuperCollider libraries (in essence a _SynthDef_) are called _engines_ in the context of **norns** development.
-
-Most advanced apps come with their own custom libraries / engine.
-
-Here are listed the ones most often spotted in the wild.
-
-
-#### Softcut & Softcut-based libs
-
-| library                        | code                                                       | description                         | provided by          | used by           |
-| --                             | ---                                                        | ---                                 | ---                  | ---               |
-| [softcut][lib softcut lines]   | [lua][lib softcut gh lua], [undelying C][lib softcut gh C] | sample record & playback            | installed by default | sam, reels, piwip |
-| [supercut][lib supercut lines] | [lua][lib supercut gh lua]                                 | higher-level wrapper around softcut |                      | wrms              |
-
-
-#### SuperCollider engines
-
-
-| library                            | code                                                                         | description                                                                        | provided by                                | used by                                          |
-| --                                 | ---                                                                          | ---                                                                                | ---                                        | ---                                              |
-| ack                                | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt, crash, vials |
-| timber                             | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                                     |
-| glut                               | [sclang][lib glut gh sc]                                                     | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf                                 |
-| PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen         |
-| PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       |                                                  |
-| [R][lib R lines]                   | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                             |
-| [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           |                                            |                                                  |
-| molly_the_poly                     | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] | analogue (substractive) synth                                                      | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence, fugu    |
-| passersby                          | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           | westcoast-style synth                                                              | [passersby][app passersby lines]           | passersby, less_concepts, dunes                  |
-| PrimitiveString                    | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                                      |
-
-
 ## Apps
 
 #### List
@@ -455,6 +372,89 @@ In addition, installing _Sideckick_ also provides:
  - _NuiLite_: a lightweight _Pure Data_ _external_ (i.e. extension) for making and running patches without depending on the _Organelle/Mother_ or _Orac_ layer.
 
 For more details, see also the [the _Sidekick_ project wiki](https://github.com/TheTechnobear/NuiLite/wiki).
+
+
+## Development: General
+
+The _norns_ platform allows developing small programs using the [lua](https://www.lua.org/) programming language.
+
+They are generally referred to as _scripts_, and _apps_ once packaged and distributed.
+
+2 internal sound processing units are at our disposal:
+
+ - `engine`: an instance of [SuperCollider](https://supercollider.github.io/) (sometimes also referred to as `external`)
+ - `softcut`: a live multi-channel sampler / player that can be used to build crazy loopers and delays
+
+<div align=center><img src="https://monome.org/docs/norns/image/norns-audio-route.png" width="750"></div>
+
+Even though _SuperCollider_ is generally used to define a virtual synthesizer, it can also take audio from the inputs (missing on the above diagram).
+
+Most scripts you'll find in the wild use either _softcut_ or _engine_, but some might use the 2 of them.
+
+
+#### Documentation
+
+ - [basic lua scripting reference](https://monome.org/docs/norns/script-reference/)
+ - [complete lua APIs doc](https://monome.org/norns/)
+
+
+#### Tutorials & example apps
+
+ - [norns studies](https://monome.org/docs/norns/studies-landing/)
+ - [norns: tutorial](https://llllllll.co/t/norns-tutorial/23241) by [Devine Lu Linvega](https://xxiivv.com/)
+ - [softcut studies](https://github.com/monome/softcut-studies)
+ - [foundry][app foundry lines] app ([code][app foundry src]) for text & fonts (`screen.text` API)
+ - [athenaeum/arc][app athenaeum lines] app ([code][app athenaeum lines]) for arc interactions
+ - [video tutorial on adding midi out to an existing app](https://llllllll.co/t/norns-walkthrough-hacking-a-script-to-add-midi-output/34969)
+ - [tutorial on adding computer keyboard support to an existing app](https://llllllll.co/t/norns-without-a-grid/32996/28)
+
+
+#### Community
+
+When wanting to contribute or seeking help, use one of those threads:
+
+ - [t/norns-scripting](https://llllllll.co/t/norns-scripting/14120): getting help with app development (lua)
+ - [t/norns-softcut](https://llllllll.co/t/norns-2-0-softcut/20550): getting help with app development (softcut)
+ - [t/norns-supercollider](https://llllllll.co/t/norns-supercollider/22822): getting help with app development (SuperCollider side)
+ - [t/norns-development](https://llllllll.co/t/norns-development/14073): following and participating to evolutions to core norns code
+ - [t/norns-crone-supercollider](https://llllllll.co/t/norns-crone-supercollider/14616): following and participating to evolutions to core norns code (SuperCollider / Crone)
+ - [t/exquisite-script-a-collective-scripting-game-for-norns](https://llllllll.co/t/exquisite-script-a-collective-scripting-game-for-norns/34989): a cadavre exquis, collective development of an app
+
+
+## Development: Libraries & Engines
+
+When developing apps/scripts, you rely on lua libraries (classes & modules). One of them, _engine_, allows interacting with a running SuperCollider instance.
+
+When using SuperCollider, one can rely on an already installed SuperCollider library on spin their own. Those SuperCollider libraries (in essence a _SynthDef_) are called _engines_ in the context of **norns** development.
+
+Most advanced apps come with their own custom libraries / engine.
+
+Here are listed the ones most often spotted in the wild.
+
+
+#### Softcut & Softcut-based libs
+
+| library                        | code                                                       | description                         | provided by          | used by           |
+| --                             | ---                                                        | ---                                 | ---                  | ---               |
+| [softcut][lib softcut lines]   | [lua][lib softcut gh lua], [undelying C][lib softcut gh C] | sample record & playback            | installed by default | sam, reels, piwip |
+| [supercut][lib supercut lines] | [lua][lib supercut gh lua]                                 | higher-level wrapper around softcut |                      | wrms              |
+
+
+#### SuperCollider engines
+
+
+| library                            | code                                                                         | description                                                                        | provided by                                | used by                                          |
+| --                                 | ---                                                                          | ---                                                                                | ---                                        | ---                                              |
+| ack                                | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt, crash, vials |
+| timber                             | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                                     |
+| glut                               | [sclang][lib glut gh sc]                                                     | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf                                 |
+| PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen         |
+| PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       |                                                  |
+| [R][lib R lines]                   | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                             |
+| [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           |                                            |                                                  |
+| molly_the_poly                     | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] | analogue (substractive) synth                                                      | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence, fugu    |
+| passersby                          | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           | westcoast-style synth                                                              | [passersby][app passersby lines]           | passersby, less_concepts, dunes                  |
+| PrimitiveString                    | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                                      |
 
 
 ## Development: C
