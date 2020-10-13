@@ -135,6 +135,7 @@ Synths & drones:
 
 | app                                          | on maiden | code                          | description                                                                                                 | demo                                               | doc                   |
 | ---                                          | :---:     | ---                           | ---                                                                                                         | ---                                                | ---                   |
+| [ash/earthsea][app ash lines]                | ✔️         | [gh][app ash src]             | PolySub engine. Also acts as a sequencer with grid.                                                         |                                                    |                       |
 | [benjolis][app benjolis lines]               | ✔️         | [gh][app benjolis src]        | port of Alejandro Olarte’s Benjolis SuperCollider patch, inspired from Rob Hordijk’s Benjolin               | [1][app benjolis demo 1], [2][app benjolis demo 2] |                       |
 | [dronecaster][app dronecaster lines]         | ✔️         | [gh][app dronecaster src]     | Various drones                                                                                              | [1][app dronecaster demo 1]                        |                       |
 | [fm7][app fm7 lines]                         | ✔️         | [gh][app fm7 src]             | DX7-inspired polyphonic FM synth                                                                            | [1][app fm7 demo 1]                                | [online][app fm7 doc] |
@@ -148,14 +149,15 @@ Synths & drones:
 | [showers][app showers lines]                 | ✔️         | [gh][app showers src]         | a thunderstorm (rain & thunder)                                                                             |                                                    |                       |
 | [stjoernuithrott][app stjoernuithrott lines] | ✔️         | [gh][app stjoernuithrott src] | drone synth inspired by the Moffeenzeef Stargazer                                                           |                                                    |                       |
 
-Granular (sample-based) synths:
+Granular sample players and synths:
 
-| app                        | on maiden | code                 | description                                                                              | demo                   | doc |
-| ---                        | :---:     | ---                  | ---                                                                                      | ---                    | --- |
-| [glut][app glut lines]     | ✔️         | [gh][app glut src]   | granular synth inspired by mlr/rove, [grainfield][app grainfield lines] & loomer cumulus | [1][app glut demo 1]   |     |
-| [gemini][app gemini lines] | ✔️         | [gh][app gemini src] | one file, two granulators                                                                | [1][app gemini demo 1] |     |
-| [mangl][app mangl lines]   | ✔️         | [gh][app mangl src]  | a 7 track granular sample player                                                         | [1][app mangl demo 1]  |     |
-| [uhf][app uhf lines]       | ✔️         | [gh][app uhf src]    | your tapes transmitted thru late-night static and broken antenna frequencies             |                        |     |
+| app                        | on maiden | code                 | description                                                                              | demo                     | doc |
+| ---                        | :---:     | ---                  | ---                                                                                      | ---                      | --- |
+| [ash/angl][app ash lines]  | ✔️         | [gh][app ash src]    | use an arc to control pitch and speed granulation of four audio files                    | [1][app ash/angl demo 1] |     |
+| [glut][app glut lines]     | ✔️         | [gh][app glut src]   | granular synth inspired by mlr/rove, [grainfield][app grainfield lines] & loomer cumulus | [1][app glut demo 1]     |     |
+| [gemini][app gemini lines] | ✔️         | [gh][app gemini src] | one file, two granulators                                                                | [1][app gemini demo 1]   |     |
+| [mangl][app mangl lines]   | ✔️         | [gh][app mangl src]  | a 7 track granular sample player                                                         | [1][app mangl demo 1]    |     |
+| [uhf][app uhf lines]       | ✔️         | [gh][app uhf src]    | your tapes transmitted thru late-night static and broken antenna frequencies             |                          |     |
 
 
 Sample players:
@@ -182,7 +184,8 @@ Sequencers & trackers:
 | [animator][app animator lines]                     | ✔️         | [gh][app animator src]      | 2D polyphonic sequencer for grids                                   | [1][app animator demo 1], [2][app animator demo 2]               | [online][app animator doc]      |
 | [arcologies][app arcologies lines]                 | ✔️         | [gh][app arcologies src]    | interactive environment for designing 2d sound arcologies           | [gallery][app arcologies demos]                                  | [online][app arcologies doc]    |
 | [arp_index][app arp_index lines]                   | ✔️         | [gh][app arp_index src]     | generate sequence from company stocks                               | [1][app arp_index demo 1]                                        |                                 |
-| [ash/playfair][app ash lines]                      | ✔️         | [gh][app ash/playfair src]  | euclidean drummer, four sequences, each with its own sample         | [1][app ash/playfair demo 1]                                     |                                 |
+| [ash/earthsea][app ash lines]                      | ✔️         | [gh][app ash src]           | grid-enabled shape-memory pattern instrument                        |                                                                  |                                 |
+| [ash/playfair][app ash lines]                      | ✔️         | [gh][app ash src]           | euclidean drummer, four sequences, each with its own sample         | [1][app ash/playfair demo 1]                                     |                                 |
 | [awake][app awake lines]                           | default   | [gh][app awake src]         | two looped sequences                                                | [1][app awake demo 1]                                            |                                 |
 | [boing][app boingg lines]                          | ✔         | [gh][app boingg src]        | a bouncing ball sequencer                                           | [1][app boingg demo 1]                                           |                                 |
 | [cheat_codes][app cheat_codes lines]               | ✔️         | [gh][app cheat_codes src]   | sample playground                                                   | [1][app cheat_codes demo 1]                                      | [pdf][app cheat_codes doc]      |
@@ -236,6 +239,7 @@ Loopers, live samplers & crazy delays:
 
 | app                                    | on maiden | code                       | description                                                                            | demo                                                                                       | doc                     |
 | ---                                    | :---:     | ---                        | ---                                                                                    | ---                                                                                        | ---                     |
+| [ash/orbit][app ash lines]             | ✔️         | [gh][app ash src]          | dual async start-stop loop recorder                                                    |                                                                                            |                         |
 | [barcode][app barcode lines]           | ✔️         | [gh][app barcode src]      | a randomized looper                                                                    | [1][app barcode demo 1]                                                                    |                         |
 | [b-b-b-b-beat][app b-b-b-b-beat lines] | ✔️         | [gh][app b-b-b-b-beat src] | beat repeater/glitcher inspired by Ableton's Beat Repeat, MASF Possessed & MWFX Judder | [1][app b-b-b-b-beat demo 1]                                                               |                         |
 | [blndr][app blndr lines]               | ✔️         | [gh][app blndr src]        | a quantized delay with time bending effects                                            | [1][app blndr demo 1]                                                                      |                         |
@@ -284,6 +288,10 @@ Utilities:
 
 | app                                                | audio in | midi sync | midi in | keyboard | grid   | arc   | audio out | midi out | crow  |
 | ---                                                | :---:    | :---:     | :---:   | :---:    | :---:  | :---: | :---:     | :---:    | :---: |
+| [ash/angl][app ash lines]                          |          |           |         |          |        | 🔴    | ✔         |          |       |
+| [ash/earthsea][app ash lines]                      |          |           | ✔       |          | ⚪     |       | ✔         |          |       |
+| [ash/orbit][app ash lines]                         | ✔        |           |         |          |        |       | ✔         |          |       |
+| [ash/playfair][app playfair lines]                 |          | ⚪        |         |          |        |       | ✔         |          |       |
 | [athenaeum/arc][app athenaeum lines]               |          |           |         |          |        | 🔴    |           |          |       |
 | [athenaeum/delay][app athenaeum lines]             | ✔        |           |         |          |        |       |           | ✔        |       |
 | [arcologies][app arcologies lines]                 |          |           |         |          | 🔴     |       | ✔         | ✔        | ✔     |
@@ -454,7 +462,7 @@ Here are listed the ones most often spotted in the wild.
 | timber                             | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                                     |
 | glut                               | [sclang][lib glut gh sc]                                                     | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf                                 |
 | PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen         |
-| PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       |                                                  |
+| PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       | ash/earthsea                                     |
 | [R][lib R lines]                   | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                             |
 | [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           |                                            |                                                  |
 | molly_the_poly                     | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] | analogue (substractive) synth                                                      | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence, fugu    |
@@ -541,7 +549,8 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 [app arp_index src]: https://github.com/markwheeler/arp_index
 [app arp_index demo 1]: https://www.instagram.com/p/B140GeKB3ga/
 [app ash lines]: https://llllllll.co/t/ash-a-small-collection/21349
-[app ash/playfair src]: https://github.com/tehn/ash/blob/master/playfair.lua
+[app ash src]: https://github.com/tehn/ash
+[app ash/angl demo 1]: https://vimeo.com/312196152
 [app ash/playfair demo 1]: https://vimeo.com/270668759
 [app awake lines]: https://llllllll.co/t/awake
 [app awake src]: https://github.com/tehn/awake
