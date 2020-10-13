@@ -103,7 +103,10 @@ See [the list of _apps_ by I/O](https://github.com/p3r7/awesome-monome-norns#by-
 
 Please note that most _apps_ assume a 128 varybright grid. Older non-varybright models will work but you'll be missing some visual feedback.
 
-There is also a [DIY _grid_ project][hw grid-neotrellis lines] that allows making one for ≃$250. To use it with the _norns_, patching and recompiling is required to have it recognized. It will work right of the bat on a PC (with _Max_, _Pure Data_...). It doesn't (and will certainly never) work with eurorack _monome_ modules such as [_ansible_][hw ansible doc].
+There is a [DIY _grid_ project][hw grid-neotrellis lines] that allows making one for ≃$250. To use it with the _norns_, patching and recompiling is required to have it recognized. It will work right of the bat on a PC (with _Max_, _Pure Data_...). It doesn't (and will certainly never) work with eurorack _monome_ modules such as [_ansible_][hw ansible doc].
+
+There is also a [DIY arc project][hw arc diy] which will also cost ≃$250. It does not require any special patching.
+
 
 
 #### Other hardware companions
@@ -493,6 +496,7 @@ For a working example with grid and arc support see project [norns-lowlevel](htt
 <!-- hw: other monome -->
 [hw grid doc]: https://monome.org/docs/grid/
 [hw grid-neotrellis lines]: https://llllllll.co/t/diy-monome-compatible-grid-w-adafruit-neotrellis/28106
+[hw arc diy]: https://github.com/TheSlowGrowth/MonomeArcClone 
 [hw arc doc]: https://monome.org/docs/arc/
 [hw crow doc]: https://monome.org/docs/crow/
 [hw ansible doc]: https://monome.org/docs/ansible/
