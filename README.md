@@ -318,7 +318,7 @@ Utilities:
 | [dunes][app dunes lines]                           |          |           |         |          |        |       | ✔️         |          |       |
 | [euclidigons][app euclidigons lines]               |          |           |         |          |        |       | ✔️         | ✔️        |       |
 | [foulplay][app foulplay lines]                     |          |           |         |          | 🔶     |       | ✔️         | ✔️        |       |
-| fretwork                                           |          |           |         |          |        |       | ✔️         | ✔️        | ✔     |
+| fretwork                                           |          |           |         |          | ⚪     |       | ✔️         | ✔️        | ✔     |
 | [fm7][app fm7 lines]                               |          |           | 🔶      |          | 🔶     |       | ✔️         |          |       |
 | [fugu][app fugu lines]                             |          |           |         |          | 🔴     |       | ✔️         |          |       |
 | [gemini][app gemini lines]                         | ️         |           |         |          |        | ⚪    | ✔️         |          |       |
