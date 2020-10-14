@@ -356,7 +356,7 @@ Utilities:
 | [step][app step lines]                             |          |           |         |          | 🔴     | 🔶    | ✔️         |          |       |
 | [stjoernuithrott][app stjoernuithrott lines]       |          |           | ⚪      |          |        |       | ✔️         |          |       |
 | [takt][app takt lines]                             |          |           |         |          | 🔴     |       | ✔️         |          |       |
-| [timber/keys][app timber lines]                    |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
+| [timber/keys][app timber lines]                    |          | ⚪        | 🔴 \*   |          |        |       | ✔️         |          |       |
 | [timber/player][app timber lines]                  |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
 | [tuner][app tuner lines]                           | ✔        |           |         |          |        |       | ️          |          |       |
 | [uhf][app uhf lines]                               |          |           |         |          |        |       | ✔️         |          |       |
