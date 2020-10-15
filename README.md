@@ -22,14 +22,14 @@ The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced 
 - [Apps](#apps)
   - [List](#list)
   - [By I/O](#by-io)
-- [Pure Data](#pure-data)
+- [_Pure Data_](#pure-data)
 - [Development: General](#development-general)
   - [Documentation](#documentation)
   - [Tutorials & example apps](#tutorials--example-apps)
   - [Community](#community)
 - [Development: Libraries & Engines](#development-libraries--engines)
-  - [Softcut & Softcut-based libs](#softcut--softcut-based-libs)
-  - [SuperCollider engines](#supercollider-engines)
+  - [_Softcut_ & _Softcut_-based libs](#softcut--softcut-based-libs)
+  - [_SuperCollider_ engines](#supercollider-engines)
 - [Development: C](#development-c)
 
 
@@ -391,7 +391,7 @@ Special cases:
  - \**: grid can be replaced by TouchOSC
 
 
-## Pure Data
+## _Pure Data_
 
 [_Pure Data_](https://puredata.info/) patches originally built for the [_Organelle_](https://www.critterandguitari.com/organelle) can run on any _norns_ device.
 
@@ -461,16 +461,16 @@ When wanting to contribute or seeking help, use one of those threads:
 
 ## Development: Libraries & Engines
 
-When developing apps/scripts, you rely on lua libraries (classes & modules). One of them, _engine_, allows interacting with a running SuperCollider instance.
+When developing apps/scripts, you rely on lua libraries (classes & modules). One of them, _engine_, allows interacting with a running _SuperCollider_ instance.
 
-When using SuperCollider, one can rely on an already installed SuperCollider library on spin their own. Those SuperCollider libraries (in essence a _SynthDef_) are called _engines_ in the context of **norns** development.
+When using _SuperCollider_, one can rely on an already installed _SuperCollider_ library on spin their own. Those _SuperCollider_ libraries (in essence a _SynthDef_) are called _engines_ in the context of **norns** development.
 
 Most advanced apps come with their own custom libraries / engine.
 
 Here are listed the ones most often spotted in the wild.
 
 
-#### Softcut & Softcut-based libs
+#### _Softcut_ & _Softcut_-based libs
 
 | library                        | code                                                       | description                         | provided by          | used by           |
 | --                             | ---                                                        | ---                                 | ---                  | ---               |
@@ -478,7 +478,7 @@ Here are listed the ones most often spotted in the wild.
 | [supercut][lib supercut lines] | [lua][lib supercut gh lua]                                 | higher-level wrapper around softcut |                      | wrms              |
 
 
-#### SuperCollider engines
+#### _SuperCollider_ engines
 
 
 | library                            | code                                                                         | description                                                                        | provided by                                | used by                                          |
