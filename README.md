@@ -316,7 +316,7 @@ Utilities:
 | [ash/angl][app ash lines]                          |          |           |         |          |        | 🔴    | ✔         |          |       |
 | [ash/earthsea][app ash lines]                      |          |           | ✔       |          | ⚪     |       | ✔         |          |       |
 | [ash/orbit][app ash lines]                         | ✔        |           |         |          |        |       | ✔         |          |       |
-| [ash/playfair][app playfair lines]                 |          | ⚪        |         |          |        |       | ✔         |          |       |
+| [ash/playfair][app ash lines]                      |          | ⚪        |         |          |        |       | ✔         |          |       |
 | [athenaeum/arc][app athenaeum lines]               |          |           |         |          |        | 🔴    |           |          |       |
 | [athenaeum/delay][app athenaeum lines]             | ✔        |           |         |          |        |       |           | ✔        |       |
 | [arcologies][app arcologies lines]                 |          |           |         |          | 🔴     |       | ✔         | ✔        | ✔     |
