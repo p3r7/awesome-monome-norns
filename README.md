@@ -1,4 +1,4 @@
-# awesome-monome-norns
+# Awesome monome norns
 
 
 <div align=center><img src="https://monome.org/images/norns-front-small.jpg" width="500"></div>
