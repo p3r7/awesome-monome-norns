@@ -11,6 +11,28 @@ The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced 
 <!-- https://llllllll.co/t/ash-a-small-collection/21349 -->
 
 
+## Table of Contents
+
+- [What / why is _norns?](#what--why-is-norns)
+- [What can it do?](#what-can-it-do)
+- [Hardware](#hardware)
+  - [_norns shield_](#norns-shield)
+  - [_monome_ hardware companions](#monome-hardware-companions)
+  - [Other hardware companions](#other-hardware-companions)
+- [Apps](#apps)
+  - [List](#list)
+  - [By I/O](#by-io)
+- [Pure Data](#pure-data)
+- [Development: General](#development-general)
+  - [Documentation](#documentation)
+  - [Tutorials & example apps](#tutorials--example-apps)
+  - [Community](#community)
+- [Development: Libraries & Engines](#development-libraries--engines)
+  - [Softcut & Softcut-based libs](#softcut--softcut-based-libs)
+  - [SuperCollider engines](#supercollider-engines)
+- [Development: C](#development-c)
+
+
 ## What / why is _norns_?
 
 The _norns_ is a hardware music platform.
