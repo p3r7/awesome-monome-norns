@@ -504,6 +504,11 @@ This effort is discussed in [t/low-level-norns](https://llllllll.co/t/low-level-
 For a working example with grid and arc support see project [norns-lowlevel](https://github.com/paulbatchelor/norns-lowlevel) ([explanation & demo](https://llllllll.co/t/low-level-norns/22921/37)).
 
 
+## License
+
+[![unlicense](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+
 <!-- ====================================================================== -->
 
 <!-- hw: norns -->
