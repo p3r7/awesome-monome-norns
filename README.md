@@ -31,6 +31,7 @@ The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced 
   - [_Softcut_ & _Softcut_-based libs](#softcut--softcut-based-libs)
   - [_SuperCollider_ engines](#supercollider-engines)
 - [Development: C](#development-c)
+- [License](#license)
 
 
 ## What / why is _norns_?
