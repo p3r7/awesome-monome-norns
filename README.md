@@ -13,7 +13,7 @@ The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced 
 
 ## Table of Contents
 
-- [What / why is _norns?](#what--why-is-norns)
+- [What / why is _norns?_](#what--why-is-norns)
 - [What can it do?](#what-can-it-do)
 - [Hardware](#hardware)
   - [_norns shield_](#norns-shield)
@@ -78,23 +78,25 @@ For a more complete list, see the [Apps](#apps) section.
 
 There are 3 variations of the norns hardware:
 
-| name                                                                 | audio path | case                                                     | battery | audio monitor output | supported Raspberry Pi models | price point           |
-| ---                                                                  | ---        | ---                                                      | :---:   | :---:                | ---                           | ---                   |
-| [_norns_][hw norns lines] ([shop][hw norns shop])                      | cleanest   | 2x aluminum block (hard anodized), custom caps & buttons | ✔       | ✔                    | CM3, CM3+                     | $800 / $680 (b-stock) |
-| [_norns shield_][hw norns-shield lines] ([shop][hw norns-shield shop]) | clean      | basic acrylic face & back plates / DIY                   | ❌      | ❌                   | 3B, 3B+                       | $200 \*               |
-| [_fates_][hw fates lines]                                              | clean (?)  | no                                                       | ❌      | ✔                    | 3B, 3B+, 4                    | n/a                   |
+| name                                                                 | audio path | case                                                     | battery | audio monitor output | supported Raspberry Pi models | price point           | compatibility
+| ---                                                                  | ---        | ---                                                      | :---:   | :---:                | ---                           | ---                   | ---   |
+| [_norns_][hw norns lines] ([shop][hw norns shop])                      | cleanest   | 2x aluminum block (hard anodized), custom caps & buttons | ✔       | ✔                    | CM3, CM3+                     | $800 / $680 (b-stock) | original version  |
+| [_norns shield_][hw norns-shield lines] ([shop][hw norns-shield shop]) | clean      | basic acrylic face & back plates / DIY                   | ❌      | ✔                    | 3B, 3B+                       | $200 \*               | fully compatible  |
+| [_fates_][hw fates lines]                                              | clean (?)  | no                                                       | ❌      | ✔                    | 3B, 3B+, 4                    | n/a                   | mostly compatible \*\* |
 
 \*: to which must be added the price of the Raspberry Pi, micro SD card, power supply and eventually better case. So you're eventually looking more at ≃$300.
 
+\*\*: _fates_ has its own software fork since its kernel is not compatible, so update cycles run behind the official releases given there is a separate maintainer.
+
 _norns shield_ is currently the most economic version but is DIY and lacks some of the features of its big brother. It's design is [open source][hw norns-shield diy lines].
 
-_fates_ is an unofficial open source project similar to the _norns shield_, predating it.
+_fates_ is an unofficial open source project similar to the _norns shield_, not initiated by monome.
 
 _norns_ and _norns shield_ use a CS4270 codec. _norns_ uses an additional amp chip to drive a monitor (headphone) output. _fates_ uses a WM8731 codec which embeds an headphone amp chip.
 
 #### _norns shield_
 
-For getting help regarding the assembly or even please use [t/DIY: norns shield][hw norns-shield diy lines].
+For getting help regarding assembly please use [t/DIY: norns shield][hw norns-shield diy lines].
 
 The case provided in kits is pretty minimal. People share their design of more rugged version in [t/norns shield case designs](https://llllllll.co/t/norns-shield-case-designs/30347).
 
