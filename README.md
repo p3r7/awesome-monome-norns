@@ -80,13 +80,15 @@ There are 3 variations of the norns hardware:
 
 | name                                                                 | audio path | case                                                     | battery | audio monitor output | supported Raspberry Pi models | price point           | compatibility
 | ---                                                                  | ---        | ---                                                      | :---:   | :---:                | ---                           | ---                   | ---   |
-| [_norns_][hw norns lines] ([shop][hw norns shop])                      | cleanest   | 2x aluminum block (hard anodized), custom caps & buttons | ✔       | ✔                    | CM3, CM3+                     | $800 / $680 (b-stock) | original version  |
-| [_norns shield_][hw norns-shield lines] ([shop][hw norns-shield shop]) | clean      | basic acrylic face & back plates / DIY                   | ❌      | ✔                    | 3B, 3B+                       | $200 \*               | fully compatible  |
-| [_fates_][hw fates lines]                                              | clean (?)  | no                                                       | ❌      | ✔                    | 3B, 3B+, 4                    | n/a                   | mostly compatible \*\* |
+| [_norns_][hw norns lines] ([shop][hw norns shop])                      | cleanest \*   | 2x aluminum block (hard anodized), custom caps & buttons | ✔       | ✔                    | CM3, CM3+                     | $800 / $680 (b-stock) | original version  |
+| [_norns shield_][hw norns-shield lines] ([shop][hw norns-shield shop]) | clean      | basic acrylic face & back plates / DIY                   | ❌      | ✔                    | 3B, 3B+                       | $200 \*\*               | fully compatible  |
+| [_fates_][hw fates lines]                                              | clean (?)  | no                                                       | ❌      | ✔                    | 3B, 3B+, 4                    | n/a                   | mostly compatible \*\*\* |
 
-\*: to which must be added the price of the Raspberry Pi, micro SD card, power supply and eventually better case. So you're eventually looking more at ≃$300.
+\*: the original norns has an isolated audio power section which is much more immune to noise.
 
-\*\*: _fates_ has its own software fork since its kernel is not compatible, so update cycles run behind the official releases given there is a separate maintainer.
+\*\*: to which must be added the price of the Raspberry Pi, micro SD card, power supply and eventually better case. So you're eventually looking more at ≃$300.
+
+\*\*\*: _fates_ has its own software fork since its kernel is not compatible, so update cycles run behind the official releases given there is a separate maintainer.
 
 _norns shield_ is currently the most economic version but is DIY and lacks some of the features of its big brother. It's design is [open source][hw norns-shield diy lines].
 
