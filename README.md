@@ -31,6 +31,7 @@ The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced 
   - [_Softcut_ & _Softcut_-based libs](#softcut--softcut-based-libs)
   - [_SuperCollider_ engines](#supercollider-engines)
 - [Development: C](#development-c)
+- [Contributing](#contributing)
 - [License](#license)
 
 
@@ -503,6 +504,21 @@ A niche use-case is to disable the _norns_ software services and interact with t
 This effort is discussed in [t/low-level-norns](https://llllllll.co/t/low-level-norns/22921).
 
 For a working example with grid and arc support see project [norns-lowlevel](https://github.com/paulbatchelor/norns-lowlevel) ([explanation & demo](https://llllllll.co/t/low-level-norns/22921/37)).
+
+
+## Contributing
+
+Contributions and suggestions are always welcome!
+
+[I](https://llllllll.co/u/eigen) am by no mean the owner of this document, merely its initiator. It belongs to the community.
+
+To discuss about the general structure and content use [t/Index of norns-related resources](https://llllllll.co/t/index-of-norns-related-resources/37007).
+
+For less impacting modifications / suggestions, you can:
+ - submit a pull request
+ - create an issue
+ - [comment on the lines thread](https://llllllll.co/t/index-of-norns-related-resources/37007)
+ - [send me a PM](https://llllllll.co/u/eigen)
 
 
 ## License
