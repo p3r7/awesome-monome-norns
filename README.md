@@ -92,7 +92,7 @@ There are 3 variations of the norns hardware:
 
 _norns shield_ is currently the most economic version but is DIY and lacks some of the features of its big brother. It's design is [open source][hw norns-shield diy lines].
 
-_fates_ is an unofficial open source project similar to the _norns shield_, not initiated by monome.
+_fates_ is an unofficial project similar to the _norns shield_, not initiated by monome.
 
 _norns_ and _norns shield_ use a CS4270 codec. _norns_ uses an additional amp chip to drive a monitor (headphone) output. _fates_ uses a WM8731 codec which embeds an headphone amp chip.
 
@@ -135,7 +135,6 @@ Please note that most _apps_ assume a 128 varybright grid. Older non-varybright 
 There is a [DIY _grid_ project][hw grid-neotrellis lines] that allows making one for ≃$250. To use it with the _norns_, patching and recompiling is required to have it recognized. It will work right of the bat on a PC (with _Max_, _Pure Data_...). It doesn't (and will certainly never) work with eurorack _monome_ modules such as [_ansible_][hw ansible doc].
 
 There is also a [DIY arc project][hw arc-diy src] which will also cost ≃$250. It does not require any special patching.
-
 
 
 #### Other hardware companions
