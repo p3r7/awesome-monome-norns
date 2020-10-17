@@ -206,38 +206,40 @@ Basic samplers:
 
 Sequencers & trackers:
 
-| app                                                | on maiden | code                        | description                                                         | demo                                                             | doc                             |
-| ---                                                | :---:     | ---                         | ---                                                                 | ---                                                              | ---                             |
-| [animator][app animator lines]                     | ✔️         | [gh][app animator src]      | 2D polyphonic sequencer for grids                                   | [1][app animator demo 1], [2][app animator demo 2]               | [online][app animator doc]      |
-| [arcologies][app arcologies lines]                 | ✔️         | [gh][app arcologies src]    | interactive environment for designing 2d sound arcologies           | [gallery][app arcologies demos]                                  | [online][app arcologies doc]    |
-| [arp_index][app arp_index lines]                   | ✔️         | [gh][app arp_index src]     | generate sequence from company stocks                               | [1][app arp_index demo 1]                                        |                                 |
-| [ash/earthsea][app ash lines]                      | ✔️         | [gh][app ash src]           | grid-enabled shape-memory pattern instrument                        |                                                                  |                                 |
-| [ash/playfair][app ash lines]                      | ✔️         | [gh][app ash src]           | euclidean drummer, four sequences, each with its own sample         | [1][app ash/playfair demo 1]                                     |                                 |
-| [awake][app awake lines]                           | default   | [gh][app awake src]         | two looped sequences                                                | [1][app awake demo 1]                                            |                                 |
-| [boing][app boingg lines]                          | ✔         | [gh][app boingg src]        | a bouncing ball sequencer                                           | [1][app boingg demo 1]                                           |                                 |
-| [cheat_codes][app cheat_codes lines]               | ✔️         | [gh][app cheat_codes src]   | sample playground                                                   | [1][app cheat_codes demo 1]                                      | [pdf][app cheat_codes doc]      |
-| [circles][app circles lines]                       | ✔️         | [gh][app circles src]       | move cursor, place circles, make music                              | [1][app circles demo 1]                                          |                                 |
-| [cyrene][app cyrene lines]                         | ✔️         | [gh][app cyrene src]        | drum pattern generator                                              | [1][app cyrene demo 1], [grid][app cyrene demo grid]             |                                 |
-| [dunes][app dunes lines]                           | ✔         | [gh][app dunes src]         | function sequencer, inspired by [spacetime][app spacetime study]    | [audio][app dunes demo audio], [midi][app dunes demo midi]       |                                 |
-| [drift][app drift lines]                           | ❌        | [gh][app drift src]         | sequencer based on particle systems                                 | [midi][app drift demo midi]                                      |                                 |
-| [euclidigons][app euclidigons lines]               | ✔️         | [gh][app euclidigons src]   | plucky geometric rhythm generator                                   | [1][app euclidigons demo 1], [2][app euclidigons demo 2]         |                                 |
-| [foulplay][app foulplay lines]                     | ✔️         | [gh][app foulplay src]      | euclidean drummer, inspired by [ash/playfair][app ash lines]        | [1][app foulplay demo 1]                                         | [online][app foulplay doc]      |
-| fretwork                                           | ️❌        | [gh][app fretwork src]      | ornamental sequencer                                                | [1][app fretwork demo 1]                                         |                                 |
-| [fugu][app fugu lines]                             | ️❌        | [gh][app fugu src]          | 4 playhead sequencer, inspired by the Fugue Machine iOS app         | [1][app fugu demo 1], [2][app fugu demo 2], [3][app fugu demo 3] |                                 |
-| [grd][app grd lines]                               | ❌️        | [gh][app grd src]           | 8x8 autonomy                                                        | [1][app grd demo 1], [2][app grd demo 2]                         |                                 |
-| [less_concepts][app less_concepts lines]           | ✔️         | [gh][app less_concepts src] | cellular automata sequencer                                         | [1][app less_concepts demo 1]                                    | [online][app meadowphysics doc] |
-| [loom][app loom lines]                             | ✔️         | [gh][app loom src]          | pattern weaving sequencer for grids                                 | [1][app loom demo 1], [2][app loom demo 2]                       |                                 |
-| [meadowphysics][app meadowphysics lines]           | ✔️         | [gh][app meadowphysics src] | grid-enabled rhizomatic cascading counter                           | [1][app meadowphysics demo 1]                                    | [online][app meadowphysics doc] |
-| [nisp][app nisp lines]                             | ✔️         | [gh][app nisp src]          | LISP (Scheme dialect) livecoding tracker                            | [1][app nisp demo 1], [2][app nisp demo 2]                       |                                 |
-| [orca][app orca lines]                             | ✔️         | [gh][app orca src]          | esoteric programming language                                       | [1][app orca demo 1], [2][app orca demo 2]                       |                                 |
-| [punchcard][app punchcard lines]                   | ✔️         | [gh][app punchcard src]     | experimental sequencer that works like a classic punchcard computer | [1][app punchcard demo 1], [2][app punchcard demo 2]             |                                 |
-| [quence][app quence lines]                         | ✔️         | [gh][app quence src]        | a probabilistic 4-track sequencer                                   | [1][app quence demo 1], [2][app quence demo 2]                   |                                 |
-| [rebound][app rebound lines]                       | ✔️         | [gh][app rebound src]       | a kinetic sequencer                                                 | [1][app rebound demo 1]                                          |                                 |
-| [spacetime][app spacetime study] `we/study/study3` | ✔️         |                             | a weird function sequencer                                          | [1][app spacetime demo 1]                                        |                                 |
-| [step][app step lines]                             | ✔️         | [gh][app step src]          | a simple step sequencer                                             |                                                                  |                                 |
-| [takt][app takt lines]                             | ✔️         | [gh][app takt src]          | Digitakt-inspired parameter locking step sequencer                  | [1][app takt demo 1]                                             | [online][app takt doc]          |
-| [vials][app vials lines]                           | ✔️         | [gh][app vials src]         | 4 track performance-oriented sample sequencer                       |                                                                  | [online][app vials doc]         |
-| [zeelen][app zeelen lines]                         | ✔️         | [gh][app zeelen src]        | game of Life based sequencer                                        | [1][app zeelen demo 1], [crow][app zeelen demo crow]             | [online][app takt doc]          |
+| app                                                | on maiden | code                        | description                                                         | demo                                                             | doc                                   |
+| ---                                                | :---:     | ---                         | ---                                                                 | ---                                                              | ---                                   |
+| [animator][app animator lines]                     | ✔️         | [gh][app animator src]      | 2D polyphonic sequencer for grids                                   | [1][app animator demo 1], [2][app animator demo 2]               | [online][app animator doc]            |
+| [arcologies][app arcologies lines]                 | ✔️         | [gh][app arcologies src]    | interactive environment for designing 2d sound arcologies           | [gallery][app arcologies demos]                                  | [online][app arcologies doc]          |
+| [arp_index][app arp_index lines]                   | ✔️         | [gh][app arp_index src]     | generate sequence from company stocks                               | [1][app arp_index demo 1]                                        |                                       |
+| [ash/earthsea][app ash lines]                      | ✔️         | [gh][app ash src]           | grid-enabled shape-memory pattern instrument                        |                                                                  |                                       |
+| [ash/playfair][app ash lines]                      | ✔️         | [gh][app ash src]           | euclidean drummer, four sequences, each with its own sample         | [1][app ash/playfair demo 1]                                     |                                       |
+| [awake][app awake lines]                           | default   | [gh][app awake src]         | two looped sequences                                                | [1][app awake demo 1]                                            |                                       |
+| [boing][app boingg lines]                          | ✔         | [gh][app boingg src]        | a bouncing ball sequencer                                           | [1][app boingg demo 1]                                           |                                       |
+| [cheat_codes][app cheat_codes lines]               | ✔️         | [gh][app cheat_codes src]   | sample playground                                                   | [1][app cheat_codes demo 1]                                      | [pdf][app cheat_codes doc]            |
+| [circles][app circles lines]                       | ✔️         | [gh][app circles src]       | move cursor, place circles, make music                              | [1][app circles demo 1]                                          |                                       |
+| [cyrene][app cyrene lines]                         | ✔️         | [gh][app cyrene src]        | drum pattern generator                                              | [1][app cyrene demo 1], [grid][app cyrene demo grid]             |                                       |
+| [dunes][app dunes lines]                           | ✔         | [gh][app dunes src]         | function sequencer, inspired by [spacetime][app spacetime study]    | [audio][app dunes demo audio], [midi][app dunes demo midi]       |                                       |
+| [drift][app drift lines]                           | ❌        | [gh][app drift src]         | sequencer based on particle systems                                 | [midi][app drift demo midi]                                      |                                       |
+| [euclidigons][app euclidigons lines]               | ✔️         | [gh][app euclidigons src]   | plucky geometric rhythm generator                                   | [1][app euclidigons demo 1], [2][app euclidigons demo 2]         |                                       |
+| [foulplay][app foulplay lines]                     | ✔️         | [gh][app foulplay src]      | euclidean drummer, inspired by [ash/playfair][app ash lines]        | [1][app foulplay demo 1]                                         | [online][app foulplay doc]            |
+| fretwork                                           | ️❌        | [gh][app fretwork src]      | ornamental sequencer                                                | [1][app fretwork demo 1]                                         |                                       |
+| [fugu][app fugu lines]                             | ✔         | [gh][app fugu src]          | 4 playhead sequencer, inspired by the Fugue Machine iOS app         | [1][app fugu demo 1], [2][app fugu demo 2], [3][app fugu demo 3] |                                       |
+| [grd][app grd lines]                               | ❌️        | [gh][app grd src]           | 8x8 autonomy                                                        | [1][app grd demo 1], [2][app grd demo 2]                         |                                       |
+| [islands][app islands lines]                       | ✔️         | [gh][app islands src]       | kria-based sequencer with internal playback                         | [1][app islands demo 1]                                          | [presentation video][app islands doc] |
+| [kria_midi][app kria_midi lines]                   | ✔️         | [gh][app kria_midi src]     | port of the kria sequencer with midi output                         | [1][app kria_midi demo 1], [1][app kria_midi demo 2]             |                                       |
+| [less_concepts][app less_concepts lines]           | ✔️         | [gh][app less_concepts src] | cellular automata sequencer                                         | [1][app less_concepts demo 1]                                    |                                       |
+| [loom][app loom lines]                             | ✔️         | [gh][app loom src]          | pattern weaving sequencer for grids                                 | [1][app loom demo 1], [2][app loom demo 2]                       |                                       |
+| [meadowphysics][app meadowphysics lines]           | ✔️         | [gh][app meadowphysics src] | grid-enabled rhizomatic cascading counter                           | [1][app meadowphysics demo 1]                                    | [online][app meadowphysics doc]       |
+| [nisp][app nisp lines]                             | ✔️         | [gh][app nisp src]          | LISP (Scheme dialect) livecoding tracker                            | [1][app nisp demo 1], [2][app nisp demo 2]                       |                                       |
+| [orca][app orca lines]                             | ✔️         | [gh][app orca src]          | esoteric programming language                                       | [1][app orca demo 1], [2][app orca demo 2]                       |                                       |
+| [punchcard][app punchcard lines]                   | ✔️         | [gh][app punchcard src]     | experimental sequencer that works like a classic punchcard computer | [1][app punchcard demo 1], [2][app punchcard demo 2]             |                                       |
+| [quence][app quence lines]                         | ✔️         | [gh][app quence src]        | a probabilistic 4-track sequencer                                   | [1][app quence demo 1], [2][app quence demo 2]                   |                                       |
+| [rebound][app rebound lines]                       | ✔️         | [gh][app rebound src]       | a kinetic sequencer                                                 | [1][app rebound demo 1]                                          |                                       |
+| [spacetime][app spacetime study] `we/study/study3` | ✔️         |                             | a weird function sequencer                                          | [1][app spacetime demo 1]                                        |                                       |
+| [step][app step lines]                             | ✔️         | [gh][app step src]          | a simple step sequencer                                             |                                                                  |                                       |
+| [takt][app takt lines]                             | ✔️         | [gh][app takt src]          | Digitakt-inspired parameter locking step sequencer                  | [1][app takt demo 1]                                             | [online][app takt doc]                |
+| [vials][app vials lines]                           | ✔️         | [gh][app vials src]         | 4 track performance-oriented sample sequencer                       |                                                                  | [online][app vials doc]               |
+| [zeelen][app zeelen lines]                         | ✔️         | [gh][app zeelen src]        | game of Life based sequencer                                        | [1][app zeelen demo 1], [crow][app zeelen demo crow]             | [online][app takt doc]                |
 
 
 Control Modulation sources:
@@ -271,6 +273,7 @@ Loopers, live samplers & crazy delays:
 | [b-b-b-b-beat][app b-b-b-b-beat lines] | ✔️         | [gh][app b-b-b-b-beat src] | beat repeater/glitcher inspired by Ableton's Beat Repeat, MASF Possessed & MWFX Judder | [1][app b-b-b-b-beat demo 1]                                                               |                         |
 | [blndr][app blndr lines]               | ✔️         | [gh][app blndr src]        | a quantized delay with time bending effects                                            | [1][app blndr demo 1]                                                                      |                         |
 | [clcks][app clcks lines]               | ✔️         | [gh][app clcks src]        | a tempo-locked repeater                                                                | [1][app clcks demo 1]                                                                      |                         |
+| [compas][app compas lines]             | ✔️         | [gh][app compas src]       | asynchronous looper, with command-based sequencer                                      | [1][app compas demo 1]                                                                     |                         |
 | [cranes][app cranes lines]             | ✔️         | [gh][app cranes src]       | stereo varispeed looper / delay / timeline-smoosher                                    | [1][app cranes demo 1]                                                                     | [video][app cranes doc] |
 | [here-there][app here-there lines]     | ✔️         | [gh][app here-there src]   | feedback of granular replay and sines                                                  |                                                                                            |                         |
 | [glitchlets][app glitchlets lines]     | ❌️        | [gh][app glitchlets src]   | glitches incoming audio, quantized to the global tempo                                 | [1][app glitchlets demo 1]                                                                 |                         |
@@ -333,6 +336,7 @@ Utilities:
 | [cheat_codes][app cheat_codes lines]               |          |           |         |          | 🔶 \** | 🔶    |           |          |       |
 | [circles][app circles lines]                       |          |           |         |          |        |       | ✔         | ✔        |       |
 | [clcks][app clcks lines]                           | ✔        |           |         |          |        |       | ✔         |          |       |
+| [compas][app compas lines]                         | ✔        |           |         |          | ⚪     |       | ✔         |          |       |
 | [cranes][app cranes lines]                         | ✔️        |           |         |          | ⚪     |       | ✔️         |          |       |
 | [crash][app crash lines]                           | ️         | ?         |         |          |        |       | ✔️         |          |       |
 | [cyrene][app cyrene lines]                         | ️         |           |         |          | ⚪     | ⚪    | ️          | ✔        | ✔     |
@@ -352,6 +356,8 @@ Utilities:
 | [greyhole][app greyhole lines]                     | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [haven][app haven lines]                           | ️         |           |         |          |        |       | ✔️         |          |       |
 | [here-there][app here-there lines]                 | ️✔        |           |         |          |        |       | ✔️         |          |       |
+| [islands][app islands lines]                       |          |           |         |          | 🔶     |       | ✔️         |          |       |
+| [kria_midi][app kria_midi lines]                   |          |           |         |          | 🔶     |       | ✔️         |          |       |
 | [less_concepts][app less_concepts lines]           |          |           |         |          | 🔶     |       | ✔️         | ✔        | ✔     |
 | [lissadron][app lissadron lines]                   |          |           | 🔶      |          |        |       | ✔️         |          |       |
 | [loom][app loom lines]                             |          | ⚪        |         |          | 🔴     |       | ✔️         | ✔        |       |
@@ -635,6 +641,9 @@ For less impacting modifications / suggestions, you can:
 [app clcks lines]: https://llllllll.co/t/clcks/35732
 [app clcks src]: https://github.com/schollz/clcks
 [app clcks demo 1]: https://www.instagram.com/p/CEWzDaXB6VX/
+[app compass lines]: https://llllllll.co/t/compass/25192
+[app compass src]: https://github.com/oliviercreurer/compass
+[app compass demo 1]: https://llllllll.co/t/compass/25192
 [app cranes lines]: https://llllllll.co/t/cranes/21207
 [app cranes src]: https://github.com/dndrks/cranes
 [app cranes doc]: https://www.youtube.com/watch?v=pVVKC3KnRLg
@@ -703,8 +712,16 @@ For less impacting modifications / suggestions, you can:
 [app haven demo 1]: https://www.youtube.com/watch?v=1mEBZmao-uc
 [app here-there lines]: https://llllllll.co/t/here-there/36170
 [app here-there src]: https://github.com/speakerdamage/here-there
+[app islands lines]: https://www.youtube.com/watch?v=PApL2LFjBPQ
+[app islands src]: https://github.com/junklight/islands
+[app islands doc]: https://www.youtube.com/watch?v=PApL2LFjBPQ
+[app islands demo 1]: https://www.youtube.com/watch?v=Rvt7K0rEVLc
 [app jiffy lines]: https://llllllll.co/t/jiffy/25475
 [app jiffy src]: https://github.com/lukes-anger/jiffy
+[app kria_midi lines]: https://llllllll.co/t/kria-midi/21255
+[app kria_midi src]: https://github.com/junklight/misc/tree/master/dust/code/Kria
+[app kria_midi demo 1]: https://www.youtube.com/watch?v=FtyTv8ngdI4
+[app kria_midi demo 2]: https://www.instagram.com/p/BwG_lQVjxbw/
 [app less_concepts lines]: https://llllllll.co/t/less-concepts/21109
 [app less_concepts src]: https://github.com/dndrks/less_concepts
 [app less_concepts demo 1]: https://www.youtube.com/watch?v=AHuZm-aHN6k
