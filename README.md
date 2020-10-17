@@ -78,11 +78,11 @@ For a more complete list, see the [Apps](#apps) section.
 
 There are 3 variations of the norns hardware:
 
-| name                                                                 | audio path | case                                                     | battery | audio monitor output | supported Raspberry Pi models | price point           |
-| ---                                                                  | ---        | ---                                                      | :---:   | :---:                | ---                           | ---                   |
+| name                                                                   | audio path | case                                                     | battery | audio monitor output | supported Raspberry Pi models | price point           |
+| ---                                                                    | ---        | ---                                                      | :---:   | :---:                | ---                           | ---                   |
 | [_norns_][hw norns lines] ([shop][hw norns shop])                      | cleanest   | 2x aluminum block (hard anodized), custom caps & buttons | ✔       | ✔                    | CM3, CM3+                     | $800 / $680 (b-stock) |
 | [_norns shield_][hw norns-shield lines] ([shop][hw norns-shield shop]) | clean      | basic acrylic face & back plates / DIY                   | ❌      | ❌                   | 3B, 3B+                       | $200 \*               |
-| [_fates_][hw fates lines]                                              | clean (?)  | no                                                       | ❌      | ✔                    | 3B, 3B+, 4                    | n/a                   |
+| [_fates_][hw fates lines]                                              | clean (?)  | acrylic / DIY                                            | ❌      | ✔                    | 3B, 3B+, 4                    | n/a                   |
 
 \*: to which must be added the price of the Raspberry Pi, micro SD card, power supply and eventually better case. So you're eventually looking more at ≃$300.
 
@@ -91,6 +91,7 @@ _norns shield_ is currently the most economic version but is DIY and lacks some 
 _fates_ is an unofficial open source project similar to the _norns shield_, predating it.
 
 _norns_ and _norns shield_ use a CS4270 codec. _norns_ uses an additional amp chip to drive a monitor (headphone) output. _fates_ uses a WM8731 codec which embeds an headphone amp chip.
+
 
 #### _norns shield_
 
