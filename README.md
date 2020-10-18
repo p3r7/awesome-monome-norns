@@ -304,6 +304,7 @@ Utilities:
 | ---                                    | :---:     | ---                        | ---                                                         | ---                                              | --- |
 | [athenaeum/arc][app athenaeum lines]   | ❌        | [gh][app athenaeum src]    | interract with arc, read and write leds, no sound           | [1][app athenaeum/arc demo 1]                    |     |
 | [foundry][app foundry lines]           | ❌        | [gh][app foundry src]      | browse all glyphs of all installed fonts, play with options |                                                  |     |
+| [grid-test][app grid-test lines]       | ❌        | [gh][app grid-test src]    | utility to test grids                                       | [1][app grid-test demo 1]                        |     |
 | [midi-monitor][app midi-monitor lines] | ✔️         | [gh][app midi-monitor src] | simple midi monitor with note feedback                      | [1][app midi-monitor demo 1]                     |     |
 | [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose      | [1][app monitor demo 1], [2][app monitor demo 2] |     |
 | [shell_runner][app shell_runner lines] | ❌  ️      | [gh][app shell_runner src] | menu to launch shell scripts                                |                                                  |     |
@@ -340,7 +341,7 @@ Utilities:
 | [cheat_codes][app cheat_codes lines]               |          |           |         |          | 🔶 \** | 🔶    |           |          |       |
 | [circles][app circles lines]                       |          |           |         |          |        |       | ✔         | ✔        |       |
 | [clcks][app clcks lines]                           | ✔        |           |         |          |        |       | ✔         |          |       |
-| [compass][app compass lines]                         | ✔        |           |         |          | ⚪     |       | ✔         |          |       |
+| [compass][app compass lines]                       | ✔        |           |         |          | ⚪     |       | ✔         |          |       |
 | [cranes][app cranes lines]                         | ✔️        |           |         |          | ⚪     |       | ✔️         |          |       |
 | [crash][app crash lines]                           | ️         | ?         |         |          |        |       | ✔️         |          |       |
 | [cyrene][app cyrene lines]                         | ️         |           |         |          | ⚪     | ⚪    | ️          | ✔        | ✔     |
@@ -358,6 +359,7 @@ Utilities:
 | [glut][app glut lines]                             | ️         |           |         |          | 🔶     |       | ✔️         |          |       |
 | [grd][app grd lines]                               | ️         |           |         |          |        |       | ✔️         |          |       |
 | [greyhole][app greyhole lines]                     | ✔️        |           |         |          |        |       | ✔️         |          |       |
+| [grid-test][app grid-test lines]                   | ️         |           |         |          | 🔴     |       | ️          |          |       |
 | [haven][app haven lines]                           | ️         |           |         |          |        |       | ✔️         |          |       |
 | [here-there][app here-there lines]                 | ️✔        |           |         |          |        |       | ✔️         |          |       |
 | [islands][app islands lines]                       |          |           |         |          | 🔶     |       | ✔️         |          |       |
@@ -701,16 +703,19 @@ For less impacting modifications / suggestions, you can:
 [app glut lines]: https://llllllll.co/t/glut/21175
 [app glut src]: https://github.com/artfwo/glut
 [app glut demo 1]: https://www.youtube.com/watch?v=uvikPhSNA4U
+[app grainfield lines]: https://llllllll.co/t/grainfields-8-voice-granular-synthesizer-for-128-grids-m4l-update/5164
 [app grd lines]: https://llllllll.co/t/grd/33768
 [app grd src]: https://github.com/yotamorimoto/norns_grd
 [app grd demo 1]: https://www.instagram.com/p/CBQpV_dAfBU/
 [app grd demo 2]: https://www.instagram.com/p/CBsjkmPAcit/
 [app grendy lines]: https://llllllll.co/t/grendy-a-drone-synth-for-norns/31721
 [app grendy src]: https://github.com/cfdrake/grendy
-[app grainfield lines]: https://llllllll.co/t/grainfields-8-voice-granular-synthesizer-for-128-grids-m4l-update/5164
 [app greyhole lines]: https://llllllll.co/t/greyhole
 [app greyhole src]: https://github.com/justmat/greyhole
 [app greyhole demo 1]: https://vimeo.com/379334153
+[app grid-test lines]: https://llllllll.co/t/grid-test/29346
+[app grid-test src]: https://github.com/okyeron/grid-test
+[app grid-test demo 1]: https://www.instagram.com/p/B8aiA-NBYqJ/
 [app haven lines]: https://llllllll.co/t/haven/21285
 [app haven src]: https://github.com/tai-studio/haven
 [app haven demo 1]: https://www.youtube.com/watch?v=1mEBZmao-uc
