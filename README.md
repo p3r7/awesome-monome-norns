@@ -375,6 +375,11 @@ Utilities:
 | [mangl][app mangl lines]                           |          |           |         |          | 🔶     | 🔶    | ✔️         | ️         |       |
 | [manifold][app manifold lines]                     | ✔        |           | 🔶      |          |        |       | ✔️         | ️         |       |
 | [meadowphysics][app meadowphysics lines]           |          |           |         |          | 🔴     |       | ✔️         | ✔️        |       |
+| [mi-eng/macro-b][app mi-eng lines]                 |          |           |         |          |        |       | ✔️         | ️         |       |
+| [mi-eng/macro-p][app mi-eng lines]                 |          |           |         |          |        |       | ✔️         | ️         |       |
+| [mi-eng/modal-e][app mi-eng lines]                 |          |           |         |          |        |       | ✔️         | ️         |       |
+| [mi-eng/texture-c][app mi-eng lines]               | ✔        |           |         |          |        |       | ✔️         | ️         |       |
+| [mi-eng/resonate-r][app mi-eng lines]              | ✔        |           |         |          |        |       | ✔️         | ️         |       |
 | [midi-monitor][app midi-monitor lines]             |          | ✔         |         |          |        |       | ✔️         | ️         |       |
 | [mlr][app mlr lines]                               | ✔️        |           |         |          | 🔴     |       | ✔️         |          |       |
 | [molly_the_poly][app molly_the_poly lines]         |          |           | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
