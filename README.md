@@ -173,6 +173,9 @@ Synths & drones:
 | [grendy][app grendy lines]                   | ✔️         | [gh][app grendy src]          | a simple drone synth, grendel drone commander inspired                                                      |                                                    |                       |
 | [haven][app haven lines]                     | ✔️         | [gh][app haven src]           | two unique oscillators: one high, one low                                                                   | [1][app haven demo 1]                              |                       |
 | [lissadron][app lissadron lines]             | ✔️         | [gh][app lissadron src]       | a software synth making extensive use of seeded randomness, internal sequencer for voice change             | [internal sequencer][app lissadron demo seq]       |                       |
+| [mi-eng/macro-b][app mi-eng lines]           | ❌️️        | [gh][lib mi-engines gh sc]    | collection of complex oscillator sources, based upon the Mutable Instrument Braids macro-oscillator         | [1][app mi-eng/macro-b demo 1]                     |                       |
+| [mi-eng/macro-p][app mi-eng lines]           | ❌️️        | [gh][lib mi-engines gh sc]    | collection of complex oscillator sources, based upon the Mutable Instrument Plaits macro-oscillator         | [1][app mi-eng/macro-p demo 1]                     |                       |
+| [mi-eng/modal-e][app mi-eng lines]           | ❌️️        | [gh][lib mi-engines gh sc]    | modal syntheser, based upon the Mutable Instrument Elements                                                 | [1][app mi-eng/modal-e demo 1]                     |                       |
 | [molly_the_poly][app molly_the_poly lines]   | default️   | [gh][app molly_the_poly src]  | Juno-6 voice structure with chorus, the extra modulation of a Jupiter-8, and CS-80 inspired ring modulation | [1][app molly_the_poly demo 1]                     |                       |
 | [moln][app moln lines]                       | ✔️         | [gh][app moln src]            | Polyphonic substractive synthesizer                                                                         |                                                    |                       |
 | [passersby][app passersby lines]             | ✔️         | [gh][app passersby src]       | Wave folding, FM, LPG, spring-ish reverb, LFO and two dice to roll                                          | [1][app passersby demo 1]                          |                       |
@@ -257,15 +260,16 @@ Control Modulation sources:
 
 Audio effects:
 
-| app                                | on maiden | code                     | description                                   | demo                     | doc |
-| ---                                | :---:     | ---                      | ---                                           | ---                      | --- |
-| [greyhole][app greyhole lines]     | ✔️         | [gh][app greyhole src]   | echo / delay                                  | [1][app greyhole demo 1] |     |
-| [manifold][app manifold lines]     | ✔️         | [gh][app manifold src]   | multi-effects processing for live performance | [1][app manifold demo 1] |     |
-| [pedalboard][app pedalboard lines] | ✔️         | [gh][app pedalboard src] | chainable effects for live performance        |                          |     |
-| [phyllis][app phyllis lines]       | ✔️         | [gh][app phyllis src]    | digitally modeled analog                      | [1][app phyllis demo 1]  |     |
-| [pools][app pools lines]           | ✔️         | [gh][app pools src]      | a shimmery reverb                             | [1][app pools demo 1]    |     |
-| [stack][app stack lines]           | ✔️         | [gh][app stack src]      | stack of bandpass filter, sequenceable        |                          |     |
-| [sway][app sway lines]             | ✔️         | [gh][app sway src]       | analysis-driven live audio processing         | [1][app sway demo 1]     |     |
+| app                                   | on maiden | code                       | description                                              | demo                              | doc |
+| ---                                   | :---:     | ---                        | ---                                                      | ---                               | --- |
+| [greyhole][app greyhole lines]        | ✔️         | [gh][app greyhole src]     | echo / delay                                             | [1][app greyhole demo 1]          |     |
+| [manifold][app manifold lines]        | ✔️         | [gh][app manifold src]     | multi-effects processing for live performance            | [1][app manifold demo 1]          |     |
+| [mi-eng/resonate-r][app mi-eng lines] | ❌️        | [gh][lib mi-engines gh sc] | modal resonator, based upon the Mutable Instrument Rings | [1][app mi-eng/resonate-r demo 1] |     |
+| [pedalboard][app pedalboard lines]    | ✔️         | [gh][app pedalboard src]   | chainable effects for live performance                   |                                   |     |
+| [phyllis][app phyllis lines]          | ✔️         | [gh][app phyllis src]      | digitally modeled analog                                 | [1][app phyllis demo 1]           |     |
+| [pools][app pools lines]              | ✔️         | [gh][app pools src]        | a shimmery reverb                                        | [1][app pools demo 1]             |     |
+| [stack][app stack lines]              | ✔️         | [gh][app stack src]        | stack of bandpass filter, sequenceable                   |                                   |     |
+| [sway][app sway lines]                | ✔️         | [gh][app sway src]         | analysis-driven live audio processing                    | [1][app sway demo 1]              |     |
 
 
 Loopers, live samplers & crazy delays:
@@ -282,6 +286,7 @@ Loopers, live samplers & crazy delays:
 | [here-there][app here-there lines]     | ✔️         | [gh][app here-there src]   | feedback of granular replay and sines                                                  |                                                                                            |                         |
 | [glitchlets][app glitchlets lines]     | ❌️        | [gh][app glitchlets src]   | glitches incoming audio, quantized to the global tempo                                 | [1][app glitchlets demo 1]                                                                 |                         |
 | [jiffy][app jiffy lines]               | ✔️         | [gh][app jiffy src]        | 16 seconds looper                                                                      |                                                                                            |                         |
+| [mi-eng/texture-c][app mi-eng lines]   | ❌️        | [gh][lib mi-engines gh sc] | realtime granualr audio processor, based upon the Mutable Instrument Rings             | [1][app mi-eng/texture-c demo 1]                                                           |                         |
 | [mlr][app mlr lines]                   | ✔️         | [gh][app mlr src]          | live sample-cutting platform                                                           | [1][app mlr demo 1], [2][app mlr demo 2]                                                   |                         |
 | [oooooo][app oooooo lines]             | ✔️         | [gh][app oooooo src]       | digital tape loops x6                                                                  | [1][app oooooo demo 1], [2][app oooooo demo 2]                                             |                         |
 | [otis][app otis lines]                 | ✔️         | [gh][app otis src]         | dual tape delay/looper/sampler                                                         | [1][app otis demo 1]                                                                       |                         |
@@ -503,7 +508,7 @@ Here are listed the ones most often spotted in the wild.
 | PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen         |
 | PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       | ash/earthsea                                     |
 | [R][lib R lines]                   | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                             |
-| [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           |                                            |                                                  |
+| [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           |                                            | mi-eng/\*                                        |
 | molly_the_poly                     | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] | analogue (substractive) synth                                                      | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence, fugu    |
 | passersby                          | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           | westcoast-style synth                                                              | [passersby][app passersby lines]           | passersby, less_concepts, dunes                  |
 | PrimitiveString                    | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                                      |
@@ -586,7 +591,7 @@ For less impacting modifications / suggestions, you can:
 [lib PrimitiveString gh sc]: https://github.com/synthetiv/euclidigons/blob/main/lib/Engine_PrimitiveString.sc
 [lib R lines]: https://llllllll.co/t/norns-r-engine/21071
 [lib R gh sc]: https://github.com/antonhornquist/r
-[lib mi-engines lines]: https://llllllll.co/t/mi-engines/32338
+[lib mi-engines lines]: https://llllllll.co/t/mi-ugens-for-norns/31781
 [lib mi-engines gh sc]: https://github.com/okyeron/mi-eng
 
 
@@ -751,6 +756,12 @@ For less impacting modifications / suggestions, you can:
 [app meadowphysics src]: https://github.com/alpha-cactus/meadowphysics
 [app meadowphysics doc]: https://monome.org/docs/meadowphysics/
 [app meadowphysics demo 1]: https://vimeo.com/146731772
+[app mi-eng lines]: https://llllllll.co/t/mi-engines/32338
+[app mi-eng/macro-b demo 1]: https://www.instagram.com/p/CAKK_2ChxP4/
+[app mi-eng/macro-p demo 1]: https://www.instagram.com/p/B_oUfbfhlHY/
+[app mi-eng/modal-e demo 1]: https://www.instagram.com/p/B_osZdTh1OH/
+[app mi-eng/resonate-r demo 1]: https://www.instagram.com/p/B_mEYRohEXA/
+[app mi-eng/texture-c demo 1]: https://www.instagram.com/p/B_oUfbfhlHY/
 [app midi-monitor lines]: https://llllllll.co/t/midi-monitor/35036
 [app midi-monitor src]: https://github.com/okyeron/midi-monitor
 [app midi-monitor demo 1]: https://www.youtube.com/watch?v=-zXIbLDpzAo
