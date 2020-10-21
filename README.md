@@ -397,6 +397,7 @@ Utilities:
 | [quence][app quence lines]                         |          |           |         |          | 🔴     |       | ✔         | ✔️        | ✔     |
 | [rebound][app rebound lines]                       | ️         | ⚪        |         |          |        |       | ️          | ✔        |       |
 | [reels][app reels lines]                           | ✔️        |           |         |          |        |       | ✔️         |          |       |
+| [rudiments][app rudiments lines]                   | ️         |           |         |          | ⚪     |       | ✔️         |          |       |
 | [shapes][app shapes lines]                         |          |           |         |          |        |       |           |          | ✔     |
 | [spacetime][app spacetime study] `we/study/study3` |          |           |         |          |        |       | ✔️         |          |       |
 | [step][app step lines]                             |          |           |         |          | 🔴     | 🔶    | ✔️         |          |       |
