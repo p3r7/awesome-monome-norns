@@ -176,6 +176,7 @@ Synths & drones:
 | [mi-eng/macro-b][app mi-eng lines]           | ❌️️        | [gh][lib mi-engines gh sc]    | collection of complex oscillator sources, based upon the Mutable Instrument Braids macro-oscillator         | [1][app mi-eng/macro-b demo 1]                     |                       |
 | [mi-eng/macro-p][app mi-eng lines]           | ❌️️        | [gh][lib mi-engines gh sc]    | collection of complex oscillator sources, based upon the Mutable Instrument Plaits macro-oscillator         | [1][app mi-eng/macro-p demo 1]                     |                       |
 | [mi-eng/modal-e][app mi-eng lines]           | ❌️️        | [gh][lib mi-engines gh sc]    | modal syntheser, based upon the Mutable Instrument Elements                                                 | [1][app mi-eng/modal-e demo 1]                     |                       |
+| [mi-eng/resonate-r][app mi-eng lines]        | ❌️️        | [gh][lib mi-engines gh sc]    | ring resonator, can be used as basic percusive oscillator, based upon the Mutable Instrument Rings          | [1][app mi-eng/resonate-r demo 1]                  |                       |
 | [molly_the_poly][app molly_the_poly lines]   | default️   | [gh][app molly_the_poly src]  | Juno-6 voice structure with chorus, the extra modulation of a Jupiter-8, and CS-80 inspired ring modulation | [1][app molly_the_poly demo 1]                     |                       |
 | [moln][app moln lines]                       | ✔️         | [gh][app moln src]            | Polyphonic substractive synthesizer                                                                         |                                                    |                       |
 | [passersby][app passersby lines]             | ✔️         | [gh][app passersby src]       | Wave folding, FM, LPG, spring-ish reverb, LFO and two dice to roll                                          | [1][app passersby demo 1]                          |                       |
@@ -375,11 +376,11 @@ Utilities:
 | [mangl][app mangl lines]                           |          |           |         |          | 🔶     | 🔶    | ✔️         | ️         |       |
 | [manifold][app manifold lines]                     | ✔        |           | 🔶      |          |        |       | ✔️         | ️         |       |
 | [meadowphysics][app meadowphysics lines]           |          |           |         |          | 🔴     |       | ✔️         | ✔️        |       |
-| [mi-eng/macro-b][app mi-eng lines]                 |          |           |         |          |        |       | ✔️         | ️         |       |
-| [mi-eng/macro-p][app mi-eng lines]                 |          |           |         |          |        |       | ✔️         | ️         |       |
-| [mi-eng/modal-e][app mi-eng lines]                 |          |           |         |          |        |       | ✔️         | ️         |       |
+| [mi-eng/macro-b][app mi-eng lines]                 |          |           | ✔       |          |        |       | ✔️         | ️         |       |
+| [mi-eng/macro-p][app mi-eng lines]                 |          |           | ✔       |          |        |       | ✔️         | ️         |       |
+| [mi-eng/modal-e][app mi-eng lines]                 |          |           | ✔       |          |        |       | ✔️         | ️         |       |
 | [mi-eng/texture-c][app mi-eng lines]               | ✔        |           |         |          |        |       | ✔️         | ️         |       |
-| [mi-eng/resonate-r][app mi-eng lines]              | ✔        |           |         |          |        |       | ✔️         | ️         |       |
+| [mi-eng/resonate-r][app mi-eng lines]              | ✔        |           | ✔       |          |        |       | ✔️         | ️         |       |
 | [midi-monitor][app midi-monitor lines]             |          | ✔         |         |          |        |       | ✔️         | ️         |       |
 | [mlr][app mlr lines]                               | ✔️        |           |         |          | 🔴     |       | ✔️         |          |       |
 | [molly_the_poly][app molly_the_poly lines]         |          |           | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
