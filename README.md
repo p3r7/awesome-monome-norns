@@ -239,6 +239,7 @@ Sequencers & trackers:
 | [loom][app loom lines]                             | ✔️         | [gh][app loom src]          | pattern weaving sequencer for grids                                 | [1][app loom demo 1], [2][app loom demo 2]                       |                                       |
 | [meadowphysics][app meadowphysics lines]           | ✔️         | [gh][app meadowphysics src] | grid-enabled rhizomatic cascading counter                           | [1][app meadowphysics demo 1]                                    | [online][app meadowphysics doc]       |
 | [nisp][app nisp lines]                             | ✔️         | [gh][app nisp src]          | LISP (Scheme dialect) livecoding tracker                            | [1][app nisp demo 1], [2][app nisp demo 2]                       |                                       |
+| [orbital][app orbital lines]                       | ❌️        | [gh][app orbital src]       | circular 16 step sequencer                                          |                                                                  |                                       |
 | [orca][app orca lines]                             | ✔️         | [gh][app orca src]          | esoteric programming language                                       | [1][app orca demo 1], [2][app orca demo 2]                       |                                       |
 | [punchcard][app punchcard lines]                   | ✔️         | [gh][app punchcard src]     | experimental sequencer that works like a classic punchcard computer | [1][app punchcard demo 1], [2][app punchcard demo 2]             |                                       |
 | [quence][app quence lines]                         | ✔️         | [gh][app quence src]        | a probabilistic 4-track sequencer                                   | [1][app quence demo 1], [2][app quence demo 2]                   |                                       |
@@ -389,6 +390,7 @@ Utilities:
 | [monitor][app monitor lines]                       |          | ✔         |         |          |        |       | ️          | ✔️        |       |
 | [nisp][app nisp lines]                             |          |           |         | 🔴       |        |       | ✔️         |          |       |
 | [oooooo][app oooooo lines]                         | ✔️        |           |         |          |        |       | ✔️         |          |       |
+| [orbital][app orbital lines]                       | ️         |           |         |          |        |       | ✔️         |          |       |
 | [orca][app orca lines]                             | ✔️        |           | ✔       | 🔴       | ⚪     |       | ✔️         | ✔        |       |
 | [otis][app otis lines]                             | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [passersby][app passersby lines]                   |          |           | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
@@ -508,18 +510,18 @@ Here are listed the ones most often spotted in the wild.
 #### _SuperCollider_ engines
 
 
-| library                            | code                                                                         | description                                                                        | provided by                                | used by                                          |
-| --                                 | ---                                                                          | ---                                                                                | ---                                        | ---                                              |
-| ack                                | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt, crash, vials |
-| timber                             | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                                     |
-| glut                               | [sclang][lib glut gh sc]                                                     | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf                                 |
-| PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen         |
-| PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       | ash/earthsea                                     |
-| [R][lib R lines]                   | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                             |
-| [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           | [mi-eng/\*][app mi-eng lines]              | mi-eng/\*                                        |
-| molly_the_poly                     | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] | analogue (substractive) synth                                                      | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence, fugu    |
-| passersby                          | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           | westcoast-style synth                                                              | [passersby][app passersby lines]           | passersby, less_concepts, dunes                  |
-| PrimitiveString                    | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                                      |
+| library                            | code                                                                         | description                                                                        | provided by                                | used by                                           |
+| --                                 | ---                                                                          | ---                                                                                | ---                                        | ---                                               |
+| ack                                | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt, crash, vials  |
+| timber                             | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                                      |
+| glut                               | [sclang][lib glut gh sc]                                                     | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf                                  |
+| PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen, orbital |
+| PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       | ash/earthsea                                      |
+| [R][lib R lines]                   | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                              |
+| [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           | [mi-eng/\*][app mi-eng lines]              | mi-eng/\*                                         |
+| molly_the_poly                     | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] | analogue (substractive) synth                                                      | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence, fugu     |
+| passersby                          | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           | westcoast-style synth                                                              | [passersby][app passersby lines]           | passersby, less_concepts, dunes                   |
+| PrimitiveString                    | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                                       |
 
 
 ## Development: C
@@ -794,6 +796,8 @@ For less impacting modifications / suggestions, you can:
 [app oooooo src]: https://github.com/schollz/oooooo
 [app oooooo demo 1]: https://www.instagram.com/p/CEeMRPDhCt_/
 [app oooooo demo 2]: https://www.instagram.com/p/CEb2CDQBXaz/
+[app orbital lines]: https://llllllll.co/t/orbital-norns/21379
+[app orbital src]: https://github.com/P580C/orbital
 [app orca lines]: https://llllllll.co/t/orca/22492
 [app orca src]: https://github.com/itsyourbedtime/orca/
 [app orca demo 1]: https://www.instagram.com/p/BxRUGzlFqEX/
