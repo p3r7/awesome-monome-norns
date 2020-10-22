@@ -175,7 +175,7 @@ Synths & drones:
 | [lissadron][app lissadron lines]             | ✔️         | [gh][app lissadron src]       | a software synth making extensive use of seeded randomness, internal sequencer for voice change             | [internal sequencer][app lissadron demo seq]       |                       |
 | [mi-eng/macro-b][app mi-eng lines]           | ❌️️        | [gh][lib mi-engines gh sc]    | collection of complex oscillator sources, based upon the Mutable Instrument Braids macro-oscillator         | [1][app mi-eng/macro-b demo 1]                     |                       |
 | [mi-eng/macro-p][app mi-eng lines]           | ❌️️        | [gh][lib mi-engines gh sc]    | collection of complex oscillator sources, based upon the Mutable Instrument Plaits macro-oscillator         | [1][app mi-eng/macro-p demo 1]                     |                       |
-| [mi-eng/modal-e][app mi-eng lines]           | ❌️️        | [gh][lib mi-engines gh sc]    | modal syntheser, based upon the Mutable Instrument Elements                                                 | [1][app mi-eng/modal-e demo 1]                     |                       |
+| [mi-eng/modal-e][app mi-eng lines]           | ❌️️        | [gh][lib mi-engines gh sc]    | modal synth, based upon the Mutable Instrument Elements                                                     | [1][app mi-eng/modal-e demo 1]                     |                       |
 | [mi-eng/resonate-r][app mi-eng lines]        | ❌️️        | [gh][lib mi-engines gh sc]    | ring resonator, can be used as basic percusive oscillator, based upon the Mutable Instrument Rings          | [1][app mi-eng/resonate-r demo 1]                  |                       |
 | [molly_the_poly][app molly_the_poly lines]   | default️   | [gh][app molly_the_poly src]  | Juno-6 voice structure with chorus, the extra modulation of a Jupiter-8, and CS-80 inspired ring modulation | [1][app molly_the_poly demo 1]                     |                       |
 | [moln][app moln lines]                       | ✔️         | [gh][app moln src]            | Polyphonic substractive synthesizer                                                                         |                                                    |                       |
@@ -261,17 +261,17 @@ Control Modulation sources:
 
 Audio effects:
 
-| app                                   | on maiden | code                       | description                                                                   | demo                              | doc |
-| ---                                   | :---:     | ---                        | ---                                                                           | ---                               | --- |
-| [greyhole][app greyhole lines]        | ✔️         | [gh][app greyhole src]     | echo / delay                                                                  | [1][app greyhole demo 1]          |     |
-| [manifold][app manifold lines]        | ✔️         | [gh][app manifold src]     | multi-effects processing for live performance                                 | [1][app manifold demo 1]          |     |
-| [mi-eng/modal-e][app mi-eng lines]    | ❌️        | [gh][lib mi-engines gh sc] | modal syntheser, affects input audio, based upon the Mutable Instrument Rings | [1][app mi-eng/modal-e demo 1]    |     |
-| [mi-eng/resonate-r][app mi-eng lines] | ❌️        | [gh][lib mi-engines gh sc] | ring resonator, based upon the Mutable Instrument Rings                       | [1][app mi-eng/resonate-r demo 1] |     |
-| [pedalboard][app pedalboard lines]    | ✔️         | [gh][app pedalboard src]   | chainable effects for live performance                                        |                                   |     |
-| [phyllis][app phyllis lines]          | ✔️         | [gh][app phyllis src]      | digitally modeled analog                                                      | [1][app phyllis demo 1]           |     |
-| [pools][app pools lines]              | ✔️         | [gh][app pools src]        | a shimmery reverb                                                             | [1][app pools demo 1]             |     |
-| [stack][app stack lines]              | ✔️         | [gh][app stack src]        | stack of bandpass filter, sequenceable                                        |                                   |     |
-| [sway][app sway lines]                | ✔️         | [gh][app sway src]         | analysis-driven live audio processing                                         | [1][app sway demo 1]              |     |
+| app                                   | on maiden | code                       | description                                                               | demo                              | doc |
+| ---                                   | :---:     | ---                        | ---                                                                       | ---                               | --- |
+| [greyhole][app greyhole lines]        | ✔️         | [gh][app greyhole src]     | echo / delay                                                              | [1][app greyhole demo 1]          |     |
+| [manifold][app manifold lines]        | ✔️         | [gh][app manifold src]     | multi-effects processing for live performance                             | [1][app manifold demo 1]          |     |
+| [mi-eng/modal-e][app mi-eng lines]    | ❌️        | [gh][lib mi-engines gh sc] | modal synth, affects input audio, based upon the Mutable Instrument Rings | [1][app mi-eng/modal-e demo 1]    |     |
+| [mi-eng/resonate-r][app mi-eng lines] | ❌️        | [gh][lib mi-engines gh sc] | ring resonator, based upon the Mutable Instrument Rings                   | [1][app mi-eng/resonate-r demo 1] |     |
+| [pedalboard][app pedalboard lines]    | ✔️         | [gh][app pedalboard src]   | chainable effects for live performance                                    |                                   |     |
+| [phyllis][app phyllis lines]          | ✔️         | [gh][app phyllis src]      | digitally modeled analog                                                  | [1][app phyllis demo 1]           |     |
+| [pools][app pools lines]              | ✔️         | [gh][app pools src]        | a shimmery reverb                                                         | [1][app pools demo 1]             |     |
+| [stack][app stack lines]              | ✔️         | [gh][app stack src]        | stack of bandpass filter, sequenceable                                    |                                   |     |
+| [sway][app sway lines]                | ✔️         | [gh][app sway src]         | analysis-driven live audio processing                                     | [1][app sway demo 1]              |     |
 
 
 Loopers, live samplers & crazy delays:
