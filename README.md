@@ -525,6 +525,7 @@ Here are listed the ones most often spotted in the wild.
 | [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           | [mi-eng/\*][app mi-eng lines]              | mi-eng/\*                                         |
 | molly_the_poly                     | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] | analogue (substractive) synth                                                      | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence, fugu     |
 | passersby                          | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           | westcoast-style synth                                                              | [passersby][app passersby lines]           | passersby, less_concepts, dunes                   |
+| [Dust2][lib Dust2 lines]           | [sclang][lib Dust2 gh sc]                                                    | impulses (ticks)                                                                   | [bgc_dust][app bgc_dust lines]             | euclidigons                                       |
 | PrimitiveString                    | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                                       |
 
 
@@ -607,6 +608,8 @@ For less impacting modifications / suggestions, you can:
 [lib R gh sc]: https://github.com/antonhornquist/r
 [lib mi-engines lines]: https://llllllll.co/t/mi-ugens-for-norns/31781
 [lib mi-engines gh sc]: https://github.com/okyeron/mi-eng
+[lib Dust2 lines]: https://llllllll.co/t/bgc-dust/32033
+[lib Dust2 gh sc]: https://github.com/bgc/bgc_dust/blob/master/engine/Engine_bgcDust.sc
 
 
 <!-- apps -->
@@ -651,6 +654,8 @@ For less impacting modifications / suggestions, you can:
 [app benjolis src]: https://github.com/scazan/benjolis
 [app benjolis demo 1]: https://www.instagram.com/p/B6tJ036BuwC/
 [app benjolis demo 2]: https://www.instagram.com/p/B6vAYhEB4Hi/
+[app bgc_dust lines]: https://llllllll.co/t/bgc-dust/32033
+[app bgc_dust src]: https://github.com/bgc/bgc_dust
 [app blndr lines]: https://llllllll.co/t/blndr/35106
 [app blndr src]: https://github.com/schollz/blndr
 [app blndr demo 1]: https://llllllll.co/t/blndr/35106
