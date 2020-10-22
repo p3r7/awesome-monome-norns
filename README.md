@@ -197,12 +197,13 @@ Granular sample players and synths:
 
 Sample players:
 
-| app                               | on maiden | code                    | description                                                  | demo                          | doc |
-| ---                               | :---:     | ---                     | ---                                                          | ---                           | --- |
-| [crash][app crash lines]          | ✔         | [gh][app crash src]     | random drum kit player (606 samples)                         |                               |     |
-| [drum_room][app drum_room lines]  | ✔         | [gh][app drum_room src] | MIDI-controlled drum kits                                    | [1][app drum_room demo 1]     |     |
-| [timber/keys][app timber lines]   | ✔         | [gh][app timber src]    | map a sample at different pitches  across midi keys / grid   | [1][app timber/keys demo 1]   |     |
-| [timber/player][app timber lines] | ✔         | [gh][app timber src]    | load whole directory of samples mapped onto midi keys / grid | [1][app timber/player demo 1] |     |
+| app                               | on maiden | code                    | description                                                  | demo                                                                | doc |
+| ---                               | :---:     | ---                     | ---                                                          | ---                                                                 | --- |
+| [beets][app beets lines]          | ✔         | [gh][app beets src]     | drum loop slicer / player                                    | [1][app beets demo 1], [2][app beets demo 2], [3][app beets demo 3] |     |
+| [crash][app crash lines]          | ✔         | [gh][app crash src]     | random drum kit player (606 samples)                         |                                                                     |     |
+| [drum_room][app drum_room lines]  | ✔         | [gh][app drum_room src] | MIDI-controlled drum kits                                    | [1][app drum_room demo 1]                                           |     |
+| [timber/keys][app timber lines]   | ✔         | [gh][app timber src]    | map a sample at different pitches  across midi keys / grid   | [1][app timber/keys demo 1]                                         |     |
+| [timber/player][app timber lines] | ✔         | [gh][app timber src]    | load whole directory of samples mapped onto midi keys / grid | [1][app timber/player demo 1]                                       |     |
 
 
 Basic samplers:
@@ -343,6 +344,7 @@ Utilities:
 | [awake][app awake lines]                           |          | ⚪        |         |          | ⚪     |       | ✔️         |          | ✔️     |
 | [barcode][app barcode lines]                       | ✔        |           |         |          |        |       | ✔️         | ️         |       |
 | [barycenter][app barycenter lines]                 |          |           |         |          |        |       | ✔️         | ✔️        |       |
+| [beets][app beets lines]                           |          | ✔         | ⚪      |          | ⚪     | ⚪    | ✔️         | ️         |       |
 | [b-b-b-b-beat][app b-b-b-b-beat lines]             | ✔        | ✔         |         |          |        |       | ✔️         | ️         |       |
 | [benjolis][app benjolis lines]                     |          |           |         |          |        |       | ✔️         | ️         |       |
 | [boing][app boingg lines]                          |          |           |         |          | ⚪     |       | ✔️         | ✔️        | ✔     |
@@ -640,6 +642,11 @@ For less impacting modifications / suggestions, you can:
 [app b-b-b-b-beat lines]: https://llllllll.co/t/b-b-b-b-beat-ableton-beat-repeater/35047
 [app b-b-b-b-beat src]: https://github.com/frederickk/b-b-b-b-beat/
 [app b-b-b-b-beat demo 1]: https://www.instagram.com/p/CDef8pQIRA8/
+[app beets lines]: https://llllllll.co/t/beets-1-1-1/30069
+[app beets src]: https://github.com/mattb/beets
+[app beets demo 1]: https://www.youtube.com/watch?v=inLgAmwhvfI
+[app beets demo 2]: https://www.youtube.com/watch?v=AT6j5OpXpuU
+[app beets demo 3]: https://www.instagram.com/p/B_LVBBgJ4Gi/
 [app benjolis lines]: https://llllllll.co/t/benjolis/28061
 [app benjolis src]: https://github.com/scazan/benjolis
 [app benjolis demo 1]: https://www.instagram.com/p/B6tJ036BuwC/
