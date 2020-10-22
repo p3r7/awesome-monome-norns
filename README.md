@@ -241,6 +241,7 @@ Sequencers & trackers:
 | [nisp][app nisp lines]                             | ✔️         | [gh][app nisp src]          | LISP (Scheme dialect) livecoding tracker                            | [1][app nisp demo 1], [2][app nisp demo 2]                       |                                       |
 | [orbital][app orbital lines]                       | ❌️        | [gh][app orbital src]       | circular 16 step sequencer                                          |                                                                  |                                       |
 | [orca][app orca lines]                             | ✔️         | [gh][app orca src]          | esoteric programming language                                       | [1][app orca demo 1], [2][app orca demo 2]                       |                                       |
+| [patchwork][app patchwork lines]                   | ✔️         | [gh][app patchwork src]     | dual function (note + command patterns) sequencer                   |                                                                  |                                       |
 | [punchcard][app punchcard lines]                   | ✔️         | [gh][app punchcard src]     | experimental sequencer that works like a classic punchcard computer | [1][app punchcard demo 1], [2][app punchcard demo 2]             |                                       |
 | [quence][app quence lines]                         | ✔️         | [gh][app quence src]        | a probabilistic 4-track sequencer                                   | [1][app quence demo 1], [2][app quence demo 2]                   |                                       |
 | [rebound][app rebound lines]                       | ✔️         | [gh][app rebound src]       | a kinetic sequencer                                                 | [1][app rebound demo 1]                                          |                                       |
@@ -394,6 +395,7 @@ Utilities:
 | [orca][app orca lines]                             | ✔️        |           | ✔       | 🔴       | ⚪     |       | ✔️         | ✔        |       |
 | [otis][app otis lines]                             | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [passersby][app passersby lines]                   |          |           | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
+| [patchwork][app patchwork lines]                   |          |           |         | 🔴       | 🔴     |       |           | ✔️        | ✔️     |
 | [pedalboard][app pedalboard lines]                 | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [piwip][app piwip lines]                           |          |           |         |          |        |       |           |          |       |
 | [pools][app pools lines]                           | ✔️        |           |         |          |        |       | ✔️         |          |       |
@@ -808,6 +810,8 @@ For less impacting modifications / suggestions, you can:
 [app passersby lines]: https://llllllll.co/t/passersby/21089
 [app passersby src]: https://github.com/markwheeler/passersby
 [app passersby demo 1]: https://www.instagram.com/p/Bl1VFffnz7w/
+[app patchwork lines]: https://llllllll.co/t/patchwork/28800
+[app patchwork src]: https://github.com/oliviercreurer/patchwork
 [app pedalboard lines]: https://llllllll.co/t/31119
 [app pedalboard src]: https://github.com/21echoes/pedalboard
 [app phyllis lines]: https://llllllll.co/t/phyllis/27988
