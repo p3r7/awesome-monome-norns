@@ -334,7 +334,7 @@ Utilities:
 | app                                                | audio in | midi sync | midi in | keyboard | grid   | arc   | audio out | midi out | crow  |
 | ---                                                | :---:    | :---:     | :---:   | :---:    | :---:  | :---: | :---:     | :---:    | :---: |
 | [ash/angl][app ash lines]                          |          |           |         |          |        | 🔴    | ✔         |          |       |
-| [ash/earthsea][app ash lines]                      |          |           | ✔       |          | ⚪     |       | ✔         |          |       |
+| [ash/earthsea][app ash lines]                      |          |           | ✔       |          | ⚪     |       | ✔         |          | ✔     |
 | [ash/orbit][app ash lines]                         | ✔        |           |         |          |        |       | ✔         |          |       |
 | [ash/playfair][app ash lines]                      |          | ⚪        |         |          |        |       | ✔         |          |       |
 | [athenaeum/arc][app athenaeum lines]               |          |           |         |          |        | 🔴    |           |          |       |
