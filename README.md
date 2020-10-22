@@ -379,7 +379,7 @@ Utilities:
 | [meadowphysics][app meadowphysics lines]           |          |           |         |          | 🔴     |       | ✔️         | ✔️        |       |
 | [mi-eng/macro-b][app mi-eng lines]                 |          |           | ✔       |          |        |       | ✔️         | ️         |       |
 | [mi-eng/macro-p][app mi-eng lines]                 |          |           | ✔       |          |        |       | ✔️         | ️         |       |
-| [mi-eng/modal-e][app mi-eng lines]                 | ✔         |           | ✔       |          |        |       | ✔️         | ️         |       |
+| [mi-eng/modal-e][app mi-eng lines]                 | ✔        |           | ✔       |          |        |       | ✔️         | ️         |       |
 | [mi-eng/texture-c][app mi-eng lines]               | ✔        |           |         |          |        |       | ✔️         | ️         |       |
 | [mi-eng/resonate-r][app mi-eng lines]              | ✔        |           | ✔       |          |        |       | ✔️         | ️         |       |
 | [midi-monitor][app midi-monitor lines]             |          | ✔         |         |          |        |       | ✔️         | ️         |       |
@@ -402,7 +402,7 @@ Utilities:
 | [rudiments][app rudiments lines]                   | ️         |           |         |          | ⚪     |       | ✔️         |          |       |
 | [shapes][app shapes lines]                         |          |           |         |          |        |       |           |          | ✔     |
 | [spacetime][app spacetime study] `we/study/study3` |          |           |         |          |        |       | ✔️         |          |       |
-| [step][app step lines]                             |          |           |         |          | 🔴     | 🔶    | ✔️         |          |       |
+| [step][app step lines]                             |          |           |         |          | 🔴     | ⚪    | ✔️         |          |       |
 | [stjoernuithrott][app stjoernuithrott lines]       |          |           | ⚪      |          |        |       | ✔️         |          |       |
 | [takt][app takt lines]                             |          |           |         |          | 🔴     |       | ✔️         |          |       |
 | [timber/keys][app timber lines]                    |          | ⚪        | 🔴 \*   |          |        |       | ✔️         |          |       |
