@@ -224,6 +224,7 @@ Sequencers & trackers:
 | [ash/playfair][app ash lines]                      | ✔️         | [gh][app ash src]           | euclidean drummer, four sequences, each with its own sample         | [1][app ash/playfair demo 1]                                     |                                       |
 | [awake][app awake lines]                           | default   | [gh][app awake src]         | two looped sequences                                                | [1][app awake demo 1]                                            |                                       |
 | [boing][app boingg lines]                          | ✔         | [gh][app boingg src]        | a bouncing ball sequencer                                           | [1][app boingg demo 1]                                           |                                       |
+| [buoys][app buoys lines]                           | ❌        | [gh][app buoys src]         | kinetic sequencer based on motion of water                          | [1][app buoys demo 1]                                            |                                       |
 | [cheat_codes][app cheat_codes lines]               | ✔️         | [gh][app cheat_codes src]   | sample playground                                                   | [1][app cheat_codes demo 1]                                      | [pdf][app cheat_codes doc]            |
 | [circles][app circles lines]                       | ✔️         | [gh][app circles src]       | move cursor, place circles, make music                              | [1][app circles demo 1]                                          |                                       |
 | [cyrene][app cyrene lines]                         | ✔️         | [gh][app cyrene src]        | drum pattern generator                                              | [1][app cyrene demo 1], [grid][app cyrene demo grid]             |                                       |
@@ -348,6 +349,7 @@ Utilities:
 | [b-b-b-b-beat][app b-b-b-b-beat lines]             | ✔        | ✔         |         |          |        |       | ✔️         | ️         |       |
 | [benjolis][app benjolis lines]                     |          |           |         |          |        |       | ✔️         | ️         |       |
 | [boing][app boingg lines]                          |          |           |         |          | ⚪     |       | ✔️         | ✔️        | ✔     |
+| [buoys][app buoys lines]                           |          |           |         |          | 🔴     | ⚪    | ️          | ✔️        | ✔     |
 | [changes][app changes lines]                       |          |           |         |          |        |       |           | ✔        |       |
 | [cheat_codes][app cheat_codes lines]               |          |           |         |          | 🔶 \** | 🔶    |           |          |       |
 | [circles][app circles lines]                       |          |           |         |          |        |       | ✔         | ✔        |       |
@@ -662,6 +664,9 @@ For less impacting modifications / suggestions, you can:
 [app boingg lines]: https://llllllll.co/t/boingg/26536
 [app boingg src]: https://github.com/justmat/boingg
 [app boingg demo 1]: https://vimeo.com/368803868
+[app buoys lines]: https://llllllll.co/t/buoys/37639
+[app buoys src]: https://github.com/lylepmills/buoys
+[app buoys demo 1]: https://vimeo.com/472114370
 [app changes lines]: https://llllllll.co/t/changes/33799
 [app changes src]: https://github.com/markwheeler/changes/
 [app changes demo 1]: https://www.instagram.com/p/CBwHD-ABSSj/
