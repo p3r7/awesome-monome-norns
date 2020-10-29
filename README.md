@@ -403,6 +403,7 @@ Utilities:
 | [orca][app orca lines]                             | ✔️        |           | ✔       | 🔴       | ⚪     |       | ✔️         | ✔        |       |
 | [otis][app otis lines]                             | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [passersby][app passersby lines]                   |          |           | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
+| [passthrough][app passthrough lines]               |          |           | ✔       |          |        |       | ️          | ✔        |       |
 | [patchwork][app patchwork lines]                   |          |           |         | 🔴       | 🔴     |       |           | ✔️        | ✔️     |
 | [pedalboard][app pedalboard lines]                 | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [piwip][app piwip lines]                           |          |           |         |          |        |       |           |          |       |
@@ -545,7 +546,7 @@ Those are more generic Lua libs that add either:
 
 | library                              | code                      | description                                                 | provided by | used by                                            |
 | ---                                  | ---                       | ---                                                         | ---         | ---                                                |
-| [passthrough][app passthrough lines] | [lua][lib passthrough gh] | allows norns to pass through midi between connected devices | passthrough | passthrough, b-b-b-b-beat, beets, stjörnuíþrótt    |
+| [passthrough][app passthrough lines] | [lua][lib passthrough gh] | allows norns to pass through midi between connected devices | passthrough | passthrough, b-b-b-b-beat, beets, stjoernuithrott  |
 | midi                                 | [lua][lib midi gh]        | helper to trig MIDI out                                     | euclidigons | euclidigons                                        |
 | hnds                                 | [lua][lib hnds gh]        | LFOs to modulate app parameters                             | otis        | otis, pools, greyhole, pedalboard, wrms, timeparty |
 | [arcify][lib arcify lines]           | [lua][lib arcify gh]      | simple parameter binding to _arc_                           |             | beets, compass                                     |
