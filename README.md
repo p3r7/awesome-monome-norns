@@ -30,6 +30,7 @@ The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced 
 - [Development: Libraries & Engines](#development-libraries--engines)
   - [_Softcut_ & _Softcut_-based libs](#softcut--softcut-based-libs)
   - [_SuperCollider_ engines](#supercollider-engines)
+  - [Lua libs](#lua-libs)
 - [Development: C](#development-c)
 - [Contributing](#contributing)
 - [License](#license)
@@ -513,6 +514,7 @@ Here are listed the ones most often spotted in the wild.
 | --                             | ---                                                        | ---                                 | ---                  | ---               |
 | [softcut][lib softcut lines]   | [lua][lib softcut gh lua], [undelying C][lib softcut gh C] | sample record & playback            | installed by default | sam, reels, piwip |
 | [supercut][lib supercut lines] | [lua][lib supercut gh lua]                                 | higher-level wrapper around softcut |                      | wrms              |
+| halfsecond                     | [lua][lib halfsecond gh]                                   | simple 1/2s delay                   | awake                | awake, vials      |
 
 
 #### _SuperCollider_ engines
@@ -531,6 +533,25 @@ Here are listed the ones most often spotted in the wild.
 | passersby                          | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           | westcoast-style synth                                                              | [passersby][app passersby lines]           | passersby, less_concepts, dunes                   |
 | [Dust2][lib Dust2 lines]           | [sclang][lib Dust2 gh sc]                                                    | impulses (ticks)                                                                   | [bgc_dust][app bgc_dust lines]             | euclidigons                                       |
 | PrimitiveString                    | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                                       |
+
+#### Lua libs
+
+Those are more generic Lua libs that add either:
+- improve handling of midi / LFOs
+- provide support for additional hardware
+- provide additional drawing utils
+
+
+| library                              | code                      | description                                                 | provided by     | used by                                            |
+| ---                                  | ---                       | ---                                                         | ---             | ---                                                |
+| passthrough                          | [lua][lib passthrough gh] | allows norns to pass through midi between connected devices |                 | beets                                              |
+| midi                                 | [lua][lib midi gh]        | helper to trig MIDI out                                     | otiseuclidigons | euclidigons                                        |
+| hnds                                 | [lua][lib hnds gh]        | LFOs to modulate app parameters                             | otis            | otis, pools, greyhole, pedalboard, wrms, timeparty |
+| [arcify][lib arcify lines]           | [lua][lib arcify gh]      | simple parameter binding to _arc_                           |                 | beets, compass                                     |
+| [shnth][lib shnth lines]             | [lua][lib shnth gh]       | use the shbobo shnth as a controller                        |                 |                                                    |
+| shape                                | [lua][lib shape gh]       | draw shapes on screen                                       | euclidigons     | euclidigons                                        |
+| noise                                | [lua][lib noise gh]       | draw perlin Noise on screen                                 |                 |                                                    |
+| [moreFilters][lib moreFilters lines] | [lua][lib moreFilters gh] | adds a moving, windowed RMS/standard deviation filter       |                 |                                                    |
 
 
 ## Development: C
@@ -593,6 +614,7 @@ For less impacting modifications / suggestions, you can:
 [lib softcut gh C]: https://github.com/monome/softcut-lib
 [lib supercut lines]: https://llllllll.co/t/supercut-lib/29526
 [lib supercut gh lua]: https://github.com/andr-ew/supercut
+[lib halfsecond gh]: https://github.com/tehn/awake/blob/master/lib/halfsecond.lua
 
 <!-- supercolier libs -->
 [lib ack gh lua]: https://github.com/antonhornquist/ack/blob/master/lib/ack.lua
@@ -615,6 +637,19 @@ For less impacting modifications / suggestions, you can:
 [lib Dust2 lines]: https://llllllll.co/t/bgc-dust/32033
 [lib Dust2 gh sc]: https://github.com/bgc/bgc_dust/blob/master/engine/Engine_bgcDust.sc
 
+<!-- lua libs -->
+[lib arcify lines]: https://llllllll.co/t/arcify/22133
+[lib arcify gh]: https://github.com/mimetaur/arcify
+[lib arcify doc]: https://mimetaur.github.io/arcify/
+[lib hnds gh]: https://github.com/justmat/otis/blob/master/lib/hnds.lua
+[lib passthrough gh]: https://github.com/nattog/passthrough
+[lib midi gh]: https://github.com/synthetiv/euclidigons/blob/main/lib/midi.lua
+[lib shape gh]: https://github.com/synthetiv/euclidigons/blob/main/lib/shape.lua
+[lib shnth lines]: https://llllllll.co/t/norns-shnth-library/33238
+[lib shnth gh]: https://github.com/cfdrake/shnth
+[lib noise gh]: https://github.com/naus3a/NauNorns/blob/master/lib/noise.lua
+[lib moreFilters lines]: https://llllllll.co/t/rms-filter/36994
+[lib moreFilters gh]: https://github.com/naus3a/NauNorns/blob/master/lib/noise.lua
 
 <!-- apps -->
 [app athenaeum lines]: https://llllllll.co/t/athenaeum/36660
