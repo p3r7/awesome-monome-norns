@@ -321,6 +321,7 @@ Utilities:
 | [grid-test][app grid-test lines]       | ❌        | [gh][app grid-test src]    | utility to test grids                                       | [1][app grid-test demo 1]                        |     |
 | [midi-monitor][app midi-monitor lines] | ✔️         | [gh][app midi-monitor src] | simple midi monitor with note feedback                      | [1][app midi-monitor demo 1]                     |     |
 | [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose      | [1][app monitor demo 1], [2][app monitor demo 2] |     |
+| [passthrough][app passthrough lines]   | ✔️         | [gh][app passthrough src]  | simple midi passthrough between devices connected to norns  |                                                  |     |
 | [shell_runner][app shell_runner lines] | ❌  ️      | [gh][app shell_runner src] | menu to launch shell scripts                                |                                                  |     |
 | [tuner][app tuner lines]               | ✔️         | [gh][app tuner src]        | a tuner                                                     |                                                  |     |
 
@@ -544,7 +545,7 @@ Those are more generic Lua libs that add either:
 
 | library                              | code                      | description                                                 | provided by | used by                                            |
 | ---                                  | ---                       | ---                                                         | ---         | ---                                                |
-| passthrough                          | [lua][lib passthrough gh] | allows norns to pass through midi between connected devices |             | beets                                              |
+| [passthrough][app passthrough lines] | [lua][lib passthrough gh] | allows norns to pass through midi between connected devices | passthrough | passthrough, b-b-b-b-beat, beets, stjörnuíþrótt    |
 | midi                                 | [lua][lib midi gh]        | helper to trig MIDI out                                     | euclidigons | euclidigons                                        |
 | hnds                                 | [lua][lib hnds gh]        | LFOs to modulate app parameters                             | otis        | otis, pools, greyhole, pedalboard, wrms, timeparty |
 | [arcify][lib arcify lines]           | [lua][lib arcify gh]      | simple parameter binding to _arc_                           |             | beets, compass                                     |
@@ -642,7 +643,7 @@ For less impacting modifications / suggestions, you can:
 [lib arcify gh]: https://github.com/mimetaur/arcify
 [lib arcify doc]: https://mimetaur.github.io/arcify/
 [lib hnds gh]: https://github.com/justmat/otis/blob/master/lib/hnds.lua
-[lib passthrough gh]: https://github.com/nattog/passthrough
+[lib passthrough gh]: https://github.com/nattog/passthrough/blob/main/lib/passthrough.lua
 [lib midi gh]: https://github.com/synthetiv/euclidigons/blob/main/lib/midi.lua
 [lib shape gh]: https://github.com/synthetiv/euclidigons/blob/main/lib/shape.lua
 [lib shnth lines]: https://llllllll.co/t/norns-shnth-library/33238
@@ -864,6 +865,8 @@ For less impacting modifications / suggestions, you can:
 [app passersby lines]: https://llllllll.co/t/passersby/21089
 [app passersby src]: https://github.com/markwheeler/passersby
 [app passersby demo 1]: https://www.instagram.com/p/Bl1VFffnz7w/
+[app passthrough lines]: https://llllllll.co/t/passthrough/31156
+[app passthrough src]: https://github.com/nattog/passthrough
 [app patchwork lines]: https://llllllll.co/t/patchwork/28800
 [app patchwork src]: https://github.com/oliviercreurer/patchwork
 [app patchwork demo 1]: https://www.instagram.com/p/B74VEXZBv20/
