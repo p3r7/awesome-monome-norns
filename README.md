@@ -542,16 +542,16 @@ Those are more generic Lua libs that add either:
 - provide additional drawing utils
 
 
-| library                              | code                      | description                                                 | provided by     | used by                                            |
-| ---                                  | ---                       | ---                                                         | ---             | ---                                                |
-| passthrough                          | [lua][lib passthrough gh] | allows norns to pass through midi between connected devices |                 | beets                                              |
-| midi                                 | [lua][lib midi gh]        | helper to trig MIDI out                                     | otiseuclidigons | euclidigons                                        |
-| hnds                                 | [lua][lib hnds gh]        | LFOs to modulate app parameters                             | otis            | otis, pools, greyhole, pedalboard, wrms, timeparty |
-| [arcify][lib arcify lines]           | [lua][lib arcify gh]      | simple parameter binding to _arc_                           |                 | beets, compass                                     |
-| [shnth][lib shnth lines]             | [lua][lib shnth gh]       | use the shbobo shnth as a controller                        |                 |                                                    |
-| shape                                | [lua][lib shape gh]       | draw shapes on screen                                       | euclidigons     | euclidigons                                        |
-| noise                                | [lua][lib noise gh]       | draw perlin Noise on screen                                 |                 |                                                    |
-| [moreFilters][lib moreFilters lines] | [lua][lib moreFilters gh] | adds a moving, windowed RMS/standard deviation filter       |                 |                                                    |
+| library                              | code                      | description                                                 | provided by | used by                                            |
+| ---                                  | ---                       | ---                                                         | ---         | ---                                                |
+| passthrough                          | [lua][lib passthrough gh] | allows norns to pass through midi between connected devices |             | beets                                              |
+| midi                                 | [lua][lib midi gh]        | helper to trig MIDI out                                     | euclidigons | euclidigons                                        |
+| hnds                                 | [lua][lib hnds gh]        | LFOs to modulate app parameters                             | otis        | otis, pools, greyhole, pedalboard, wrms, timeparty |
+| [arcify][lib arcify lines]           | [lua][lib arcify gh]      | simple parameter binding to _arc_                           |             | beets, compass                                     |
+| [shnth][lib shnth lines]             | [lua][lib shnth gh]       | use the shbobo shnth as a controller                        |             |                                                    |
+| shape                                | [lua][lib shape gh]       | draw shapes on screen                                       | euclidigons | euclidigons                                        |
+| noise                                | [lua][lib noise gh]       | draw perlin Noise on screen                                 |             |                                                    |
+| [moreFilters][lib moreFilters lines] | [lua][lib moreFilters gh] | provides a moving, windowed RMS/standard deviation filter   |             |                                                    |
 
 
 ## Development: C
