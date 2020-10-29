@@ -195,6 +195,7 @@ Granular sample players and synths:
 | [ash/angl][app ash lines]  | ✔️         | [gh][app ash src]    | use an arc to control pitch and speed granulation of four audio files                    | [1][app ash/angl demo 1] |     |
 | [glut][app glut lines]     | ✔️         | [gh][app glut src]   | granular synth inspired by mlr/rove, [grainfield][app grainfield lines] & loomer cumulus | [1][app glut demo 1]     |     |
 | [gemini][app gemini lines] | ✔️         | [gh][app gemini src] | one file, two granulators                                                                | [1][app gemini demo 1]   |     |
+| [langl][app langl lines]   | ❌️         | [gh][app langl src]  | ash/angl-inspired granulator, also uses arc and offer more control                       | [1][app langl demo 1]    |     |
 | [mangl][app mangl lines]   | ✔️         | [gh][app mangl src]  | a 7 track granular sample player                                                         | [1][app mangl demo 1]    |     |
 | [uhf][app uhf lines]       | ✔️         | [gh][app uhf src]    | your tapes transmitted thru late-night static and broken antenna frequencies             |                          |     |
 
@@ -389,6 +390,7 @@ Utilities:
 | [islands][app islands lines]                       |          |           |         |          | 🔶     |       | ✔️         |          |       |
 | [isoseq][app isoseq lines]                         |          | ⚪        |         |          | 🔴     |       | ✔️         | ✔        |       |
 | [kria_midi][app kria_midi lines]                   |          |           |         |          | 🔶     |       | ✔️         |          |       |
+| [langl][app langl lines]                           |          |           |         |          |        | 🔴    | ✔️         |          |       |
 | [less_concepts][app less_concepts lines]           |          |           |         |          | 🔶     |       | ✔️         | ✔        | ✔     |
 | [lissadron][app lissadron lines]                   |          |           | 🔶      |          |        |       | ✔️         |          |       |
 | [loom][app loom lines]                             |          | ⚪        |         |          | 🔴     |       | ✔️         | ✔        |       |
@@ -539,7 +541,7 @@ Here are listed the ones most often spotted in the wild.
 | --                                 | ---                                                                          | ---                                                                                | ---                                        | ---                                                     |
 | ack                                | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt, crash, vials        |
 | timber                             | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                                            |
-| glut                               | [sclang][lib glut gh sc]                                                     | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf                                        |
+| glut                               | [sclang][lib glut gh sc]                                                     | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf, langl                                 |
 | PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen, orbital, nono |
 | PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       | ash/earthsea                                            |
 | TestSine                           | [sclang][lib TestSine gh sc]                                                 | a basic single mono sinewave                                                       | installed by default                       | there                                                   |
@@ -827,6 +829,9 @@ For less impacting modifications / suggestions, you can:
 [app kria_midi src]: https://github.com/junklight/misc/tree/master/dust/code/Kria
 [app kria_midi demo 1]: https://www.youtube.com/watch?v=FtyTv8ngdI4
 [app kria_midi demo 2]: https://www.instagram.com/p/BwG_lQVjxbw/
+[app langl lines]: https://llllllll.co/t/langl/26931
+[app langl src]: https://github.com/burgessv/langl
+[app langl demo 1]: https://vimeo.com/373190679
 [app less_concepts lines]: https://llllllll.co/t/less-concepts/21109
 [app less_concepts src]: https://github.com/dndrks/less_concepts
 [app less_concepts demo 1]: https://www.youtube.com/watch?v=AHuZm-aHN6k
