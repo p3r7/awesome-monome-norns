@@ -319,6 +319,7 @@ Utilities:
 | app                                    | on maiden | code                       | description                                                 | demo                                             | doc |
 | ---                                    | :---:     | ---                        | ---                                                         | ---                                              | --- |
 | [athenaeum/arc][app athenaeum lines]   | ❌        | [gh][app athenaeum src]    | interract with arc, read and write leds, no sound           | [1][app athenaeum/arc demo 1]                    |     |
+| [caliper][app caliper lines]           | ✔         | [gh][app caliper src]      | tuner for eurorack modules using _norns_ + _crow_           |                                                  |     |
 | [foundry][app foundry lines]           | ❌        | [gh][app foundry src]      | browse all glyphs of all installed fonts, play with options |                                                  |     |
 | [grid-test][app grid-test lines]       | ❌        | [gh][app grid-test src]    | utility to test grids                                       | [1][app grid-test demo 1]                        |     |
 | [midi-monitor][app midi-monitor lines] | ✔️         | [gh][app midi-monitor src] | simple midi monitor with note feedback                      | [1][app midi-monitor demo 1]                     |     |
@@ -357,6 +358,7 @@ Utilities:
 | [benjolis][app benjolis lines]                     |          |           |         |          |        |       | ✔️         | ️         |       |
 | [boing][app boingg lines]                          |          |           |         |          | ⚪     |       | ✔️         | ✔️        | ✔     |
 | [buoys][app buoys lines]                           |          |           |         |          | 🔴     | ⚪    | ️          | ✔️        | ✔     |
+| [caliper][app caliper lines]                       | ✔        |           |         |          |        |       |           |          | ✔     |
 | [changes][app changes lines]                       |          |           |         |          |        |       |           | ✔        |       |
 | [cheat_codes][app cheat_codes lines]               |          |           |         |          | 🔶 \** | 🔶    |           |          |       |
 | [circles][app circles lines]                       |          |           |         |          |        |       | ✔         | ✔        |       |
@@ -718,6 +720,8 @@ For less impacting modifications / suggestions, you can:
 [app buoys lines]: https://llllllll.co/t/buoys/37639
 [app buoys src]: https://github.com/lylepmills/buoys
 [app buoys demo 1]: https://vimeo.com/472114370
+[app caliper lines]: https://llllllll.co/t/caliper/31353
+[app caliper src]: https://github.com/synthetiv/caliper/
 [app changes lines]: https://llllllll.co/t/changes/33799
 [app changes src]: https://github.com/markwheeler/changes/
 [app changes demo 1]: https://www.instagram.com/p/CBwHD-ABSSj/
