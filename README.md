@@ -503,6 +503,7 @@ Most scripts you'll find in the wild use either _softcut_ or _engine_, but some 
  - [softcut studies](https://github.com/monome/softcut-studies)
  - [foundry][app foundry lines] app ([code][app foundry src]) for text & fonts (`screen.text` API)
  - [athenaeum/arc][app athenaeum lines] app ([code][app athenaeum lines]) for arc interactions
+ - [hid-demo][app hid-demo lines] apps ([code][app hid-demo lines]) for HID input (keyboard, mouse, touchpad...)
  - [video tutorial on adding midi out to an existing app](https://llllllll.co/t/norns-walkthrough-hacking-a-script-to-add-midi-output/34969)
  - [tutorial on adding computer keyboard support to an existing app](https://llllllll.co/t/norns-without-a-grid/32996/28)
 
@@ -825,6 +826,8 @@ For less impacting modifications / suggestions, you can:
 [app haven demo 1]: https://www.youtube.com/watch?v=1mEBZmao-uc
 [app here-there lines]: https://llllllll.co/t/here-there/36170
 [app here-there src]: https://github.com/speakerdamage/here-there
+[app hid-demo lines]: https://llllllll.co/t/hid-demo/21315
+[app hid-demo src]: https://github.com/okyeron/hid-demo/
 [app islands lines]: https://www.youtube.com/watch?v=PApL2LFjBPQ
 [app islands src]: https://github.com/junklight/islands
 [app islands doc]: https://www.youtube.com/watch?v=PApL2LFjBPQ
