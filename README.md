@@ -254,6 +254,7 @@ Sequencers & trackers:
 | [spacetime][app spacetime study] `we/study/study3` | ✔️         |                             | a weird function sequencer                                          | [1][app spacetime demo 1]                                        |                                       |
 | [step][app step lines]                             | ✔️         | [gh][app step src]          | a simple step sequencer                                             |                                                                  |                                       |
 | [takt][app takt lines]                             | ✔️         | [gh][app takt src]          | Digitakt-inspired parameter locking step sequencer                  | [1][app takt demo 1]                                             | [online][app takt doc]                |
+| [torii][app torii lines]                           | ✔️         | [gh][app torii src]         | gated audio sequencer                                               | [1][app torii demo 1], [2][app torii demo 2]                     |                                       |
 | [vials][app vials lines]                           | ✔️         | [gh][app vials src]         | 4 track performance-oriented sample sequencer                       |                                                                  | [online][app vials doc]               |
 | [zeelen][app zeelen lines]                         | ✔️         | [gh][app zeelen src]        | game of Life based sequencer                                        | [1][app zeelen demo 1], [crow][app zeelen demo crow]             | [online][app takt doc]                |
 
@@ -425,6 +426,7 @@ Utilities:
 | [there][app there lines]                           |          |           |         |          |        |       | ✔️         |          |       |
 | [timber/keys][app timber lines]                    |          | ⚪        | 🔴 \*   |          |        |       | ✔️         |          |       |
 | [timber/player][app timber lines]                  |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
+| [torii][app torii lines]                           |          |           |         |          | ⚪     |       | ✔️         |          |       |
 | [tuner][app tuner lines]                           | ✔        |           |         |          |        |       | ️          |          |       |
 | [uhf][app uhf lines]                               |          |           |         |          |        |       | ✔️         |          |       |
 | [vials][app vials lines]                           |          |           |         |          | 🔶     |       | ✔️         |          |       |
@@ -535,7 +537,7 @@ Here are listed the ones most often spotted in the wild.
 | PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen, orbital |
 | PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       | ash/earthsea                                      |
 | TestSine                           | [sclang][lib TestSine gh sc]                                                 | a basic single mono sinewave                                                       | installed by default                       | there                                             |
-| [R][lib R lines]                   | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                              |
+| [R][lib R lines]                   | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln, torii                                       |
 | [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           | [mi-eng/\*][app mi-eng lines]              | mi-eng/\*                                         |
 | molly_the_poly                     | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] | analogue (substractive) synth                                                      | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence, fugu     |
 | passersby                          | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           | westcoast-style synth                                                              | [passersby][app passersby lines]           | passersby, less_concepts, dunes                   |
@@ -941,6 +943,10 @@ For less impacting modifications / suggestions, you can:
 [app timber src]: https://github.com/markwheeler/timber
 [app timber/keys demo 1]: https://www.instagram.com/p/Bs4PuShBTbZ/
 [app timber/player demo 1]: https://llllllll.co/uploads/default/original/3X/5/3/53f651f809d88726e5d9ee9b5493908bfefc3313.jpegZ/
+[app torii lines]: https://llllllll.co/t/torii/30476
+[app torii src]: https://github.com/okyeron/torii
+[app torii demo 1]: https://www.instagram.com/p/B9V3djWhUwn/
+[app torii demo 2]: https://www.instagram.com/p/B-Buf_LBxst/
 [app tunnels lines]: https://llllllll.co/t/tunnels/21973
 [app tunnels src]: https://github.com/speakerdamage/tunnels
 [app tunnels demo 1]: https://www.instagram.com/p/BwwdlZcls4V/
