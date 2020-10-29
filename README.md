@@ -324,6 +324,7 @@ Utilities:
 | ---                                    | :---:     | ---                        | ---                                                         | ---                                              | --- |
 | [athenaeum/arc][app athenaeum lines]   | ❌        | [gh][app athenaeum src]    | interract with arc, read and write leds, no sound           | [1][app athenaeum/arc demo 1]                    |     |
 | [caliper][app caliper lines]           | ✔         | [gh][app caliper src]      | tuner for eurorack modules using _norns_ + _crow_           |                                                  |     |
+| [clarck][app clarck lines]             | ✔         | [gh][app clarck src]       | use _arc_ as a clock to display time                        | [1][app clarck demo 1]                           |     |
 | [foundry][app foundry lines]           | ❌        | [gh][app foundry src]      | browse all glyphs of all installed fonts, play with options |                                                  |     |
 | [grid-test][app grid-test lines]       | ❌        | [gh][app grid-test src]    | utility to test grids                                       | [1][app grid-test demo 1]                        |     |
 | [librarian][app librarian lines]       | ❌️        | [gh][app librarian src]    | install, update and remove apps directly                    |                                                  |     |
@@ -367,6 +368,7 @@ Utilities:
 | [changes][app changes lines]                       |          |           |         |          |        |       |           | ✔        |       |
 | [cheat_codes][app cheat_codes lines]               |          |           |         |          | 🔶 \** | 🔶    |           |          |       |
 | [circles][app circles lines]                       |          |           |         |          |        |       | ✔         | ✔        |       |
+| [clarck][app clarck lines]                         |          |           |         |          |        | 🔴    |           |          |       |
 | [clcks][app clcks lines]                           | ✔        |           |         |          |        |       | ✔         |          |       |
 | [compass][app compass lines]                       | ✔        |           |         |          | ⚪     |       | ✔         |          |       |
 | [cranes][app cranes lines]                         | ✔️        |           |         |          | ⚪     |       | ✔️         |          |       |
@@ -742,6 +744,9 @@ For less impacting modifications / suggestions, you can:
 [app circles lines]: https://llllllll.co/t/circles/22951
 [app circles src]: https://github.com/JakeCarter/circles
 [app circles demo 1]: https://www.instagram.com/p/ByL_pJpha8A/
+[app clarck lines]: https://llllllll.co/t/clarck/21251
+[app clarck src]: https://github.com/okyeron/clarck
+[app clarck demo 1]: https://vimeo.com/22323803
 [app clcks lines]: https://llllllll.co/t/clcks/35732
 [app clcks src]: https://github.com/schollz/clcks
 [app clcks demo 1]: https://www.instagram.com/p/CEWzDaXB6VX/
