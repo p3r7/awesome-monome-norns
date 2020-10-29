@@ -240,6 +240,7 @@ Sequencers & trackers:
 | [fugu][app fugu lines]                             | ✔         | [gh][app fugu src]          | 4 playhead sequencer, inspired by the Fugue Machine iOS app         | [1][app fugu demo 1], [2][app fugu demo 2], [3][app fugu demo 3] |                                       |
 | [grd][app grd lines]                               | ❌️        | [gh][app grd src]           | 8x8 autonomy                                                        | [1][app grd demo 1], [2][app grd demo 2]                         |                                       |
 | [islands][app islands lines]                       | ✔️         | [gh][app islands src]       | kria-based sequencer with internal playback                         | [1][app islands demo 1]                                          | [presentation video][app islands doc] |
+| [isoseq][app isoseq lines]                         | ✔️         | [gh][app isoseq src]        | isomorphic step sequence                                            | [1][app isoseq demo 1]                                          | [presentation video][app islands doc] |
 | [kria_midi][app kria_midi lines]                   | ✔️         | [gh][app kria_midi src]     | port of the kria sequencer with midi output                         | [1][app kria_midi demo 1], [1][app kria_midi demo 2]             |                                       |
 | [less_concepts][app less_concepts lines]           | ✔️         | [gh][app less_concepts src] | cellular automata sequencer                                         | [1][app less_concepts demo 1]                                    |                                       |
 | [loom][app loom lines]                             | ✔️         | [gh][app loom src]          | pattern weaving sequencer for grids                                 | [1][app loom demo 1], [2][app loom demo 2]                       |                                       |
@@ -386,6 +387,7 @@ Utilities:
 | [haven][app haven lines]                           | ️         |           |         |          |        |       | ✔️         |          |       |
 | [here-there][app here-there lines]                 | ️✔        |           |         |          |        |       | ✔️         |          |       |
 | [islands][app islands lines]                       |          |           |         |          | 🔶     |       | ✔️         |          |       |
+| [isoseq][app isoseq lines]                         |          | ⚪        |         |          | 🔴     |       | ✔️         | ✔        |       |
 | [kria_midi][app kria_midi lines]                   |          |           |         |          | 🔶     |       | ✔️         |          |       |
 | [less_concepts][app less_concepts lines]           |          |           |         |          | 🔶     |       | ✔️         | ✔        | ✔     |
 | [lissadron][app lissadron lines]                   |          |           | 🔶      |          |        |       | ✔️         |          |       |
@@ -816,6 +818,9 @@ For less impacting modifications / suggestions, you can:
 [app islands src]: https://github.com/junklight/islands
 [app islands doc]: https://www.youtube.com/watch?v=PApL2LFjBPQ
 [app islands demo 1]: https://www.youtube.com/watch?v=Rvt7K0rEVLc
+[app isoseq lines]: https://llllllll.co/t/isoseq/21026
+[app isoseq src]: https://github.com/carvingCode/isoseq
+[app isoseq demo 1]: https://vimeo.com/328649268
 [app jiffy lines]: https://llllllll.co/t/jiffy/25475
 [app jiffy src]: https://github.com/lukes-anger/jiffy
 [app kria_midi lines]: https://llllllll.co/t/kria-midi/21255
