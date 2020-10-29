@@ -186,6 +186,7 @@ Synths & drones:
 | [rudiments][app rudiments lines]             | ✔️         | [gh][app rudiments src]       | 8 voice lofi percussion synthesizer and sequencer (playfair-style)                                          |                                                    |                       |
 | [showers][app showers lines]                 | ✔️         | [gh][app showers src]         | a thunderstorm (rain & thunder)                                                                             |                                                    |                       |
 | [stjoernuithrott][app stjoernuithrott lines] | ✔️         | [gh][app stjoernuithrott src] | drone synth inspired by the Moffeenzeef Stargazer                                                           |                                                    |                       |
+| [there][app there lines]                     | ❌️        | [gh][app there src]           | a theremin                                                                                                  |                                                    |                       |
 
 Granular sample players and synths:
 
@@ -421,6 +422,7 @@ Utilities:
 | [step][app step lines]                             |          |           |         |          | 🔴     | ⚪    | ✔️         |          |       |
 | [stjoernuithrott][app stjoernuithrott lines]       |          |           | ⚪      |          |        |       | ✔️         |          |       |
 | [takt][app takt lines]                             |          |           |         |          | 🔴     |       | ✔️         |          |       |
+| [there][app there lines]                           |          |           |         |          |        |       | ✔️         |          |       |
 | [timber/keys][app timber lines]                    |          | ⚪        | 🔴 \*   |          |        |       | ✔️         |          |       |
 | [timber/player][app timber lines]                  |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
 | [tuner][app tuner lines]                           | ✔        |           |         |          |        |       | ️          |          |       |
@@ -532,6 +534,7 @@ Here are listed the ones most often spotted in the wild.
 | glut                               | [sclang][lib glut gh sc]                                                     | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf                                  |
 | PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen, orbital |
 | PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       | ash/earthsea                                      |
+| TestSine                           | [sclang][lib TestSine gh sc]                                                 | a basic single mono sinewave                                                       | installed by default                       | there                                             |
 | [R][lib R lines]                   | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln                                              |
 | [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           | [mi-eng/\*][app mi-eng lines]              | mi-eng/\*                                         |
 | molly_the_poly                     | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] | analogue (substractive) synth                                                      | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence, fugu     |
@@ -630,6 +633,7 @@ For less impacting modifications / suggestions, you can:
 <!-- [lib PolyPerc gh sc]: https://github.com/tehn/awake/blob/master/lib/Engine_PolyPerc.sc -->
 [lib PolyPerc gh sc]: https://github.com/monome/dust/blob/master/lib/sc/Engine_PolyPerc.sc
 [lib PolySub gh sc]: https://github.com/monome/dust/blob/master/lib/sc/Engine_PolySub.sc
+[lib TestSine gh sc]: https://github.com/monome/dust/blob/master/lib/sc/Engine_TestSine.sc
 [lib molly_the_poly gh lua]: https://github.com/markwheeler/molly_the_poly/blob/master/lib/molly_the_poly_engine.lua
 [lib molly_the_poly gh sc]: https://github.com/markwheeler/molly_the_poly/blob/master/lib/Engine_MollyThePoly.sc
 [lib passersby gh lua]: https://github.com/markwheeler/passersby/blob/master/lib/passersby_engine.lua
@@ -931,6 +935,8 @@ For less impacting modifications / suggestions, you can:
 [app takt src]: https://github.com/itsyourbedtime/takt
 [app takt doc]: https://github.com/monome/dust/blob/master/docs/bedtime/index.md
 [app takt demo 1]: https://www.instagram.com/p/Brm-za6FWMZ/
+[app there lines]: https://llllllll.co/t/there/27892
+[app there src]: https://github.com/infovore/norns-there
 [app timber lines]: https://llllllll.co/t/timber/21407
 [app timber src]: https://github.com/markwheeler/timber
 [app timber/keys demo 1]: https://www.instagram.com/p/Bs4PuShBTbZ/
