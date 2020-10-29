@@ -416,6 +416,7 @@ Utilities:
 | [reels][app reels lines]                           | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [rudiments][app rudiments lines]                   | ️         |           |         |          | ⚪     |       | ✔️         |          |       |
 | [shapes][app shapes lines]                         |          |           |         |          |        |       |           |          | ✔     |
+| [shell_runner][app shell_runner lines]             |          |           |         |          |        |       |           |          |       |
 | [spacetime][app spacetime study] `we/study/study3` |          |           |         |          |        |       | ✔️         |          |       |
 | [step][app step lines]                             |          |           |         |          | 🔴     | ⚪    | ✔️         |          |       |
 | [stjoernuithrott][app stjoernuithrott lines]       |          |           | ⚪      |          |        |       | ✔️         |          |       |
