@@ -309,9 +309,9 @@ Loopers, live samplers & crazy delays:
 
 Midi effects:
 
-| app                                    | on maiden | code                    | description                              | demo                                                             | doc |
-| ---                                    | :---:     | ---                     | ---                                      | ---                                                              | --- |
-| [athenaeum/delay][app athenaeum lines] | ❌        | [gh][app athenaeum src] | generates MIDI delay with siual feedback | [1][app athenaeum/delay demo 1], [2][app athenaeum/delay demo 2] |     |
+| app                                    | on maiden | code                    | description                               | demo                                                             | doc |
+| ---                                    | :---:     | ---                     | ---                                       | ---                                                              | --- |
+| [athenaeum/delay][app athenaeum lines] | ❌        | [gh][app athenaeum src] | generates MIDI delay with visual feedback | [1][app athenaeum/delay demo 1], [2][app athenaeum/delay demo 2] |     |
 
 
 Utilities:
