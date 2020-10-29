@@ -321,6 +321,7 @@ Utilities:
 | [grid-test][app grid-test lines]       | ❌        | [gh][app grid-test src]    | utility to test grids                                       | [1][app grid-test demo 1]                        |     |
 | [midi-monitor][app midi-monitor lines] | ✔️         | [gh][app midi-monitor src] | simple midi monitor with note feedback                      | [1][app midi-monitor demo 1]                     |     |
 | [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose      | [1][app monitor demo 1], [2][app monitor demo 2] |     |
+| [norman][app norman lines]             | ✔️         | [gh][app norman src]       | normalize & auto-trim sample files on disk                  |                                                  |     |
 | [passthrough][app passthrough lines]   | ✔️         | [gh][app passthrough src]  | simple midi passthrough between devices connected to norns  |                                                  |     |
 | [shell_runner][app shell_runner lines] | ❌  ️      | [gh][app shell_runner src] | menu to launch shell scripts                                |                                                  |     |
 | [tuner][app tuner lines]               | ✔️         | [gh][app tuner src]        | a tuner                                                     |                                                  |     |
@@ -398,6 +399,7 @@ Utilities:
 | [moln][app moln lines]                             |          |           | 🔴 \*   |          | ⚪ \*  | ⚪    | ✔️         |          |       |
 | [monitor][app monitor lines]                       |          | ✔         |         |          |        |       | ️          | ✔️        |       |
 | [nisp][app nisp lines]                             |          |           |         | 🔴       |        |       | ✔️         |          |       |
+| [norman][app norman lines]                         |          |           |         |          |        |       | ️          |          |       |
 | [oooooo][app oooooo lines]                         | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [orbital][app orbital lines]                       | ️         |           |         |          |        |       | ✔️         |          |       |
 | [orca][app orca lines]                             | ✔️        |           | ✔       | 🔴       | ⚪     |       | ✔️         | ✔        |       |
@@ -850,6 +852,8 @@ For less impacting modifications / suggestions, you can:
 [app nisp src]: https://github.com/itsyourbedtime/NISP
 [app nisp demo 1]: https://www.instagram.com/p/B54rUM6hnWJ/
 [app nisp demo 2]: https://www.instagram.com/p/B545yPRh5QA/
+[app norman lines]: https://llllllll.co/t/norman/22606
+[app norman src]: https://github.com/crimclark/norman
 [app oooooo lines]: https://llllllll.co/t/oooooo/35828
 [app oooooo src]: https://github.com/schollz/oooooo
 [app oooooo demo 1]: https://www.instagram.com/p/CEeMRPDhCt_/
