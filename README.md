@@ -492,8 +492,8 @@ Most scripts you'll find in the wild use either _softcut_ or _engine_, but some 
 
 #### Documentation
 
- - [basic lua scripting reference](https://monome.org/docs/norns/script-reference/)
- - [complete lua APIs doc](https://monome.org/norns/)
+ - [basic lua scripting reference](https://monome.org/docs/norns/reference/)
+ - [complete lua APIs doc](https://monome.org/docs/norns/api/)
 
 
 #### Tutorials & example apps
