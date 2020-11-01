@@ -567,18 +567,19 @@ Those are more generic Lua libs that add either:
 - provide additional drawing utils
 
 
-| library                                | code                       | description                                                 | provided by | used by                                            |
-| ---                                    | ---                        | ---                                                         | ---         | ---                                                |
-| [passthrough][app passthrough lines]   | [lua][lib passthrough gh]  | allows norns to pass through midi between connected devices | passthrough | passthrough, b-b-b-b-beat, beets, stjoernuithrott  |
-| midi                                   | [lua][lib midi gh]         | helper to trig MIDI out                                     | euclidigons | euclidigons                                        |
-| hnds                                   | [lua][lib hnds gh]         | LFOs to modulate app parameters                             | otis        | otis, pools, greyhole, pedalboard, wrms, timeparty |
-| [grid-capture][lib grid-capture lines] | [lua][lib grid-capture gh] | capture a _grid_ button press sequence as a gif             |             |                                                    |
-| [arcify][lib arcify lines]             | [lua][lib arcify gh]       | simple parameter binding to _arc_                           |             | beets, compass                                     |
-| [shnth][lib shnth lines]               | [lua][lib shnth gh]        | use the shbobo shnth as a controller                        |             |                                                    |
-| shape                                  | [lua][lib shape gh]        | draw shapes on screen                                       | euclidigons | euclidigons                                        |
-| noise                                  | [lua][lib noise gh]        | draw perlin Noise on screen                                 |             |                                                    |
-| [moreFilters][lib moreFilters lines]   | [lua][lib moreFilters gh]  | provides a moving, windowed RMS/standard deviation filter   |             |                                                    |
-| [p8][lib p8 lines]                     | [lua][lib moreFilters gh]  | pico-8 code adaptation layer                                |             |                                                    |
+| library                                | code                       | description                                                            | provided by | used by                                            |
+| ---                                    | ---                        | ---                                                                    | ---         | ---                                                |
+| [passthrough][app passthrough lines]   | [lua][lib passthrough gh]  | allows norns to pass through midi between connected devices            | passthrough | passthrough, b-b-b-b-beat, beets, stjoernuithrott  |
+| midi                                   | [lua][lib midi gh]         | helper to trig MIDI out                                                | euclidigons | euclidigons                                        |
+| hnds                                   | [lua][lib hnds gh]         | LFOs to modulate app parameters                                        | otis        | otis, pools, greyhole, pedalboard, wrms, timeparty |
+| [nest\_][lib nest_ gh]                 | [lua][lib nest_ gh]        | advanced, callback-based, user interaction definitions, _grid_ support |             |                                                    |
+| [grid-capture][lib grid-capture lines] | [lua][lib grid-capture gh] | capture a _grid_ button press sequence as a gif                        |             |                                                    |
+| [arcify][lib arcify lines]             | [lua][lib arcify gh]       | simple parameter binding to _arc_                                      |             | beets, compass                                     |
+| [shnth][lib shnth lines]               | [lua][lib shnth gh]        | use the shbobo shnth as a controller                                   |             |                                                    |
+| shape                                  | [lua][lib shape gh]        | draw shapes on screen                                                  | euclidigons | euclidigons                                        |
+| noise                                  | [lua][lib noise gh]        | draw perlin Noise on screen                                            |             |                                                    |
+| [moreFilters][lib moreFilters lines]   | [lua][lib moreFilters gh]  | provides a moving, windowed RMS/standard deviation filter              |             |                                                    |
+| [p8][lib p8 lines]                     | [lua][lib moreFilters gh]  | pico-8 code adaptation layer                                           |             |                                                    |
 
 
 ## Development: C
@@ -672,6 +673,7 @@ For less impacting modifications / suggestions, you can:
 [lib hnds gh]: https://github.com/justmat/otis/blob/master/lib/hnds.lua
 [lib grid-capture lines]: https://llllllll.co/t/grid-capture/33158
 [lib grid-capture gh]: https://github.com/tlubke/GridCapture
+[lib nest_ gh]: https://github.com/andr-ew/nest_
 [lib passthrough gh]: https://github.com/nattog/passthrough/blob/main/lib/passthrough.lua
 [lib midi gh]: https://github.com/synthetiv/euclidigons/blob/main/lib/midi.lua
 [lib shape gh]: https://github.com/synthetiv/euclidigons/blob/main/lib/shape.lua
