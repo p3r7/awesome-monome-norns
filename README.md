@@ -503,7 +503,8 @@ Most scripts you'll find in the wild use either _softcut_ or _engine_, but some 
  - [softcut studies](https://github.com/monome/softcut-studies)
  - [foundry][app foundry lines] app ([code][app foundry src]) for text & fonts (`screen.text` API)
  - [athenaeum/arc][app athenaeum lines] app ([code][app athenaeum src]) for arc interactions
- - [hid-demo][app hid-demo lines] apps ([code][app hid-demo lines]) for HID input (keyboard, mouse, touchpad...)
+ - [hid-demo][app hid-demo lines] example apps ([code][app hid-demo lines]) for HID input (keyboard, mouse, touchpad...)
+ - [waveviz][app waveviz src] example app for _softcut_ waveform visualization
  - [video tutorial on adding midi out to an existing app](https://llllllll.co/t/norns-walkthrough-hacking-a-script-to-add-midi-output/34969)
  - [tutorial on adding computer keyboard support to an existing app](https://llllllll.co/t/norns-without-a-grid/32996/28)
 
@@ -998,6 +999,7 @@ For less impacting modifications / suggestions, you can:
 [app vials doc]: https://github.com/nattog/vials/blob/main/README.md
 [app uhf lines]: https://llllllll.co/t/uhf-norns/21154
 [app uhf src]: https://github.com/speakerdamage/uhf
+[app waveviz src]: https://github.com/csboling/waveviz
 [app zeelen lines]: https://llllllll.co/t/zellen/21107
 [app zeelen src]: https://github.com/sarweiler/zellen
 [app zeelen demo 1]: https://www.youtube.com/watch?v=BawpNsvTHe8
