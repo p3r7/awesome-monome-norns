@@ -331,7 +331,6 @@ Utilities:
 | [midi-monitor][app midi-monitor lines] | ✔️         | [gh][app midi-monitor src] | simple midi monitor with note feedback                      | [1][app midi-monitor demo 1]                     |     |
 | [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose      | [1][app monitor demo 1], [2][app monitor demo 2] |     |
 | [norman][app norman lines]             | ✔️         | [gh][app norman src]       | normalize & auto-trim sample files on disk                  |                                                  |     |
-| [passthrough][app passthrough lines]   | ✔️         | [gh][app passthrough src]  | simple midi passthrough between devices connected to norns  |                                                  |     |
 | [shell_runner][app shell_runner lines] | ❌  ️      | [gh][app shell_runner src] | menu to launch shell scripts                                |                                                  |     |
 | [tuner][app tuner lines]               | ✔️         | [gh][app tuner src]        | a tuner                                                     |                                                  |     |
 
@@ -420,7 +419,6 @@ Utilities:
 | [orca][app orca lines]                             | ✔️        |           | ✔       | 🔴       | ⚪     |       | ✔️         | ✔        |       |
 | [otis][app otis lines]                             | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [passersby][app passersby lines]                   |          |           | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
-| [passthrough][app passthrough lines]               |          |           | ✔       |          |        |       | ️          | ✔        |       |
 | [patchwork][app patchwork lines]                   |          |           |         | 🔴       | 🔴     |       |           | ✔️        | ✔️     |
 | [pedalboard][app pedalboard lines]                 | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [piwip][app piwip lines]                           |          |           |         |          |        |       |           |          |       |
@@ -570,7 +568,7 @@ Those are more generic Lua libs that add either:
 
 | library                                | code                       | description                                                            | provided by | used by                                            |
 | ---                                    | ---                        | ---                                                                    | ---         | ---                                                |
-| [passthrough][app passthrough lines]   | [lua][lib passthrough gh]  | allows norns to pass through midi between connected devices            | passthrough | passthrough, b-b-b-b-beat, beets, stjoernuithrott  |
+| [passthrough][lib passthrough lines]   | [lua][lib passthrough gh]  | allows norns to pass through midi between connected devices            | passthrough | passthrough, b-b-b-b-beat, beets, stjoernuithrott  |
 | midi                                   | [lua][lib midi gh]         | helper to trig MIDI out                                                | euclidigons | euclidigons                                        |
 | hnds                                   | [lua][lib hnds gh]         | LFOs to modulate app parameters                                        | otis        | otis, pools, greyhole, pedalboard, wrms, timeparty |
 | [nest\_][lib nest_ gh]                 | [lua][lib nest_ gh]        | advanced, callback-based, user interaction definitions, _grid_ support |             |                                                    |
@@ -677,7 +675,8 @@ For less impacting modifications / suggestions, you can:
 [lib grid-capture gh]: https://github.com/tlubke/GridCapture
 [lib screencap gh]: https://github.com/tlubke/capture
 [lib nest_ gh]: https://github.com/andr-ew/nest_
-[lib passthrough gh]: https://github.com/nattog/passthrough/blob/main/lib/passthrough.lua
+[lib passthrough lines]: https://llllllll.co/t/passthrough/31156
+[lib passthrough gh]: https://github.com/nattog/passthrough
 [lib midi gh]: https://github.com/synthetiv/euclidigons/blob/main/lib/midi.lua
 [lib shape gh]: https://github.com/synthetiv/euclidigons/blob/main/lib/shape.lua
 [lib shnth lines]: https://llllllll.co/t/norns-shnth-library/33238
@@ -920,8 +919,6 @@ For less impacting modifications / suggestions, you can:
 [app passersby lines]: https://llllllll.co/t/passersby/21089
 [app passersby src]: https://github.com/markwheeler/passersby
 [app passersby demo 1]: https://www.instagram.com/p/Bl1VFffnz7w/
-[app passthrough lines]: https://llllllll.co/t/passthrough/31156
-[app passthrough src]: https://github.com/nattog/passthrough
 [app patchwork lines]: https://llllllll.co/t/patchwork/28800
 [app patchwork src]: https://github.com/oliviercreurer/patchwork
 [app patchwork demo 1]: https://www.instagram.com/p/B74VEXZBv20/
