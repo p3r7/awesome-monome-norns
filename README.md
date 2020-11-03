@@ -328,6 +328,7 @@ Utilities:
 | [foundry][app foundry lines]           | ❌        | [gh][app foundry src]      | browse all glyphs of all installed fonts, play with options |                                                  |     |
 | [grid-test][app grid-test lines]       | ❌        | [gh][app grid-test src]    | utility to test grids                                       | [1][app grid-test demo 1]                        |     |
 | [librarian][app librarian lines]       | ❌️        | [gh][app librarian src]    | install, update and remove apps directly                    |                                                  |     |
+| [midimatrix][app midimatrix lines]     | ❌️        | [gh][app midimatrix src]   | simple midi matrix example app                              |                                                  |     |
 | [midi-monitor][app midi-monitor lines] | ✔️         | [gh][app midi-monitor src] | simple midi monitor with note feedback                      | [1][app midi-monitor demo 1]                     |     |
 | [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose      | [1][app monitor demo 1], [2][app monitor demo 2] |     |
 | [norman][app norman lines]             | ✔️         | [gh][app norman src]       | normalize & auto-trim sample files on disk                  |                                                  |     |
@@ -406,6 +407,7 @@ Utilities:
 | [mi-eng/modal-e][app mi-eng lines]                 | ✔        |           | ✔       |          |        |       | ✔️         | ️         |       |
 | [mi-eng/texture-c][app mi-eng lines]               | ✔        |           |         |          |        |       | ✔️         | ️         |       |
 | [mi-eng/resonate-r][app mi-eng lines]              | ✔        |           | ✔       |          |        |       | ✔️         | ️         |       |
+| [midimatrix][app midimatrix lines]                 |          | ✔         |         |          |        |       | ✔️         | ️         |       |
 | [midi-monitor][app midi-monitor lines]             |          | ✔         |         |          |        |       | ✔️         | ️         |       |
 | [mlr][app mlr lines]                               | ✔️        |           |         |          | 🔴     |       | ✔️         |          |       |
 | [molly_the_poly][app molly_the_poly lines]         |          |           | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
@@ -878,6 +880,8 @@ For less impacting modifications / suggestions, you can:
 [app mi-eng/modal-e demo 1]: https://www.instagram.com/p/B_osZdTh1OH/
 [app mi-eng/resonate-r demo 1]: https://www.instagram.com/p/B_mEYRohEXA/
 [app mi-eng/texture-c demo 1]: https://www.instagram.com/p/B_oUfbfhlHY/
+[app midimatrix lines]: https://llllllll.co/t/norns-as-usb-midi-host-router/37883/9
+[app midimatrix src]: https://gist.github.com/dndrks/817cd450ab432c79c97507c1a1a0a1f6
 [app midi-monitor lines]: https://llllllll.co/t/midi-monitor/35036
 [app midi-monitor src]: https://github.com/okyeron/midi-monitor
 [app midi-monitor demo 1]: https://www.youtube.com/watch?v=-zXIbLDpzAo
