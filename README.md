@@ -543,7 +543,7 @@ Here are listed the ones most often spotted in the wild.
 
 #### _SuperCollider_ engines
 
-To get the list of engines available on your _norns_, type `tab.print(engine.names)` in the _matron_ console in _maiden_.
+To get the list of engines installed on your _norns_, type `tab.print(engine.names)` in the _matron_ console in _maiden_.
 
 | library                            | code                                                                         | description                                                                        | provided by                                | used by                                                 |
 | --                                 | ---                                                                          | ---                                                                                | ---                                        | ---                                                     |
