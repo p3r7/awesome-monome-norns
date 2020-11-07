@@ -265,12 +265,13 @@ Sequencers & trackers:
 
 Control Modulation sources:
 
-| app                                | on maiden | code                     | description                                      | demo                                             | doc |
-| ---                                | :---:     | ---                      | ---                                              | ---                                              | --- |
-| [barycenter][app barycenter lines] | ❌        | [gh][app barycenter src] | fluctuating relationships in orbit               |                                                  |     |
-| [buoys][app buoys lines]           | ✔️         | [gh][app buoys src]      | its midi output mode produces abstract midi LFOs |                                                  |     |
-| [changes][app changes lines]       | ✔️         | [gh][app changes src]    | eight connected sine wave LFOs as MIDI output    | [1][app changes demo 1], [2][app changes demo 2] |     |
-| [shapes][app shapes lines]         | ❌        | [gh][app shapes src]     | visually based modulation source for crow        |                                                  |     |
+| app                                | on maiden | code                     | description                                         | demo                                               | doc |
+| ---                                | :---:     | ---                      | ---                                                 | ---                                                | --- |
+| [barycenter][app barycenter lines] | ❌        | [gh][app barycenter src] | fluctuating relationships in orbit                  |                                                    |     |
+| [buoys][app buoys lines]           | ✔️         | [gh][app buoys src]      | its midi output mode produces abstract midi CC LFOs |                                                    |     |
+| [cccccccc][app cccccccc lines]     | ✔️         | [gh][app cccccccc src]   | 8 LFOs as MIDI CC output, arc-controlled            | [1][app cccccccc demo 1], [1][app cccccccc demo 2] |     |
+| [changes][app changes lines]       | ✔️         | [gh][app changes src]    | 8 connected sine wave LFOs as MIDI CC output        | [1][app changes demo 1], [2][app changes demo 2]   |     |
+| [shapes][app shapes lines]         | ❌        | [gh][app shapes src]     | visually based modulation source for crow           |                                                    |     |
 
 
 Audio effects:
@@ -368,6 +369,7 @@ Utilities:
 | [boing][app boingg lines]                          |          |           |         |          | ⚪     |       | ✔️         | ✔️        | ✔     |
 | [buoys][app buoys lines]                           |          | ✔         |         |          | 🔴     | ⚪    | ️✔         | ✔️        | ✔     |
 | [caliper][app caliper lines]                       | ✔        |           |         |          |        |       |           |          | ✔     |
+| [cccccccc][app cccccccc lines]                     |          |           |         |          |        | 🔴    |           | ✔        |       |
 | [changes][app changes lines]                       |          |           |         |          |        |       |           | ✔        |       |
 | [cheat_codes][app cheat_codes lines]               |          |           |         |          | 🔶 \** | 🔶    |           |          |       |
 | [circles][app circles lines]                       |          |           |         |          |        |       | ✔         | ✔        |       |
@@ -750,6 +752,10 @@ For less impacting modifications / suggestions, you can:
 [app buoys demo 1]: https://vimeo.com/472114370
 [app caliper lines]: https://llllllll.co/t/caliper/31353
 [app caliper src]: https://github.com/synthetiv/caliper/
+[app cccccccc lines]: https://llllllll.co/t/cccccccc/22271
+[app cccccccc src]: https://github.com/ypxk/cccccccc
+[app cccccccc demo 1]: https://www.youtube.com/watch?v=bgwQ0zUg9c4
+[app cccccccc demo 2]: https://www.instagram.com/p/BxP9crfAshp/
 [app changes lines]: https://llllllll.co/t/changes/33799
 [app changes src]: https://github.com/markwheeler/changes/
 [app changes demo 1]: https://www.instagram.com/p/CBwHD-ABSSj/
