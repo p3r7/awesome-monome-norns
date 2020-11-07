@@ -241,7 +241,7 @@ Sequencers & trackers:
 | [fugu][app fugu lines]                             | ✔         | [gh][app fugu src]          | 4 playhead sequencer, inspired by the Fugue Machine iOS app         | [1][app fugu demo 1], [2][app fugu demo 2], [3][app fugu demo 3] |                                       |
 | [grd][app grd lines]                               | ❌️        | [gh][app grd src]           | 8x8 autonomy                                                        | [1][app grd demo 1], [2][app grd demo 2]                         |                                       |
 | [islands][app islands lines]                       | ✔️         | [gh][app islands src]       | kria-based sequencer with internal playback                         | [1][app islands demo 1]                                          | [presentation video][app islands doc] |
-| [isoseq][app isoseq lines]                         | ✔️         | [gh][app isoseq src]        | isomorphic step sequence                                            | [1][app isoseq demo 1]                                          | [presentation video][app islands doc] |
+| [isoseq][app isoseq lines]                         | ✔️         | [gh][app isoseq src]        | isomorphic step sequence                                            | [1][app isoseq demo 1]                                           | [presentation video][app islands doc] |
 | [kria_midi][app kria_midi lines]                   | ✔️         | [gh][app kria_midi src]     | port of the kria sequencer with midi output                         | [1][app kria_midi demo 1], [1][app kria_midi demo 2]             |                                       |
 | [less_concepts][app less_concepts lines]           | ✔️         | [gh][app less_concepts src] | cellular automata sequencer                                         | [1][app less_concepts demo 1]                                    |                                       |
 | [loom][app loom lines]                             | ✔️         | [gh][app loom src]          | pattern weaving sequencer for grids                                 | [1][app loom demo 1], [2][app loom demo 2]                       |                                       |
@@ -257,6 +257,7 @@ Sequencers & trackers:
 | [spacetime][app spacetime study] `we/study/study3` | ✔️         |                             | a weird function sequencer                                          | [1][app spacetime demo 1]                                        |                                       |
 | [step][app step lines]                             | ✔️         | [gh][app step src]          | a simple step sequencer                                             |                                                                  |                                       |
 | [takt][app takt lines]                             | ✔️         | [gh][app takt src]          | Digitakt-inspired parameter locking step sequencer                  | [1][app takt demo 1]                                             | [online][app takt doc]                |
+| [tambla][app tambla lines]                         | ✔️         | [gh][app tambla src]        | Arpgegio sequencer                                                  |                                                                  | [online][app tambla doc]              |
 | [torii][app torii lines]                           | ✔️         | [gh][app torii src]         | gated audio sequencer                                               | [1][app torii demo 1], [2][app torii demo 2]                     |                                       |
 | [vials][app vials lines]                           | ✔️         | [gh][app vials src]         | 4 track performance-oriented sample sequencer                       |                                                                  | [online][app vials doc]               |
 | [zeelen][app zeelen lines]                         | ✔️         | [gh][app zeelen src]        | game of Life based sequencer                                        | [1][app zeelen demo 1], [crow][app zeelen demo crow]             | [online][app takt doc]                |
@@ -436,6 +437,7 @@ Utilities:
 | [step][app step lines]                             |          |           |         |          | 🔴     | ⚪    | ✔️         |          |       |
 | [stjoernuithrott][app stjoernuithrott lines]       |          |           | ⚪      |          |        |       | ✔️         |          |       |
 | [takt][app takt lines]                             |          |           |         |          | 🔴     |       | ✔️         |          |       |
+| [tambla][app tambla lines]                         |          |           | 🔴 \*️   |          | ⚪ \*  |       | ✔️         | ✔        |       |
 | [there][app there lines]                           |          |           |         |          |        |       | ✔️         |          |       |
 | [timber/keys][app timber lines]                    |          | ⚪        | 🔴 \*   |          |        |       | ✔️         |          |       |
 | [timber/player][app timber lines]                  |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
@@ -534,31 +536,31 @@ Here are listed the ones most often spotted in the wild.
 
 #### _Softcut_ & _Softcut_-based libs
 
-| library                        | code                                                       | description                         | provided by          | used by           |
-| --                             | ---                                                        | ---                                 | ---                  | ---               |
-| [softcut][lib softcut lines]   | [lua][lib softcut gh lua], [undelying C][lib softcut gh C] | sample record & playback            | installed by default | sam, reels, piwip |
-| [supercut][lib supercut lines] | [lua][lib supercut gh lua]                                 | higher-level wrapper around softcut |                      | wrms              |
-| halfsecond                     | [lua][lib halfsecond gh]                                   | simple 1/2s delay                   | awake                | awake, vials      |
+| library                        | code                                                       | description                         | provided by          | used by              |
+| --                             | ---                                                        | ---                                 | ---                  | ---                  |
+| [softcut][lib softcut lines]   | [lua][lib softcut gh lua], [undelying C][lib softcut gh C] | sample record & playback            | installed by default | sam, reels, piwip    |
+| [supercut][lib supercut lines] | [lua][lib supercut gh lua]                                 | higher-level wrapper around softcut |                      | wrms                 |
+| halfsecond                     | [lua][lib halfsecond gh]                                   | simple 1/2s delay                   | awake                | awake, vials, tambla |
 
 
 #### _SuperCollider_ engines
 
 To get the list of engines installed on your _norns_, type `tab.print(engine.names)` in the _matron_ console in _maiden_.
 
-| library                            | code                                                                         | description                                                                        | provided by                                | used by                                                 |
-| --                                 | ---                                                                          | ---                                                                                | ---                                        | ---                                                     |
-| ack                                | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt, crash, vials        |
-| timber                             | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                                            |
-| glut                               | [sclang][lib glut gh sc]                                                     | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf, langl                                 |
-| PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen, orbital, nono |
-| PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       | ash/earthsea                                            |
-| TestSine                           | [sclang][lib TestSine gh sc]                                                 | a basic single mono sinewave                                                       | installed by default                       | there                                                   |
-| [R][lib R lines]                   | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln, torii                                             |
-| [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           | [mi-eng/\*][app mi-eng lines]              | mi-eng/\*                                               |
-| molly_the_poly                     | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] | analogue (substractive) synth                                                      | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence, fugu           |
-| passersby                          | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           | westcoast-style synth                                                              | [passersby][app passersby lines]           | passersby, less_concepts, dunes                         |
-| [Dust2][lib Dust2 lines]           | [sclang][lib Dust2 gh sc]                                                    | impulses (ticks)                                                                   | [bgc_dust][app bgc_dust lines]             | euclidigons                                             |
-| PrimitiveString                    | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                                             |
+| library                            | code                                                                         | description                                                                        | provided by                                | used by                                                         |
+| --                                 | ---                                                                          | ---                                                                                | ---                                        | ---                                                             |
+| ack                                | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt, crash, vials                |
+| timber                             | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                                                    |
+| glut                               | [sclang][lib glut gh sc]                                                     | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf, langl                                         |
+| PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen, orbital, nono, tambla |
+| PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       | ash/earthsea                                                    |
+| TestSine                           | [sclang][lib TestSine gh sc]                                                 | a basic single mono sinewave                                                       | installed by default                       | there                                                           |
+| [R][lib R lines]                   | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln, torii                                                     |
+| [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           | [mi-eng/\*][app mi-eng lines]              | mi-eng/\*                                                       |
+| molly_the_poly                     | [lua wrapper][lib molly_the_poly gh lua], [sclang][lib molly_the_poly gh sc] | analogue (substractive) synth                                                      | [molly_the_poly][app molly_the_poly lines] | molly_the_poly, arp_index, loom, quence, fugu                   |
+| passersby                          | [lua wrapper][lib passersby gh lua], [sclang][lib passersby gh sc]           | westcoast-style synth                                                              | [passersby][app passersby lines]           | passersby, less_concepts, dunes                                 |
+| [Dust2][lib Dust2 lines]           | [sclang][lib Dust2 gh sc]                                                    | impulses (ticks)                                                                   | [bgc_dust][app bgc_dust lines]             | euclidigons                                                     |
+| PrimitiveString                    | [sclang][lib PrimitiveString gh sc]                                          |                                                                                    | [euclidigons][app euclidigons lines]       | euclidigons                                                     |
 
 
 #### Lua libs
@@ -982,6 +984,9 @@ For less impacting modifications / suggestions, you can:
 [app takt src]: https://github.com/itsyourbedtime/takt
 [app takt doc]: https://github.com/monome/dust/blob/master/docs/bedtime/index.md
 [app takt demo 1]: https://www.instagram.com/p/Brm-za6FWMZ/
+[app tambla lines]: https://llllllll.co/t/tambla/37965
+[app tambla src]: https://github.com/ngwese/tambla
+[app tambla doc]: https://github.com/ngwese/tambla-docs/blob/main/README.md
 [app there lines]: https://llllllll.co/t/there/27892
 [app there src]: https://github.com/infovore/norns-there
 [app timber lines]: https://llllllll.co/t/timber/21407
