@@ -301,6 +301,7 @@ Loopers, live samplers & crazy delays:
 | [barcode][app barcode lines]           | ✔️         | [gh][app barcode src]      | a randomized looper                                                                    | [1][app barcode demo 1]                                                                    |                         |
 | [b-b-b-b-beat][app b-b-b-b-beat lines] | ✔️         | [gh][app b-b-b-b-beat src] | beat repeater/glitcher inspired by Ableton's Beat Repeat, MASF Possessed & MWFX Judder | [1][app b-b-b-b-beat demo 1]                                                               |                         |
 | [blndr][app blndr lines]               | ✔️         | [gh][app blndr src]        | a quantized delay with time bending effects                                            | [1][app blndr demo 1]                                                                      |                         |
+| [bounds][app bounds lines]             | ✔️         | [gh][app bounds src]       | kinetic stere looper / delay, _otis_ with _rebound_ mechanics                          | [1][app bounds demo 1]                                                                     |                         |
 | [clcks][app clcks lines]               | ✔️         | [gh][app clcks src]        | a tempo-locked repeater                                                                | [1][app clcks demo 1]                                                                      |                         |
 | [compass][app compass lines]           | ✔️         | [gh][app compass src]      | asynchronous looper, with command-based sequencer                                      | [1][app compass demo 1]                                                                    |                         |
 | [cranes][app cranes lines]             | ✔️         | [gh][app cranes src]       | stereo varispeed looper / delay / timeline-smoosher                                    | [1][app cranes demo 1]                                                                     | [video][app cranes doc] |
@@ -372,6 +373,7 @@ Utilities:
 | [b-b-b-b-beat][app b-b-b-b-beat lines]             | ✔        | ✔         |         |          |        |       | ✔️         | ️         |       |
 | [benjolis][app benjolis lines]                     |          |           |         |          |        |       | ✔️         | ️         |       |
 | [boing][app boingg lines]                          |          |           |         |          | ⚪     |       | ✔️         | ✔️        | ✔     |
+| [bounds][app bounds lines]                         | ✔        |           |         |          |        |       | ✔️         | ️         |       |
 | [buoys][app buoys lines]                           |          | ✔         |         |          | 🔴     | ⚪    | ️✔         | ✔️        | ✔     |
 | [caliper][app caliper lines]                       | ✔        |           |         |          |        |       |           |          | ✔     |
 | [cccccccc][app cccccccc lines]                     |          |           |         |          |        | 🔴    |           | ✔        |       |
@@ -758,6 +760,9 @@ For less impacting modifications / suggestions, you can:
 [app boingg lines]: https://llllllll.co/t/boingg/26536
 [app boingg src]: https://github.com/justmat/boingg
 [app boingg demo 1]: https://vimeo.com/368803868
+[app bounds lines]: https://github.com/justmat/bounds
+[app bounds src]: https://github.com/justmat/boingg
+[app bounds demo 1]: https://vimeo.com/342848400
 [app buoys lines]: https://llllllll.co/t/buoys/37639
 [app buoys src]: https://github.com/lylepmills/buoys
 [app buoys demo 1]: https://vimeo.com/472114370
