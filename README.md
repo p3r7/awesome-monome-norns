@@ -567,6 +567,7 @@ To get the list of engines installed on your _norns_, type `tab.print(engine.nam
 | glut                               | [sclang][lib glut gh sc]                                                     | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf, langl                                         |
 | PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen, orbital, nono, tambla |
 | PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       | ash/earthsea                                                    |
+| Gong                               | [sclang][lib Gong gh sc]                                                     | basic FM synth                                                                     | installed by default                       |                                                                 |
 | TestSine                           | [sclang][lib TestSine gh sc]                                                 | a basic single mono sinewave                                                       | installed by default                       | there                                                           |
 | [R][lib R lines]                   | [sclang][lib R gh sc]                                                        | collection of engines that link together in a modular synth-style workflow         | installed by default                       | moln, torii                                                     |
 | [mi-engines][lib mi-engines lines] | [lua+scland][lib mi-engines gh sc]                                           | port of Mutable Instruments rack modules                                           | [mi-eng/\*][app mi-eng lines]              | mi-eng/\*                                                       |
@@ -671,6 +672,7 @@ For less impacting modifications / suggestions, you can:
 <!-- [lib PolyPerc gh sc]: https://github.com/tehn/awake/blob/master/lib/Engine_PolyPerc.sc -->
 [lib PolyPerc gh sc]: https://github.com/monome/dust/blob/master/lib/sc/Engine_PolyPerc.sc
 [lib PolySub gh sc]: https://github.com/monome/dust/blob/master/lib/sc/Engine_PolySub.sc
+[lib Gong gh sc]: https://github.com/monome/dust/blob/master/lib/sc/Engine_Gong.sc
 [lib TestSine gh sc]: https://github.com/monome/dust/blob/master/lib/sc/Engine_TestSine.sc
 [lib molly_the_poly gh lua]: https://github.com/markwheeler/molly_the_poly/blob/master/lib/molly_the_poly_engine.lua
 [lib molly_the_poly gh sc]: https://github.com/markwheeler/molly_the_poly/blob/master/lib/Engine_MollyThePoly.sc
