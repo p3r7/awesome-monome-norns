@@ -286,6 +286,7 @@ Audio effects:
 | [pools][app pools lines]              | ✔️         | [gh][app pools src]        | a shimmery reverb                                                         | [1][app pools demo 1]             |     |
 | [stack][app stack lines]              | ✔️         | [gh][app stack src]        | stack of bandpass filter, sequenceable                                    |                                   |     |
 | [sway][app sway lines]                | ✔️         | [gh][app sway src]         | analysis-driven live audio processing                                     | [1][app sway demo 1]              |     |
+| [timeparty][app timeparty lines]      | ✔️         | [gh][app timeparty src]    | sequenced time-based multi-effect                                         |                                   |     |
 
 
 Loopers, live samplers & crazy delays:
@@ -441,6 +442,7 @@ Utilities:
 | [there][app there lines]                           |          |           |         |          |        |       | ✔️         |          |       |
 | [timber/keys][app timber lines]                    |          | ⚪        | 🔴 \*   |          |        |       | ✔️         |          |       |
 | [timber/player][app timber lines]                  |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
+| [timeparty][app timeparty lines]                   | ✔        | ⚪        |         |          | 🔴     |       | ✔️         |          | ⚪    |
 | [torii][app torii lines]                           |          |           |         |          | ⚪     |       | ✔️         |          |       |
 | [tuner][app tuner lines]                           | ✔        |           |         |          |        |       | ️          |          |       |
 | [uhf][app uhf lines]                               |          |           |         |          |        |       | ✔️         |          |       |
@@ -1003,6 +1005,8 @@ For less impacting modifications / suggestions, you can:
 [app tuner lines]: https://llllllll.co/t/tuner/21088
 [app tuner src]: https://github.com/markwheeler/tuner
 [app timber lines]: https://llllllll.co/t/21407
+[app timeparty lines]: https://llllllll.co/t/timeparty/22837
+[app timeparty src]: https://github.com/crimclark/timeparty
 [app vials lines]: https://llllllll.co/t/vials/23109
 [app vials src]: https://github.com/nattog/vials
 [app vials doc]: https://github.com/nattog/vials/blob/main/README.md
