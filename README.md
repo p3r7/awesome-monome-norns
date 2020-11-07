@@ -333,6 +333,7 @@ Utilities:
 | [midimatrix][app midimatrix lines]     | ❌️        | [gh][app midimatrix src]   | simple midi matrix example app                              |                                                  |     |
 | [midi-monitor][app midi-monitor lines] | ✔️         | [gh][app midi-monitor src] | simple midi monitor with note feedback                      | [1][app midi-monitor demo 1]                     |     |
 | [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose      | [1][app monitor demo 1], [2][app monitor demo 2] |     |
+| [n16o][app n16o lines]                 | ✔️         | [gh][app n16o src]         | turn a Korg nanoKONTROL2 into an ER-301 controller          |                                                  |     |
 | [norman][app norman lines]             | ✔️         | [gh][app norman src]       | normalize & auto-trim sample files on disk                  |                                                  |     |
 | [shell_runner][app shell_runner lines] | ❌  ️      | [gh][app shell_runner src] | menu to launch shell scripts                                |                                                  |     |
 | [tuner][app tuner lines]               | ✔️         | [gh][app tuner src]        | a tuner                                                     |                                                  |     |
@@ -415,6 +416,7 @@ Utilities:
 | [molly_the_poly][app molly_the_poly lines]         |          |           | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
 | [moln][app moln lines]                             |          |           | 🔴 \*   |          | ⚪ \*  | ⚪    | ✔️         |          |       |
 | [monitor][app monitor lines]                       |          | ✔         |         |          |        |       | ️          | ✔️        |       |
+| [n16o][app n16o lines]                             |          |           | 🔴      |          |        |       | ️          |          | ✔     |
 | [nisp][app nisp lines]                             |          |           |         | 🔴       |        |       | ✔️         |          |       |
 | [nono][app nono lines]                             |          |           |         |          |        |       | ✔️         | ✔        |       |
 | [norman][app norman lines]                         |          |           |         |          |        |       | ️          |          |       |
@@ -903,6 +905,8 @@ For less impacting modifications / suggestions, you can:
 [app monitor src]: https://github.com/neauoire/monitor
 [app monitor demo 1]: https://www.youtube.com/watch?v=g_joxEeB3ss
 [app monitor demo 2]: https://www.youtube.com/watch?v=L8jhEIHqPNU
+[app n16o lines]: https://llllllll.co/t/n16o/28198
+[app n16o src]: https://github.com/jlmitch5/n16o
 [app nisp lines]: https://llllllll.co/t/nisp
 [app nisp src]: https://github.com/itsyourbedtime/NISP
 [app nisp demo 1]: https://www.instagram.com/p/B54rUM6hnWJ/
