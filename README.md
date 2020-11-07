@@ -340,6 +340,7 @@ Utilities:
 | [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose      | [1][app monitor demo 1], [2][app monitor demo 2] |     |
 | [n16o][app n16o lines]                 | ✔️         | [gh][app n16o src]         | turn a Korg nanoKONTROL2 into an ER-301 controller          |                                                  |     |
 | [norman][app norman lines]             | ✔️         | [gh][app norman src]       | normalize & auto-trim sample files on disk                  |                                                  |     |
+| [onehanded][app onehanded lines]       | ✔️         | [gh][app onehanded src]    | simple MIDI note / CC trigger                               |                                                  |     |
 | [practice][app practice lines]         | ❌️        | [gh][app practice src]     | musical scale quizz                                         |                                                  |     |
 | [seaflex][app seaflex lines]           | ✔  ️       | [gh][app seaflex src]      | practice chords shapes on grid, _earthsea_ layout           |                                                  |     |
 | [shell_runner][app shell_runner lines] | ❌  ️      | [gh][app shell_runner src] | menu to launch shell scripts                                |                                                  |     |
@@ -429,6 +430,7 @@ Utilities:
 | [nisp][app nisp lines]                             |          |           |         | 🔴       |        |       | ✔️         |          |       |
 | [nono][app nono lines]                             |          |           |         |          |        |       | ✔️         | ✔        |       |
 | [norman][app norman lines]                         |          |           |         |          |        |       | ️          |          |       |
+| [onehanded][app onehanded lines]                   | ️         |           |         |          |        |       | ️          | ✔        |       |
 | [oooooo][app oooooo lines]                         | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [orbital][app orbital lines]                       | ️         |           |         |          |        |       | ✔️         |          |       |
 | [orca][app orca lines]                             | ✔️        |           | ✔       | 🔴       | ⚪     |       | ✔️         | ✔        |       |
@@ -938,6 +940,8 @@ For less impacting modifications / suggestions, you can:
 [app nono demo 1]: https://www.instagram.com/p/B65YwmLhynJ/
 [app norman lines]: https://llllllll.co/t/norman/22606
 [app norman src]: https://github.com/crimclark/norman
+[app onehanded lines]: https://llllllll.co/t/onehanded/25869
+[app onehanded src]: https://github.com/mimetaur/onehanded
 [app oooooo lines]: https://llllllll.co/t/oooooo/35828
 [app oooooo src]: https://github.com/schollz/oooooo
 [app oooooo demo 1]: https://www.instagram.com/p/CEeMRPDhCt_/
