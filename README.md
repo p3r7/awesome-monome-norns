@@ -257,6 +257,7 @@ Sequencers & trackers:
 | [spacetime][app spacetime study] `we/study/study3` | ✔️         |                             | a weird function sequencer                                          | [1][app spacetime demo 1]                                        |                                       |
 | [step][app step lines]                             | ✔️         | [gh][app step src]          | a simple step sequencer                                             |                                                                  |                                       |
 | [strides][app strides lines]                       | ✔️         | [gh][app step src]          | sample or midi pattern sequencer                                    | [1][app strides demo 1]                                          | [online][app strides doc]             |
+| [strum][app strum lines]                           | ✔️         | [gh][app strum src]         | 16-step sequencer w/ a variety of pattern transition mechanisms     | [1][app strum demo 1]                                            |                                       |
 | [takt][app takt lines]                             | ✔️         | [gh][app takt src]          | Digitakt-inspired parameter locking step sequencer                  | [1][app takt demo 1]                                             | [online][app takt doc]                |
 | [tambla][app tambla lines]                         | ✔️         | [gh][app tambla src]        | Arpgegio sequencer                                                  |                                                                  | [online][app tambla doc]              |
 | [torii][app torii lines]                           | ✔️         | [gh][app torii src]         | gated audio sequencer                                               | [1][app torii demo 1], [2][app torii demo 2]                     |                                       |
@@ -448,6 +449,7 @@ Utilities:
 | [step][app step lines]                             |          |           |         |          | 🔴     | ⚪    | ✔️         |          |       |
 | [stjoernuithrott][app stjoernuithrott lines]       |          |           | ⚪      |          |        |       | ✔️         |          |       |
 | [strides][app strides lines]                       |          |           | ✔️       |          | 🔴     |       | ✔️         | ✔️        |       |
+| [strum][app strum lines]                           |          | ⚪        | ✔️       |          | 🔴     |       | ✔️         | ✔️        |       |
 | [takt][app takt lines]                             |          |           |         |          | 🔴     |       | ✔️         |          |       |
 | [tambla][app tambla lines]                         |          |           | 🔴 \*️   |          | ⚪ \*  |       | ✔️         | ✔        |       |
 | [there][app there lines]                           |          |           |         |          |        |       | ✔️         |          |       |
@@ -1007,6 +1009,9 @@ For less impacting modifications / suggestions, you can:
 [app strides src]: https://github.com/justmat/strides
 [app strides doc]: https://github.com/justmat/strides/blob/master/README.md
 [app strides demo 1]: https://vimeo.com/328470668
+[app strum lines]: https://llllllll.co/t/strum/21025
+[app strum src]: https://github.com/carvingCode/strum
+[app strum demo 1]: https://vimeo.com/328638255
 [app sway lines]: https://llllllll.co/t/sway/21117
 [app sway src]: https://github.com/antonhornquist/step
 [app sway demo 1]: https://www.youtube.com/watch?v=w9RZHmo4JAs
