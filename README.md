@@ -256,6 +256,7 @@ Sequencers & trackers:
 | [rebound][app rebound lines]                       | ✔️         | [gh][app rebound src]       | a kinetic sequencer                                                 | [1][app rebound demo 1]                                          |                                       |
 | [spacetime][app spacetime study] `we/study/study3` | ✔️         |                             | a weird function sequencer                                          | [1][app spacetime demo 1]                                        |                                       |
 | [step][app step lines]                             | ✔️         | [gh][app step src]          | a simple step sequencer                                             |                                                                  |                                       |
+| [strides][app strides lines]                       | ✔️         | [gh][app step src]          | sample or midi pattern sequencer                                    | [1][app strides demo 1]                                          | [online][app strides doc]             |
 | [takt][app takt lines]                             | ✔️         | [gh][app takt src]          | Digitakt-inspired parameter locking step sequencer                  | [1][app takt demo 1]                                             | [online][app takt doc]                |
 | [tambla][app tambla lines]                         | ✔️         | [gh][app tambla src]        | Arpgegio sequencer                                                  |                                                                  | [online][app tambla doc]              |
 | [torii][app torii lines]                           | ✔️         | [gh][app torii src]         | gated audio sequencer                                               | [1][app torii demo 1], [2][app torii demo 2]                     |                                       |
@@ -272,6 +273,7 @@ Control Modulation sources:
 | [cccccccc][app cccccccc lines]     | ✔️         | [gh][app cccccccc src]   | 8 LFOs as MIDI CC output, arc-controlled            | [1][app cccccccc demo 1], [1][app cccccccc demo 2] |     |
 | [changes][app changes lines]       | ✔️         | [gh][app changes src]    | 8 connected sine wave LFOs as MIDI CC output        | [1][app changes demo 1], [2][app changes demo 2]   |     |
 | [shapes][app shapes lines]         | ❌        | [gh][app shapes src]     | visually based modulation source for crow           |                                                    |     |
+| [strides][app strides lines]       | ✔         | [gh][app strides src]    | allows midi CC record / replay with knobs           |                                                    |     |
 
 
 Audio effects:
@@ -445,6 +447,7 @@ Utilities:
 | [spacetime][app spacetime study] `we/study/study3` |          |           |         |          |        |       | ✔️         |          |       |
 | [step][app step lines]                             |          |           |         |          | 🔴     | ⚪    | ✔️         |          |       |
 | [stjoernuithrott][app stjoernuithrott lines]       |          |           | ⚪      |          |        |       | ✔️         |          |       |
+| [strides][app strides lines]                       |          |           | ✔️       |          | 🔴     |       | ✔️         | ✔️        |       |
 | [takt][app takt lines]                             |          |           |         |          | 🔴     |       | ✔️         |          |       |
 | [tambla][app tambla lines]                         |          |           | 🔴 \*️   |          | ⚪ \*  |       | ✔️         | ✔        |       |
 | [there][app there lines]                           |          |           |         |          |        |       | ✔️         |          |       |
@@ -559,7 +562,7 @@ To get the list of engines installed on your _norns_, type `tab.print(engine.nam
 
 | library                            | code                                                                         | description                                                                        | provided by                                | used by                                                         |
 | --                                 | ---                                                                          | ---                                                                                | ---                                        | ---                                                             |
-| ack                                | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt, crash, vials                |
+| ack                                | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt, crash, vials, strides       |
 | timber                             | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                                                    |
 | glut                               | [sclang][lib glut gh sc]                                                     | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf, langl                                         |
 | PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen, orbital, nono, tambla |
@@ -998,6 +1001,10 @@ For less impacting modifications / suggestions, you can:
 [app step src]: https://github.com/antonhornquist/step
 [app stjoernuithrott lines]: https://llllllll.co/t/stjornuithrott-stargazer-inspired-drone/33889
 [app stjoernuithrott src]: https://github.com/frederickk/stjoernuithrott
+[app strides lines]: https://llllllll.co/t/strides/21101
+[app strides src]: https://github.com/justmat/strides
+[app strides doc]: https://github.com/justmat/strides/blob/master/README.md
+[app strides demo 1]: https://vimeo.com/328470668
 [app sway lines]: https://llllllll.co/t/sway/21117
 [app sway src]: https://github.com/antonhornquist/step
 [app sway demo 1]: https://www.youtube.com/watch?v=w9RZHmo4JAs
