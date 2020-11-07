@@ -336,6 +336,8 @@ Utilities:
 | [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose      | [1][app monitor demo 1], [2][app monitor demo 2] |     |
 | [n16o][app n16o lines]                 | ✔️         | [gh][app n16o src]         | turn a Korg nanoKONTROL2 into an ER-301 controller          |                                                  |     |
 | [norman][app norman lines]             | ✔️         | [gh][app norman src]       | normalize & auto-trim sample files on disk                  |                                                  |     |
+| [practice][app practice lines]         | ❌️        | [gh][app practice src]     | musical scale quizz                                         |                                                  |     |
+| [seaflex][app seaflex lines]           | ✔  ️       | [gh][app seaflex src]      | practice chords shapes on grid, _earthsea_ layout           |                                                  |     |
 | [shell_runner][app shell_runner lines] | ❌  ️      | [gh][app shell_runner src] | menu to launch shell scripts                                |                                                  |     |
 | [tuner][app tuner lines]               | ✔️         | [gh][app tuner src]        | a tuner                                                     |                                                  |     |
 
@@ -431,11 +433,13 @@ Utilities:
 | [pedalboard][app pedalboard lines]                 | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [piwip][app piwip lines]                           |          |           |         |          |        |       |           |          |       |
 | [pools][app pools lines]                           | ✔️        |           |         |          |        |       | ✔️         |          |       |
+| [practice][app practice lines]                     |          |           |         |          |        |       |           | ️         |       |
 | [punchcard][app punchcard lines]                   |          |           |         |          | 🔴     |       |           | ✔️        |       |
 | [quence][app quence lines]                         |          |           |         |          | 🔴     |       | ✔         | ✔️        | ✔     |
 | [rebound][app rebound lines]                       | ️         | ⚪        |         |          |        |       | ️          | ✔        |       |
 | [reels][app reels lines]                           | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [rudiments][app rudiments lines]                   | ️         |           |         |          | ⚪     |       | ✔️         |          |       |
+| [seaflex][app seaflex lines]                       |          |           |         |          | 🔴     |       | ✔         |          |       |
 | [shapes][app shapes lines]                         |          |           |         |          |        |       |           |          | ✔     |
 | [shell_runner][app shell_runner lines]             |          |           |         |          |        |       |           |          |       |
 | [spacetime][app spacetime study] `we/study/study3` |          |           |         |          |        |       | ✔️         |          |       |
@@ -955,6 +959,9 @@ For less impacting modifications / suggestions, you can:
 [app pools lines]: https://llllllll.co/t/pools
 [app pools src]: https://github.com/justmat/pools
 [app pools demo 1]: https://vimeo.com/383786715
+[app practice lines]: https://llllllll.co/t/practice/29429
+[app pools src]: https://github.com/unit-cell/practice
+[app pools demo 1]: https://vimeo.com/383786715
 [app punchcard lines]: https://llllllll.co/t/punchcard
 [app punchcard src]: https://github.com/neauoire/punchcard
 [app punchcard demo 1]: https://www.youtube.com/watch?v=jZUtkNuEDqY
@@ -975,6 +982,8 @@ For less impacting modifications / suggestions, you can:
 [app sam src]: https://github.com/justmat/sam
 [app samsara lines]: https://llllllll.co/t/samsara-a-minimalist-looper-v1-0-0/34095
 [app samsara src]: https://github.com/21echoes/samsara
+[app seaflex lines]: https://llllllll.co/t/seaflex/23209
+[app seaflex src]: https://github.com/tlubke/shapes
 [app shapes lines]: https://llllllll.co/t/shapes/36759
 [app shapes src]: https://github.com/tlubke/shapes
 [app shell_runner lines]: https://llllllll.co/t/shell-runner/30887
