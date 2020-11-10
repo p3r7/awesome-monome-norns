@@ -38,7 +38,7 @@ The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced 
 
 ## What / why is _norns_?
 
-The _norns_ is a hardware music platform.
+_norns_ is a hardware music platform.
 
 It's built around the idea of community: creating and sharing ideas in the form of small _apps_.
 
