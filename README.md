@@ -528,6 +528,7 @@ Most scripts you'll find in the wild use either _softcut_ or _engine_, but some 
  - [waveviz][app waveviz src] example app for _softcut_ waveform visualization
  - [video tutorial on adding midi out to an existing app](https://llllllll.co/t/norns-walkthrough-hacking-a-script-to-add-midi-output/34969)
  - [tutorial on adding computer keyboard support to an existing app](https://llllllll.co/t/norns-without-a-grid/32996/28)
+ - [example usage of the `pattern_time` lib](https://llllllll.co/t/norns-pattern-class-examples/32166/2)
 
 
 #### Community
