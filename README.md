@@ -980,8 +980,7 @@ For less impacting modifications / suggestions, you can:
 [app pools src]: https://github.com/justmat/pools
 [app pools demo 1]: https://vimeo.com/383786715
 [app practice lines]: https://llllllll.co/t/practice/29429
-[app pools src]: https://github.com/unit-cell/practice
-[app pools demo 1]: https://vimeo.com/383786715
+[app practice src]: https://github.com/unit-cell/practice
 [app punchcard lines]: https://llllllll.co/t/punchcard
 [app punchcard src]: https://github.com/neauoire/punchcard
 [app punchcard demo 1]: https://www.youtube.com/watch?v=jZUtkNuEDqY
