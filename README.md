@@ -165,6 +165,7 @@ The [documentation has a list of popular apps](https://monome.org/docs/norns/app
 
 This section is aimed at being more complete and providing more meta-data to select which app corresponds to your needs.
 
+
 Synths & drones:
 
 | app                                          | on maiden | code                          | description                                                                                                 | demo                                               | doc                   |
@@ -187,6 +188,7 @@ Synths & drones:
 | [showers][app showers lines]                 | ✔️         | [gh][app showers src]         | a thunderstorm (rain & thunder)                                                                             |                                                    |                       |
 | [stjoernuithrott][app stjoernuithrott lines] | ✔️         | [gh][app stjoernuithrott src] | drone synth inspired by the Moffeenzeef Stargazer                                                           |                                                    |                       |
 | [there][app there lines]                     | ❌️        | [gh][app there src]           | a theremin                                                                                                  |                                                    |                       |
+
 
 Granular sample players and synths:
 
