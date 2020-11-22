@@ -339,25 +339,26 @@ Midi effects:
 
 Utilities:
 
-| app                                    | on maiden | code                       | description                                                 | demo                                             | doc |
-| ---                                    | :---:     | ---                        | ---                                                         | ---                                              | --- |
-| [athenaeum/arc][app athenaeum lines]   | ❌        | [gh][app athenaeum src]    | interract with arc, read and write leds, no sound           | [1][app athenaeum/arc demo 1]                    |     |
-| [caliper][app caliper lines]           | ✔         | [gh][app caliper src]      | tuner for eurorack modules using _norns_ + _crow_           |                                                  |     |
-| [clarck][app clarck lines]             | ✔         | [gh][app clarck src]       | use _arc_ as a clock to display time                        | [1][app clarck demo 1]                           |     |
-| [foundry][app foundry lines]           | ❌        | [gh][app foundry src]      | browse all glyphs of all installed fonts, play with options |                                                  |     |
-| [grid-test][app grid-test lines]       | ❌        | [gh][app grid-test src]    | utility to test grids                                       | [1][app grid-test demo 1]                        |     |
-| [librarian][app librarian lines]       | ❌️        | [gh][app librarian src]    | install, update and remove apps directly                    |                                                  |     |
-| [midimatrix][app midimatrix lines]     | ❌️        | [gh][app midimatrix src]   | simple midi matrix example app                              |                                                  |     |
-| [midi-monitor][app midi-monitor lines] | ✔️         | [gh][app midi-monitor src] | simple midi monitor with note feedback                      | [1][app midi-monitor demo 1]                     |     |
-| [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose      | [1][app monitor demo 1], [2][app monitor demo 2] |     |
-| [n16o][app n16o lines]                 | ✔️         | [gh][app n16o src]         | turn a Korg nanoKONTROL2 into an ER-301 controller          |                                                  |     |
-| [norman][app norman lines]             | ✔️         | [gh][app norman src]       | normalize & auto-trim sample files on disk                  |                                                  |     |
-| [norns.online][app norns.online lines] | ✔️         | [gh][app norns.online src] | expose norns screen and buttons/encodeers to the internet   | [1][app norns.online demo 1]                     |     |
-| [onehanded][app onehanded lines]       | ✔️         | [gh][app onehanded src]    | simple MIDI note / CC trigger                               |                                                  |     |
-| [practice][app practice lines]         | ❌️        | [gh][app practice src]     | musical scale quizz                                         |                                                  |     |
-| [seaflex][app seaflex lines]           | ✔  ️       | [gh][app seaflex src]      | practice chords shapes on grid, _earthsea_ layout           |                                                  |     |
-| [shell_runner][app shell_runner lines] | ❌  ️      | [gh][app shell_runner src] | menu to launch shell scripts                                |                                                  |     |
-| [tuner][app tuner lines]               | ✔️         | [gh][app tuner src]        | a tuner                                                     |                                                  |     |
+| app                                    | on maiden | code                       | description                                                   | demo                                             | doc |
+| ---                                    | :---:     | ---                        | ---                                                           | ---                                              | --- |
+| [athenaeum/arc][app athenaeum lines]   | ❌        | [gh][app athenaeum src]    | interract with arc, read and write leds, no sound             | [1][app athenaeum/arc demo 1]                    |     |
+| [caliper][app caliper lines]           | ✔         | [gh][app caliper src]      | tuner for eurorack modules using _norns_ + _crow_             |                                                  |     |
+| [clarck][app clarck lines]             | ✔         | [gh][app clarck src]       | use _arc_ as a clock to display time                          | [1][app clarck demo 1]                           |     |
+| [foundry][app foundry lines]           | ❌        | [gh][app foundry src]      | browse all glyphs of all installed fonts, play with options   |                                                  |     |
+| [grid-test][app grid-test lines]       | ❌        | [gh][app grid-test src]    | utility to test grids                                         | [1][app grid-test demo 1]                        |     |
+| [librarian][app librarian lines]       | ❌️        | [gh][app librarian src]    | install, update and remove apps directly                      |                                                  |     |
+| [midimatrix][app midimatrix lines]     | ❌️        | [gh][app midimatrix src]   | simple midi matrix example app                                |                                                  |     |
+| [midi-monitor][app midi-monitor lines] | ✔️         | [gh][app midi-monitor src] | simple midi monitor with note feedback                        | [1][app midi-monitor demo 1]                     |     |
+| [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose        | [1][app monitor demo 1], [2][app monitor demo 2] |     |
+| [n16o][app n16o lines]                 | ✔️         | [gh][app n16o src]         | turn a Korg nanoKONTROL2 into an ER-301 controller            |                                                  |     |
+| [norman][app norman lines]             | ✔️         | [gh][app norman src]       | normalize & auto-trim sample files on disk                    |                                                  |     |
+| [norns.online][app norns.online lines] | ✔️         | [gh][app norns.online src] | expose norns screen and buttons/encodeers to the internet     | [1][app norns.online demo 1]                     |     |
+| [onehanded][app onehanded lines]       | ✔️         | [gh][app onehanded src]    | simple MIDI note / CC trigger                                 |                                                  |     |
+| [practice][app practice lines]         | ❌️        | [gh][app practice src]     | musical scale quizz                                           |                                                  |     |
+| [rpmate][app rpmate lines]             | ❌️        | [gh][app rpmate src]       | utility to help feeding a sped up audio to a hardware sampler |                                                  |     |
+| [seaflex][app seaflex lines]           | ✔  ️       | [gh][app seaflex src]      | practice chords shapes on grid, _earthsea_ layout             |                                                  |     |
+| [shell_runner][app shell_runner lines] | ❌  ️      | [gh][app shell_runner src] | menu to launch shell scripts                                  |                                                  |     |
+| [tuner][app tuner lines]               | ✔️         | [gh][app tuner src]        | a tuner                                                       |                                                  |     |
 
 
 #### By I/O
@@ -462,6 +463,7 @@ Utilities:
 | [quence][app quence lines]                         |          |           |         |          | 🔴     |       | ✔         | ✔️        | ✔     |
 | [rebound][app rebound lines]                       | ️         | ⚪        |         |          |        |       | ️          | ✔        |       |
 | [reels][app reels lines]                           | ✔️        |           |         |          |        |       | ✔️         |          |       |
+| [rpmate][app rpmate lines]                         | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [rudiments][app rudiments lines]                   | ️         |           |         |          | ⚪     |       | ✔️         |          |       |
 | [seaflex][app seaflex lines]                       |          |           |         |          | 🔴     |       | ✔         |          |       |
 | [shapes][app shapes lines]                         |          |           |         |          |        |       |           |          | ✔     |
@@ -1021,6 +1023,9 @@ For less impacting modifications / suggestions, you can:
 [app rebound lines]: https://llllllll.co/t/rebound/23243
 [app rebound src]: https://github.com/nf/rebound
 [app rebound demo 1]: https://www.instagram.com/p/BmSiQgrAhRg/
+[app rpmate lines]: https://llllllll.co/t/rpmate/38542
+[app rpmate src]: https://github.com/p3r7/rpmate
+[app reels demo 1]: https://www.youtube.com/watch?v=SuF1uTTlyn4
 [app reels lines]: https://llllllll.co/t/reels
 [app reels src]: https://github.com/itsyourbedtime/reels
 [app reels demo 1]: https://www.youtube.com/watch?v=SuF1uTTlyn4
