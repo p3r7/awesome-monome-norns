@@ -175,6 +175,7 @@ Synths & drones:
 | [dronecaster][app dronecaster lines]         | ✔️         | [gh][app dronecaster src]     | various drones                                                                                              | [1][app dronecaster demo 1]                        |                       |
 | [fm7][app fm7 lines]                         | ✔️         | [gh][app fm7 src]             | DX7-inspired polyphonic FM synth                                                                            | [1][app fm7 demo 1]                                | [online][app fm7 doc] |
 | [grendy][app grendy lines]                   | ✔️         | [gh][app grendy src]          | a simple drone synth, grendel drone commander inspired                                                      |                                                    |                       |
+| [hachi][app hachi lines]                     | ✔️         | [gh][app hachi src]           | TR-808 reproduction with euclydian sequencer                                                                |                                                    |                       |
 | [haven][app haven lines]                     | ✔️         | [gh][app haven src]           | two unique oscillators: one high, one low                                                                   | [1][app haven demo 1]                              |                       |
 | [lissadron][app lissadron lines]             | ✔️         | [gh][app lissadron src]       | a software synth making extensive use of seeded randomness, internal sequencer for voice change             | [internal sequencer][app lissadron demo seq]       |                       |
 | [mi-eng/macro-b][app mi-eng lines]           | ❌️️        | [gh][lib mi-engines gh sc]    | collection of complex oscillator sources, based upon the Mutable Instrument Braids macro-oscillator         | [1][app mi-eng/macro-b demo 1]                     |                       |
@@ -408,14 +409,15 @@ Utilities:
 | [fm7][app fm7 lines]                               |          |           | 🔶      |          | 🔶     |       | ✔️         |          |       |
 | [fugu][app fugu lines]                             |          |           |         |          | 🔴     |       | ✔️         |          |       |
 | [gemini][app gemini lines]                         | ️         |           |         |          |        | ⚪    | ✔️         |          |       |
-| [glitchlets][app glitchlets lines]                 | ️✔        | ⚪        |         |          |        |       | ✔️         |          |       |
+| [glitchlets][app glitchlets lines]                 | ✔        | ⚪        |         |          |        |       | ✔️         |          |       |
 | [glut][app glut lines]                             | ️         |           |         |          | 🔶     |       | ✔️         |          |       |
 | [grd][app grd lines]                               | ️         |           |         |          |        |       | ✔️         |          |       |
 | [greyhole][app greyhole lines]                     | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [grid-test][app grid-test lines]                   | ️         |           |         |          | 🔴     |       | ️          |          |       |
 | [gridstep][app gridstep lines]                     | ️         |           |         |          | 🔴     |       | ✔️         | ✔        |       |
+| [hachi][app hachi lines]                           | ️         |           |         |          |        |       | ✔️         |          |       |
 | [haven][app haven lines]                           | ️         |           |         |          |        |       | ✔️         |          |       |
-| [here-there][app here-there lines]                 | ️✔        |           |         |          |        |       | ✔️         |          |       |
+| [here-there][app here-there lines]                 | ✔        |           |         |          |        |       | ✔️         |          |       |
 | [islands][app islands lines]                       |          |           |         |          | 🔶     |       | ✔️         |          |       |
 | [isoseq][app isoseq lines]                         |          | ⚪        |         |          | 🔴     |       | ✔️         | ✔        |       |
 | [kria_midi][app kria_midi lines]                   |          |           |         |          | 🔶     |       | ✔️         |          |       |
@@ -882,6 +884,8 @@ For less impacting modifications / suggestions, you can:
 [app gridstep src]: https://github.com/Quixotic7/gridstep
 [app gridstep doc]: https://github.com/Quixotic7/gridstep/blob/master/doc/README.md
 [app gridstep demo 1]: https://www.youtube.com/watch?v=GpFIpESiTMs
+[app hachi lines]: https://llllllll.co/t/hachi-euclidean-drum-machine/35947
+[app hachi src]: https://github.com/pangrus/hachi
 [app haven lines]: https://llllllll.co/t/haven/21285
 [app haven src]: https://github.com/tai-studio/haven
 [app haven demo 1]: https://www.youtube.com/watch?v=1mEBZmao-uc
