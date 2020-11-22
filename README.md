@@ -110,6 +110,7 @@ A few highlights:
  - [nice 3D printing STL design](https://llllllll.co/t/norns-shield-case-designs/30347/224) by [u/JHC](https://llllllll.co/u/JHC) that complements the stock faceplate ([shop](https://llllllll.co/t/fs-ww-norns-shield-cases-3d-printed/36711/1)).
  - [nice laser-cut designs](https://llllllll.co/t/norns-shield-case-designs/30347/183) by [u/okyeron](https://llllllll.co/u/okyeron) ([shop](https://denki-oto.weebly.com/store/p39/norns-shield-case.html#/)).
  - [aluminium case](https://llllllll.co/t/fates-ww-commerce-thread/27165/79) by [u/Gregory_Delabelle](https://llllllll.co/u/Gregory_Delabelle) ([shop](https://docs.google.com/forms/d/e/1FAIpQLScJTDVgXTqiN6HnZBpKS0v8VNfar2rGikTGkOw3MjDAJp-1GQ/viewform)).
+ - [simple laser cut front & back panels](https://github.com/infovore/norns-diy-panels) by [u/infovore](https://llllllll.co/u/infovore/summary).
 
 If you don't have access to a fablab, you can use a laser-cut service such as [ponoko](https://www.ponoko.com/) (US) or [razorlab](https://razorlab.online/) (UK).
 
