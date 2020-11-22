@@ -220,7 +220,7 @@ Basic samplers:
 | [sam][app sam lines] | ✔         | [gh][app sam src] | record, adjust start & end points, save to tape |      |     |
 
 
-Sequencers & trackers:
+Sequencers:
 
 | app                                                | on maiden | code                        | description                                                         | demo                                                             | doc                                   |
 | ---                                                | :---:     | ---                         | ---                                                                 | ---                                                              | ---                                   |
@@ -248,7 +248,6 @@ Sequencers & trackers:
 | [less_concepts][app less_concepts lines]           | ✔️         | [gh][app less_concepts src] | cellular automata sequencer                                         | [1][app less_concepts demo 1]                                    |                                       |
 | [loom][app loom lines]                             | ✔️         | [gh][app loom src]          | pattern weaving sequencer for grids                                 | [1][app loom demo 1], [2][app loom demo 2]                       |                                       |
 | [meadowphysics][app meadowphysics lines]           | ✔️         | [gh][app meadowphysics src] | grid-enabled rhizomatic cascading counter                           | [1][app meadowphysics demo 1]                                    | [online][app meadowphysics doc]       |
-| [nisp][app nisp lines]                             | ✔️         | [gh][app nisp src]          | LISP (Scheme dialect) livecoding tracker                            | [1][app nisp demo 1], [2][app nisp demo 2]                       |                                       |
 | [nono][app nono lines]                             | ❌️        | [gh][app nono src]          | Nanoloop-inspired 4 channel sequencer                               | [1][app nono demo 1]                                             |                                       |
 | [orbital][app orbital lines]                       | ❌️        | [gh][app orbital src]       | circular 16 step sequencer                                          |                                                                  |                                       |
 | [orca][app orca lines]                             | ✔️         | [gh][app orca src]          | esoteric programming language                                       | [1][app orca demo 1], [2][app orca demo 2]                       |                                       |
@@ -265,8 +264,15 @@ Sequencers & trackers:
 | [tambla][app tambla lines]                         | ✔️         | [gh][app tambla src]        | Arpgegio sequencer                                                  |                                                                  | [online][app tambla doc]              |
 | [torii][app torii lines]                           | ✔️         | [gh][app torii src]         | gated audio sequencer                                               | [1][app torii demo 1], [2][app torii demo 2]                     |                                       |
 | [vials][app vials lines]                           | ✔️         | [gh][app vials src]         | 4 track performance-oriented sample sequencer                       |                                                                  | [online][app vials doc]               |
-| [yggdrasil][app yggdrasil lines]                   | ✔️         | [gh][app yggdrasil src]     | "cyberdeck" tracker                                                 | [1][app yggdrasil demo 1], [2][app yggdrasil demo 2]             | [online][app yggdrasil doc]           |
 | [zeelen][app zeelen lines]                         | ✔️         | [gh][app zeelen src]        | game of Life based sequencer                                        | [1][app zeelen demo 1], [crow][app zeelen demo crow]             | [online][app takt doc]                |
+
+
+Trackers:
+
+| app                              | on maiden | code                    | description                              | demo                                                 | doc                         |
+| ---                              | :---:     | ---                     | ---                                      | ---                                                  | ---                         |
+| [nisp][app nisp lines]           | ✔️         | [gh][app nisp src]      | LISP (Scheme dialect) livecoding tracker | [1][app nisp demo 1], [2][app nisp demo 2]           |                             |
+| [yggdrasil][app yggdrasil lines] | ✔️         | [gh][app yggdrasil src] | "cyberdeck" tracker                      | [1][app yggdrasil demo 1], [2][app yggdrasil demo 2] | [online][app yggdrasil doc] |
 
 
 Control Modulation sources:
