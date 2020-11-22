@@ -254,6 +254,7 @@ Sequencers & trackers:
 | [orca][app orca lines]                             | ✔️         | [gh][app orca src]          | esoteric programming language                                       | [1][app orca demo 1], [2][app orca demo 2]                       |                                       |
 | [patchwork][app patchwork lines]                   | ✔️         | [gh][app patchwork src]     | dual function (note + command patterns) sequencer                   | [1][app patchwork demo 1]                                        |                                       |
 | [punchcard][app punchcard lines]                   | ✔️         | [gh][app punchcard src]     | experimental sequencer that works like a classic punchcard computer | [1][app punchcard demo 1], [2][app punchcard demo 2]             |                                       |
+| [qfwfq][app qfwfq lines]                           | ✔️         | [gh][app qfwfq src]         | sequencer inspired by brute force password hacking                  |                                                                  |                                       |
 | [quence][app quence lines]                         | ✔️         | [gh][app quence src]        | a probabilistic 4-track sequencer                                   | [1][app quence demo 1], [2][app quence demo 2]                   |                                       |
 | [rebound][app rebound lines]                       | ✔️         | [gh][app rebound src]       | a kinetic sequencer                                                 | [1][app rebound demo 1]                                          |                                       |
 | [spacetime][app spacetime study] `we/study/study3` | ✔️         |                             | a weird function sequencer                                          | [1][app spacetime demo 1]                                        |                                       |
@@ -445,6 +446,7 @@ Utilities:
 | [pools][app pools lines]                           | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [practice][app practice lines]                     |          |           |         |          |        |       |           | ️         |       |
 | [punchcard][app punchcard lines]                   |          |           |         |          | 🔴     |       |           | ✔️        |       |
+| [qfwfq][app qfwfq lines]                           |          | ⚪        |         |          |        |       | ✔         | ✔️        |       |
 | [quence][app quence lines]                         |          |           |         |          | 🔴     |       | ✔         | ✔️        | ✔     |
 | [rebound][app rebound lines]                       | ️         | ⚪        |         |          |        |       | ️          | ✔        |       |
 | [reels][app reels lines]                           | ✔️        |           |         |          |        |       | ✔️         |          |       |
@@ -989,6 +991,8 @@ For less impacting modifications / suggestions, you can:
 [app punchcard src]: https://github.com/neauoire/punchcard
 [app punchcard demo 1]: https://www.youtube.com/watch?v=jZUtkNuEDqY
 [app punchcard demo 2]: https://www.youtube.com/watch?v=QO7T6MYkqZo
+[app qfwfq lines]: https://llllllll.co/t/qfwfq/38499
+[app qfwfq src]: https://github.com/cachilders/qfwfq
 [app quence lines]: https://llllllll.co/t/quence/29436
 [app quence src]: https://github.com/millxing/QUENCE
 [app quence demo 1]: https://www.youtube.com/watch?v=w7hcWn9swu4
