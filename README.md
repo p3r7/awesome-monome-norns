@@ -467,6 +467,7 @@ Utilities:
 | [tuner][app tuner lines]                           | ✔        |           |         |          |        |       | ️          |          |       |
 | [uhf][app uhf lines]                               |          |           |         |          |        |       | ✔️         |          |       |
 | [vials][app vials lines]                           |          |           |         |          | 🔶     |       | ✔️         |          |       |
+| [yggdrasil][app yggdrasil lines]                   |          | ⚪        |         | 🔴       |        |       | ✔️         | ✔        | ✔     |
 | [zeelen][app zeelen lines]                         |          |           |         |          | 🔴     |       | ✔️         | ✔        | ✔     |
 
 Special cases:
