@@ -648,6 +648,7 @@ Those are more generic Lua libs that add either:
 | noise                                  | [lua][lib noise gh]        | draw perlin Noise on screen                                              |             |                                                    |
 | [moreFilters][lib moreFilters lines]   | [lua][lib moreFilters gh]  | provides a moving, windowed RMS/standard deviation filter                |             |                                                    |
 | p8                                     | [lua][lib p8 gh]           | pico-8 code adaptation layer                                             |             |                                                    |
+| pitfalls                               | [gh][app pitfalls src]     | compute microtonal intervals/scales/chords                               | pitfalls    | pitfalls                                           |
 
 
 ## Development: C
