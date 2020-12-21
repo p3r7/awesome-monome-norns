@@ -20,9 +20,20 @@ The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced 
   - [_norns shield_](#norns-shield)
   - [_monome_ hardware companions](#monome-hardware-companions)
   - [Other hardware companions](#other-hardware-companions)
-- [Apps](#apps)
-  - [List](#list)
-  - [By I/O](#by-io)
+- [Script List](#script-list)
+  - [Synths & Drones](#synths--drones)
+  - [Granular Sample Players & Synths](#granular-sample-players--synths)
+  - [Sample Players](#sample-players)
+  - [Basic Samplers](#basic-samplers)
+  - [Sequencers](#sequencers)
+  - [Trackers](#trackers)
+  - [Control Modulation Sources](#control-modulation-sources)
+  - [Audio Effects](#audio-effects)
+  - [Loopers, Live Samplers & Crazy Delays](#loopers--live-samplers--crazy-delays)
+  - [Loopers, Live Samplers & Crazy Delays](#loopers--live-samplers--crazy-delays)
+  - [Midi Effects](#midi-effects)
+  - [Utilities](#utilities)
+- [Scripts by I/O](#script-by-io)
 - [_Pure Data_](#pure-data)
 - [Development: General](#development-general)
   - [Documentation](#documentation)
@@ -176,9 +187,7 @@ Some trackers _apps_ (_orca_ and _nisp_) rely on a USB computer keyboard.
 Those plus other hardware accessories & peripherals are discussed in [t/Friends of norns: gear, accessories, etc](https://llllllll.co/t/friends-of-norns-gear-accessories-etc/17150).
 
 
-## Apps
-
-#### List
+## Script List
 
 Many apps are available through [maiden](https://monome.org/docs/norns/maiden/) ([real-time list](https://raw.githubusercontent.com/monome/norns-community/master/community.json)) but many more are missing.
 
@@ -187,7 +196,7 @@ The [documentation has a list of popular apps](https://monome.org/docs/norns/app
 This section is aimed at being more complete and providing more meta-data to select which app corresponds to your needs.
 
 
-Synths & drones:
+#### Synths & Drones
 
 | app                                          | on maiden | code                          | description                                                                                                 | demo                                               | doc                   |
 | ---                                          | :---:     | ---                           | ---                                                                                                         | ---                                                | ---                   |
@@ -213,7 +222,7 @@ Synths & drones:
 | [there][app there lines]                     | ❌️        | [gh][app there src]           | a theremin                                                                                                  |                                                    |                       |
 
 
-Granular sample players and synths:
+#### Granular Sample Players & Synths
 
 | app                        | on maiden | code                 | description                                                                              | demo                     | doc |
 | ---                        | :---:     | ---                  | ---                                                                                      | ---                      | --- |
@@ -225,7 +234,7 @@ Granular sample players and synths:
 | [uhf][app uhf lines]       | ✔️         | [gh][app uhf src]    | your tapes transmitted thru late-night static and broken antenna frequencies             |                          |     |
 
 
-Sample players:
+#### Sample Players
 
 | app                               | on maiden | code                    | description                                                  | demo                                                                | doc |
 | ---                               | :---:     | ---                     | ---                                                          | ---                                                                 | --- |
@@ -237,14 +246,14 @@ Sample players:
 | [timber/player][app timber lines] | ✔         | [gh][app timber src]    | load whole directory of samples mapped onto midi keys / grid | [1][app timber/player demo 1]                                       |     |
 
 
-Basic samplers:
+#### Basic Samplers
 
 | app                  | on maiden | code              | description                                     | demo | doc |
 | ---                  | :---:     | ---               | ---                                             | ---  | --- |
 | [sam][app sam lines] | ✔         | [gh][app sam src] | record, adjust start & end points, save to tape |      |     |
 
 
-Sequencers:
+#### Sequencers
 
 | app                                                | on maiden | code                        | description                                                                         | demo                                                             | doc                                   |
 | ---                                                | :---:     | ---                         | ---                                                                                 | ---                                                              | ---                                   |
@@ -299,7 +308,7 @@ Sequencers:
 | [zeelen][app zeelen lines]                         | ✔️         | [gh][app zeelen src]        | game of Life based sequencer                                                        | [1][app zeelen demo 1], [crow][app zeelen demo crow]             | [online][app takt doc]                |
 
 
-Trackers:
+#### Trackers
 
 | app                              | on maiden | code                    | description                              | demo                                                 | doc                         |
 | ---                              | :---:     | ---                     | ---                                      | ---                                                  | ---                         |
@@ -307,7 +316,7 @@ Trackers:
 | [yggdrasil][app yggdrasil lines] | ✔️         | [gh][app yggdrasil src] | "cyberdeck" tracker                      | [1][app yggdrasil demo 1], [2][app yggdrasil demo 2] | [online][app yggdrasil doc] |
 
 
-Control Modulation sources:
+#### Control Modulation Sources
 
 | app                                | on maiden | code                     | description                                         | demo                                               | doc |
 | ---                                | :---:     | ---                      | ---                                                 | ---                                                | --- |
@@ -319,7 +328,7 @@ Control Modulation sources:
 | [strides][app strides lines]       | ✔         | [gh][app strides src]    | allows midi CC record / replay with knobs           |                                                    |     |
 
 
-Audio effects:
+#### Audio Effects
 
 | app                                   | on maiden | code                       | description                                                               | demo                              | doc |
 | ---                                   | :---:     | ---                        | ---                                                                       | ---                               | --- |
@@ -335,7 +344,7 @@ Audio effects:
 | [timeparty][app timeparty lines]      | ✔️         | [gh][app timeparty src]    | sequenced time-based multi-effect                                         |                                   |     |
 
 
-Loopers, live samplers & crazy delays:
+#### Loopers, Live Samplers & Crazy Delays
 
 | app                                    | on maiden | code                       | description                                                                            | demo                                                                                       | doc                     |
 | ---                                    | :---:     | ---                        | ---                                                                                    | ---                                                                                        | ---                     |
@@ -360,14 +369,14 @@ Loopers, live samplers & crazy delays:
 | [tunnels][app tunnels lines]           | ✔️         | [gh][app tunnels src]      | a collection of uncertain delays                                                       | [1][app tunnels demo 1]                                                                    |                         |
 
 
-Midi effects:
+#### Midi Effects
 
 | app                                    | on maiden | code                    | description                               | demo                                                             | doc |
 | ---                                    | :---:     | ---                     | ---                                       | ---                                                              | --- |
 | [athenaeum/delay][app athenaeum lines] | ❌        | [gh][app athenaeum src] | generates MIDI delay with visual feedback | [1][app athenaeum/delay demo 1], [2][app athenaeum/delay demo 2] |     |
 
 
-Utilities:
+#### Utilities
 
 | app                                    | on maiden | code                       | description                                                   | demo                                             | doc |
 | ---                                    | :---:     | ---                        | ---                                                           | ---                                              | --- |
@@ -391,7 +400,7 @@ Utilities:
 | [tuner][app tuner lines]               | ✔️         | [gh][app tuner src]        | a tuner                                                       |                                                  |     |
 
 
-#### By I/O
+## Scripts by I/O
 
 | symbol | meaning             |
 | :---:  | ---                 |
