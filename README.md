@@ -349,7 +349,6 @@ Utilities:
 | [clarck][app clarck lines]             | ✔         | [gh][app clarck src]       | use _arc_ as a clock to display time                          | [1][app clarck demo 1]                           |     |
 | [foundry][app foundry lines]           | ❌        | [gh][app foundry src]      | browse all glyphs of all installed fonts, play with options   |                                                  |     |
 | [grid-test][app grid-test lines]       | ❌        | [gh][app grid-test src]    | utility to test grids                                         | [1][app grid-test demo 1]                        |     |
-| [librarian][app librarian lines]       | ❌️        | [gh][app librarian src]    | install, update and remove apps directly                      |                                                  |     |
 | [midimatrix][app midimatrix lines]     | ❌️        | [gh][app midimatrix src]   | simple midi matrix example app                                |                                                  |     |
 | [midi-monitor][app midi-monitor lines] | ✔️         | [gh][app midi-monitor src] | simple midi monitor with note feedback                        | [1][app midi-monitor demo 1]                     |     |
 | [monitor][app monitor lines]           | ✔️         | [gh][app monitor src]      | midi monitor and input/output channel & note transpose        | [1][app monitor demo 1], [2][app monitor demo 2] |     |
@@ -428,7 +427,6 @@ Utilities:
 | [kria_midi][app kria_midi lines]                   |          |           |         |          | 🔶     |       | ✔️         |          |       |
 | [langl][app langl lines]                           |          |           |         |          |        | 🔴    | ✔️         |          |       |
 | [less_concepts][app less_concepts lines]           |          |           |         |          | 🔶     |       | ✔️         | ✔        | ✔     |
-| [librarian][app librarian lines]                   |          |           |         |          |        |       | ️          |          |       |
 | [lissadron][app lissadron lines]                   |          |           | 🔶      |          |        |       | ✔️         |          |       |
 | [loom][app loom lines]                             |          | ⚪        |         |          | 🔴     |       | ✔️         | ✔        |       |
 | [mangl][app mangl lines]                           |          |           |         |          | 🔶     | 🔶    | ✔️         | ️         |       |
@@ -924,8 +922,6 @@ For less impacting modifications / suggestions, you can:
 [app less_concepts lines]: https://llllllll.co/t/less-concepts/21109
 [app less_concepts src]: https://github.com/dndrks/less_concepts
 [app less_concepts demo 1]: https://www.youtube.com/watch?v=AHuZm-aHN6k
-[app librarian lines]: https://llllllll.co/t/librarian/21213
-[app librarian src]: https://github.com/itsyourbedtime/Librarian/
 [app lissadron lines]: https://llllllll.co/t/lissadron/32509
 [app lissadron src]: https://github.com/tai-studio/lissadron
 [app lissadron demo seq]: https://www.instagram.com/p/CCphM5eB5Ue/
