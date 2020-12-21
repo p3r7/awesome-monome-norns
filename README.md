@@ -36,7 +36,7 @@ The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced 
 - [_Pure Data_](#pure-data)
 - [Development: General](#development-general)
   - [Documentation](#documentation)
-  - [Tutorials & example apps](#tutorials--example-apps)
+  - [Tutorials & Example _scripts_](#tutorials--example-scripts)
   - [Community](#community)
 - [Development: Libraries & Engines](#development-libraries--engines)
   - [_Softcut_ & _Softcut_-based libs](#softcut--softcut-based-libs)
@@ -51,7 +51,7 @@ The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced 
 
 _norns_ is a hardware music platform.
 
-It's built around the idea of community: creating and sharing ideas in the form of small _apps_.
+It's built around the idea of community: creating and sharing ideas in the form of small apps (_scripts_).
 
 It allows running apps built with [_SuperCollider_](https://supercollider.github.io/) and/or **_softcut_**, a powerful live sampler / player.
 
@@ -72,7 +72,7 @@ For more details, see [_the docs_][hw norns doc] and the [t/Approaching: norns][
 
 A more correct question would be _"What can it **be**?"_.
 
-Switching apps allows going into totally different contexts.
+Switching apps (_scripts_) allows going into totally different contexts.
 
 Some are inspired by existing hardware / software, others are totally new and sometimes produce very experimental (yet musical) results.
 
@@ -83,7 +83,7 @@ To give you some concrete examples, _norns_ can be:
  - an advanced sequencer with **_takt_**, inspired with the Electron Octatrack
  - a nasty sounding sample player with **_timber/keys_** (MPC-like) **_timber/player_** (rompler-like)
 
-For a more complete list, see the [Apps](#apps) section.
+For a more complete list, see the [Script List](#script-list) section.
 
 
 ## Lingo
@@ -153,18 +153,18 @@ For screws/spacers, use M2 for the screen and M2.5 for everything else.
 
 #### _monome_ hardware companions
 
-Some apps are made to pair with some of other _monome_ hardware.
+Some _scripts_ are made to pair with some of other _monome_ hardware.
 
 The most prominent are:
- - [_grid_][hw grid doc], a keyboard mostly used for sequencer _apps_
+ - [_grid_][hw grid doc], a keyboard mostly used for sequencer _scripts_
  - [_arc_][hw arc doc], an array of knobs with sequencing functionalities
  - [_crow_][hw crow doc] for interacting with eurorack / modular synth gear
 
-You don't necessarily have to own any of those "peripherals" to enjoy your _norns_. It depends of the _apps_ you plan to use.
+You don't necessarily have to own any of those "peripherals" to enjoy your _norns_. It depends of the _scripts_ you plan to use.
 
-See [the list of _apps_ by I/O](https://github.com/p3r7/awesome-monome-norns#by-io) to see what you're missing.
+See [the list of _scripts_ by I/O](#script-by-io) to see what you're missing.
 
-Please note that most _apps_ assume a 128 varybright grid. Older non-varybright models will work but you'll be missing some visual feedback.
+Please note that most _scripts_ assume a 128 varybright grid. Older non-varybright models will work but you'll be missing some visual feedback.
 
 There is a [DIY _grid_ project][hw grid-neotrellis lines] that allows making one for ≃$250. To use it with the _norns_, patching and recompiling is required to have it recognized. It will work right of the bat on a PC (with _Max_, _Pure Data_...). It doesn't (and will certainly never) work with eurorack _monome_ modules such as [_ansible_][hw ansible doc].
 
@@ -173,7 +173,7 @@ There is also a [DIY arc project][hw arc-diy src] which will also cost ≃$250. 
 
 #### Other hardware companions
 
-Synth _apps_ generally rely on MIDI inputs. So a keyboards, pads or sequencer is a must have. A computer with midi output will do as well.
+Synth _scripts_ generally rely on MIDI inputs. So a keyboards, pads or sequencer is a must have. A computer with midi output will do as well.
 
 Lots of parameters can also be controlled with midi CC by using anything with midi knobs / sliders.
 
@@ -181,16 +181,16 @@ Some examples related to the _monome_ community:
  - [16n faderbank][hw 16n site]
  - [bleached][hw bleached lines], [Four-N][hw Four-N lines] and [17][hw 17 lines]
 
-Some trackers _apps_ (_orca_ and _nisp_) rely on a USB computer keyboard.
+Some trackers _scripts_ (_orca_ and _nisp_) rely on a USB computer keyboard.
 
 Those plus other hardware accessories & peripherals are discussed in [t/Friends of norns: gear, accessories, etc](https://llllllll.co/t/friends-of-norns-gear-accessories-etc/17150).
 
 
 ## Script List
 
-Many apps are available through [maiden](https://monome.org/docs/norns/maiden/) ([real-time list](https://raw.githubusercontent.com/monome/norns-community/master/community.json)) but many more are missing.
+Many _scripts_ are available through [maiden](https://monome.org/docs/norns/maiden/) ([real-time list](https://raw.githubusercontent.com/monome/norns-community/master/community.json)) but many more are missing.
 
-The [documentation has a list of popular apps](https://monome.org/docs/norns/app/).
+The [documentation has a list of popular scripts](https://monome.org/docs/norns/app/).
 
 This section is aimed at being more complete and providing more meta-data to select which app corresponds to your needs.
 
@@ -565,7 +565,7 @@ For more details, see also the [the _Sidekick_ project wiki](https://github.com/
 
 The _norns_ platform allows developing small programs using the [lua](https://www.lua.org/) programming language.
 
-They are generally referred to as _scripts_, and _apps_ once packaged and distributed.
+They are generally referred to as _scripts_ and sometimes _apps_ (once packaged and distributed).
 
 2 internal sound processing units are at our disposal:
 
@@ -585,14 +585,14 @@ Most scripts you'll find in the wild use either _softcut_ or _engine_, but some 
  - [complete lua APIs doc](https://monome.org/docs/norns/api/)
 
 
-#### Tutorials & example apps
+#### Tutorials & Example _scripts_
 
  - [norns studies](https://monome.org/docs/norns/studies-landing/)
  - [norns: tutorial](https://llllllll.co/t/norns-tutorial/23241) by [Devine Lu Linvega](https://xxiivv.com/)
  - [softcut studies](https://github.com/monome/softcut-studies)
  - [foundry][app foundry lines] app ([code][app foundry src]) for text & fonts (`screen.text` API)
  - [athenaeum/arc][app athenaeum lines] app ([code][app athenaeum src]) for arc interactions
- - [hid-demo][app hid-demo lines] example apps ([code][app hid-demo lines]) for HID input (keyboard, mouse, touchpad...)
+ - [hid-demo][app hid-demo lines] example _script_ ([code][app hid-demo lines]) for HID input (keyboard, mouse, touchpad...)
  - [waveviz][app waveviz src] example app for _softcut_ waveform visualization
  - [video tutorial on adding midi out to an existing app](https://llllllll.co/t/norns-walkthrough-hacking-a-script-to-add-midi-output/34969)
  - [tutorial on adding computer keyboard support to an existing app](https://llllllll.co/t/norns-without-a-grid/32996/28)
@@ -616,11 +616,11 @@ Additionally, there is a [Discord norns study group](https://discord.com/invite/
 
 ## Development: Libraries & Engines
 
-When developing apps/scripts, you rely on lua libraries (classes & modules). One of them, _engine_, allows interacting with a running _SuperCollider_ instance.
+When developing _scripts_, you rely on lua libraries (classes & modules). One of them, _engine_, allows interacting with a running _SuperCollider_ instance.
 
 When using _SuperCollider_, one can rely on an already installed _SuperCollider_ library on spin their own. Those _SuperCollider_ libraries (in essence a _SynthDef_) are called _engines_ in the context of **norns** development.
 
-Most advanced apps come with their own custom libraries / engine.
+Most advanced _scripts_ come with their own custom libraries / engine.
 
 Here are listed the ones most often spotted in the wild.
 
@@ -790,7 +790,7 @@ For less impacting modifications / suggestions, you can:
 [lib p8 gh]: https://github.com/p3r7/p8
 [lib 3d gh]: https://github.com/p3r7/3d
 
-<!-- apps -->
+<!-- apps / scripts -->
 [app abacus lines]: https://llllllll.co/t/abacus/37871
 [app abacus src]: https://github.com/schollz/abacus
 [app abacus demo 1]: https://vimeo.com/474676681
