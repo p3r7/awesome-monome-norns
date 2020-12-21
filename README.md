@@ -351,6 +351,7 @@ Utilities:
 | [athenaeum/arc][app athenaeum lines]   | ❌        | [gh][app athenaeum src]    | interract with arc, read and write leds, no sound             | [1][app athenaeum/arc demo 1]                    |     |
 | [caliper][app caliper lines]           | ✔         | [gh][app caliper src]      | tuner for eurorack modules using _norns_ + _crow_             |                                                  |     |
 | [clarck][app clarck lines]             | ✔         | [gh][app clarck src]       | use _arc_ as a clock to display time                          | [1][app clarck demo 1]                           |     |
+| [defuser][app defuser lines]           | ❌        | [llll][app defuser src]    | musical bomb defusal game                                     | [1][app defuser demo 1]                          |     |
 | [foundry][app foundry lines]           | ❌        | [gh][app foundry src]      | browse all glyphs of all installed fonts, play with options   |                                                  |     |
 | [grid-test][app grid-test lines]       | ❌        | [gh][app grid-test src]    | utility to test grids                                         | [1][app grid-test demo 1]                        |     |
 | [midimatrix][app midimatrix lines]     | ❌️        | [gh][app midimatrix src]   | simple midi matrix example app                                |                                                  |     |
@@ -407,6 +408,7 @@ Utilities:
 | [cranes][app cranes lines]                         | ✔️        |           |         |          | ⚪     |       | ✔️         |          |       |
 | [crash][app crash lines]                           | ️         | ?         |         |          |        |       | ✔️         |          |       |
 | [cyrene][app cyrene lines]                         | ️         |           |         |          | ⚪     | ⚪    | ️          | ✔        | ✔     |
+| [defuser][app defuser lines]                       |          |           | 🔴      |          |        |       | ✔️         |          |       |
 | [drift][app drift lines]                           |          |           |         |          |        |       | ✔️         | ✔        |       |
 | [dronecaster][app dronecaster lines]               |          |           |         |          |        |       | ✔️         |          |       |
 | [drum_room][app drum_room lines]                   |          |           | 🔴      |          |        |       | ✔️         |          |       |
@@ -842,6 +844,9 @@ For less impacting modifications / suggestions, you can:
 [app cyrene src]: https://github.com/21echoes/cyrene
 [app cyrene demo 1]: https://www.instagram.com/p/CA7kP8ijizm/
 [app cyrene demo grid]: https://www.instagram.com/p/CA7nVs0DUQv/
+[app defuser lines]: https://llllllll.co/t/defuser-a-musical-game-for-norns-midi-keyboard/39507
+[app defuser src]: https://llllllll.co/uploads/short-url/dVoN7TzXvdRB4jwT6YwgqCjCdKD.lua
+[app defuser demo 1]: https://www.youtube.com/watch?v=1sIis1qw3k0
 [app drift lines]: https://llllllll.co/t/drift/36138
 [app drift src]: https://github.com/echophon/drift
 [app drift demo midi]: https://www.instagram.com/p/CE9ramVKrLO/
