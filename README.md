@@ -243,7 +243,7 @@ Sequencers:
 | [drift][app drift lines]                           | ❌        | [gh][app drift src]         | sequencer based on particle systems                                                 | [midi][app drift demo midi]                                      |                                       |
 | [euclidigons][app euclidigons lines]               | ✔️         | [gh][app euclidigons src]   | plucky geometric rhythm generator                                                   | [1][app euclidigons demo 1], [2][app euclidigons demo 2]         |                                       |
 | [foulplay][app foulplay lines]                     | ✔️         | [gh][app foulplay src]      | euclidean drummer, inspired by [ash/playfair][app ash lines]                        | [1][app foulplay demo 1]                                         | [online][app foulplay doc]            |
-| [fourtunes][app fourtunes lines]                   | ️❌️         | [gh][app fourtunes src]     | 4 track polyphonic step sequencer                                                   |                                                                  | [online][app fourtunes doc]           |
+| [fourtunes][app fourtunes lines]                   | ️❌️        | [gh][app fourtunes src]     | 4 track polyphonic step sequencer                                                   |                                                                  | [online][app fourtunes doc]           |
 | fretwork                                           | ️❌        | [gh][app fretwork src]      | ornamental sequencer                                                                | [1][app fretwork demo 1]                                         |                                       |
 | [fugu][app fugu lines]                             | ✔         | [gh][app fugu src]          | 4 playhead sequencer, inspired by the Fugue Machine iOS app                         | [1][app fugu demo 1], [2][app fugu demo 2], [3][app fugu demo 3] |                                       |
 | [grd][app grd lines]                               | ❌️        | [gh][app grd src]           | 8x8 autonomy                                                                        | [1][app grd demo 1], [2][app grd demo 2]                         |                                       |
@@ -259,6 +259,7 @@ Sequencers:
 | [orbital][app orbital lines]                       | ❌️        | [gh][app orbital src]       | circular 16 step sequencer                                                          |                                                                  |                                       |
 | [orca][app orca lines]                             | ✔️         | [gh][app orca src]          | esoteric programming language                                                       | [1][app orca demo 1], [2][app orca demo 2]                       |                                       |
 | [patchwork][app patchwork lines]                   | ✔️         | [gh][app patchwork src]     | dual function (note + command patterns) sequencer                                   | [1][app patchwork demo 1]                                        |                                       |
+| [pitfalls][app pitfalls lines]                     | ✔️         | [gh][app pitfalls src]      | microtonal scale / chord sequencer                                                  | [1][app pitfalls demo 1]                                         |                                       |
 | [pixels][app pixels lines]                         | ✔️         | [gh][app pixels src]        | landscape-traversal sequencer                                                       | [1][app pixels demo 1]                                           |                                       |
 | [punchcard][app punchcard lines]                   | ✔️         | [gh][app punchcard src]     | experimental sequencer that works like a classic punchcard computer                 | [1][app punchcard demo 1], [2][app punchcard demo 2]             |                                       |
 | [qfwfq][app qfwfq lines]                           | ✔️         | [gh][app qfwfq src]         | sequencer inspired by brute force password hacking                                  |                                                                  |                                       |
@@ -466,6 +467,7 @@ Utilities:
 | [passersby][app passersby lines]                   |          |           | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
 | [patchwork][app patchwork lines]                   |          |           |         | 🔴       | 🔴     |       |           | ✔️        | ✔️     |
 | [pedalboard][app pedalboard lines]                 | ✔️        |           |         |          |        |       | ✔️         |          |       |
+| [pitfalls][app pitfalls lines]                     |          |           |         |          | ⚪     |       | ✔         |          |       |
 | [piwip][app piwip lines]                           |          |           |         |          |        |       |           |          |       |
 | [pixels][app pixels lines]                         |          |           | ✔       |          |        |       | ✔         |          |       |
 | [pools][app pools lines]                           | ✔️        |           |         |          |        |       | ✔️         |          |       |
@@ -1027,6 +1029,9 @@ For less impacting modifications / suggestions, you can:
 [app phyllis lines]: https://llllllll.co/t/phyllis/27988
 [app phyllis src]: https://github.com/justmat/phyllis
 [app phyllis demo 1]: https://vimeo.com/381676550
+[app pitfalls lines]: https://llllllll.co/t/pitfalls/37795/1
+[app pitfalls src]: https://github.com/robmckinnon/pitfalls
+[app pitfalls demo 1]: https://vimeo.com/474036472
 [app piwip lines]: https://llllllll.co/t/piwip
 [app piwip src]: https://github.com/schollz/piwip
 [app piwip demo 1]: https://www.instagram.com/p/CFmmnnyB1DV/
