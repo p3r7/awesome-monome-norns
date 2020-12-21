@@ -246,6 +246,7 @@ Sequencers:
 | [fugu][app fugu lines]                             | ✔         | [gh][app fugu src]          | 4 playhead sequencer, inspired by the Fugue Machine iOS app                         | [1][app fugu demo 1], [2][app fugu demo 2], [3][app fugu demo 3] |                                       |
 | [grd][app grd lines]                               | ❌️        | [gh][app grd src]           | 8x8 autonomy                                                                        | [1][app grd demo 1], [2][app grd demo 2]                         |                                       |
 | [gridstep][app gridstep lines]                     | ❌️        | [gh][app gridstep src]      | step-based 16-track polyphonic sequencer with various grid layouts and micro-timing | [1][app gridstep demo 1]                                         | [online][app gridstep doc]            |
+| [ising][app ising lines]                           | ❌        | [gh][app ising src]         | sequencer based on 2D ferromagnetism ising model, zeelen-inspired                   |                                                                  |                                       |
 | [islands][app islands lines]                       | ✔️         | [gh][app islands src]       | kria-based sequencer with internal playback                                         | [1][app islands demo 1]                                          | [presentation video][app islands doc] |
 | [isoseq][app isoseq lines]                         | ✔️         | [gh][app isoseq src]        | isomorphic step sequence                                                            | [1][app isoseq demo 1]                                           | [presentation video][app islands doc] |
 | [kria_midi][app kria_midi lines]                   | ✔️         | [gh][app kria_midi src]     | port of the kria sequencer with midi output                                         | [1][app kria_midi demo 1], [1][app kria_midi demo 2]             |                                       |
@@ -424,6 +425,7 @@ Utilities:
 | [hachi][app hachi lines]                           | ️         |           |         |          |        |       | ✔️         |          |       |
 | [haven][app haven lines]                           | ️         |           |         |          |        |       | ✔️         |          |       |
 | [here-there][app here-there lines]                 | ✔        |           |         |          |        |       | ✔️         |          |       |
+| [ising][app ising lines]                           |          |           |         |          | 🔶     |       | ✔️         |          |       |
 | [islands][app islands lines]                       |          |           |         |          | 🔶     |       | ✔️         |          |       |
 | [isoseq][app isoseq lines]                         |          | ⚪        |         |          | 🔴     |       | ✔️         | ✔        |       |
 | [kria_midi][app kria_midi lines]                   |          |           |         |          | 🔶     |       | ✔️         |          |       |
@@ -907,6 +909,8 @@ For less impacting modifications / suggestions, you can:
 [app here-there src]: https://github.com/speakerdamage/here-there
 [app hid-demo lines]: https://llllllll.co/t/hid-demo/21315
 [app hid-demo src]: https://github.com/okyeron/hid-demo/
+[app ising lines]: https://llllllll.co/t/ising/30789
+[app ising src]: https://github.com/johnmatter/ising
 [app islands lines]: https://www.youtube.com/watch?v=PApL2LFjBPQ
 [app islands src]: https://github.com/junklight/islands
 [app islands doc]: https://www.youtube.com/watch?v=PApL2LFjBPQ
