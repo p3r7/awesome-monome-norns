@@ -647,6 +647,7 @@ Those are more generic Lua libs that add either:
 | shape                                  | [lua][lib shape gh]        | draw shapes on screen                                                    | euclidigons | euclidigons                                        |
 | noise                                  | [lua][lib noise gh]        | draw perlin Noise on screen                                              |             |                                                    |
 | [moreFilters][lib moreFilters lines]   | [lua][lib moreFilters gh]  | provides a moving, windowed RMS/standard deviation filter                |             |                                                    |
+| 3d                                     | [lua][lib 3d gh]           | 3D drawing lib                                                           |             |                                                    |
 | p8                                     | [lua][lib p8 gh]           | pico-8 code adaptation layer                                             |             |                                                    |
 | pitfalls                               | [gh][app pitfalls src]     | compute microtonal intervals/scales/chords                               | pitfalls    | pitfalls                                           |
 
@@ -757,6 +758,7 @@ For less impacting modifications / suggestions, you can:
 [lib moreFilters lines]: https://llllllll.co/t/rms-filter/36994
 [lib moreFilters gh]: https://github.com/naus3a/NauNorns/blob/master/lib/noise.lua
 [lib p8 gh]: https://github.com/p3r7/p8
+[lib 3d gh]: https://github.com/p3r7/3d
 
 <!-- apps -->
 [app abacus lines]: https://llllllll.co/t/abacus/37871
