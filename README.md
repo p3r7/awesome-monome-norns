@@ -470,6 +470,7 @@ Utilities:
 | [seaflex][app seaflex lines]                       |          |           |         |          | 🔴     |       | ✔         |          |       |
 | [shapes][app shapes lines]                         |          |           |         |          |        |       |           |          | ✔     |
 | [shell_runner][app shell_runner lines]             |          |           |         |          |        |       |           |          |       |
+| [showers][app showers lines]                       |          |           |         |          |        |       | ✔         |          |       |
 | [sines][app sines lines]                           |          |           |         |          |        |       | ✔         |          |       |
 | [spacetime][app spacetime study] `we/study/study3` |          |           |         |          |        |       | ✔️         |          |       |
 | [step][app step lines]                             |          |           |         |          | 🔴     | ⚪    | ✔️         |          |       |
