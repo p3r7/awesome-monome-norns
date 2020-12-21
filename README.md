@@ -188,6 +188,7 @@ Synths & drones:
 | [passersby][app passersby lines]             | ✔️         | [gh][app passersby src]       | Wave folding, FM, LPG, spring-ish reverb, LFO and two dice to roll                                          | [1][app passersby demo 1]                          |                       |
 | [rudiments][app rudiments lines]             | ✔️         | [gh][app rudiments src]       | 8 voice lofi percussion synthesizer and sequencer (playfair-style)                                          |                                                    |                       |
 | [showers][app showers lines]                 | ✔️         | [gh][app showers src]         | a thunderstorm (rain & thunder)                                                                             |                                                    |                       |
+| [sines][app sines lines]                     | ❌️        | [gh][app sines src]           | a simple FM sine drone synth                                                                                |                                                    |                       |
 | [stjoernuithrott][app stjoernuithrott lines] | ✔️         | [gh][app stjoernuithrott src] | drone synth inspired by the Moffeenzeef Stargazer                                                           |                                                    |                       |
 | [there][app there lines]                     | ❌️        | [gh][app there src]           | a theremin                                                                                                  |                                                    |                       |
 
@@ -469,6 +470,7 @@ Utilities:
 | [seaflex][app seaflex lines]                       |          |           |         |          | 🔴     |       | ✔         |          |       |
 | [shapes][app shapes lines]                         |          |           |         |          |        |       |           |          | ✔     |
 | [shell_runner][app shell_runner lines]             |          |           |         |          |        |       |           |          |       |
+| [sines][app sines lines]                           |          |           |         |          |        |       | ✔         |          |       |
 | [spacetime][app spacetime study] `we/study/study3` |          |           |         |          |        |       | ✔️         |          |       |
 | [step][app step lines]                             |          |           |         |          | 🔴     | ⚪    | ✔️         |          |       |
 | [stjoernuithrott][app stjoernuithrott lines]       |          |           | ⚪      |          |        |       | ✔️         |          |       |
@@ -1044,6 +1046,8 @@ For less impacting modifications / suggestions, you can:
 [app shapes src]: https://github.com/tlubke/shapes
 [app shell_runner lines]: https://llllllll.co/t/shell-runner/30887
 [app shell_runner src]: https://github.com/scazan/shell_runner
+[app sines lines]: https://llllllll.co/t/sines/39292
+[app sines src]: https://github.com/aidanreilly/sines
 [app showers lines]: https://llllllll.co/t/showers/31622
 [app showers src]: https://github.com/justmat/showers
 [app spacetime study]: https://monome.org/docs/norns/study-3/
