@@ -20,7 +20,7 @@ The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced 
   - [_norns shield_](#norns-shield)
   - [_monome_ hardware companions](#monome-hardware-companions)
   - [Other hardware companions](#other-hardware-companions)
-- [Script List](#script-list)
+- [_script_ List](#script-list)
   - [Synths & Drones](#synths--drones)
   - [Granular Sample Players & Synths](#granular-sample-players--synths)
   - [Sample Players](#sample-players)
@@ -32,7 +32,7 @@ The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced 
   - [Loopers, Live Samplers & Crazy Delays](#loopers-live-samplers--crazy-delays)
   - [Midi Effects](#midi-effects)
   - [Utilities](#utilities)
-- [Scripts by I/O](#script-by-io)
+- [_scripts_ by I/O](#scripts-by-io)
 - [_Pure Data_](#pure-data)
 - [Development: General](#development-general)
   - [Documentation](#documentation)
@@ -83,7 +83,7 @@ To give you some concrete examples, _norns_ can be:
  - an advanced sequencer with **_takt_**, inspired with the Electron Octatrack
  - a nasty sounding sample player with **_timber/keys_** (MPC-like) **_timber/player_** (rompler-like)
 
-For a more complete list, see the [Script List](#script-list) section.
+For a more complete list, see the [_script_ List](#script-list) section.
 
 
 ## Lingo
@@ -186,7 +186,7 @@ Some trackers _scripts_ (_orca_ and _nisp_) rely on a USB computer keyboard.
 Those plus other hardware accessories & peripherals are discussed in [t/Friends of norns: gear, accessories, etc](https://llllllll.co/t/friends-of-norns-gear-accessories-etc/17150).
 
 
-## Script List
+## _script_ List
 
 Many _scripts_ are available through [maiden](https://monome.org/docs/norns/maiden/) ([real-time list](https://raw.githubusercontent.com/monome/norns-community/master/community.json)) but many more are missing.
 
@@ -399,7 +399,7 @@ This section is aimed at being more complete and providing more meta-data to sel
 | [tuner][app tuner lines]               | ✔️         | [gh][app tuner src]        | a tuner                                                       |                                                  |     |
 
 
-## Scripts by I/O
+## _scripts_ by I/O
 
 | symbol | meaning             |
 | :---:  | ---                 |
