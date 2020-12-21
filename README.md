@@ -82,12 +82,12 @@ There are 3 variations of the norns hardware:
 | name                                                                   | audio path  | case                                                     | battery | audio monitor output | supported Raspberry Pi models | price point           | releases          |
 | ---                                                                    | ---         | ---                                                      | :---:   | :---:                | ---                           | ---                   | ---               |
 | [_norns_][hw norns lines] ([shop][hw norns shop])                      | cleanest \* | 2x aluminum block (hard anodized), custom caps & buttons | ✔       | ✔                    | CM3, CM3+                     | $800 / $680 (b-stock) | instant           |
-| [_norns shield_][hw norns-shield lines] ([shop][hw norns-shield shop]) | clean       | basic acrylic face & back plates / DIY                   | ❌      | ✔                    | 3B, 3B+                       | $200 \*\*             | instant           |
+| [_norns shield_][hw norns-shield lines] ([shop][hw norns-shield shop]) | clean       | 3D-printed w/ acrylic face plate / DIY                   | ❌      | ✔                    | 3B, 3B+                       | $240 \*\*             | instant           |
 | [_fates_][hw fates lines]                                              | cleanest \* | acrylic / DIY                                            | ❌      | ✔                    | 3B, 3B+, 4                    | n/a                   | with delay \*\*\* |
 
 \*: the original _norns_ and _fates_ have an isolated audio power section which is much more immune to noise.
 
-\*\*: to which must be added the price of the Raspberry Pi, micro SD card, power supply and eventually better case. So you're eventually looking more at ≃$300.
+\*\*: to which must be added the price of the Raspberry Pi, micro SD card, power supply and eventually an alternative case. So you're eventually looking more at ≃$300.
 
 \*\*\*: _fates_ runs on an unofficial fork of the _norns_ software, with its own kernel, so update cycles run behind the official releases given there is a separate maintainer.
 
@@ -683,8 +683,9 @@ For less impacting modifications / suggestions, you can:
 [hw norns lines]: https://llllllll.co/t/approaching-norns/13236
 [hw norns doc]: https://monome.org/docs/norns/
 [hw norns shop]: https://market.monome.org/collections/primary/products/norns
-[hw norns-shield lines]: https://llllllll.co/t/approaching-diy-norns-shield/25554
-[hw norns-shield shop]: https://market.monome.org/collections/primary/products/norns-shield-kit
+[hw norns-shield lines old]: https://llllllll.co/t/approaching-diy-norns-shield/25554
+[hw norns-shield lines]: https://llllllll.co/t/norns-shield/38622
+[hw norns-shield shop]: https://market.monome.org/products/norns-shield
 [hw norns-shield diy lines]: https://llllllll.co/t/diy-norns-shield/27638
 [hw norns-shield case lines]: https://llllllll.co/t/norns-shield-case-designs/30347
 [hw fates lines]: https://llllllll.co/t/fates-a-diy-norns-dac-board-for-raspberry-pi/22999
