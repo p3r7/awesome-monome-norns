@@ -268,6 +268,7 @@ Sequencers:
 | [takt][app takt lines]                             | ✔️         | [gh][app takt src]          | Digitakt-inspired parameter locking step sequencer                                  | [1][app takt demo 1]                                             | [online][app takt doc]                |
 | [tambla][app tambla lines]                         | ✔️         | [gh][app tambla src]        | Arpgegio sequencer                                                                  |                                                                  | [online][app tambla doc]              |
 | [torii][app torii lines]                           | ✔️         | [gh][app torii src]         | gated audio sequencer                                                               | [1][app torii demo 1], [2][app torii demo 2]                     |                                       |
+| [traffic][app traffic lines]                       | ✔️         | [gh][app traffic src]       | loom-inspired, with decoupling between patterns & notes                             | [1][app traffic demo 1]                                          |                                       |
 | [vials][app vials lines]                           | ✔️         | [gh][app vials src]         | 4 track performance-oriented sample sequencer                                       |                                                                  | [online][app vials doc]               |
 | wifihifi                                           | ❌️        | [gh][app wifihifi src]      | turn local Wi-Fi signals into music                                                 |                                                                  | [online][app vials doc]               |
 | [zeelen][app zeelen lines]                         | ✔️         | [gh][app zeelen src]        | game of Life based sequencer                                                        | [1][app zeelen demo 1], [crow][app zeelen demo crow]             | [online][app takt doc]                |
@@ -485,6 +486,7 @@ Utilities:
 | [timber/player][app timber lines]                  |          | ⚪        | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
 | [timeparty][app timeparty lines]                   | ✔        | ⚪        |         |          | 🔴     |       | ✔️         |          | ⚪    |
 | [torii][app torii lines]                           |          |           |         |          | ⚪     |       | ✔️         |          |       |
+| [traffic][app traffic lines]                       |          |           |         |          | 🔶     | ⚪    | ✔️         |          |       |
 | [tuner][app tuner lines]                           | ✔        |           |         |          |        |       | ️          |          |       |
 | [uhf][app uhf lines]                               |          |           |         |          |        |       | ✔️         |          |       |
 | [vials][app vials lines]                           |          |           |         |          | 🔶     |       | ✔️         |          |       |
@@ -1089,6 +1091,9 @@ For less impacting modifications / suggestions, you can:
 [app torii src]: https://github.com/okyeron/torii
 [app torii demo 1]: https://www.instagram.com/p/B9V3djWhUwn/
 [app torii demo 2]: https://www.instagram.com/p/B-Buf_LBxst/
+[app traffic lines]: https://llllllll.co/t/traffic/21262
+[app traffic src]: https://github.com/ypxk/traffic
+[app traffic demo 1]: https://www.youtube.com/watch?v=i8gPKrWaT_0
 [app tunnels lines]: https://llllllll.co/t/tunnels/21973
 [app tunnels src]: https://github.com/speakerdamage/tunnels
 [app tunnels demo 1]: https://www.instagram.com/p/BwwdlZcls4V/
