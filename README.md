@@ -269,6 +269,7 @@ Sequencers:
 | [tambla][app tambla lines]                         | ✔️         | [gh][app tambla src]        | Arpgegio sequencer                                                                  |                                                                  | [online][app tambla doc]              |
 | [torii][app torii lines]                           | ✔️         | [gh][app torii src]         | gated audio sequencer                                                               | [1][app torii demo 1], [2][app torii demo 2]                     |                                       |
 | [vials][app vials lines]                           | ✔️         | [gh][app vials src]         | 4 track performance-oriented sample sequencer                                       |                                                                  | [online][app vials doc]               |
+| wifihifi                                           | ❌️        | [gh][app wifihifi src]      | turn local Wi-Fi signals into music                                                 |                                                                  | [online][app vials doc]               |
 | [zeelen][app zeelen lines]                         | ✔️         | [gh][app zeelen src]        | game of Life based sequencer                                                        | [1][app zeelen demo 1], [crow][app zeelen demo crow]             | [online][app takt doc]                |
 
 
@@ -487,6 +488,7 @@ Utilities:
 | [tuner][app tuner lines]                           | ✔        |           |         |          |        |       | ️          |          |       |
 | [uhf][app uhf lines]                               |          |           |         |          |        |       | ✔️         |          |       |
 | [vials][app vials lines]                           |          |           |         |          | 🔶     |       | ✔️         |          |       |
+| wifihifi                                           |          |           |         |          |        |       | ✔️         |          |       |
 | [yggdrasil][app yggdrasil lines]                   |          | ⚪        |         | 🔴       |        |       | ✔️         | ✔        | ✔     |
 | [zeelen][app zeelen lines]                         |          |           |         |          | 🔴     |       | ✔️         | ✔        | ✔     |
 
@@ -1101,6 +1103,7 @@ For less impacting modifications / suggestions, you can:
 [app uhf lines]: https://llllllll.co/t/uhf-norns/21154
 [app uhf src]: https://github.com/speakerdamage/uhf
 [app waveviz src]: https://github.com/csboling/waveviz
+[app wifihifi src]: https://github.com/xmacex/wifihifi
 [app yggdrasil lines]: https://llllllll.co/t/yggdrasil-v1-0-6/38040
 [app yggdrasil src]: https://github.com/northern-information/yggdrasil
 [app yggdrasil doc]: https://northern-information.github.io/yggdrasil-docs/
