@@ -15,6 +15,7 @@ The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced 
 
 - [What / why is _norns_?](#what--why-is-norns)
 - [What can it do?](#what-can-it-do)
+- [Lingo](#lingo)
 - [Hardware](#hardware)
   - [_norns shield_](#norns-shield)
   - [_monome_ hardware companions](#monome-hardware-companions)
@@ -73,6 +74,23 @@ To give you some concrete examples, _norns_ can be:
  - a nasty sounding sample player with **_timber/keys_** (MPC-like) **_timber/player_** (rompler-like)
 
 For a more complete list, see the [Apps](#apps) section.
+
+
+## Lingo
+
+_norns_ designate both the hardware and software side of the platform.
+
+It runs independent musical _scripts_ (sometimes also called _apps_) written in the [lua](https://www.lua.org/) programming language.
+
+In addition to lua, in order to record and play back and manipulate sound, _scripts_ rely on bindings with _softcut_ and/or SuperCollider. Bindable SuperCollider sub-scripts are called _engines_.
+
+_maiden_ is the web-based IDE accessible through `http://norn.local`.
+
+You might encounter the name _matron_, which designate the program that performs lua code evaluation and provides binding to hardware (screen / encoders / buttons).
+
+The folder were data (scripts, ) is stored called _dust_. It comes bundled with some default scripts, _engines_ & samples ([lines tread](https://llllllll.co/t/norns-dust/14015)).
+
+Audio can be saved to disk with _tape_, the internal audio recorder.
 
 
 ## Hardware
