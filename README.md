@@ -911,7 +911,7 @@ For less impacting modifications / suggestions, you can:
 [app hid-demo src]: https://github.com/okyeron/hid-demo/
 [app ising lines]: https://llllllll.co/t/ising/30789
 [app ising src]: https://github.com/johnmatter/ising
-[app islands lines]: https://www.youtube.com/watch?v=PApL2LFjBPQ
+[app islands lines]: https://llllllll.co/t/islands-0-1-3/30234
 [app islands src]: https://github.com/junklight/islands
 [app islands doc]: https://www.youtube.com/watch?v=PApL2LFjBPQ
 [app islands demo 1]: https://www.youtube.com/watch?v=Rvt7K0rEVLc
