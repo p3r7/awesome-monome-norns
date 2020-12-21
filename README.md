@@ -256,6 +256,7 @@ Sequencers:
 | [orbital][app orbital lines]                       | ❌️        | [gh][app orbital src]       | circular 16 step sequencer                                                          |                                                                  |                                       |
 | [orca][app orca lines]                             | ✔️         | [gh][app orca src]          | esoteric programming language                                                       | [1][app orca demo 1], [2][app orca demo 2]                       |                                       |
 | [patchwork][app patchwork lines]                   | ✔️         | [gh][app patchwork src]     | dual function (note + command patterns) sequencer                                   | [1][app patchwork demo 1]                                        |                                       |
+| [pixels][app pixels lines]                         | ✔️         | [gh][app pixels src]        | landscape-traversal sequencer                                                       | [1][app pixels demo 1]                                           |                                       |
 | [punchcard][app punchcard lines]                   | ✔️         | [gh][app punchcard src]     | experimental sequencer that works like a classic punchcard computer                 | [1][app punchcard demo 1], [2][app punchcard demo 2]             |                                       |
 | [qfwfq][app qfwfq lines]                           | ✔️         | [gh][app qfwfq src]         | sequencer inspired by brute force password hacking                                  |                                                                  |                                       |
 | [quence][app quence lines]                         | ✔️         | [gh][app quence src]        | a probabilistic 4-track sequencer                                                   | [1][app quence demo 1], [2][app quence demo 2]                   |                                       |
@@ -458,6 +459,7 @@ Utilities:
 | [patchwork][app patchwork lines]                   |          |           |         | 🔴       | 🔴     |       |           | ✔️        | ✔️     |
 | [pedalboard][app pedalboard lines]                 | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [piwip][app piwip lines]                           |          |           |         |          |        |       |           |          |       |
+| [pixels][app pixels lines]                         |          |           | ✔       |          |        |       | ✔         |          |       |
 | [pools][app pools lines]                           | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [practice][app practice lines]                     |          |           |         |          |        |       |           | ️         |       |
 | [punchcard][app punchcard lines]                   |          |           |         |          | 🔴     |       |           | ✔️        |       |
@@ -1011,6 +1013,9 @@ For less impacting modifications / suggestions, you can:
 [app piwip demo 2]: https://www.instagram.com/p/CFla2iJh9zC/
 [app piwip demo 3]: https://www.instagram.com/p/CFr8Yu1BCT0/
 [app piwip demo 4]: https://www.instagram.com/p/CGJtLCohHRU/
+[app pixels lines]: https://llllllll.co/t/pixels-1-2/38762
+[app pixels src]: https://github.com/distropolis/pixelss
+[app pixels demo 1]: https://www.youtube.com/watch?v=epAPl9S3TWo
 [app pools lines]: https://llllllll.co/t/pools
 [app pools src]: https://github.com/justmat/pools
 [app pools demo 1]: https://vimeo.com/383786715
