@@ -242,6 +242,7 @@ Sequencers:
 | [drift][app drift lines]                           | ❌        | [gh][app drift src]         | sequencer based on particle systems                                                 | [midi][app drift demo midi]                                      |                                       |
 | [euclidigons][app euclidigons lines]               | ✔️         | [gh][app euclidigons src]   | plucky geometric rhythm generator                                                   | [1][app euclidigons demo 1], [2][app euclidigons demo 2]         |                                       |
 | [foulplay][app foulplay lines]                     | ✔️         | [gh][app foulplay src]      | euclidean drummer, inspired by [ash/playfair][app ash lines]                        | [1][app foulplay demo 1]                                         | [online][app foulplay doc]            |
+| [fourtunes][app fourtunes lines]                   | ️❌️         | [gh][app fourtunes src]     | 4 track polyphonic step sequencer                                                   |                                                                  | [online][app fourtunes doc]           |
 | fretwork                                           | ️❌        | [gh][app fretwork src]      | ornamental sequencer                                                                | [1][app fretwork demo 1]                                         |                                       |
 | [fugu][app fugu lines]                             | ✔         | [gh][app fugu src]          | 4 playhead sequencer, inspired by the Fugue Machine iOS app                         | [1][app fugu demo 1], [2][app fugu demo 2], [3][app fugu demo 3] |                                       |
 | [grd][app grd lines]                               | ❌️        | [gh][app grd src]           | 8x8 autonomy                                                                        | [1][app grd demo 1], [2][app grd demo 2]                         |                                       |
@@ -414,6 +415,7 @@ Utilities:
 | [foulplay][app foulplay lines]                     |          |           |         |          | 🔶     |       | ✔️         | ✔️        |       |
 | fretwork                                           |          |           |         |          | ⚪     |       | ✔️         | ✔️        | ✔     |
 | [fm7][app fm7 lines]                               |          |           | 🔶      |          | 🔶     |       | ✔️         |          |       |
+| [fourtunes][app fourtunes lines]                   |          |           | 🔴      |          |        |       | ✔️         |          |       |
 | [fugu][app fugu lines]                             |          |           |         |          | 🔴     |       | ✔️         |          |       |
 | [gemini][app gemini lines]                         | ️         |           |         |          |        | ⚪    | ✔️         |          |       |
 | [glitchlets][app glitchlets lines]                 | ✔        | ⚪        |         |          |        |       | ✔️         |          |       |
@@ -867,6 +869,9 @@ For less impacting modifications / suggestions, you can:
 [app foulplay demo 1]: https://vimeo.com/328283781
 [app foundry lines]: https://llllllll.co/t/foundry/33933
 [app foundry src]: https://github.com/csboling/foundry
+[app fourtunes lines]: https://llllllll.co/t/fourtunes-a-4-track-polyphonic-step-sequencer/37854
+[app fourtunes src]: https://github.com/silent5/Fourtunes
+[app fourtunes doc]: https://github.com/silent5/Fourtunes/blob/main/Fourtunes%20Manual.pdf
 [app fretwork src]: https://github.com/synthetiv/fretwork
 [app fretwork demo 1]: https://www.instagram.com/p/B8-JSEGF-7d/
 [app fugu lines]: https://llllllll.co/t/fugu/21033
