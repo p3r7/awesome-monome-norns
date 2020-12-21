@@ -104,12 +104,14 @@ _norns_ and _norns shield_ use a CS4270 codec. _norns_ uses an additional amp ch
 
 For getting help regarding assembly please use [t/DIY: norns shield][hw norns-shield diy lines].
 
-The case provided in kits is pretty minimal. People share their design of more rugged version in [t/norns shield case designs](https://llllllll.co/t/norns-shield-case-designs/30347).
+People share their own case design in [t/norns shield case designs](https://llllllll.co/t/norns-shield-case-designs/30347).
 
 A few highlights:
- - [nice 3D printing STL design](https://llllllll.co/t/norns-shield-case-designs/30347/224) by [u/JHC](https://llllllll.co/u/JHC) that complements the stock faceplate ([shop](https://llllllll.co/t/fs-ww-norns-shield-cases-3d-printed/36711/1)).
+ - the now standard [3D-printed design](https://llllllll.co/t/norns-shield-case-designs/30347/224) by [u/JHC](https://llllllll.co/u/JHC) ([shop](https://llllllll.co/t/fs-ww-norns-shield-cases-3d-printed/36711/1)).
  - [nice laser-cut designs](https://llllllll.co/t/norns-shield-case-designs/30347/183) by [u/okyeron](https://llllllll.co/u/okyeron) ([shop](https://denki-oto.weebly.com/store/p39/norns-shield-case.html#/)).
+ - [3D-printed + aluminium front plate design](https://llllllll.co/t/norns-shield-case-designs/30347/239) by [u/justinkowski](https://llllllll.co/u/justinkowski/summary).
  - [aluminium case](https://llllllll.co/t/fates-ww-commerce-thread/27165/79) by [u/Gregory_Delabelle](https://llllllll.co/u/Gregory_Delabelle) ([shop](https://docs.google.com/forms/d/e/1FAIpQLScJTDVgXTqiN6HnZBpKS0v8VNfar2rGikTGkOw3MjDAJp-1GQ/viewform)).
+ - aluminium case on Pusherman ([shop](https://pushermanproductions.com/product/metal-case-kit-for-norns-shield/)).
  - [simple laser cut front & back panels](https://github.com/infovore/norns-diy-panels) by [u/infovore](https://llllllll.co/u/infovore/summary).
 
 If you don't have access to a fablab, you can use a laser-cut service such as [ponoko](https://www.ponoko.com/) (US) or [razorlab](https://razorlab.online/) (UK).
