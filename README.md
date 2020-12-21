@@ -209,6 +209,7 @@ Sample players:
 
 | app                               | on maiden | code                    | description                                                  | demo                                                                | doc |
 | ---                               | :---:     | ---                     | ---                                                          | ---                                                                 | --- |
+| [abacus][app abacus lines]        | ✔         | [gh][app abacus src]    | drum loop slicer / player / sequencer                        | [1][app abacus demo 1]                                              |     |
 | [beets][app beets lines]          | ✔         | [gh][app beets src]     | drum loop slicer / player                                    | [1][app beets demo 1], [2][app beets demo 2], [3][app beets demo 3] |     |
 | [crash][app crash lines]          | ✔         | [gh][app crash src]     | random drum kit player (606 samples)                         |                                                                     |     |
 | [drum_room][app drum_room lines]  | ✔         | [gh][app drum_room src] | MIDI-controlled drum kits                                    | [1][app drum_room demo 1]                                           |     |
@@ -380,6 +381,7 @@ Utilities:
 
 | app                                                | audio in | midi sync | midi in | keyboard | grid   | arc   | audio out | midi out | crow  |
 | ---                                                | :---:    | :---:     | :---:   | :---:    | :---:  | :---: | :---:     | :---:    | :---: |
+| [abacus][app abacus lines]                         |          |           |         |          |        |       | ✔         |          |       |
 | [ash/angl][app ash lines]                          |          |           |         |          |        | 🔴    | ✔         |          |       |
 | [ash/earthsea][app ash lines]                      |          |           | ✔       |          | ⚪     |       | ✔         |          | ✔     |
 | [ash/orbit][app ash lines]                         | ✔        |           |         |          |        |       | ✔         |          |       |
@@ -753,6 +755,9 @@ For less impacting modifications / suggestions, you can:
 [lib p8 gh]: https://github.com/p3r7/p8
 
 <!-- apps -->
+[app abacus lines]: https://llllllll.co/t/abacus/37871
+[app abacus src]: https://github.com/schollz/abacus
+[app abacus demo 1]: https://vimeo.com/474676681
 [app athenaeum lines]: https://llllllll.co/t/athenaeum/36660
 [app athenaeum src]: https://github.com/tyleretters/athenaeum
 [app athenaeum/arc demo 1]: https://www.youtube.com/watch?list=PLe1BFUbUceS0YCUHGYtbKZsl5_MmxlF5f
