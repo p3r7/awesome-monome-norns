@@ -610,7 +610,7 @@ When wanting to contribute or seeking help, use one of those threads:
  - [t/norns: crone/supercollider](https://llllllll.co/t/norns-crone-supercollider/14616): following and participating to evolutions to core norns code (SuperCollider / Crone)
  - [t/Exquisite Script: A collective scripting game for norns](https://llllllll.co/t/exquisite-script-a-collective-scripting-game-for-norns/34989): a cadavre exquis, collective development of an app
 
-Additionally, there is a [Discord norns study group](https://discord.com/invite/hfC5Fmw) ([lines thread](https://llllllll.co/t/discord-norns-study-group/14233)) that meets regularly for sharing development knowledge.
+Additionally, there is a [Discord norns study group](https://discord.com/invite/hfC5Fmw) ([blog](https://study.norns.online/), [lines thread](https://llllllll.co/t/discord-norns-study-group/14233)) that meets regularly for sharing development knowledge.
 
 
 
