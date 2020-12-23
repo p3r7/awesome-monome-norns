@@ -663,23 +663,24 @@ Those are more generic Lua libs that add either:
 - provide additional drawing utils
 
 
-| library                                | code                       | description                                                              | provided by | used by                                            |
-| ---                                    | ---                        | ---                                                                      | ---         | ---                                                |
-| [passthrough][lib passthrough lines]   | [lua][lib passthrough gh]  | allows norns to pass through midi between connected devices              | passthrough | passthrough, b-b-b-b-beat, beets, stjoernuithrott  |
-| midi                                   | [lua][lib midi gh]         | helper to trig MIDI out                                                  | euclidigons | euclidigons                                        |
-| midigrid                               | [lua][lib midigrid gh]     | use alternative midi grid hardware as a _grid_ (e.g. Novation Launchpad) |             |                                                    |
-| hnds                                   | [lua][lib hnds gh]         | LFOs to modulate app parameters                                          | otis        | otis, pools, greyhole, pedalboard, wrms, timeparty |
-| [nest\_][lib nest_ gh]                 | [lua][lib nest_ gh]        | advanced, callback-based, user interaction definitions, _grid_ support   |             |                                                    |
-| [arcify][lib arcify lines]             | [lua][lib arcify gh]       | simple parameter binding to _arc_                                        |             | beets, compass                                     |
-| [shnth][lib shnth lines]               | [lua][lib shnth gh]        | use the shbobo shnth as a controller                                     |             |                                                    |
-| screencap                              | [lua][lib screencap gh]    | animated capture of the screen (into an animated png)                    |             |                                                    |
-| [grid-capture][lib grid-capture lines] | [lua][lib grid-capture gh] | capture a _grid_ button press sequence as a gif                          |             |                                                    |
-| shape                                  | [lua][lib shape gh]        | draw shapes on screen                                                    | euclidigons | euclidigons                                        |
-| noise                                  | [lua][lib noise gh]        | draw perlin Noise on screen                                              |             |                                                    |
-| [moreFilters][lib moreFilters lines]   | [lua][lib moreFilters gh]  | provides a moving, windowed RMS/standard deviation filter                |             |                                                    |
-| 3d                                     | [lua][lib 3d gh]           | 3D drawing lib                                                           |             |                                                    |
-| p8                                     | [lua][lib p8 gh]           | pico-8 code adaptation layer                                             |             |                                                    |
-| pitfalls                               | [gh][app pitfalls src]     | compute microtonal intervals/scales/chords                               | pitfalls    | pitfalls                                           |
+| library                                | code                       | description                                                                      | provided by | used by                                            |
+| ---                                    | ---                        | ---                                                                              | ---         | ---                                                |
+| [passthrough][lib passthrough lines]   | [lua][lib passthrough gh]  | allows norns to pass through midi between connected devices                      | passthrough | passthrough, b-b-b-b-beat, beets, stjoernuithrott  |
+| midi                                   | [lua][lib midi gh]         | helper to trig MIDI out                                                          | euclidigons | euclidigons                                        |
+| midigrid                               | [lua][lib midigrid gh]     | use alternative midi grid hardware as a _grid_ (e.g. Novation Launchpad)         |             |                                                    |
+| [middy][lib middy lines]               | [lua][lib middy gh]        | define midi mappings to specific controllers in your scripts, JSON configuration |             |                                                    |
+| hnds                                   | [lua][lib hnds gh]         | LFOs to modulate app parameters                                                  | otis        | otis, pools, greyhole, pedalboard, wrms, timeparty |
+| [nest\_][lib nest_ gh]                 | [lua][lib nest_ gh]        | advanced, callback-based, user interaction definitions, _grid_ support           |             |                                                    |
+| [arcify][lib arcify lines]             | [lua][lib arcify gh]       | simple parameter binding to _arc_                                                |             | beets, compass                                     |
+| [shnth][lib shnth lines]               | [lua][lib shnth gh]        | use the shbobo shnth as a controller                                             |             |                                                    |
+| screencap                              | [lua][lib screencap gh]    | animated capture of the screen (into an animated png)                            |             |                                                    |
+| [grid-capture][lib grid-capture lines] | [lua][lib grid-capture gh] | capture a _grid_ button press sequence as a gif                                  |             |                                                    |
+| shape                                  | [lua][lib shape gh]        | draw shapes on screen                                                            | euclidigons | euclidigons                                        |
+| noise                                  | [lua][lib noise gh]        | draw perlin Noise on screen                                                      |             |                                                    |
+| [moreFilters][lib moreFilters lines]   | [lua][lib moreFilters gh]  | provides a moving, windowed RMS/standard deviation filter                        |             |                                                    |
+| 3d                                     | [lua][lib 3d gh]           | 3D drawing lib                                                                   |             |                                                    |
+| p8                                     | [lua][lib p8 gh]           | pico-8 code adaptation layer                                                     |             |                                                    |
+| pitfalls                               | [gh][app pitfalls src]     | compute microtonal intervals/scales/chords                                       | pitfalls    | pitfalls                                           |
 
 
 ## Development: C
@@ -780,6 +781,8 @@ For less impacting modifications / suggestions, you can:
 [lib passthrough lines]: https://llllllll.co/t/passthrough/31156
 [lib passthrough gh]: https://github.com/nattog/passthrough
 [lib midi gh]: https://github.com/synthetiv/euclidigons/blob/main/lib/midi.lua
+[lib middy lines]: https://llllllll.co/t/middy/39656
+[lib middy gh]: https://github.com/schollz/middy
 [lib midigrid gh]: https://github.com/jaggednz/midigrid
 [lib shape gh]: https://github.com/synthetiv/euclidigons/blob/main/lib/shape.lua
 [lib shnth lines]: https://llllllll.co/t/norns-shnth-library/33238
