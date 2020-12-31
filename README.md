@@ -678,8 +678,8 @@ Those are more generic Lua libs that add either:
 | shape                                  | [lua][lib shape gh]        | draw shapes on screen                                                            | euclidigons | euclidigons                                        |
 | noise                                  | [lua][lib noise gh]        | draw perlin Noise on screen                                                      |             |                                                    |
 | [moreFilters][lib moreFilters lines]   | [lua][lib moreFilters gh]  | provides a moving, windowed RMS/standard deviation filter                        |             |                                                    |
-| 3d                                     | [lua][lib 3d gh]           | 3D drawing lib                                                                   |             |                                                    |
-| p8                                     | [lua][lib p8 gh]           | pico-8 code adaptation layer                                                     |             |                                                    |
+| [3d][lib 3d lines]                     | [lua][lib 3d gh]           | 3D drawing lib                                                                   |             |                                                    |
+| [p8][lib p8 lines]                     | [lua][lib p8 gh]           | pico-8 code adaptation layer                                                     |             |                                                    |
 | pitfalls                               | [gh][app pitfalls src]     | compute microtonal intervals/scales/chords                                       | pitfalls    | pitfalls                                           |
 | [namesizer][lib namesizer lines]       | [gh][lib namesizer gh]     | randome (file) name generator                                                    |             |                                                    |
 
@@ -793,7 +793,9 @@ For less impacting modifications / suggestions, you can:
 [lib noise gh]: https://github.com/naus3a/NauNorns/blob/master/lib/noise.lua
 [lib moreFilters lines]: https://llllllll.co/t/rms-filter/36994
 [lib moreFilters gh]: https://github.com/naus3a/NauNorns/blob/master/lib/noise.lua
+[lib p8 lines]: https://llllllll.co/t/p8-pico-8-wrapper-lib/37947
 [lib p8 gh]: https://github.com/p3r7/p8
+[lib 3d lines]: https://llllllll.co/t/3d-pure-lua-3d-lib-for-norns/39622
 [lib 3d gh]: https://github.com/p3r7/3d
 [lib namesizer lines]: https://llllllll.co/t/namesizer-name-synthesis-library/39612
 [lib namesizer gh]: https://github.com/Quixotic7/namesizer
