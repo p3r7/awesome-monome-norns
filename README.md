@@ -260,6 +260,7 @@ This section is aimed at being more complete and providing more meta-data to sel
 | [ash/playfair][app ash lines]                      | ✔️         | [gh][app ash src]           | euclidean drummer, four sequences, each with its own sample                         | [1][app ash/playfair demo 1]                                     |                                       |
 | [awake][app awake lines]                           | default   | [gh][app awake src]         | two looped sequences                                                                | [1][app awake demo 1]                                            |                                       |
 | [boing][app boingg lines]                          | ✔         | [gh][app boingg src]        | a bouncing ball sequencer                                                           | [1][app boingg demo 1]                                           |                                       |
+| [breakthrough][app breakthrough lines]             | ✔         | [gh][app breakthrough src]  | _rebound_ meets _breakout_                                                          | [1][app breakthrough demo 1]                                            |                                       |
 | [buoys][app buoys lines]                           | ✔         | [gh][app buoys src]         | kinetic sequencer based on motion of water                                          | [1][app buoys demo 1]                                            |                                       |
 | [cheat_codes][app cheat_codes lines]               | ✔️         | [gh][app cheat_codes src]   | sample playground                                                                   | [1][app cheat_codes demo 1]                                      | [pdf][app cheat_codes doc]            |
 | [circles][app circles lines]                       | ✔️         | [gh][app circles src]       | move cursor, place circles, make music                                              | [1][app circles demo 1]                                          |                                       |
@@ -425,6 +426,7 @@ This section is aimed at being more complete and providing more meta-data to sel
 | [benjolis][app benjolis lines]                     |          |           |         |          |        |       | ✔️         | ️         |       |
 | [boing][app boingg lines]                          |          |           |         |          | ⚪     |       | ✔️         | ✔️        | ✔     |
 | [bounds][app bounds lines]                         | ✔        |           |         |          |        |       | ✔️         | ️         |       |
+| [breakthrough][app breakthrough lines]             |          | ✔         |         |          |        |       | ️          | ✔️        |       |
 | [buoys][app buoys lines]                           |          | ✔         |         |          | 🔴     | ⚪    | ️✔         | ✔️        | ✔     |
 | [caliper][app caliper lines]                       | ✔        |           |         |          |        |       |           |          | ✔     |
 | [cccccccc][app cccccccc lines]                     |          |           |         |          |        | 🔴    |           | ✔        |       |
@@ -849,6 +851,9 @@ For less impacting modifications / suggestions, you can:
 [app bounds lines]: https://github.com/justmat/bounds
 [app bounds src]: https://github.com/justmat/boingg
 [app bounds demo 1]: https://vimeo.com/342848400
+[app breakthrough lines]: https://llllllll.co/t/breakthrough/39196
+[app breakthrough src]: https://github.com/tomwaters/breakthrough
+[app breakthrough demo 1]: https://www.instagram.com/p/CIyx5DNHZvK/
 [app buoys lines]: https://llllllll.co/t/buoys/37639
 [app buoys src]: https://github.com/lylepmills/buoys
 [app buoys demo 1]: https://vimeo.com/472114370
