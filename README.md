@@ -681,6 +681,7 @@ Those are more generic Lua libs that add either:
 | 3d                                     | [lua][lib 3d gh]           | 3D drawing lib                                                                   |             |                                                    |
 | p8                                     | [lua][lib p8 gh]           | pico-8 code adaptation layer                                                     |             |                                                    |
 | pitfalls                               | [gh][app pitfalls src]     | compute microtonal intervals/scales/chords                                       | pitfalls    | pitfalls                                           |
+| [namesizer][lib namesizer lines]       | [gh][lib namesizer gh]     | randome (file) name generator                                                    |             |                                                    |
 
 
 ## Development: C
@@ -794,6 +795,8 @@ For less impacting modifications / suggestions, you can:
 [lib moreFilters gh]: https://github.com/naus3a/NauNorns/blob/master/lib/noise.lua
 [lib p8 gh]: https://github.com/p3r7/p8
 [lib 3d gh]: https://github.com/p3r7/3d
+[lib namesizer lines]: https://llllllll.co/t/namesizer-name-synthesis-library/39612
+[lib namesizer gh]: https://github.com/Quixotic7/namesizer
 
 <!-- apps / scripts -->
 [app abacus lines]: https://llllllll.co/t/abacus/37871
