@@ -848,8 +848,8 @@ For less impacting modifications / suggestions, you can:
 [app boingg lines]: https://llllllll.co/t/boingg/26536
 [app boingg src]: https://github.com/justmat/boingg
 [app boingg demo 1]: https://vimeo.com/368803868
-[app bounds lines]: https://github.com/justmat/bounds
-[app bounds src]: https://github.com/justmat/boingg
+[app bounds lines]: https://llllllll.co/t/bounds/23336
+[app bounds src]: https://github.com/justmat/bounds
 [app bounds demo 1]: https://vimeo.com/342848400
 [app breakthrough lines]: https://llllllll.co/t/breakthrough/39196
 [app breakthrough src]: https://github.com/tomwaters/breakthrough
