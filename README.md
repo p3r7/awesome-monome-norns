@@ -7,9 +7,6 @@ A list of links and resources for the [_norns_][hw norns doc] hardware music pla
 
 The community resides mostly on [llllllll.co](https://llllllll.co/) (pronounced _lines_).
 
-<!-- https://llllllll.co/t/norns-dust/14015 -->
-<!-- https://llllllll.co/t/ash-a-small-collection/21349 -->
-
 
 ## Table of Contents
 
@@ -643,6 +640,7 @@ To get the list of engines installed on your _norns_, type `tab.print(engine.nam
 | ack                                | [lua wrapper][lib ack gh lua], [sclang][lib ack gh sc]                       | simple sample playback                                                             |                                            | step, ash/playfair, foulplay, takt, crash, vials, strides       |
 | timber                             | [lua wrapper][lib timber gh lua], [sclang][lib timber gh sc]                 | advanced sample playback                                                           | [timber][app timber lines]                 | timber, orca                                                    |
 | glut                               | [sclang][lib glut gh sc]                                                     | granular sample playback                                                           | [glut][app glut lines]                     | glut, mangl, uhf, langl                                         |
+| [Thebangs][lib Thebangs lines]     | [sclang+lua wrapper][lib Thebangs gh]                                        | fork of PolyPerc w/ multiple synth algorythms & control over polyphony             |                                            |                                                                 |
 | PolyPerc                           | [sclang][lib PolyPerc gh sc]                                                 | simple polyphonic filtered decaying square wave                                    | installed by default                       | awake, meadowphysics, barycenter, zeelen, orbital, nono, tambla |
 | PolySub                            | [sclang][lib PolySub gh sc]                                                  | multi-type oscillator with polyphonic modulation busses for polytimbral expression | installed by default                       | ash/earthsea                                                    |
 | Gong                               | [sclang][lib Gong gh sc]                                                     | basic FM synth                                                                     | installed by default                       |                                                                 |
@@ -752,6 +750,8 @@ For less impacting modifications / suggestions, you can:
 [lib glut gh sc]: https://github.com/artfwo/glut/blob/master/Engine_Glut.sc
 [lib timber gh lua]: https://github.com/markwheeler/timber/blob/master/lib/timber_engine.lua
 [lib timber gh sc]: https://github.com/markwheeler/timber/blob/master/lib/Engine_Timber.sc
+[lib Thebangs lines]: https://llllllll.co/t/engine-thebangs/38865
+[lib Thebangs gh]: https://github.com/catfact/thebangs
 <!-- [lib PolyPerc gh sc]: https://github.com/tehn/awake/blob/master/lib/Engine_PolyPerc.sc -->
 [lib PolyPerc gh sc]: https://github.com/monome/dust/blob/master/lib/sc/Engine_PolyPerc.sc
 [lib PolySub gh sc]: https://github.com/monome/dust/blob/master/lib/sc/Engine_PolySub.sc
