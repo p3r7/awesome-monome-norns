@@ -225,9 +225,9 @@ This section is aimed at being more complete and providing more meta-data to sel
 | [ash/angl][app ash lines]  | ✔️         | [gh][app ash src]    | use an arc to control pitch and speed granulation of four audio files                    | [1][app ash/angl demo 1] |     |
 | [glut][app glut lines]     | ✔️         | [gh][app glut src]   | granular synth inspired by mlr/rove, [grainfield][app grainfield lines] & loomer cumulus | [1][app glut demo 1]     |     |
 | [gemini][app gemini lines] | ✔️         | [gh][app gemini src] | one file, two granulators                                                                | [1][app gemini demo 1]   |     |
-| [langl][app langl lines]   | ❌️         | [gh][app langl src]  | ash/angl-inspired granulator, also uses arc and offer more control                       | [1][app langl demo 1]    |     |
+| [langl][app langl lines]   | ❌️        | [gh][app langl src]  | ash/angl-inspired granulator, also uses arc and offer more control                       | [1][app langl demo 1]    |     |
 | [mangl][app mangl lines]   | ✔️         | [gh][app mangl src]  | a 7 track granular sample player                                                         | [1][app mangl demo 1]    |     |
-| [uhf][app uhf lines]       | ✔️         | [gh][app uhf src]    | your tapes transmitted thru late-night static and broken antenna frequencies             |                          |     |
+| [uhf][app uhf lines]       | ✔️         | [gh][app uhf src]    | your _tapes_ transmitted thru late-night static and broken antenna frequencies           |                          |     |
 
 
 #### Sample Players
@@ -238,6 +238,7 @@ This section is aimed at being more complete and providing more meta-data to sel
 | [beets][app beets lines]          | ✔         | [gh][app beets src]     | drum loop slicer / player                                    | [1][app beets demo 1], [2][app beets demo 2], [3][app beets demo 3] |     |
 | [crash][app crash lines]          | ✔         | [gh][app crash src]     | random drum kit player (606 samples)                         |                                                                     |     |
 | [drum_room][app drum_room lines]  | ✔         | [gh][app drum_room src] | MIDI-controlled drum kits                                    | [1][app drum_room demo 1]                                           |     |
+| [ortf][app ortf lines]            | ✔         | [gh][app ortf src]      | browse play & loop your _tape_ folder                        | [1][app ortf demo 1]                                                |     |
 | [timber/keys][app timber lines]   | ✔         | [gh][app timber src]    | map a sample at different pitches  across midi keys / grid   | [1][app timber/keys demo 1]                                         |     |
 | [timber/player][app timber lines] | ✔         | [gh][app timber src]    | load whole directory of samples mapped onto midi keys / grid | [1][app timber/player demo 1]                                       |     |
 
@@ -494,6 +495,7 @@ This section is aimed at being more complete and providing more meta-data to sel
 | [oooooo][app oooooo lines]                         | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [orbital][app orbital lines]                       | ️         |           |         |          |        |       | ✔️         |          |       |
 | [orca][app orca lines]                             | ✔️        |           | ✔       | 🔴       | ⚪     |       | ✔️         | ✔        |       |
+| [ortf][app ortf lines]                             | ️         |           |         |          |        |       | ✔️         |          |       |
 | [otis][app otis lines]                             | ✔️        |           |         |          |        |       | ✔️         |          |       |
 | [passersby][app passersby lines]                   |          |           | 🔴 \*   |          | ⚪ \*  |       | ✔️         |          |       |
 | [patchwork][app patchwork lines]                   |          |           |         | 🔴       | 🔴     |       |           | ✔️        | ✔️     |
@@ -1067,6 +1069,9 @@ For less impacting modifications / suggestions, you can:
 [app orca src]: https://github.com/itsyourbedtime/orca/
 [app orca demo 1]: https://www.instagram.com/p/BxRUGzlFqEX/
 [app orca demo 2]: https://www.instagram.com/p/BxJcIL8lhqf/
+[app ortf lines]: https://llllllll.co/t/ortf/39694
+[app ortf src]: https://github.com/felart/ORTF
+[app ortf demo 1]: https://vimeo.com/494471477
 [app otis lines]: https://llllllll.co/t/otis/22149
 [app otis src]: https://github.com/justmat/otis
 [app otis demo 1]: https://vimeo.com/333979510
