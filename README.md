@@ -590,7 +590,7 @@ Most scripts you'll find in the wild use either _softcut_ or _engine_, but some 
 
 #### Tutorials & Example _scripts_
 
- - [norns studies](https://monome.org/docs/norns/studies-landing/)
+ - [norns studies](https://monome.org/docs/norns/scripting/#norns-studies)
  - [norns: tutorial](https://llllllll.co/t/norns-tutorial/23241) by [Devine Lu Linvega](https://xxiivv.com/)
  - [softcut studies](https://github.com/monome/softcut-studies)
  - [foundry][app foundry lines] app ([code][app foundry src]) for text & fonts (`screen.text` API)
