@@ -1,6 +1,10 @@
 # Awesome monome norns
 
 
+> This document will not be updated anymore, being replaced by [_norns.community_](https://norns.community/), a community-driven wiki ([launch post](https://llllllll.co/t/norns-community/43793)).
+> Don't hesitate to copy section of this document on the _norns.community_ if they didn't get ported.
+
+
 <div align=center><img src="https://monome.org/images/norns-front-small.jpg" width="500"></div>
 
 A list of links and resources for the [_norns_][hw norns doc] hardware music platform by [_monome_](https://monome.org/).
