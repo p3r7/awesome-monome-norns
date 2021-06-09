@@ -2,7 +2,7 @@
 
 > This document will not be updated anymore, being replaced by [_norns.community_](https://norns.community/), a community-driven wiki ([launch post](https://llllllll.co/t/norns-community/43793)).
 >
-> Don't hesitate to copy section of this document on _norns.community_ if they didn't get ported.
+> Don't hesitate to copy sections of this document onto _norns.community_ if you find they didn't get ported.
 
 
 # Awesome monome norns
